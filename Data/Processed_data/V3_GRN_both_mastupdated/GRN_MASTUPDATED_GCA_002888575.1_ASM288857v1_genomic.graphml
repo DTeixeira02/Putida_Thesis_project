@@ -1,0 +1,778 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="node" attr.name="color" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="Cluster_140806">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon3">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_111607">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon4">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_152747">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon5">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_146485">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon6">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_110861">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon7">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_106675">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon8">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_147310">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon9">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_96287">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon10">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_80874">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon11">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Operon12">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_130455">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon13">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_8784">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon16">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_129058">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon17">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_118664">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon18">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_149795">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon19">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_115889">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon20">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_37192">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon21">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_127715">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon22">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_139312">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon23">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_147311">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon24">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_108799">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon25">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_100428">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon26">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_83747">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon27">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_58645">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon28">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Operon29">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_60246">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon30">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_137036">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon31">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_119364">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon32">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_102470">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon33">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_117278">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon34">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_94012">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon35">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_104139">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon36">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Operon37">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_122810">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon38">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_141930">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon39">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_85077">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon40">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_164534">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon41">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_57250">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon42">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_68094">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon43">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Operon44">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_22590">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon45">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_120339">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon46">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_70784">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon49">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Operon50">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_57851">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon51">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Operon52">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_12549">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon53">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Operon54">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_79227">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon55">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Operon56">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_42534">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon57">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_106012">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon58">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_115890">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon59">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_58646">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon60">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Operon61">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_79792">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon62">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_131849">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon63">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Operon64">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_14019">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon65">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_149796">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon66">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_103886">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon67">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Operon68">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_74557">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon69">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_140051">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon70">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_86102">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon71">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_61049">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon74">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Operon75">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Operon76">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_92148">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon77">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_154249">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon78">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_140807">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon79">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_127716">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon80">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_45957">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon81">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_141612">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon82">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Operon83">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_110170">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon84">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Operon85">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_124273">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon86">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_134013">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon87">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_60628">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon88">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_39515">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon89">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_136221">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon90">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_90936">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon91">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_103163">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon92">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Operon93">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Operon94">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_129059">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon95">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_140052">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon96">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Operon97">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Operon98">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Operon99">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_73067">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon100">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_140053">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon101">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_138505">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon102">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_154250">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon103">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_147312">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon104">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_124274">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon105">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_46863">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon106">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_146486">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon107">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Operon108">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_76077">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon109">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_10008">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon110">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_137770">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon111">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Operon112">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_5795">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon113">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_139313">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon114">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_71222">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon115">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Operon116">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_5330">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon117">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_53177">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon118">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Operon119">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_134014">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon120">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_43332">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon121">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_67415">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon122">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_135478">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Operon123">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Operon1">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Operon2">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Operon14">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Operon15">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Operon47">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Operon48">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Operon72">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Operon73">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Operon124">
+      <data key="d0">#FFE033</data>
+    </node>
+    <node id="Cluster_42283,Cluster_19281">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Cluster_85482,Cluster_133323,Cluster_126392,Cluster_127045">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Cluster_37861,Cluster_5764">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <node id="Cluster_129728,Cluster_21202">
+      <data key="d0">#33D1FF</data>
+    </node>
+    <edge source="Cluster_140806" target="Operon3" />
+    <edge source="Cluster_111607" target="Operon4" />
+    <edge source="Cluster_152747" target="Operon5" />
+    <edge source="Cluster_146485" target="Operon6" />
+    <edge source="Cluster_110861" target="Operon7" />
+    <edge source="Cluster_106675" target="Operon8" />
+    <edge source="Cluster_147310" target="Operon9" />
+    <edge source="Cluster_96287" target="Operon10" />
+    <edge source="Cluster_80874" target="Operon11" />
+    <edge source="Cluster_80874" target="Operon12" />
+    <edge source="Cluster_130455" target="Operon13" />
+    <edge source="Cluster_8784" target="Operon16" />
+    <edge source="Cluster_129058" target="Operon17" />
+    <edge source="Cluster_118664" target="Operon18" />
+    <edge source="Cluster_149795" target="Operon19" />
+    <edge source="Cluster_115889" target="Operon20" />
+    <edge source="Cluster_37192" target="Operon21" />
+    <edge source="Cluster_127715" target="Operon22" />
+    <edge source="Cluster_139312" target="Operon23" />
+    <edge source="Cluster_147311" target="Operon24" />
+    <edge source="Cluster_108799" target="Operon25" />
+    <edge source="Cluster_100428" target="Operon26" />
+    <edge source="Cluster_83747" target="Operon27" />
+    <edge source="Cluster_58645" target="Operon28" />
+    <edge source="Cluster_58645" target="Operon29" />
+    <edge source="Cluster_60246" target="Operon30" />
+    <edge source="Cluster_137036" target="Operon31" />
+    <edge source="Cluster_119364" target="Operon32" />
+    <edge source="Cluster_102470" target="Operon33" />
+    <edge source="Cluster_117278" target="Operon34" />
+    <edge source="Cluster_94012" target="Operon35" />
+    <edge source="Cluster_104139" target="Operon36" />
+    <edge source="Cluster_104139" target="Operon37" />
+    <edge source="Cluster_122810" target="Operon38" />
+    <edge source="Cluster_141930" target="Operon39" />
+    <edge source="Cluster_85077" target="Operon40" />
+    <edge source="Cluster_164534" target="Operon41" />
+    <edge source="Cluster_57250" target="Operon42" />
+    <edge source="Cluster_68094" target="Operon43" />
+    <edge source="Cluster_68094" target="Operon44" />
+    <edge source="Cluster_22590" target="Operon45" />
+    <edge source="Cluster_120339" target="Operon46" />
+    <edge source="Cluster_70784" target="Operon49" />
+    <edge source="Cluster_70784" target="Operon50" />
+    <edge source="Cluster_57851" target="Operon51" />
+    <edge source="Cluster_12549" target="Operon53" />
+    <edge source="Cluster_12549" target="Operon54" />
+    <edge source="Cluster_79227" target="Operon55" />
+    <edge source="Cluster_79227" target="Operon56" />
+    <edge source="Cluster_42534" target="Operon57" />
+    <edge source="Cluster_106012" target="Operon58" />
+    <edge source="Cluster_115890" target="Operon59" />
+    <edge source="Cluster_58646" target="Operon60" />
+    <edge source="Cluster_58646" target="Operon61" />
+    <edge source="Cluster_79792" target="Operon62" />
+    <edge source="Cluster_131849" target="Operon63" />
+    <edge source="Cluster_131849" target="Operon64" />
+    <edge source="Cluster_14019" target="Operon65" />
+    <edge source="Cluster_149796" target="Operon66" />
+    <edge source="Cluster_103886" target="Operon67" />
+    <edge source="Cluster_103886" target="Operon68" />
+    <edge source="Cluster_74557" target="Operon69" />
+    <edge source="Cluster_140051" target="Operon70" />
+    <edge source="Cluster_86102" target="Operon71" />
+    <edge source="Cluster_61049" target="Operon74" />
+    <edge source="Cluster_92148" target="Operon77" />
+    <edge source="Cluster_154249" target="Operon78" />
+    <edge source="Cluster_140807" target="Operon79" />
+    <edge source="Cluster_127716" target="Operon80" />
+    <edge source="Cluster_45957" target="Operon81" />
+    <edge source="Cluster_141612" target="Operon82" />
+    <edge source="Cluster_110170" target="Operon84" />
+    <edge source="Cluster_124273" target="Operon86" />
+    <edge source="Cluster_134013" target="Operon87" />
+    <edge source="Cluster_60628" target="Operon88" />
+    <edge source="Cluster_39515" target="Operon89" />
+    <edge source="Cluster_136221" target="Operon90" />
+    <edge source="Cluster_90936" target="Operon91" />
+    <edge source="Cluster_103163" target="Operon92" />
+    <edge source="Cluster_129059" target="Operon95" />
+    <edge source="Cluster_140052" target="Operon96" />
+    <edge source="Cluster_73067" target="Operon100" />
+    <edge source="Cluster_140053" target="Operon101" />
+    <edge source="Cluster_138505" target="Operon102" />
+    <edge source="Cluster_154250" target="Operon103" />
+    <edge source="Cluster_147312" target="Operon104" />
+    <edge source="Cluster_124274" target="Operon105" />
+    <edge source="Cluster_46863" target="Operon106" />
+    <edge source="Cluster_146486" target="Operon107" />
+    <edge source="Cluster_76077" target="Operon109" />
+    <edge source="Cluster_10008" target="Operon110" />
+    <edge source="Cluster_137770" target="Operon111" />
+    <edge source="Cluster_137770" target="Operon112" />
+    <edge source="Cluster_5795" target="Operon113" />
+    <edge source="Cluster_139313" target="Operon114" />
+    <edge source="Cluster_71222" target="Operon115" />
+    <edge source="Cluster_71222" target="Operon116" />
+    <edge source="Cluster_5330" target="Operon117" />
+    <edge source="Cluster_53177" target="Operon118" />
+    <edge source="Cluster_53177" target="Operon119" />
+    <edge source="Cluster_134014" target="Operon120" />
+    <edge source="Cluster_43332" target="Operon121" />
+    <edge source="Cluster_67415" target="Operon122" />
+    <edge source="Cluster_135478" target="Operon123" />
+    <edge source="Cluster_42283,Cluster_19281" target="Operon83" />
+    <edge source="Cluster_42283,Cluster_19281" target="Operon97" />
+    <edge source="Cluster_85482,Cluster_133323,Cluster_126392,Cluster_127045" target="Operon75" />
+    <edge source="Cluster_85482,Cluster_133323,Cluster_126392,Cluster_127045" target="Operon85" />
+    <edge source="Cluster_85482,Cluster_133323,Cluster_126392,Cluster_127045" target="Operon94" />
+    <edge source="Cluster_85482,Cluster_133323,Cluster_126392,Cluster_127045" target="Operon98" />
+    <edge source="Cluster_85482,Cluster_133323,Cluster_126392,Cluster_127045" target="Operon99" />
+    <edge source="Cluster_37861,Cluster_5764" target="Operon76" />
+    <edge source="Cluster_37861,Cluster_5764" target="Operon108" />
+    <edge source="Cluster_129728,Cluster_21202" target="Operon52" />
+    <edge source="Cluster_129728,Cluster_21202" target="Operon93" />
+  </graph>
+</graphml>

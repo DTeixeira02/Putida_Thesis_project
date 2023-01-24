@@ -1,0 +1,404 @@
+LISTS ALL GENES FROM Collated_bsigr_to_gene_associations.txt THAT ARE FOUND ASSOCIATED TO 2 OR MORE IGRS THAT BIND DIFFERENT TRANSCRIPTION FACTORS
+FORMATTED ACROSS LINES: GENE NAME AS HEADER, FOLLOWING LINES AND STATISTICS FOR IGRS GENE FOUND ASSOCIATED TO
+IGR STATS FORMAT: CLUSTERID, TF-BOUND, GENE_COUNT_ACROSS_GENOMES, PERCENTAGE_GENE_COUNT_ASSOC_TO_IGR, EXPECTED_PERCENATGE
+###############################################################################################################################
+
+fecA_1
+Cluster_109793	ColR	96	35.417	3.333
+Cluster_81672	LexA	96	1.042	3.333
+
+fecA
+Cluster_109793	ColR	116	62.931	8.333
+Cluster_82679	LexA	116	4.31	8.333
+
+fpvA_2
+Cluster_109793	ColR	190	0.526	1.613
+Cluster_55506	Fur	190	0.526	1.613
+
+fecA_2
+Cluster_109793	ColR	96	34.375	3.226
+Cluster_81672	LexA	96	2.083	3.226
+
+dppA_3
+Cluster_20766	ArgR	220	7.273	1.389
+Cluster_20026	AmrZ,ArgR	220	1.818	1.389
+
+dppA_2
+Cluster_20766	ArgR	221	3.62	1.389
+Cluster_20026	AmrZ,ArgR	221	1.357	1.389
+
+dppA_1
+Cluster_20766	ArgR	221	2.715	1.587
+Cluster_20026	AmrZ,ArgR	221	1.357	1.587
+
+dppA_4
+Cluster_20766	ArgR	210	3.81	1.613
+Cluster_20026	AmrZ,ArgR	210	0.952	1.613
+
+czcR_3
+Cluster_66703	ColR	182	17.033	1.613
+Cluster_68396	CueR	182	0.549	1.613
+
+czcR_4
+Cluster_66703	ColR	149	15.436	1.852
+Cluster_68396	CueR	149	0.671	1.852
+
+sasA_9
+Cluster_66703	ColR	219	3.196	0.787
+Cluster_931	PcaR	219	0.457	0.787
+
+czcR_2
+Cluster_66703	ColR	205	11.707	1.786
+Cluster_1405	AmrZ	205	0.488	1.786
+
+sasA_5
+Cluster_66703	ColR	221	2.262	0.781
+Cluster_80440	LexA	221	0.452	0.781
+
+sasA_1
+Cluster_66703	ColR	221	2.262	0.885
+Cluster_47106	LexA	221	0.452	0.885
+
+sasA_19
+Cluster_66703	ColR	77	2.597	2.222
+Cluster_47106	LexA	77	1.299	2.222
+
+fumC_1
+Cluster_44208	Fur	204	16.176	2.174
+Cluster_80552	AmrZ	204	26.961	2.174
+
+fumC_2
+Cluster_44208	Fur	204	9.804	2.083
+Cluster_80552	AmrZ	204	45.098	2.083
+
+dinG_2
+Cluster_118128	LexA	220	22.273	1.449
+Cluster_71879	AmrZ	220	2.727	1.449
+
+dinG_4
+Cluster_118128	LexA	159	24.528	2.703
+Cluster_71879	AmrZ	159	1.258	2.703
+
+dinG_3
+Cluster_118128	LexA	217	22.581	1.724
+Cluster_71879	AmrZ	217	4.608	1.724
+
+dinG_5
+Cluster_118128	LexA	76	15.789	5.263
+Cluster_71879	AmrZ	76	1.316	5.263
+
+dinG_1
+Cluster_118128	LexA	220	15.0	1.613
+Cluster_71879	AmrZ	220	0.909	1.613
+
+oprD_6
+Cluster_4421	ArgR	213	7.042	0.98
+Cluster_11358	ColR	213	0.469	0.98
+Cluster_97363	Zur	213	0.469	0.98
+
+oprD_9
+Cluster_4421	ArgR	114	5.263	1.887
+Cluster_13128	ColR	114	1.754	1.887
+
+oprD_5
+Cluster_4421	ArgR	219	2.74	1.031
+Cluster_11261	ColR	219	2.283	1.031
+Cluster_97363	Zur	219	3.653	1.031
+
+oprD_8
+Cluster_4421	ArgR	153	3.922	1.639
+Cluster_11261	ColR	153	1.307	1.639
+
+oprD_4
+Cluster_4421	ArgR	220	4.091	1.064
+Cluster_13128	ColR	220	4.091	1.064
+
+oprD_2
+Cluster_4421	ArgR	221	2.715	1.01
+Cluster_11358	ColR	221	0.452	1.01
+Cluster_97363	Zur	221	0.452	1.01
+
+oprD_1
+Cluster_4421	ArgR	221	3.167	1.064
+Cluster_11358	ColR	221	0.452	1.064
+
+oprD_10
+Cluster_4421	ArgR	54	3.704	3.448
+Cluster_13128	ColR	54	7.407	3.448
+
+oprD_3
+Cluster_4421	ArgR	221	1.357	0.971
+Cluster_11358	ColR	221	0.905	0.971
+
+oprD_7
+Cluster_4421	ArgR	188	4.255	1.176
+Cluster_11261	ColR	188	0.532	1.176
+
+fumC_3
+Cluster_80552	AmrZ	12	8.333	14.286
+Cluster_98721	Fur	12	8.333	14.286
+
+fadA_2
+Cluster_9638	PsrA	157	7.643	2.326
+Cluster_27677	PcaR	157	0.637	2.326
+
+fadA_1
+Cluster_9638	PsrA	157	2.548	2.041
+Cluster_40871	PcaR	157	0.637	2.041
+
+fadA_3
+Cluster_9638	PsrA	60	20.0	4.0
+Cluster_59882	PcaR	60	1.667	4.0
+
+lexA_1
+Cluster_53718	LexA,PsrA	218	22.018	1.266
+Cluster_27958	LexA	218	0.459	1.266
+
+lexA_2
+Cluster_53718	LexA,PsrA	218	20.183	1.299
+Cluster_70263	LexA	218	0.459	1.299
+
+lexA_3
+Cluster_53718	LexA,PsrA	122	15.574	1.818
+Cluster_27958	LexA	122	0.82	1.818
+
+lexA_4
+Cluster_53718	LexA,PsrA	33	18.182	4.167
+Cluster_10454	LexA	33	3.03	4.167
+
+lexA_5
+Cluster_53718	LexA,PsrA	9	22.222	16.667
+Cluster_27958	LexA	9	22.222	16.667
+
+xerC_1
+Cluster_17657	LexA	220	2.273	0.84
+Cluster_19797	AmrZ	220	0.455	0.84
+
+xerC_6
+Cluster_17657	LexA	143	1.399	1.149
+Cluster_99210	AmrZ	143	0.699	1.149
+
+czcC
+Cluster_39890	PcaR	66	22.727	3.704
+Cluster_36278	LexA	66	1.515	3.704
+
+cntO_4
+Cluster_30372	Zur	179	3.911	1.149
+Cluster_11261	ColR	179	0.559	1.149
+
+cntO_3
+Cluster_30372	Zur	212	4.245	1.124
+Cluster_11358	ColR	212	0.472	1.124
+
+cntO_6
+Cluster_30372	Zur	68	4.412	3.571
+Cluster_11261	ColR	68	2.941	3.571
+
+cntO_5
+Cluster_30372	Zur	111	5.405	2.083
+Cluster_11261	ColR	111	3.604	2.083
+
+cntO_7
+Cluster_30372	Zur	34	8.824	6.25
+Cluster_11261	ColR	34	2.941	6.25
+
+cntO_2
+Cluster_30372	Zur	217	1.382	1.02
+Cluster_11358	ColR	217	0.461	1.02
+Cluster_51222	Anr	217	0.461	1.02
+
+cntO_1
+Cluster_30372	Zur	217	0.461	1.266
+Cluster_11358	ColR	217	1.382	1.266
+
+walR
+Cluster_42628	ArgR	125	22.4	4.348
+Cluster_42680	AmrZ	125	24.8	4.348
+
+walR_2
+Cluster_42628	ArgR	68	23.529	4.167
+Cluster_42680	AmrZ	68	4.412	4.167
+
+walR_3
+Cluster_42628	ArgR	17	5.882	10.0
+Cluster_42680	AmrZ	17	5.882	10.0
+
+walR_1
+Cluster_42628	ArgR	68	20.588	4.0
+Cluster_42680	AmrZ	68	4.412	4.0
+
+arnT_4
+Cluster_2462	ColR	7	28.571	16.667
+Cluster_64264	ArgR	7	14.286	16.667
+
+arnT_3
+Cluster_2462	ColR	12	8.333	10.0
+Cluster_64264	ArgR	12	8.333	10.0
+
+ais_1
+Cluster_37478	PtxS	114	3.509	2.222
+Cluster_63730	ColR	114	0.877	2.222
+
+fecA_3
+Cluster_81672	LexA	16	12.5	11.111
+Cluster_111575	ColR	16	6.25	11.111
+
+lgrB_1
+Cluster_31042	Fur	149	6.04	1.961
+Cluster_29563	PvdS	149	2.013	1.961
+Cluster_27444	AmrZ	149	0.671	1.961
+
+lgrB_3
+Cluster_31042	Fur	47	4.255	3.448
+Cluster_20206	PvdS	47	2.128	3.448
+
+btuB_2
+Cluster_75848	Zur	220	0.455	0.855
+Cluster_90022	LexA	220	0.455	0.855
+
+mdtA_3
+Cluster_53674	PcaR	219	0.457	0.98
+Cluster_1405	AmrZ	219	0.457	0.98
+Cluster_68432	LexA	219	0.457	0.98
+
+lgrB_2
+Cluster_30501	Fur	149	3.356	2.0
+Cluster_29563	PvdS	149	4.027	2.0
+Cluster_27444	AmrZ	149	1.342	2.0
+
+intQ_1
+Cluster_123123	AmrZ	41	4.878	3.571
+Cluster_55296	VqsM	41	2.439	3.571
+
+vgrG1_2
+Cluster_857	AmrZ	131	1.527	1.515
+Cluster_27731	PsrA	131	0.763	1.515
+
+ais_3
+Cluster_36861	PtxS	17	5.882	7.692
+Cluster_39304	Zur	17	5.882	7.692
+
+leuD
+Cluster_25112	AmrZ	10	10.0	14.286
+Cluster_2853	PcaR	10	10.0	14.286
+
+msmX
+Cluster_29396	AmrZ,ArgR	32	62.5	8.333
+Cluster_27646	AmrZ	32	3.125	8.333
+
+ydcV_2
+Cluster_29396	AmrZ,ArgR	211	1.422	1.613
+Cluster_27646	AmrZ	211	0.474	1.613
+
+crnA
+Cluster_29396	AmrZ,ArgR	50	46.0	10.0
+Cluster_27646	AmrZ	50	2.0	10.0
+
+ydcV_3
+Cluster_29396	AmrZ,ArgR	204	2.451	1.538
+Cluster_17595	AmrZ	204	0.98	1.538
+
+ydcV_1
+Cluster_29396	AmrZ,ArgR	211	2.37	1.471
+Cluster_8957	VqsM	211	0.474	1.471
+
+btuD_2
+Cluster_29396	AmrZ,ArgR	221	0.905	1.064
+Cluster_22488	ArgR	221	0.905	1.064
+
+btuB_1
+Cluster_67653	Zur	220	0.455	0.935
+Cluster_90022	LexA	220	1.364	0.935
+
+btuB_10
+Cluster_90022	LexA	69	7.246	2.326
+Cluster_75957	AmrZ	69	1.449	2.326
+
+xerC_2
+Cluster_25556	AmrZ	220	0.455	0.787
+Cluster_23972	LexA	220	0.455	0.787
+
+recX
+Cluster_141582	MexT	216	10.185	5.882
+Cluster_128816	LexA	216	3.241	5.882
+
+pbpG
+Cluster_11884	LexA	197	2.03	1.961
+Cluster_49605	ColR	197	0.508	1.961
+
+prsD
+Cluster_9186	AmrZ	113	7.08	2.632
+Cluster_8312	ColR	113	1.77	2.632
+
+tolC_2
+Cluster_9186	AmrZ	171	2.924	2.128
+Cluster_8312	ColR	171	1.754	2.128
+
+prsE_3
+Cluster_9186	AmrZ	156	2.564	1.754
+Cluster_8312	ColR	156	0.641	1.754
+
+lgrE
+Cluster_122271	PvdS	207	2.415	2.273
+Cluster_40968	Fur	207	0.483	2.273
+
+btuD_3
+Cluster_39423	AmrZ	221	1.357	1.075
+Cluster_22628	ArgR	221	0.452	1.075
+
+btuD_5
+Cluster_39423	AmrZ	199	0.503	1.064
+Cluster_22488	ArgR	199	0.503	1.064
+
+btuD_4
+Cluster_39423	AmrZ	214	0.467	0.971
+Cluster_22488	ArgR	214	0.467	0.971
+Cluster_23344	RhpR	214	0.467	0.971
+
+ybiT
+Cluster_7914	LexA	216	11.111	1.538
+Cluster_55296	VqsM	216	0.463	1.538
+
+mrdA_1
+Cluster_36038	LexA	216	0.926	1.562
+Cluster_8505	PcaR	216	0.926	1.562
+
+mrdA_2
+Cluster_36038	LexA	216	0.463	1.562
+Cluster_8533	PcaR	216	0.463	1.562
+
+ais
+Cluster_63730	ColR	88	1.136	5.882
+Cluster_22948	PtxS	88	1.136	5.882
+
+bioF_2
+Cluster_49732	AmrZ	49	2.041	7.692
+Cluster_121940	PtxR	49	2.041	7.692
+
+potH_2
+Cluster_17595	AmrZ	16	6.25	8.333
+Cluster_8957	VqsM	16	6.25	8.333
+
+entS
+Cluster_17047	MexT	84	1.19	4.0
+Cluster_9583	Anr	84	2.381	4.0
+
+fpvA_1
+Cluster_33857	Fur	190	0.526	1.667
+Cluster_18661	ColR	190	0.526	1.667
+
+dctD_2
+Cluster_14703	PtxS	220	0.909	1.613
+Cluster_14802	LasR	220	0.455	1.613
+
+ligD_1
+Cluster_83789	ColR	66	1.515	3.333
+Cluster_5949	LexA	66	1.515	3.333
+
+ligD_2
+Cluster_83789	ColR	66	3.03	3.125
+Cluster_91682	LexA	66	1.515	3.125
+
+prsE_2
+Cluster_8312	ColR	210	0.952	1.37
+Cluster_10549	AmrZ	210	0.476	1.37

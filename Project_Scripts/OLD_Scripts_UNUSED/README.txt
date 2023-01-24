@@ -1,0 +1,1 @@
+Scripts in this folder include old versions of scripts used in the project, prototypes of said scripts/unused test scripts, or scripts that were made but not used or made but bugged.

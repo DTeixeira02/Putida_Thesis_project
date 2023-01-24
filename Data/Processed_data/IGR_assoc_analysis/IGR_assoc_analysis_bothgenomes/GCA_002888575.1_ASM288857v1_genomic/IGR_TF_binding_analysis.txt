@@ -1,0 +1,118 @@
+GCA_002888575.1_ASM288857v1_genomic IGR TF BINDING ANALYSIS
+
+#######################################################################
+TF-Binding IGRs where genome encodes TF
+IGR	TF-BOUND
+
+#######################################################################
+TF-Binding IGRs where genome doesn't encode TF
+IGR	TF-BOUND
+
+#######################################################################
+TFs encoded by genome lacking binding site
+TRANSCRIPTION FACTOR
+
+#######################################################################
+Remaining IGRs with unknown TF binding profiles
+IGR	OCC_COUNT
+Cluster_140806	1
+Cluster_111607	1
+Cluster_152747	1
+Cluster_146485	1
+Cluster_110861	1
+Cluster_106675	1
+Cluster_147310	1
+Cluster_96287	1
+Cluster_80874	2
+Cluster_130455	1
+Cluster_8784	1
+Cluster_129058	1
+Cluster_118664	1
+Cluster_149795	1
+Cluster_115889	1
+Cluster_37192	1
+Cluster_127715	1
+Cluster_139312	1
+Cluster_147311	1
+Cluster_108799	1
+Cluster_100428	1
+Cluster_83747	1
+Cluster_58645	2
+Cluster_60246	1
+Cluster_137036	1
+Cluster_119364	1
+Cluster_102470	1
+Cluster_117278	1
+Cluster_94012	1
+Cluster_104139	2
+Cluster_122810	1
+Cluster_141930	1
+Cluster_85077	1
+Cluster_164534	1
+Cluster_57250	1
+Cluster_68094	2
+Cluster_22590	1
+Cluster_120339	1
+Cluster_70784	2
+Cluster_57851	1
+Cluster_21202	1
+Cluster_12549	2
+Cluster_79227	2
+Cluster_42534	1
+Cluster_106012	1
+Cluster_115890	1
+Cluster_58646	2
+Cluster_79792	1
+Cluster_131849	2
+Cluster_14019	1
+Cluster_149796	1
+Cluster_103886	2
+Cluster_74557	1
+Cluster_140051	1
+Cluster_86102	1
+Cluster_61049	1
+Cluster_126392	1
+Cluster_37861	1
+Cluster_92148	1
+Cluster_154249	1
+Cluster_140807	1
+Cluster_127716	1
+Cluster_45957	1
+Cluster_141612	1
+Cluster_19281	1
+Cluster_110170	1
+Cluster_133323	1
+Cluster_124273	1
+Cluster_134013	1
+Cluster_60628	1
+Cluster_39515	1
+Cluster_136221	1
+Cluster_90936	1
+Cluster_103163	1
+Cluster_129728	1
+Cluster_127045	1
+Cluster_129059	1
+Cluster_140052	1
+Cluster_42283	1
+Cluster_85482	2
+Cluster_73067	1
+Cluster_140053	1
+Cluster_138505	1
+Cluster_154250	1
+Cluster_147312	1
+Cluster_124274	1
+Cluster_46863	1
+Cluster_146486	1
+Cluster_5764	1
+Cluster_76077	1
+Cluster_10008	1
+Cluster_137770	2
+Cluster_5795	1
+Cluster_139313	1
+Cluster_71222	2
+Cluster_5330	1
+Cluster_53177	2
+Cluster_134014	1
+Cluster_43332	1
+Cluster_67415	1
+Cluster_135478	1

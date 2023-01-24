@@ -1,0 +1,1256 @@
+********************************************************************************
+MAST - Motif Alignment and Search Tool
+********************************************************************************
+	MAST version 5.5.0 (Release date: Wed Sep 7 14:18:26 2022 -0700)
+
+	For further information on how to interpret these results please access https://meme-suite.org/meme.
+	To get a copy of the MAST software please access https://meme-suite.org.
+********************************************************************************
+
+
+********************************************************************************
+REFERENCE
+********************************************************************************
+	If you use this program in your research, please cite:
+
+	Timothy L. Bailey and Michael Gribskov,
+	"Combining evidence using p-values: application to sequence homology
+	searches", Bioinformatics, 14(48-54), 1998.
+********************************************************************************
+
+
+********************************************************************************
+DATABASE AND MOTIFS
+********************************************************************************
+	DATABASE GCA_002888575.1_ASM288857v1_genomic_IGRs.fna (nucleotide)
+	Last updated on Sun Nov 20 15:10:56 2022
+	Database contains 125 sequences, 18584 residues
+
+	Scores for positive and reverse complement strands are combined.
+
+	MOTIFS meme.html (nucleotide)
+	MOTIF ID                                           ALT ID WIDTH BEST POSSIBLE MATCH
+	----- -------------------------------------------- ------ ----- -------------------
+	    1 SGGSTTCTGGCACRCVCHVDHHNSMHTSAHAATGRSBYCA     MEME-1    40 GGGCTTCTGGCACACCCTAATCGGCCTGAAAATGGCTCCA
+	    2 GTTGTAGGTTTGSTGSGCCC                         MEME-2    20 GTTGTAGGTTTGGTGGGCCC
+	    3 AGTVAGGATTGGTBCACGAT                         MEME-3    20 AGTCAGGATTGGTGCACGAT
+	    4 KTNRGGCCCWSCAAACCTACAAC                      MEME-4    23 GTAGGGCCCTGCAAACCTACAAC
+	    5 WTYCRVHVVCYYSTTTTGGRTDGYMATKBDRSHVYHDDBMGKTA MEME-5    44 TTTCGACACCCTGTTTTGGGTTGCAATTCGGGCGTAGGGCGTTA
+
+	PAIRWISE MOTIF CORRELATIONS:
+	MOTIF     1     2     3     4
+	----- ----- ----- ----- -----
+	   2   0.20
+	   3   0.24  0.29
+	   4   0.25  0.21  0.29
+	   5   0.17  0.24  0.18  0.20
+	No overly similar pairs (correlation > 0.60) found.
+
+	Random model letter frequencies (from non-redundant database):
+	A 0.274 C 0.225 G 0.225 T 0.274 
+********************************************************************************
+
+
+********************************************************************************
+SECTION I: HIGH-SCORING SEQUENCES
+********************************************************************************
+	- Each of the following 62 sequences has E-value less than 10.
+	- The E-value of a sequence is the expected number of sequences
+	  in a random database of the same size that would match the motifs as
+	  well as the sequence does and is equal to the combined p-value of the
+	  sequence times the number of sequences in the database.
+	- The combined p-value of a sequence measures the strength of the
+	  match of the sequence to all the motifs and is calculated by
+	    o finding the score of the single best match of each motif
+	      to the sequence (best matches may overlap),
+	    o calculating the sequence p-value of each score,
+	    o forming the product of the p-values,
+	    o taking the p-value of the product.
+	- The sequence p-value of a score is defined as the
+	  probability of a random sequence of the same length containing
+	  some match with as good or better a score.
+	- The score for the match of a position in a sequence to a motif
+	  is computed by by summing the appropriate entry from each column of
+	  the position-dependent scoring matrix that represents the motif.
+	- Sequences shorter than one or more of the motifs are skipped.
+	- The table is sorted by increasing E-value.
+********************************************************************************
+
+SEQUENCE NAME                      DESCRIPTION                   E-VALUE  LENGTH
+-------------                      -----------                   -------- ------
+AFLJOGHH_00013_+_+_AFLJOGHH_00014_ Cluster_96287                 2.7e-18    130
+AFLJOGHH_00178_+_+_AFLJOGHH_00179_ Cluster_5330                  6.4e-13    658
+AFLJOGHH_00146_+_+_AFLJOGHH_00147_ Cluster_42283                 9.1e-11    254
+AFLJOGHH_00179_+_+_AFLJOGHH_00180_ Cluster_9294                  2.1e-10    545
+AFLJOGHH_00077_+_+_AFLJOGHH_00078_ Cluster_12549                 6.1e-09    485
+AFLJOGHH_00127_+_+_AFLJOGHH_00128_ Cluster_19281                 6.4e-09    396
+AFLJOGHH_00025_+_+_AFLJOGHH_00026_ Cluster_37192                 1.3e-08    275
+AFLJOGHH_00148_+_+_AFLJOGHH_00149_ Cluster_85482                 4.7e-08    147
+AFLJOGHH_00119_+_+_AFLJOGHH_00120_ Cluster_92148                 5.8e-08    136
+AFLJOGHH_00020_+_+_AFLJOGHH_00021_ Cluster_129058                  3e-07     83
+AFLJOGHH_00081_+_+_AFLJOGHH_00082_ Cluster_79227                 3.6e-07    158
+AFLJOGHH_00118_+_+_AFLJOGHH_00119_ Cluster_37861                 1.1e-06    272
+AFLJOGHH_00139_+_+_AFLJOGHH_00140_ Cluster_129728                2.3e-06     82
+AFLJOGHH_00129_+_+_AFLJOGHH_00130_ Cluster_133323                8.3e-06     77
+AFLJOGHH_00117_+_+_AFLJOGHH_00118_ Cluster_126392                2.7e-05     87
+AFLJOGHH_00076_+_+_AFLJOGHH_00077_ Cluster_21202                 5.3e-05    376
+AFLJOGHH_00160_+_+_AFLJOGHH_00161_ Cluster_5764                    7e-05    643
+AFLJOGHH_00141_+_+_AFLJOGHH_00142_ Cluster_127045                7.2e-05     86
+AFLJOGHH_00123_+_+_AFLJOGHH_00124_ Cluster_127716                0.00011     85
+AFLJOGHH_00187_+_+_AFLJOGHH_00188_ Cluster_135478                 0.0002     74
+AFLJOGHH_00086_+_+_AFLJOGHH_00087_ Cluster_106012                 0.0003    116
+AFLJOGHH_00073_+_+_AFLJOGHH_00074_ Cluster_70784                 0.00032    175
+AFLJOGHH_00157_+_+_AFLJOGHH_00158_ Cluster_124274                0.00038     90
+AFLJOGHH_00132_+_+_AFLJOGHH_00133_ Cluster_134013                0.00048     76
+AFLJOGHH_00116_+_+_AFLJOGHH_00117_ Cluster_61049                  0.0009    197
+AFLJOGHH_00026_+_+_AFLJOGHH_00027_ Cluster_127715                 0.0013     85
+AFLJOGHH_00147_+_+_AFLJOGHH_00148_ Cluster_77099                  0.0014    162
+AFLJOGHH_00180_+_+_AFLJOGHH_00181_ Cluster_53177                  0.0015    218
+AFLJOGHH_00184_+_+_AFLJOGHH_00185_ Cluster_67415                  0.0016    182
+AFLJOGHH_00121_+_+_AFLJOGHH_00122_ Cluster_140807                  0.002     67
+AFLJOGHH_00135_+_+_AFLJOGHH_00136_ Cluster_136221                  0.002     73
+AFLJOGHH_00182_+_+_AFLJOGHH_00183_ Cluster_134014                 0.0023     76
+AFLJOGHH_00131_+_+_AFLJOGHH_00132_ Cluster_124273                 0.0026     90
+AFLJOGHH_00039_+_+_AFLJOGHH_00040_ Cluster_102470                 0.0042    121
+AFLJOGHH_00016_+_+_AFLJOGHH_00017_ Cluster_130455                 0.0045     81
+AFLJOGHH_00011_+_+_AFLJOGHH_00012_ Cluster_106675                 0.0054    115
+AFLJOGHH_00153_+_+_AFLJOGHH_00154_ Cluster_138505                 0.0055     70
+AFLJOGHH_00096_+_+_AFLJOGHH_00097_ Cluster_79792                  0.0067    157
+AFLJOGHH_00006_+_+_AFLJOGHH_00007_ Cluster_111607                 0.0071    108
+AFLJOGHH_00150_+_+_AFLJOGHH_00151_ Cluster_73067                  0.0073    170
+AFLJOGHH_00175_+_+_AFLJOGHH_00176_ Cluster_71222                   0.008    174
+AFLJOGHH_00137_+_+_AFLJOGHH_00138_ Cluster_90936                  0.0085    138
+AFLJOGHH_00145_+_+_AFLJOGHH_00146_ Cluster_140052                 0.0095     68
+AFLJOGHH_00034_+_+_AFLJOGHH_00035_ Cluster_58645                   0.011    203
+AFLJOGHH_00172_+_+_AFLJOGHH_00173_ Cluster_5795                    0.013    642
+AFLJOGHH_00009_+_+_AFLJOGHH_00010_ Cluster_146485                  0.013     60
+AFLJOGHH_00015_+_+_AFLJOGHH_00016_ Cluster_80874                   0.015    155
+AFLJOGHH_00019_+_+_AFLJOGHH_00020_ Cluster_8784                    0.021    557
+AFLJOGHH_00138_+_+_AFLJOGHH_00139_ Cluster_103163                  0.023    120
+AFLJOGHH_00143_+_+_AFLJOGHH_00144_ Cluster_129059                  0.023     83
+AFLJOGHH_00042_+_+_AFLJOGHH_00043_ Cluster_117278                  0.056    100
+AFLJOGHH_00133_+_+_AFLJOGHH_00134_ Cluster_60628                    0.06    198
+AFLJOGHH_00021_+_+_AFLJOGHH_00022_ Cluster_118664                  0.078     98
+AFLJOGHH_00158_+_+_AFLJOGHH_00159_ Cluster_46863                    0.18    238
+AFLJOGHH_00174_+_+_AFLJOGHH_00175_ Cluster_158617                   0.78     44
+AFLJOGHH_00030_+_+_AFLJOGHH_00031_ Cluster_108799                   0.81    112
+AFLJOGHH_00102_+_+_AFLJOGHH_00103_ Cluster_149796                      1     56
+AFLJOGHH_00048_+_+_AFLJOGHH_00049_ Cluster_156089                    1.1     47
+AFLJOGHH_00074_+_+_AFLJOGHH_00075_ Cluster_57851                     1.6    205
+AFLJOGHH_00110_+_+_AFLJOGHH_00111_ Cluster_74557                     6.9    167
+AFLJOGHH_00064_+_+_AFLJOGHH_00065_ Cluster_22590                     8.3    364
+AFLJOGHH_00057_+_+_AFLJOGHH_00058_ Cluster_164534                    8.5     36
+
+********************************************************************************
+
+
+
+********************************************************************************
+SECTION II: MOTIF DIAGRAMS
+********************************************************************************
+	- The ordering and spacing of all non-overlapping motif occurrences
+	  are shown for each high-scoring sequence listed in Section I.
+	- A motif occurrence is defined as a position in the sequence whose
+	  match to the motif has POSITION p-value less than 0.0001.
+	- The POSITION p-value of a match is the probability of
+	  a single random subsequence of the length of the motif
+	  scoring at least as well as the observed match.
+	- For each sequence, all motif occurrences are shown unless there
+	  are overlaps.  In that case, a motif occurrence is shown only if its
+	  p-value is less than the product of the p-values of the other
+	  (lower-numbered) motif occurrences that it overlaps.
+	- The table also shows the E-value of each sequence.
+	- Spacers and motif occurences are indicated by
+	   o -d-    `d' residues separate the end of the preceding motif 
+		    occurrence and the start of the following motif occurrence
+	   o [sn]  occurrence of motif `n' with p-value less than 0.0001.
+		    A minus sign indicates that the occurrence is on the
+		    reverse complement strand.
+********************************************************************************
+
+SEQUENCE NAME                      E-VALUE   MOTIF DIAGRAM
+-------------                      --------  -------------
+AFLJOGHH_00013_+_+_AFLJOGHH_00014_  2.7e-18  9-[-3]-42-[+1]-19
+AFLJOGHH_00178_+_+_AFLJOGHH_00179_  6.4e-13  172-[+4]-[+4]-[+4]-70-[+4]-44-[-2]-51-[+4]-9-[+4]-72-[+2]-27-[+2]-15
+AFLJOGHH_00146_+_+_AFLJOGHH_00147_  9.1e-11  1-[+5]-142-[+1]-27
+AFLJOGHH_00179_+_+_AFLJOGHH_00180_  2.1e-10  93-[+2]-22-[+2]-143-[+2]-6-[+2]-40-[+2]-32-[+2]-16-[+2]-31-[+2]-2
+AFLJOGHH_00077_+_+_AFLJOGHH_00078_  6.1e-09  95-[+3]-3-[+3]-54-[+3]-12-[+3]-12-[+3]-22-[+3]-3-[+3]-82-[+1]-22
+AFLJOGHH_00127_+_+_AFLJOGHH_00128_  6.4e-09  237-[+5]-40-[+1]-35
+AFLJOGHH_00025_+_+_AFLJOGHH_00026_  1.3e-08  85-[+2]-19-[+4]-60-[+1]-28
+AFLJOGHH_00148_+_+_AFLJOGHH_00149_  4.7e-08  82-[+1]-25
+AFLJOGHH_00119_+_+_AFLJOGHH_00120_  5.8e-08  15-[-2]-35-[+1]-26
+AFLJOGHH_00020_+_+_AFLJOGHH_00021_    3e-07  1-[+5]-38
+AFLJOGHH_00081_+_+_AFLJOGHH_00082_  3.6e-07  33-[-5]-[+5]-11-[-3]-6
+AFLJOGHH_00118_+_+_AFLJOGHH_00119_  1.1e-06  60-[-1]-108-[+1]-24
+AFLJOGHH_00139_+_+_AFLJOGHH_00140_  2.3e-06  13-[-3]-49
+AFLJOGHH_00129_+_+_AFLJOGHH_00130_  8.3e-06  14-[+1]-23
+AFLJOGHH_00117_+_+_AFLJOGHH_00118_  2.7e-05  28-[+1]-19
+AFLJOGHH_00076_+_+_AFLJOGHH_00077_  5.3e-05  253-[+3]-103
+AFLJOGHH_00160_+_+_AFLJOGHH_00161_    7e-05  107-[-1]-434-[+1]-22
+AFLJOGHH_00141_+_+_AFLJOGHH_00142_  7.2e-05  28-[+1]-18
+AFLJOGHH_00123_+_+_AFLJOGHH_00124_  0.00011  6-[+1]-39
+AFLJOGHH_00187_+_+_AFLJOGHH_00188_   0.0002  10-[+1]-24
+AFLJOGHH_00086_+_+_AFLJOGHH_00087_   0.0003  53-[+1]-23
+AFLJOGHH_00073_+_+_AFLJOGHH_00074_  0.00032  96-[+5]-35
+AFLJOGHH_00157_+_+_AFLJOGHH_00158_  0.00038  25-[+1]-25
+AFLJOGHH_00132_+_+_AFLJOGHH_00133_  0.00048  10-[+1]-26
+AFLJOGHH_00116_+_+_AFLJOGHH_00117_   0.0009  32-[+5]-43-[+5]-34
+AFLJOGHH_00026_+_+_AFLJOGHH_00027_   0.0013  8-[+5]-33
+AFLJOGHH_00147_+_+_AFLJOGHH_00148_   0.0014  33-[+5]-85
+AFLJOGHH_00180_+_+_AFLJOGHH_00181_   0.0015  155-[+1]-23
+AFLJOGHH_00184_+_+_AFLJOGHH_00185_   0.0016  117-[+1]-25
+AFLJOGHH_00121_+_+_AFLJOGHH_00122_    0.002  7-[+1]-20
+AFLJOGHH_00135_+_+_AFLJOGHH_00136_    0.002  11-[+1]-22
+AFLJOGHH_00182_+_+_AFLJOGHH_00183_   0.0023  17-[+1]-19
+AFLJOGHH_00131_+_+_AFLJOGHH_00132_   0.0026  29-[+1]-21
+AFLJOGHH_00039_+_+_AFLJOGHH_00040_   0.0042  63-[+1]-18
+AFLJOGHH_00016_+_+_AFLJOGHH_00017_   0.0045  20-[+1]-21
+AFLJOGHH_00011_+_+_AFLJOGHH_00012_   0.0054  31-[+5]-40
+AFLJOGHH_00153_+_+_AFLJOGHH_00154_   0.0055  11-[+1]-19
+AFLJOGHH_00096_+_+_AFLJOGHH_00097_   0.0067  98-[+1]-19
+AFLJOGHH_00006_+_+_AFLJOGHH_00007_   0.0071  44-[+1]-24
+AFLJOGHH_00150_+_+_AFLJOGHH_00151_   0.0073  109-[+1]-21
+AFLJOGHH_00175_+_+_AFLJOGHH_00176_    0.008  56-[+1]-78
+AFLJOGHH_00137_+_+_AFLJOGHH_00138_   0.0085  59-[+5]-35
+AFLJOGHH_00145_+_+_AFLJOGHH_00146_   0.0095  5-[+1]-23
+AFLJOGHH_00034_+_+_AFLJOGHH_00035_    0.011  116-[+5]-43
+AFLJOGHH_00172_+_+_AFLJOGHH_00173_    0.013  578-[+1]-24
+AFLJOGHH_00009_+_+_AFLJOGHH_00010_    0.013  [+1]-20
+AFLJOGHH_00015_+_+_AFLJOGHH_00016_    0.015  96-[+1]-19
+AFLJOGHH_00019_+_+_AFLJOGHH_00020_    0.021  105-[+1]-412
+AFLJOGHH_00138_+_+_AFLJOGHH_00139_    0.023  56-[+1]-24
+AFLJOGHH_00143_+_+_AFLJOGHH_00144_    0.023  24-[+1]-19
+AFLJOGHH_00042_+_+_AFLJOGHH_00043_    0.056  12-[+5]-44
+AFLJOGHH_00133_+_+_AFLJOGHH_00134_     0.06  15-[+5]-139
+AFLJOGHH_00021_+_+_AFLJOGHH_00022_    0.078  6-[+1]-52
+AFLJOGHH_00158_+_+_AFLJOGHH_00159_     0.18  171-[+1]-27
+AFLJOGHH_00174_+_+_AFLJOGHH_00175_     0.78  44
+AFLJOGHH_00030_+_+_AFLJOGHH_00031_     0.81  18-[+5]-50
+AFLJOGHH_00102_+_+_AFLJOGHH_00103_        1  [+1]-16
+AFLJOGHH_00048_+_+_AFLJOGHH_00049_      1.1  47
+AFLJOGHH_00074_+_+_AFLJOGHH_00075_      1.6  174-[-2]-11
+AFLJOGHH_00110_+_+_AFLJOGHH_00111_      6.9  100-[-3]-47
+AFLJOGHH_00064_+_+_AFLJOGHH_00065_      8.3  8-[-3]-336
+AFLJOGHH_00057_+_+_AFLJOGHH_00058_      8.5  36
+
+********************************************************************************
+
+
+
+********************************************************************************
+SECTION III: ANNOTATED SEQUENCES
+********************************************************************************
+	- The positions and p-values of the non-overlapping motif occurrences
+	  are shown above the actual sequence for each of the high-scoring
+	  sequences from Section I.
+	- A motif occurrence is defined as a position in the sequence whose
+	  match to the motif has POSITION p-value less than 0.0001 as 
+	  defined in Section II.
+	- For each sequence, the first line specifies the name of the sequence.
+	- The second (and possibly more) lines give a description of the 
+	  sequence.
+	- Following the description line(s) is a line giving the length, 
+	  combined p-value, and E-value of the sequence as defined in Section I.
+	- The next line reproduces the motif diagram from Section II.
+	- The entire sequence is printed on the following lines.
+	- Motif occurrences are indicated directly above their positions in the
+	  sequence on lines showing
+	   o the motif number of the occurrence (a minus sign indicates that
+	  the occurrence is on the reverse complement strand),
+	   o the position p-value of the occurrence,
+	   o the best possible match to the motif (or its reverse complement), and
+	   o columns whose match to the motif has a positive score (indicated 
+	     by a plus sign).
+********************************************************************************
+
+
+AFLJOGHH_00013_+_+_AFLJOGHH_00014_+_+_CO_F
+  Cluster_96287
+  LENGTH = 130  COMBINED P-VALUE = 2.15e-20  E-VALUE =  2.7e-18
+  DIAGRAM: 9-[-3]-42-[+1]-19
+
+              [-3]                                                          [+1]
+              3.6e-11                                                       8.1e
+              ATCGTGCACCAATCCTGACT                                          GGGC
+              +++++++ ++++++++++++                                          ++++
+1    GCATTCAGAATCGTGCGCCAATCCTGACTGTTCTGGTAGTTAGGCACACTCTGCCTTTTTGTTTGTATCTAGGGG
+
+     
+     -18
+     TTCTGGCACACCCTAATCGGCCTGAAAATGGCTCCA
+     ++++++++++++++++++++  ++++ +++++++++
+76   TTCTGGCACACCCTATCTGCAATGAACATGGGTCCACTTACTAAGGAGTTAACCC
+
+
+AFLJOGHH_00178_+_+_AFLJOGHH_00179_+_+_CO_F
+  Cluster_5330
+  LENGTH = 658  COMBINED P-VALUE = 5.15e-15  E-VALUE =  6.4e-13
+  DIAGRAM: 172-[+4]-[+4]-[+4]-70-[+4]-44-[-2]-51-[+4]-9-[+4]-72-[+2]-27-[+2]-15
+
+                           [+4]                   [+4]                   [+4]
+                           5.2e-11                8.6e-06                3.2e-12
+                           GTAGGGCCCTGCAAACCTACAACGTAGGGCCCTGCAAACCTACAACGTAGGGC
+                           +++++++++++++ +++++++ + + +++++ + ++ ++++++ +++++++++
+151  GCTACGTGGATGTCAGCTAAAATTCAGGCCCTGCATACCTACATCATGGAGCGGAACAGACCTACTACTTAGGGC
+
+     
+     
+     CCTGCAAACCTACAAC
+     ++++++ +++++++++
+226  CCTCCAGACCTACAACGCTTATTTTTGGCCTGCATTTATCCACAAGTTTATCCACATTTACCCCCTTCCAGCACT
+
+                [+4]
+                8.6e-13
+                GTAGGGCCCTGCAAACCTACAAC
+                +++++++++++++++++++++++
+301  TCCAATGACCAGTTGAGCCCACCAAACCTACAACCCGATTGAGGTTAATTGGTGGATCTGGAAAGGCTCTCACCT
+
+        [-2]                                                                   [
+        1.7e-11                                                                3
+        GGGCCCACCAAACCTACAAC                                                   G
+        ++++++++++++++++++++                                                   +
+376  GTGCAGCGCACCAAACCTACAACTCTGCAGCAATTCAGGAGGTTTTTCTTCTGGTGTCAGTCGCCTCGAAATCGG
+
+     +4]                            [+4]
+     .6e-12                         1.5e-13
+     TAGGGCCCTGCAAACCTACAAC         GTAGGGCCCTGCAAACCTACAAC
+     +++++++++ ++++++++++++         +++++++++++++++++++++++
+451  TTGGGCGCATCAAACCTACAACCTGTTGAGTTTCGGGCCCTGCAAACCTACAACTTTTTCTCAGTTACACACAGG
+
+                                                        [+2]
+                                                        5.9e-12
+                                                        GTTGTAGGTTTGGTGGGCCC
+                                                        ++++++++++++++++++++
+526  CTTAGCCACAGGCCTCCCATGAGGAACAGTATCAAGCTATATCTGGCCTGAGTTGTAGGTTTGGTGCGCTCTTTA
+
+                            [+2]
+                            7.8e-12
+                            GTTGTAGGTTTGGTGGGCCC
+                            +++++++++++++++ ++++
+601  TCTGGGCAGTTCCAGCGTGTGGTGTTGTAGGTTTGGTGAGCCCTTGTTGGACCGTCCA
+
+
+AFLJOGHH_00146_+_+_AFLJOGHH_00147_+_+_CO_F
+  Cluster_42283
+  LENGTH = 254  COMBINED P-VALUE = 7.29e-13  E-VALUE =  9.1e-11
+  DIAGRAM: 1-[+5]-142-[+1]-27
+
+      [+5]
+      1.3e-11
+      TTTCGACACCCTGTTTTGGGTTGCAATTCGGGCGTAGGGCGTTA
+      +++ + ++++ +++++++++++++ +++++++++++++++ ++
+1    ATTTTGGCAACGTGTTTTGGGTAGTTGTGCTGGCACAGTGATGTTTTAATCAATTTGCCCAGGGGTGGGCATGCA
+
+                                          [+1]
+                                          4.3e-11
+                                          GGGCTTCTGGCACACCCTAATCGGCCTGAAAATGGCTC
+                                          + + ++++++++++++  ++++ ++ ++++ ++ ++ +
+151  CACGCCTACACCCCCAGGCGTGGGTTTTTTTTGGCCTGCGATTCTGGCACGCCGCAACTAGCTTGATGATTGGCC
+
+     
+     
+     CA
+     
+226  TCATTCAATTAGCCATCAGGATCCAGGTC
+
+
+AFLJOGHH_00179_+_+_AFLJOGHH_00180_+_+_DT
+  Cluster_9294
+  LENGTH = 545  COMBINED P-VALUE = 1.64e-12  E-VALUE =  2.1e-10
+  DIAGRAM: 93-[+2]-22-[+2]-143-[+2]-6-[+2]-40-[+2]-32-[+2]-16-[+2]-31-[+2]-2
+
+                       [+2]                                      [+2]
+                       3.4e-12                                   4.3e-11
+                       GTTGTAGGTTTGGTGGGCCC                      GTTGTAGGTTTGGTG
+                       ++++++++++++++++++++                      +++++++++++++ +
+76   TGCCTATGCAAATCGACCGTTGTAGGTTTGCTGCGCCCAATCTCAGAAAACTCAGCCCACGTTGTAGGTTTGCAG
+
+     
+     
+     GGCCC
+     +++++
+151  GGCCCTATTTCTTCACCATCACTCCCACCACGGCCACATAAATTGGGCTCAAGCTGCTACCCCTGAGGGGCTGTA
+
+                                                                              [+
+                                                                              1.
+                                                                              GT
+                                                                              +
+226  GACCAGACATGACATCAGCCTACGTGGTCTAGGTTTGAGTTTGTCCTGGACGCAGGTGGGGTGTTGGGGGAATGC
+
+     2]                      [+2]
+     0e-08                   5.5e-11
+     TGTAGGTTTGGTGGGCCC      GTTGTAGGTTTGGTGGGCCC
+     ++ +++++ + + +++++      ++++++++++++ +++++++
+301  TGCAGGTTGGATTGGCCGCCGTTGGTTGTAGGTTTGATGCGCTGCATTTACGAGGTAGCGCCGGCGGTTGTGAGC
+
+              [+2]                                                [+2]
+              1.5e-10                                             5.9e-12
+              GTTGTAGGTTTGGTGGGCCC                                GTTGTAGGTTTGGT
+              ++++++++++++  ++++++                                ++++++++++++++
+376  AGGAATAGGGTTGTAGGTTTGTGGGGCCCTATCTCATCGAGACTTGGCCACATCACTGTAGGTTGTAGGTTTGGT
+
+                           [+2]                                               [+
+                           1.8e-09                                            2.
+     GGGCCC                GTTGTAGGTTTGGTGGGCCC                               GT
+     ++++++                ++++++++++  +++++++                                ++
+451  GCGCTCTAGATGGGAACACAATGTTGTAGGTTCAGTGGGCCTGACCTAGTCAGACCCTGCATCCGTTCACGATGT
+
+     2]
+     0e-11
+     TGTAGGTTTGGTGGGCCC
+     +++++++++++ ++++++
+526  TGTAGGTTTGGCGGGCCCGA
+
+
+AFLJOGHH_00077_+_+_AFLJOGHH_00078_+_+_DP
+  Cluster_12549
+  LENGTH = 485  COMBINED P-VALUE = 4.91e-11  E-VALUE =  6.1e-09
+  DIAGRAM: 95-[+3]-3-[+3]-54-[+3]-12-[+3]-12-[+3]-22-[+3]-3-[+3]-82-[+1]-22
+
+                         [+3]                   [+3]
+                         1.1e-10                4.3e-09
+                         AGTCAGGATTGGTGCACGAT   AGTCAGGATTGGTGCACGAT
+                         ++++++ +++++++++++++   ++++++++++++++++
+76   TCTTTTCACCGCTATACAGTAGTAAGCATTGGTTCACGATAGTAGTCAGGATTGGTGCATTCACCCTTTGTATCT
+
+                                               [+3]                            [
+                                               8.1e-10                         3
+                                               AGTCAGGATTGGTGCACGAT            A
+                                               ++ +++++++++ +++++++            +
+151  CTAGTTATCCACAGAAATTCGGTCTAAATAGCAGCTTTCCTTAGCGAGGATTGGCTCACGATCAAGCTAAGGCTA
+
+     +3]                            [+3]                                      [+
+     .5e-10                         4.8e-11                                   1.
+     GTCAGGATTGGTGCACGAT            AGTCAGGATTGGTGCACGAT                      AG
+     ++++++ ++ +++++++++            +++++++++++++ ++ +++                      +
+226  GTGAGGTTTAGTTCACGATCAGTTCTTATACAGTAAGGATTGGTCCATGATTCCGGCTTCATTTTTGTCTCTTAA
+
+     3]                   [+3]
+     8e-09                2.0e-10
+     TCAGGATTGGTGCACGAT   AGTCAGGATTGGTGCACGAT
+     +++++++++ ++++++ +   +++++++ +++++ ++++ +
+301  TCAGGATTGATGCACGGTTGGAGTCAGGTTTGGTCCACGTTGATGCGCTGCAAGGCCCGCTGTCATTGGGTTCCT
+
+                                                     [+1]
+                                                     5.5e-10
+                                                     GGGCTTCTGGCACACCCTAATCGGCCT
+                                                     + +++++++++++++ +  ++  +
+376  GAGTTCCTTCCTTCTTTTGTCCTTTTCCTATTTATTCCTTTGATTTACCCGCTTCTGGCACGCGCCCTTACGTTG
+
+     
+     
+     GAAAATGGCTCCA
+     + ++++  + +++
+451  CTTAATACCCTCACATTCACTGCGAGGATTTCACT
+
+
+AFLJOGHH_00127_+_+_AFLJOGHH_00128_+_+_CO_F
+  Cluster_19281
+  LENGTH = 396  COMBINED P-VALUE = 5.14e-11  E-VALUE =  6.4e-09
+  DIAGRAM: 237-[+5]-40-[+1]-35
+
+                 [+5]
+                 1.3e-10
+                 TTTCGACACCCTGTTTTGGGTTGCAATTCGGGCGTAGGGCGTTA
+                 +++++  ++++++++++++ ++++  +++++   ++++++  ++
+226  AAACATCCTGAAATTCGGGAACCTGTTTTGGCTGGCGTTTCGGCTCCATATCAATACTATTTAGCCACTAGGCAT
+
+                          [+1]
+                          5.5e-10
+                          GGGCTTCTGGCACACCCTAATCGGCCTGAAAATGGCTCCA
+                          + +++  ++++++++ + +++  ++++ +++ ++ +
+301  ACGGAATAATCATATTTCGGGGTGCTGGTGGCACGCACAAACAAGCCTAAAACTGTGCGACATGAGCCGAACTCG
+
+
+AFLJOGHH_00025_+_+_AFLJOGHH_00026_+_+_CO_F
+  Cluster_37192
+  LENGTH = 275  COMBINED P-VALUE = 1.03e-10  E-VALUE =  1.3e-08
+  DIAGRAM: 85-[+2]-19-[+4]-60-[+1]-28
+
+               [+2]                                   [+4]
+               1.9e-08                                2.9e-10
+               GTTGTAGGTTTGGTGGGCCC                   GTAGGGCCCTGCAAACCTACAAC
+               + ++ ++++++++++   ++                   ++++++++ ++++++++   +++
+76   TCTTAAAATAGCTGCAGGTTTGCTGTATCGTCTCTGCAACATTCGGCGTGTAAGGCCTTGCAAACCACAAACGCT
+
+                                                              [+1]
+                                                              5.3e-05
+                                                              GGGCTTCTGGCACACCCT
+                                                               ++ +   + ++ ++
+151  ACTTGCTTCACCTTAGAATTTTCATGTGCCCCTACACGAAGGGTACGACCGGGCACCAGGATCGAGCCATGCAAA
+
+     
+     
+     AATCGGCCTGAAAATGGCTCCA
+     +++  +++    +   ++  +
+226  AATGAGCCGTCGACCTGGCACCCCAGATCGTTATGAGCCGCTAAATACCA
+
+
+AFLJOGHH_00148_+_+_AFLJOGHH_00149_+_+_DP
+  Cluster_85482
+  LENGTH = 147  COMBINED P-VALUE = 3.78e-10  E-VALUE =  4.7e-08
+  DIAGRAM: 82-[+1]-25
+
+            [+1]
+            2.4e-14
+            GGGCTTCTGGCACACCCTAATCGGCCTGAAAATGGCTCCA
+            ++++++++++++++  + +   +++ ++++ +++++++++
+76   TTGCTGGGGGGTTCTGGCACATGCGAGGAGGCATGAATATGGCTCCACCAAACACGCACTGGAGCTGTCACC
+
+
+AFLJOGHH_00119_+_+_AFLJOGHH_00120_+_+_CO_F
+  Cluster_92148
+  LENGTH = 136  COMBINED P-VALUE = 4.64e-10  E-VALUE =  5.8e-08
+  DIAGRAM: 15-[-2]-35-[+1]-26
+
+                    [-2]                                                   [+1]
+                    7.0e-05                                                1.4e-
+                    GGGCCCACCAAACCTACAAC                                   GGGCT
+                    ++++++ ++ +++ +  +                                     + +++
+1    CCGCTTGAATTGAATGAGCCCTCCCAACGTGGAGGGCTTTTGCTTTCTCGAAGGAAAATTTCATATGTTGCCGCT
+
+     
+     13
+     TCTGGCACACCCTAATCGGCCTGAAAATGGCTCCA
+     +++++++++++ ++  ++ +  +++++++++ +++
+76   TCTGGCACACCTTAGGTGACAGGAAAATGAGCCCATTCTGAAATTCAACGGAGACTCATTT
+
+
+AFLJOGHH_00020_+_+_AFLJOGHH_00021_+_+_CO_F
+  Cluster_129058
+  LENGTH = 83  COMBINED P-VALUE = 2.37e-09  E-VALUE =    3e-07
+  DIAGRAM: 1-[+5]-38
+
+      [+5]
+      4.8e-14
+      TTTCGACACCCTGTTTTGGGTTGCAATTCGGGCGTAGGGCGTTA
+      +++ + ++++++ +++++++ ++++++ +++++ ++++++++++
+1    TTTTAGGCACCCTCTTTTGGAGTGCAATATGGGACTTGATAGTTAAGCTCTAGATAACGTGGTTATCTGCAGGTG
+
+
+AFLJOGHH_00081_+_+_AFLJOGHH_00082_+_+_DP
+  Cluster_79227
+  LENGTH = 158  COMBINED P-VALUE = 2.90e-09  E-VALUE =  3.6e-07
+  DIAGRAM: 33-[-5]-[+5]-11-[-3]-6
+
+                                      [-5]
+                                      9.0e-07
+                                      TAACGCCCTACGCCCGAATTGCAACCCAAAACAGGGTGTCGA
+                                      + +++ +++ + +++ + + ++++ +++ ++++ + ++ + +
+1    GGTTCACCAGCGGTTTTATAGATCAAACCACTGTGCCTGTATTCCCCCTCTCAGCAAGCCATAACGCCCTTCCCG
+
+       [+5]                                                   [-3]
+       1.4e-12                                                3.2e-05
+     AATTTCGACACCCTGTTTTGGGTTGCAATTCGGGCGTAGGGCGTTA           ATCGTGCACCAATCCTGA
+     +++++ ++ +++ +++++++++++++++++++ ++  +++ +++++           +++ ++  +++   ++++
+76   AATTCTGATGAGGTGTTTTGGATTGTCATGTGTGCCGCGGCAGTTAGAATCTGCTCAATCATGGGCCAGAACTGA
+
+     
+     
+     CT
+     +
+151  CCATTGTC
+
+
+AFLJOGHH_00118_+_+_AFLJOGHH_00119_+_+_CO_F
+  Cluster_37861
+  LENGTH = 272  COMBINED P-VALUE = 8.85e-09  E-VALUE =  1.1e-06
+  DIAGRAM: 60-[-1]-108-[+1]-24
+
+                                                                 [-1]
+                                                                 7.7e-05
+                                                                 TGGAGCCATTTTCAG
+                                                                   + ++ +  + + +
+1    CATAACTGCTCGTTCGCGTTCCTCCCCTGATTAACTCCTTCAAGCACGATTCACCATATGCCACCTAAACAACCG
+
+     
+     
+     GCCGATTAGGGTGTGCCAGAAGCCC
+      + +   +   ++++++  ++++
+76   ACTGCCGATTCTGTGCCTCAAGCAAACGACATCAGCACTTTGATGTCCAGGTTTGGGCCAGCCACATTCCAACGA
+
+                                                               [+1]
+                                                               1.2e-13
+                                                               GGGCTTCTGGCACACCC
+                                                               ++++++++++++++++
+151  TCGGGATACTGGATCACAGGACGGCACCGACTTGCGTAGCTGAAGTGATCAATTTTTGGGGGTTCTGGCACACCA
+
+     
+     
+     TAATCGGCCTGAAAATGGCTCCA
+     + ++  + +++++ +++++++
+226  TGACATGACTGAAGATGACTTATCACTCAACTACAGGAAGTCCACAC
+
+
+AFLJOGHH_00139_+_+_AFLJOGHH_00140_+_+_CO_F
+  Cluster_129728
+  LENGTH = 82  COMBINED P-VALUE = 1.84e-08  E-VALUE =  2.3e-06
+  DIAGRAM: 13-[-3]-49
+
+                  [-3]
+                  4.4e-12
+                  ATCGTGCACCAATCCTGACT
+                  ++++++++++++++++++++
+1    AAACCGGGCACCTATCGTGCACCAATCCTTACTGTTTCAGCACACCGACAAAGATGGAATTCAGATTTCAGGAGC
+
+
+AFLJOGHH_00129_+_+_AFLJOGHH_00130_+_+_CO_F
+  Cluster_133323
+  LENGTH = 77  COMBINED P-VALUE = 6.67e-08  E-VALUE =  8.3e-06
+  DIAGRAM: 14-[+1]-23
+
+                   [+1]
+                   3.8e-12
+                   GGGCTTCTGGCACACCCTAATCGGCCTGAAAATGGCTCCA
+                   +++++++++ +++++   +  +    +++  ++ ++++++
+1    GCAATTCACCTCAACGGCTTCTGCCACACGAAAGACCAGTTGACCATTGCTCCATTAACTAACTGGAGCAAGTCC
+
+
+AFLJOGHH_00117_+_+_AFLJOGHH_00118_+_+_CO_F
+  Cluster_126392
+  LENGTH = 87  COMBINED P-VALUE = 2.17e-07  E-VALUE =  2.7e-05
+  DIAGRAM: 28-[+1]-19
+
+                                 [+1]
+                                 1.2e-11
+                                 GGGCTTCTGGCACACCCTAATCGGCCTGAAAATGGCTCCA
+                                  +++++++++++++ ++ ++++ +  ++++ ++ ++ ++
+1    GTTTGGGGGGCCGGCGATTCAGCCTCGCTGGCTTCTGGCACGACCGAATCACGATGAACATAAGGTCTCACTGAT
+
+
+AFLJOGHH_00076_+_+_AFLJOGHH_00077_+_+_CO_R
+  Cluster_21202
+  LENGTH = 376  COMBINED P-VALUE = 4.27e-07  E-VALUE =  5.3e-05
+  DIAGRAM: 253-[+3]-103
+
+                                 [+3]
+                                 2.9e-11
+                                 AGTCAGGATTGGTGCACGAT
+                                 ++++++++ +++++++++++
+226  AATATGTTCCAGGTGCAGGCAAATCAGAAGTCAGGAATGGTGCACGATTGCCGAGCCAAATCTTCTCTCGATACC
+
+
+AFLJOGHH_00160_+_+_AFLJOGHH_00161_+_+_CO_F
+  Cluster_5764
+  LENGTH = 643  COMBINED P-VALUE = 5.60e-07  E-VALUE =    7e-05
+  DIAGRAM: 107-[-1]-434-[+1]-22
+
+                                     [-1]
+                                     9.1e-05
+                                     TGGAGCCATTTTCAGGCCGATTAGGGTGTGCCAGAAGCCC
+                                     +++++      +++ ++ + +  +  + ++++  ++ +
+76   GCTCTTTACTACTTCGAAACCTGCATGCCTATTGGAGGTCCCCTCAAGCTGTAAGGACTATGCCTCAATCAACCT
+
+                                                             [+1]
+                                                             3.8e-12
+                                                             GGGCTTCTGGCACACCCTA
+                                                             + +++++++++++++++++
+526  AATTAGTGAATAGGCGCTTTCGTTGTATTTCACAGTTATGGAATCTCTCAAATGACCCGCTTCTGGCACACCCTA
+
+     
+     
+     ATCGGCCTGAAAATGGCTCCA
+     +   + +++++  +++  +
+601  AAGCCACTGATTCTGGTGCTTCCTAACAGCAGAGCACCTGATC
+
+
+AFLJOGHH_00141_+_+_AFLJOGHH_00142_+_+_CO_F
+  Cluster_127045
+  LENGTH = 86  COMBINED P-VALUE = 5.72e-07  E-VALUE =  7.2e-05
+  DIAGRAM: 28-[+1]-18
+
+                                 [+1]
+                                 1.5e-11
+                                 GGGCTTCTGGCACACCCTAATCGGCCTGAAAATGGCTCCA
+                                 + ++++++++++++  + ++ + +++ +++  ++++++++
+1    GAGCAACAGTAGGGCTTCAACGCACCAGCCGGTTCTGGCACGTACCAAGTTGCCGCATGCTGGCTTCATATTCAA
+
+
+AFLJOGHH_00123_+_+_AFLJOGHH_00124_+_+_CO_F
+  Cluster_127716
+  LENGTH = 85  COMBINED P-VALUE = 8.84e-07  E-VALUE =  0.00011
+  DIAGRAM: 6-[+1]-39
+
+           [+1]
+           1.4e-10
+           GGGCTTCTGGCACACCCTAATCGGCCTGAAAATGGCTCCA
+           +++ ++ ++++++++   +  +++++ ++ +++ ++++++
+1    TTCTGCGGGATTGTGGCACACAGAACATGGCCACAGAATTACTCCATCAAGCAATGACTTGGTAACAACTGAGGA
+
+
+AFLJOGHH_00187_+_+_AFLJOGHH_00188_+_+_CO_F
+  Cluster_135478
+  LENGTH = 74  COMBINED P-VALUE = 1.59e-06  E-VALUE =   0.0002
+  DIAGRAM: 10-[+1]-24
+
+               [+1]
+               5.5e-10
+               GGGCTTCTGGCACACCCTAATCGGCCTGAAAATGGCTCCA
+               + ++++ ++++++++ + ++++ ++++++  +++   +++
+1    TTTTGGTACACAGGTTTTGGCACACGCAATCCTGCCTCACCATGCAATCATTGAGTATTGATGAGGCAAGCATT
+
+
+AFLJOGHH_00086_+_+_AFLJOGHH_00087_+_+_CO_F
+  Cluster_106012
+  LENGTH = 116  COMBINED P-VALUE = 2.40e-06  E-VALUE =   0.0003
+  DIAGRAM: 53-[+1]-23
+
+                                                          [+1]
+                                                          1.2e-10
+                                                          GGGCTTCTGGCACACCCTAATC
+                                                           ++++++++++++++  + ++
+1    CTCGAATCCCTACTTAGGTTTTGTACTGGATTTAAAGAGAAATACGGACGCTCAGGGTTCTGGCACACAGTTATG
+
+     
+     
+     GGCCTGAAAATGGCTCCA
+      +    + +++  + +++
+76   AGGTCAACAATTTGCCCATCCCAACATAACGAGATCCTCCC
+
+
+AFLJOGHH_00073_+_+_AFLJOGHH_00074_+_+_DP
+  Cluster_70784
+  LENGTH = 175  COMBINED P-VALUE = 2.59e-06  E-VALUE =  0.00032
+  DIAGRAM: 96-[+5]-35
+
+                          [+5]
+                          2.4e-12
+                          TTTCGACACCCTGTTTTGGGTTGCAATTCGGGCGTAGGGCGTTA
+                          ++++++++++++ ++++++  ++++++  ++  +++++ +++++
+76   CAGTGCTGGGATTCTCATGAATTCCGACGACCCCTTTTGGCGTGCAATCGAAATATCAGCCGTTATCCTCGGAGG
+
+
+AFLJOGHH_00157_+_+_AFLJOGHH_00158_+_+_CO_F
+  Cluster_124274
+  LENGTH = 90  COMBINED P-VALUE = 3.00e-06  E-VALUE =  0.00038
+  DIAGRAM: 25-[+1]-25
+
+                              [+1]
+                              8.9e-12
+                              GGGCTTCTGGCACACCCTAATCGGCCTGAAAATGGCTCCA
+                              +++++++++ ++++   + ++++  ++++++++ ++ +++
+1    TTTACCTCGTACGCCTACTCTTCCAGGGGTTCTGCCACATAATTTCCGATCTGAAAATAGCCTCATTCACTACAT
+
+
+AFLJOGHH_00132_+_+_AFLJOGHH_00133_+_+_CO_F
+  Cluster_134013
+  LENGTH = 76  COMBINED P-VALUE = 3.82e-06  E-VALUE =  0.00048
+  DIAGRAM: 10-[+1]-26
+
+               [+1]
+               2.9e-08
+               GGGCTTCTGGCACACCCTAATCGGCCTGAAAATGGCTCCA
+               +++ ++++++++ +++  ++++ +  ++++  +    +
+1    GTCCACGCGGGGGATTCTGGCATGCCTGAATCCCATTCAATCTTCAACTTCTAGCCATCCAGAAAGTGAGCCAAT
+
+
+AFLJOGHH_00116_+_+_AFLJOGHH_00117_+_+_CO_F
+  Cluster_61049
+  LENGTH = 197  COMBINED P-VALUE = 7.20e-06  E-VALUE =   0.0009
+  DIAGRAM: 32-[+5]-43-[+5]-34
+
+                                     [+5]
+                                     2.8e-08
+                                     TTTCGACACCCTGTTTTGGGTTGCAATTCGGGCGTAGGGCGTT
+                                      ++++++  ++++++++ ++++ +++ ++++++++++++ ++
+1    GCGAGATCGATACGGCACGGGCTTTGGAGCTTCTTCAACTTGTCGTTTTCGGTGCCAAATCGAGCATCGGGTGTC
+
+                                                 [+5]
+                                                 2.6e-10
+     A                                           TTTCGACACCCTGTTTTGGGTTGCAATTCGG
+                                                 +++++ +++ + ++++++++++++++ + ++
+76   CTTCCTGATCCGTATTCGTCATGAGCATGGAATTTGATCCGGAATTCCATAACATGGTTTTGGGTTGCAGAGAGG
+
+     
+     
+     GCGTAGGGCGTTA
+     +++++++++ + +
+151  GCGCTATTCTTCAAAATGAGGCATCACTAGTTCATTGAGATCCTCAC
+
+
+AFLJOGHH_00026_+_+_AFLJOGHH_00027_+_+_CO_F
+  Cluster_127715
+  LENGTH = 85  COMBINED P-VALUE = 1.00e-05  E-VALUE =   0.0013
+  DIAGRAM: 8-[+5]-33
+
+             [+5]
+             3.1e-10
+             TTTCGACACCCTGTTTTGGGTTGCAATTCGGGCGTAGGGCGTTA
+             +++ ++++++ + +++++  ++++ ++++++ + ++++++++++
+1    GCTTCGAATTCGGACGCCACCTTTTGACTGGTGATTCTGAATCTTTGCGGTACGTTGTCCTCAAGTATTCCAGGA
+
+
+AFLJOGHH_00147_+_+_AFLJOGHH_00148_+_+_DT
+  Cluster_77099
+  LENGTH = 162  COMBINED P-VALUE = 1.08e-05  E-VALUE =   0.0014
+  DIAGRAM: 33-[+5]-85
+
+                                      [+5]
+                                      3.3e-11
+                                      TTTCGACACCCTGTTTTGGGTTGCAATTCGGGCGTAGGGCGT
+                                      +   +++  + +++++++++++++++++++++++++++ +++
+1    ACCATGCCCGTACAGCGGCAGACGCGCGACGAAAAAGAAATGGGTGTTTTGGGTGGTCATTCAAGAACAAGCCGT
+
+     
+     
+     TA
+     ++
+76   TACTCTGTAGAACAGGTGCCAAGGATGACACCCAGTCTCATCGTGTTAAGTAATCCGCGTCCCCTCCGCGGTCCT
+
+
+AFLJOGHH_00180_+_+_AFLJOGHH_00181_+_+_DP
+  Cluster_53177
+  LENGTH = 218  COMBINED P-VALUE = 1.17e-05  E-VALUE =   0.0015
+  DIAGRAM: 155-[+1]-23
+
+          [+1]
+          3.8e-11
+          GGGCTTCTGGCACACCCTAATCGGCCTGAAAATGGCTCCA
+          + +++++++ +++++  + +++++++ ++  ++++++++
+151  GTAGTCTGCTTCTGCCACACATTCTCTGCCCCCACCATGGCTTCCCAATTTTTAGGCAGGATTGATCC
+
+
+AFLJOGHH_00184_+_+_AFLJOGHH_00185_+_+_CO_F
+  Cluster_67415
+  LENGTH = 182  COMBINED P-VALUE = 1.27e-05  E-VALUE =   0.0016
+  DIAGRAM: 117-[+1]-25
+
+                                               [+1]
+                                               3.0e-10
+                                               GGGCTTCTGGCACACCCTAATCGGCCTGAAAAT
+                                                ++++++++ +++ + ++  +++ +++++  ++
+76   CTCTACCTGGGCAACCGACCTTGCGCTGAAACATCAGCCTAAAGGCTTCTGCCACTCTCTGGCCGACCTCACCAT
+
+     
+     
+     GGCTCCA
+     ++ ++
+151  GGATCATCGAATCCAAGCCAGGAATCCACACC
+
+
+AFLJOGHH_00121_+_+_AFLJOGHH_00122_+_+_CO_F
+  Cluster_140807
+  LENGTH = 67  COMBINED P-VALUE = 1.62e-05  E-VALUE =    0.002
+  DIAGRAM: 7-[+1]-20
+
+            [+1]
+            9.0e-10
+            GGGCTTCTGGCACACCCTAATCGGCCTGAAAATGGCTCCA
+            + +++++++ +++++ + +  + +  +++ +++++   +
+1    TTTTCAAGAGCTTCTGCCACGCGCAACACACTATGACAATGATGACCATCAACTAAGAGGGCGCATC
+
+
+AFLJOGHH_00135_+_+_AFLJOGHH_00136_+_+_CO_F
+  Cluster_136221
+  LENGTH = 73  COMBINED P-VALUE = 1.63e-05  E-VALUE =    0.002
+  DIAGRAM: 11-[+1]-22
+
+                [+1]
+                5.5e-10
+                GGGCTTCTGGCACACCCTAATCGGCCTGAAAATGGCTCCA
+                + ++++++++++++ +   ++++++     ++++++ + +
+1    GTGGATTGTCCCCGGTTCTGGCACGTCAACATCGGCGGTTCAATGGGGTAAATCACTTCTAGGAATTGCTACG
+
+
+AFLJOGHH_00182_+_+_AFLJOGHH_00183_+_+_CO_F
+  Cluster_134014
+  LENGTH = 76  COMBINED P-VALUE = 1.84e-05  E-VALUE =   0.0023
+  DIAGRAM: 17-[+1]-19
+
+                      [+1]
+                      1.2e-09
+                      GGGCTTCTGGCACACCCTAATCGGCCTGAAAATGGCTCCA
+                      +++++  +++++++ +    ++ ++ ++++ +++ + +++
+1    AAAGCGATACACCAATTCGGGTAGTGGCACGACACCGTCTGCTTGATTATGTGCTCATCGGATTGAGGAGACGTG
+
+
+AFLJOGHH_00131_+_+_AFLJOGHH_00132_+_+_CO_F
+  Cluster_124273
+  LENGTH = 90  COMBINED P-VALUE = 2.06e-05  E-VALUE =   0.0026
+  DIAGRAM: 29-[+1]-21
+
+                                  [+1]
+                                  9.9e-10
+                                  GGGCTTCTGGCACACCCTAATCGGCCTGAAAATGGCTCCA
+                                  + +++++++++++++  +   ++++++  ++++ ++   +
+1    AAAATCCGGTTGAATTAAATCTGTTCCGCCCGCTTCTGGCACACGTTGGACGCCCTTTTAATAAGGGTATCAACT
+
+
+AFLJOGHH_00039_+_+_AFLJOGHH_00040_+_+_CO_F
+  Cluster_102470
+  LENGTH = 121  COMBINED P-VALUE = 3.35e-05  E-VALUE =   0.0042
+  DIAGRAM: 63-[+1]-18
+
+                                                                    [+1]
+                                                                    4.1e-09
+                                                                    GGGCTTCTGGCA
+                                                                     ++++++++ ++
+1    AAACGATCGGACAGCTCAATCGAGCCGTAATCTGAGTTGGGGCCTAGCCCCTTTTTTGGTGTGAGGCTTCTGCCA
+
+     
+     
+     CACCCTAATCGGCCTGAAAATGGCTCCA
+     +++   ++ + +      ++++++ + +
+76   CGCGACAAGTACGTCTCCAATGGGGTTAATTTCTAGGAGTGTACTC
+
+
+AFLJOGHH_00016_+_+_AFLJOGHH_00017_+_+_CO_F
+  Cluster_130455
+  LENGTH = 81  COMBINED P-VALUE = 3.63e-05  E-VALUE =   0.0045
+  DIAGRAM: 20-[+1]-21
+
+                         [+1]
+                         5.2e-08
+                         GGGCTTCTGGCACACCCTAATCGGCCTGAAAATGGCTCCA
+                           +++  ++++++++++   +  ++ + +++   + ++++
+1    CGAATTTTGACGTCCTGTTCTCGCTGGTGGCACGCCCAGCCACCCGTAAAATCAATTCCATCATCTAAAGAGACA
+
+
+AFLJOGHH_00011_+_+_AFLJOGHH_00012_+_+_CO_F
+  Cluster_106675
+  LENGTH = 115  COMBINED P-VALUE = 4.33e-05  E-VALUE =   0.0054
+  DIAGRAM: 31-[+5]-40
+
+                                    [+5]
+                                    2.2e-09
+                                    TTTCGACACCCTGTTTTGGGTTGCAATTCGGGCGTAGGGCGTTA
+                                    ++++++ + +++ +++++++++++++ +++   ++++ + +++
+1    AGTCACTGCTAATTCAGCATCCACCTGATGGTTTCACTAGCCCATTTTGGATAGCAGGTTATCGGTCGCTGGGTC
+
+
+AFLJOGHH_00153_+_+_AFLJOGHH_00154_+_+_CO_F
+  Cluster_138505
+  LENGTH = 70  COMBINED P-VALUE = 4.36e-05  E-VALUE =   0.0055
+  DIAGRAM: 11-[+1]-19
+
+                [+1]
+                1.1e-09
+                GGGCTTCTGGCACACCCTAATCGGCCTGAAAATGGCTCCA
+                +++++++++ ++++ ++  + + +++ +++ ++ + ++
+1    TAACCCCACATGGGCTTCTGCCACAACCATTACACCCCGATTATCAATCACTCACTGATCGGGGCTCATC
+
+
+AFLJOGHH_00096_+_+_AFLJOGHH_00097_+_+_CO_F
+  Cluster_79792
+  LENGTH = 157  COMBINED P-VALUE = 5.36e-05  E-VALUE =   0.0067
+  DIAGRAM: 98-[+1]-19
+
+                            [+1]
+                            2.7e-09
+                            GGGCTTCTGGCACACCCTAATCGGCCTGAAAATGGCTCCA
+                            + ++++++++++++  ++ ++ ++  + ++ +++++
+76   TGGTTAATAATTGATCAGCACGACTGGTTCTGGCACATTCTTTTGGCAGTAATTATGGGCAATACCTCAAAGGGA
+
+
+AFLJOGHH_00006_+_+_AFLJOGHH_00007_+_+_CO_F
+  Cluster_111607
+  LENGTH = 108  COMBINED P-VALUE = 5.70e-05  E-VALUE =   0.0071
+  DIAGRAM: 44-[+1]-24
+
+                                                 [+1]
+                                                 9.8e-09
+                                                 GGGCTTCTGGCACACCCTAATCGGCCTGAAA
+                                                 + +++  ++++++++ +   ++ +   +++
+1    CGAGGATTCGGTGATCCTGGGCTGTTCGAAATAATCCTCTCTGCCTGCTCGTGGCACGCTCGGCCTTGGGGGAAC
+
+     
+     
+     ATGGCTCCA
+     +++++ +++
+76   ATGGCATCAATACAGCCAACCGGACTTTCCCCC
+
+
+AFLJOGHH_00150_+_+_AFLJOGHH_00151_+_+_CO_F
+  Cluster_73067
+  LENGTH = 170  COMBINED P-VALUE = 5.82e-05  E-VALUE =   0.0073
+  DIAGRAM: 109-[+1]-21
+
+                                       [+1]
+                                       8.0e-08
+                                       GGGCTTCTGGCACACCCTAATCGGCCTGAAAATGGCTCCA
+                                        ++++  +++++++     +++ + + ++ +++    + +
+76   CACAACCAGAAGTCCTGAAAATGCTGCCTCGTTTTGGCTGGTGGCACAAAGCCTTTCCACACACAATCCAATTAC
+
+
+AFLJOGHH_00175_+_+_AFLJOGHH_00176_+_+_DP
+  Cluster_71222
+  LENGTH = 174  COMBINED P-VALUE = 6.39e-05  E-VALUE =    0.008
+  DIAGRAM: 56-[+1]-78
+
+                                                             [+1]
+                                                             6.1e-11
+                                                             GGGCTTCTGGCACACCCTA
+                                                             +++++++++++++++++
+1    TGCGCCGAGTCCTTACTACTTGATAGTGCGCCCAGTGTAACCCGCATTCGCCCGGGGGGCTTCTGGCACGCCCCC
+
+     
+     
+     ATCGGCCTGAAAATGGCTCCA
+     +++    ++++ +++++++
+76   TTCAAAATGATGATGACTCGGTTAGTGGCCAAGGCGACTTCGCCGTCCACATCGTTTTTATAACAACTCGGTATG
+
+
+AFLJOGHH_00137_+_+_AFLJOGHH_00138_+_+_CO_F
+  Cluster_90936
+  LENGTH = 138  COMBINED P-VALUE = 6.83e-05  E-VALUE =   0.0085
+  DIAGRAM: 59-[+5]-35
+
+                                                                [+5]
+                                                                2.0e-08
+                                                                TTTCGACACCCTGTTT
+                                                                ++++++++++++ +++
+1    GCAGGGATCGGCCCCTGCTTTTAGGTGCAACTTCGATGCTCCGCATTGTCTACCCGGAAATCCACAACCCCATTT
+
+     
+     
+     TGGGTTGCAATTCGGGCGTAGGGCGTTA
+     ++++++  ++ + ++   ++++ +  +
+76   TGGGTTTGCACTGGGATCTCAAAACCTCAAGATGCGTCGGCCCCCAATCCCCGGTACGAATTG
+
+
+AFLJOGHH_00145_+_+_AFLJOGHH_00146_+_+_CO_F
+  Cluster_140052
+  LENGTH = 68  COMBINED P-VALUE = 7.58e-05  E-VALUE =   0.0095
+  DIAGRAM: 5-[+1]-23
+
+          [+1]
+          2.2e-09
+          GGGCTTCTGGCACACCCTAATCGGCCTGAAAATGGCTCCA
+          + +++++++++++++ +  +     +++++  ++    +
+1    CATCCGCGGTTCTGGCACGCACGCAAGTATCTGATCCTGTTAGCTCTTTAGCTCACTGAGGCATTGCT
+
+
+AFLJOGHH_00034_+_+_AFLJOGHH_00035_+_+_DP
+  Cluster_58645
+  LENGTH = 203  COMBINED P-VALUE = 8.64e-05  E-VALUE =    0.011
+  DIAGRAM: 116-[+5]-43
+
+                                              [+5]
+                                              4.2e-10
+                                              TTTCGACACCCTGTTTTGGGTTGCAATTCGGGCG
+                                              +   +++ + ++++++++++++++ + ++++ ++
+76   GAAATTTGAGAGCACTCGTTGCGCTCTGTTGATTGATTAAAAAAAGCACCATCGTTTTGGGTAGCTACTCTACCG
+
+     
+     
+     TAGGGCGTTA
+     ++++++++++
+151  TTTATCGGTAACCATGGCCCCGCATGGAGCTCCAATTTCCCCGAGGTTGAGAA
+
+
+AFLJOGHH_00172_+_+_AFLJOGHH_00173_+_+_CO_F
+  Cluster_5795
+  LENGTH = 642  COMBINED P-VALUE = 1.03e-04  E-VALUE =    0.013
+  DIAGRAM: 578-[+1]-24
+
+                                                          [+1]
+                                                          2.5e-09
+                                                          GGGCTTCTGGCACACCCTAATC
+                                                          + +++++++++++ +    +++
+526  CACGATAAAGGCACCTTGTGAATACGGCGAGCCAAAATGCCGTAACCAAAATGGTGGTTCTGGCACTCAGCCACT
+
+     
+     
+     GGCCTGAAAATGGCTCCA
+      ++  ++ + + +++++
+601  CGCTAGAGACTCACTCCTATAGCTCAATCATGGAGTGCTCCA
+
+
+AFLJOGHH_00009_+_+_AFLJOGHH_00010_+_+_CO_F
+  Cluster_146485
+  LENGTH = 60  COMBINED P-VALUE = 1.04e-04  E-VALUE =    0.013
+  DIAGRAM: [+1]-20
+
+     [+1]
+     1.3e-09
+     GGGCTTCTGGCACACCCTAATCGGCCTGAAAATGGCTCCA
+      ++++++++ +++++  +  ++ + + ++  ++++  ++
+1    AGGCTTCTGCCACGCGATTCCCCGGCCGAGTATGGTCTCCACAACTTCGGAGACCATCGA
+
+
+AFLJOGHH_00015_+_+_AFLJOGHH_00016_+_+_DP
+  Cluster_80874
+  LENGTH = 155  COMBINED P-VALUE = 1.16e-04  E-VALUE =    0.015
+  DIAGRAM: 96-[+1]-19
+
+                          [+1]
+                          6.7e-09
+                          GGGCTTCTGGCACACCCTAATCGGCCTGAAAATGGCTCCA
+                          +++++++++++++++     +  ++ + + +  +   +
+76   TCCCCTTGCTCTGCTTGAGCTGGGCTTCTGGCACGCGGCGGCATCCATAAGATGGCTCCACCACCTATATGGAGT
+
+
+AFLJOGHH_00019_+_+_AFLJOGHH_00020_+_+_CO_F
+  Cluster_8784
+  LENGTH = 557  COMBINED P-VALUE = 1.68e-04  E-VALUE =    0.021
+  DIAGRAM: 105-[+1]-412
+
+                                   [+1]
+                                   1.2e-09
+                                   GGGCTTCTGGCACACCCTAATCGGCCTGAAAATGGCTCCA
+                                     ++++++++++++++ + ++  +  +++ + + ++++
+76   TCACAGCCTTATTCAGGTTGTGGGGGTTTTTTGCTTCTGGCACACCTTGATGCCTATCAGACTAGCTCTGAACCT
+
+
+AFLJOGHH_00138_+_+_AFLJOGHH_00139_+_+_CO_F
+  Cluster_103163
+  LENGTH = 120  COMBINED P-VALUE = 1.87e-04  E-VALUE =    0.023
+  DIAGRAM: 56-[+1]-24
+
+                                                             [+1]
+                                                             5.5e-08
+                                                             GGGCTTCTGGCACACCCTA
+                                                              +++++  ++++++ +
+1    GTCAGCGAACACACTGGGGGCGGATAAAAAGATTCTGCATGCAGAATCTTTCTGTGAGGGTTGGGGCACATCTGT
+
+     
+     
+     ATCGGCCTGAAAATGGCTCCA
+     ++  +  + + + + ++  ++
+76   TTACGGTTAAGACTTACCGCACAAATTCAGAGCGAGTGATGCGTA
+
+
+AFLJOGHH_00143_+_+_AFLJOGHH_00144_+_+_CO_F
+  Cluster_129059
+  LENGTH = 83  COMBINED P-VALUE = 1.88e-04  E-VALUE =    0.023
+  DIAGRAM: 24-[+1]-19
+
+                             [+1]
+                             2.2e-09
+                             GGGCTTCTGGCACACCCTAATCGGCCTGAAAATGGCTCCA
+                             +++++++++ +++++  + +++ +   +++  ++ +++
+1    AGCTTTACCCATGATCGACAAGCACGGCTTCTGCCACACTGTGATCAGGGGCAATGTGTCTCATCAATTTAGAGG
+
+
+AFLJOGHH_00042_+_+_AFLJOGHH_00043_+_+_CO_F
+  Cluster_117278
+  LENGTH = 100  COMBINED P-VALUE = 4.48e-04  E-VALUE =    0.056
+  DIAGRAM: 12-[+5]-44
+
+                 [+5]
+                 7.1e-09
+                 TTTCGACACCCTGTTTTGGGTTGCAATTCGGGCGTAGGGCGTTA
+                 +++ ++   +++  ++++ ++++ ++   + + +++++++++++
+1    CCAAGCTCTAATTTCTGAGCGGTTCCTTTGAGTTGGCAAAGGCGGGCAGTGCGTTACCCTGTTCGCCTTCATTAA
+
+
+AFLJOGHH_00133_+_+_AFLJOGHH_00134_+_+_CO_F
+  Cluster_60628
+  LENGTH = 198  COMBINED P-VALUE = 4.82e-04  E-VALUE =     0.06
+  DIAGRAM: 15-[+5]-139
+
+                    [+5]
+                    1.6e-08
+                    TTTCGACACCCTGTTTTGGGTTGCAATTCGGGCGTAGGGCGTTA
+                    ++ ++++ ++++  ++++++++ ++ ++ + +++++++ +++
+1    ACACAACTGGGGGCTATGCGCCCACCCAGTTTGGGTAACATTGAATGCGCTTGCAGTCGGTAGACCCCGATGCTT
+
+
+AFLJOGHH_00021_+_+_AFLJOGHH_00022_+_+_CO_F
+  Cluster_118664
+  LENGTH = 98  COMBINED P-VALUE = 6.26e-04  E-VALUE =    0.078
+  DIAGRAM: 6-[+1]-52
+
+           [+1]
+           1.7e-07
+           GGGCTTCTGGCACACCCTAATCGGCCTGAAAATGGCTCCA
+            ++++  ++ ++++ +  +  +     ++   +    +++
+1    CCCACTAGGGTGGTGCCACATCAAAGGTCATGCCACGCTATAGTCAAACACGGCGGTTGCTATTTACCCGCCTCA
+
+
+AFLJOGHH_00158_+_+_AFLJOGHH_00159_+_+_CO_F
+  Cluster_46863
+  LENGTH = 238  COMBINED P-VALUE = 1.47e-03  E-VALUE =     0.18
+  DIAGRAM: 171-[+1]-27
+
+                          [+1]
+                          1.4e-07
+                          GGGCTTCTGGCACACCCTAATCGGCCTGAAAATGGCTCCA
+                           +++++  +++++++ +++++ ++     ++  ++  +
+151  TTTCGATCCAGATGGATGACCAGGCTTGAGGCACACGCTAATAGCAAGACAATGGGTGCACTCAACTTCTGAATA
+
+
+AFLJOGHH_00174_+_+_AFLJOGHH_00175_+_+_DT
+  Cluster_158617
+  LENGTH = 44  COMBINED P-VALUE = 6.24e-03  E-VALUE =     0.78
+  DIAGRAM: 44
+
+
+AFLJOGHH_00030_+_+_AFLJOGHH_00031_+_+_CO_F
+  Cluster_108799
+  LENGTH = 112  COMBINED P-VALUE = 6.51e-03  E-VALUE =     0.81
+  DIAGRAM: 18-[+5]-50
+
+                       [+5]
+                       1.9e-07
+                       TTTCGACACCCTGTTTTGGGTTGCAATTCGGGCGTAGGGCGTTA
+                       +++ ++ ++++++ + ++++++  +++ +++ + +++++ +
+1    CCTCTCGCTTGGGCAGTTTTTAACTGCCCTGGTATGGATTTGCGTCTTGCATTAGGGGGAGTATTTTGTAGCCCG
+
+
+AFLJOGHH_00102_+_+_AFLJOGHH_00103_+_+_CO_F
+  Cluster_149796
+  LENGTH = 56  COMBINED P-VALUE = 8.34e-03  E-VALUE =        1
+  DIAGRAM: [+1]-16
+
+     [+1]
+     4.0e-06
+     GGGCTTCTGGCACACCCTAATCGGCCTGAAAATGGCTCCA
+     ++++++++++++++   + +   ++ +  +   + + + +
+1    GGGCTTCTGGCACGTGATTTAGCGCATAGAGTGGTCCCGACCATGAGGATCACACT
+
+
+AFLJOGHH_00048_+_+_AFLJOGHH_00049_+_+_CO_F
+  Cluster_156089
+  LENGTH = 47  COMBINED P-VALUE = 8.95e-03  E-VALUE =      1.1
+  DIAGRAM: 47
+
+
+AFLJOGHH_00074_+_+_AFLJOGHH_00075_+_+_CO_F
+  Cluster_57851
+  LENGTH = 205  COMBINED P-VALUE = 1.25e-02  E-VALUE =      1.6
+  DIAGRAM: 174-[-2]-11
+
+                             [-2]
+                             9.0e-05
+                             GGGCCCACCAAACCTACAAC
+                             ++++   ++++ +  +++ +
+151  GCACGGGTAACCCCTAATGGACCACAGCAATCCAAGCACACAGCAACTCCCTGGG
+
+
+AFLJOGHH_00110_+_+_AFLJOGHH_00111_+_+_CO_F
+  Cluster_74557
+  LENGTH = 167  COMBINED P-VALUE = 5.55e-02  E-VALUE =      6.9
+  DIAGRAM: 100-[-3]-47
+
+                              [-3]
+                              8.4e-05
+                              ATCGTGCACCAATCCTGACT
+                              + + ++++  +++ ++++
+76   TTGTCGTTTATTGTATTTTGGCTTGACCTTGCATTAATTCTCATGTCGGGTATACCTGTGTATCCGTTACACGAC
+
+
+AFLJOGHH_00064_+_+_AFLJOGHH_00065_+_+_CO_F
+  Cluster_22590
+  LENGTH = 364  COMBINED P-VALUE = 6.66e-02  E-VALUE =      8.3
+  DIAGRAM: 8-[-3]-336
+
+             [-3]
+             4.8e-05
+             ATCGTGCACCAATCCTGACT
+             +   +++++  +++++++ +
+1    TTCGCACCAGGCTGAACTCATCCTCATTTTTGCCTTATCTAGGCTTGCCCTGTGCGCGTGGAGCAACCGCATAAA
+
+
+AFLJOGHH_00057_+_+_AFLJOGHH_00058_+_+_CO_R
+  Cluster_164534
+  LENGTH = 36  COMBINED P-VALUE = 6.81e-02  E-VALUE =      8.5
+  DIAGRAM: 36
+
+********************************************************************************
+
+
+CPU: DESKTOP-IR6DELM
+Time 0.035 secs.
+
+mast -mev 0.05 -remcorr -oc mastout_remcorr/GCA_002888575.1_ASM288857v1_genomic motifpredbothigrs/GCA_002888575.1_ASM288857v1_genomic/meme.html bothigrs/GCA_002888575.1_ASM288857v1_genomic_IGRs.fna

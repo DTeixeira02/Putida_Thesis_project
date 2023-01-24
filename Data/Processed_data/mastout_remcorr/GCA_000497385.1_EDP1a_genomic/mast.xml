@@ -1,0 +1,3058 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<mast version="5.5.0" release="Wed Sep 7 14:18:26 2022 -0700">
+	<command_line><arg>mast</arg><arg>-mev</arg><arg>0.05</arg><arg>-remcorr</arg><arg>-oc</arg><arg>mastout_remcorr/GCA_000497385.1_EDP1a_genomic</arg><arg>motifpredbothigrs/GCA_000497385.1_EDP1a_genomic/meme.html</arg><arg>bothigrs/GCA_000497385.1_EDP1a_genomic_IGRs.fna</arg></command_line>
+	<settings strand_handling="combine" max_correlation="0.60" remove_correlated="y" max_seq_evalue="10" adjust_hit="n" max_hit_pvalue="0.0001" max_weak_pvalue="0.0001"/>
+	<alphabet name="DNA" like="dna">
+		<letter id="A" symbol="A" complement="T" name="Adenine" colour="CC0000"/>
+		<letter id="C" symbol="C" complement="G" name="Cytosine" colour="0000CC"/>
+		<letter id="G" symbol="G" complement="C" name="Guanine" colour="FFB300"/>
+		<letter id="T" symbol="T" aliases="U" complement="A" name="Thymine" colour="008000"/>
+		<letter id="N" symbol="N" aliases="X." equals="ACGT" name="Any base"/>
+		<letter id="V" symbol="V" equals="ACG" name="Not T"/>
+		<letter id="H" symbol="H" equals="ACT" name="Not G"/>
+		<letter id="D" symbol="D" equals="AGT" name="Not C"/>
+		<letter id="B" symbol="B" equals="CGT" name="Not A"/>
+		<letter id="M" symbol="M" equals="AC" name="Amino"/>
+		<letter id="R" symbol="R" equals="AG" name="Purine"/>
+		<letter id="W" symbol="W" equals="AT" name="Weak"/>
+		<letter id="S" symbol="S" equals="CG" name="Strong"/>
+		<letter id="Y" symbol="Y" equals="CT" name="Pyrimidine"/>
+		<letter id="K" symbol="K" equals="GT" name="Keto"/>
+	</alphabet>
+	<background source="--nrdb--" A="0.274262" C="0.22521" G="0.22521" T="0.274262"/>
+	<motif_dbs>
+		<motif_db source="motifpredbothigrs/GCA_000497385.1_EDP1a_genomic/meme.html" last_mod_date="Wed Nov 16 19:06:21 2022">
+			<background A="0.2135" C="0.2865" G="0.2865" T="0.2135"/>
+		</motif_db>
+	</motif_dbs>
+	<motifs>
+		<motif db="0" id="HGGGGCCGCDNNGCGGCCCMD" alt="MEME-1" length="21" nsites="123" evalue="1.4e-051">
+			<pos A="89" C="-44" G="-314" T="75"/>
+			<pos A="3" C="-256" G="82" T="10"/>
+			<pos A="-214" C="-1359" G="173" T="-1359"/>
+			<pos A="-1359" C="-514" G="179" T="-1359"/>
+			<pos A="-1359" C="-1359" G="181" T="-1359"/>
+			<pos A="-1359" C="165" G="-1359" T="-112"/>
+			<pos A="-1359" C="123" G="-513" T="58"/>
+			<pos A="-1359" C="-1359" G="181" T="-1359"/>
+			<pos A="-1359" C="163" G="-413" T="-112"/>
+			<pos A="13" C="-97" G="-38" T="91"/>
+			<pos A="15" C="-48" G="-26" T="59"/>
+			<pos A="36" C="11" G="-68" T="15"/>
+			<pos A="-272" C="-356" G="171" T="-470"/>
+			<pos A="-1359" C="180" G="-1359" T="-1359"/>
+			<pos A="49" C="-514" G="126" T="-470"/>
+			<pos A="-314" C="-414" G="175" T="-1359"/>
+			<pos A="-1359" C="179" G="-513" T="-1359"/>
+			<pos A="-372" C="178" G="-1359" T="-1359"/>
+			<pos A="-1359" C="160" G="-413" T="-90"/>
+			<pos A="28" C="74" G="-255" T="0"/>
+			<pos A="45" C="-1359" G="-14" T="108"/>
+		</motif>
+		<motif db="0" id="AAAAAAMCCSSCCCTDNGSSSGGYTTTTTTWTGBMYG" alt="MEME-2" length="37" nsites="52" evalue="1.1e-029">
+			<pos A="104" C="-44" G="-72" T="-29"/>
+			<pos A="127" C="-20" G="-131" T="-88"/>
+			<pos A="169" C="-73" G="-109" T="-1234"/>
+			<pos A="204" C="-390" G="-189" T="-346"/>
+			<pos A="201" C="-190" G="-231" T="-1234"/>
+			<pos A="156" C="-190" G="-44" T="-146"/>
+			<pos A="98" C="10" G="-57" T="-146"/>
+			<pos A="22" C="91" G="-109" T="-146"/>
+			<pos A="-48" C="101" G="-9" T="-1234"/>
+			<pos A="-248" C="35" G="106" T="-1234"/>
+			<pos A="-90" C="62" G="56" T="-346"/>
+			<pos A="-67" C="110" G="-19" T="-1234"/>
+			<pos A="-48" C="101" G="-31" T="-246"/>
+			<pos A="-16" C="96" G="-1234" T="24"/>
+			<pos A="-48" C="-90" G="-44" T="118"/>
+			<pos A="33" C="-390" G="63" T="34"/>
+			<pos A="61" C="-20" G="-44" T="0"/>
+			<pos A="-90" C="-231" G="115" T="-14"/>
+			<pos A="-1234" C="27" G="96" T="-114"/>
+			<pos A="-190" C="101" G="11" T="-188"/>
+			<pos A="-1234" C="35" G="101" T="-188"/>
+			<pos A="-1234" C="-32" G="131" T="-188"/>
+			<pos A="-1234" C="-32" G="143" T="-1234"/>
+			<pos A="-320" C="64" G="-53" T="64"/>
+			<pos A="-348" C="-1234" G="-131" T="203"/>
+			<pos A="-1234" C="-231" G="-1234" T="215"/>
+			<pos A="-1234" C="-231" G="-1234" T="215"/>
+			<pos A="-1234" C="-390" G="-231" T="212"/>
+			<pos A="-1234" C="-231" G="-189" T="203"/>
+			<pos A="-1234" C="10" G="-231" T="158"/>
+			<pos A="110" C="-190" G="-57" T="34"/>
+			<pos A="-148" C="-109" G="-1234" T="189"/>
+			<pos A="-16" C="-1234" G="96" T="24"/>
+			<pos A="-116" C="42" G="-31" T="44"/>
+			<pos A="33" C="74" G="-189" T="-29"/>
+			<pos A="-90" C="-20" G="-72" T="112"/>
+			<pos A="-148" C="-109" G="127" T="-114"/>
+		</motif>
+		<motif db="0" id="AWWADNAHWWDMWADWKWWWTNTTAMAWTWWWTAWMTATAWWHWWNVNTD" alt="MEME-3" length="50" nsites="86" evalue="1.8e-014">
+			<pos A="141" C="-46" G="-116" T="-119"/>
+			<pos A="108" C="-1307" G="-130" T="102"/>
+			<pos A="70" C="-93" G="-104" T="77"/>
+			<pos A="122" C="-23" G="-92" T="-102"/>
+			<pos A="70" C="-1307" G="24" T="57"/>
+			<pos A="44" C="7" G="-62" T="6"/>
+			<pos A="160" C="-117" G="-1307" T="6"/>
+			<pos A="88" C="2" G="-1307" T="57"/>
+			<pos A="144" C="-146" G="-1307" T="57"/>
+			<pos A="138" C="-1307" G="-92" T="46"/>
+			<pos A="70" C="-263" G="29" T="27"/>
+			<pos A="100" C="42" G="-1307" T="-19"/>
+			<pos A="79" C="-104" G="-145" T="86"/>
+			<pos A="104" C="-63" G="-71" T="-10"/>
+			<pos A="60" C="-182" G="-23" T="72"/>
+			<pos A="32" C="-54" G="-145" T="102"/>
+			<pos A="-30" C="-63" G="-23" T="90"/>
+			<pos A="125" C="-204" G="-92" T="34"/>
+			<pos A="100" C="-230" G="-81" T="72"/>
+			<pos A="65" C="-204" G="-162" T="124"/>
+			<pos A="11" C="-93" G="-262" T="143"/>
+			<pos A="-4" C="-54" G="8" T="46"/>
+			<pos A="-12" C="-63" G="-81" T="110"/>
+			<pos A="-4" C="-130" G="-145" T="143"/>
+			<pos A="122" C="-104" G="-92" T="-2"/>
+			<pos A="108" C="-10" G="-181" T="-10"/>
+			<pos A="128" C="-130" G="-81" T="-10"/>
+			<pos A="44" C="-1307" G="-104" T="143"/>
+			<pos A="-21" C="-117" G="-45" T="117"/>
+			<pos A="38" C="-46" G="-181" T="102"/>
+			<pos A="49" C="-146" G="-145" T="120"/>
+			<pos A="100" C="-1307" G="-181" T="120"/>
+			<pos A="44" C="-1307" G="-145" T="151"/>
+			<pos A="108" C="-104" G="-37" T="-19"/>
+			<pos A="125" C="-163" G="-145" T="46"/>
+			<pos A="75" C="28" G="-81" T="-73"/>
+			<pos A="-21" C="-1307" G="-37" T="148"/>
+			<pos A="155" C="-104" G="-303" T="-10"/>
+			<pos A="4" C="-82" G="-130" T="124"/>
+			<pos A="122" C="-30" G="-303" T="13"/>
+			<pos A="100" C="-130" G="-162" T="77"/>
+			<pos A="100" C="-146" G="-45" T="27"/>
+			<pos A="108" C="-23" G="-204" T="13"/>
+			<pos A="115" C="-72" G="-303" T="57"/>
+			<pos A="79" C="-104" G="-81" T="62"/>
+			<pos A="25" C="2" G="-37" T="13"/>
+			<pos A="70" C="-63" G="24" T="-73"/>
+			<pos A="-4" C="7" G="-81" T="62"/>
+			<pos A="4" C="-104" G="-162" T="137"/>
+			<pos A="70" C="-304" G="8" T="57"/>
+		</motif>
+		<motif db="0" id="VDAAAAAAGSCGVSSATTM" alt="MEME-4" length="19" nsites="45" evalue="1.3e-006">
+			<pos A="19" C="12" G="31" T="-125"/>
+			<pos A="90" C="-169" G="-10" T="21"/>
+			<pos A="131" C="-69" G="-69" T="-93"/>
+			<pos A="173" C="-1214" G="-10" T="-325"/>
+			<pos A="181" C="-169" G="-210" T="-125"/>
+			<pos A="190" C="-52" G="-1214" T="-1214"/>
+			<pos A="190" C="-1214" G="-210" T="-67"/>
+			<pos A="137" C="-211" G="-110" T="21"/>
+			<pos A="-127" C="-1214" G="156" T="-167"/>
+			<pos A="-69" C="12" G="56" T="-67"/>
+			<pos A="-327" C="131" G="-23" T="-325"/>
+			<pos A="-1214" C="-111" G="160" T="-1214"/>
+			<pos A="-10" C="12" G="48" T="-125"/>
+			<pos A="-95" C="56" G="48" T="-167"/>
+			<pos A="-1214" C="101" G="40" T="-225"/>
+			<pos A="222" C="-1214" G="-1214" T="-1214"/>
+			<pos A="-1214" C="-1214" G="-69" T="196"/>
+			<pos A="-1214" C="-1214" G="-368" T="221"/>
+			<pos A="125" C="31" G="-1214" T="-67"/>
+		</motif>
+		<motif db="0" id="KKCAAAAAAAA" alt="MEME-5" length="11" nsites="49" evalue="1.8e-002">
+			<pos A="-1226" C="-149" G="78" T="95"/>
+			<pos A="-1226" C="-1226" G="105" T="95"/>
+			<pos A="-140" C="151" G="-149" T="-1226"/>
+			<pos A="213" C="-1226" G="-222" T="-1226"/>
+			<pos A="185" C="-36" G="-1226" T="-1226"/>
+			<pos A="222" C="-1226" G="-1226" T="-1226"/>
+			<pos A="213" C="-223" G="-1226" T="-1226"/>
+			<pos A="206" C="-281" G="-1226" T="-179"/>
+			<pos A="222" C="-1226" G="-1226" T="-1226"/>
+			<pos A="219" C="-1226" G="-381" T="-1226"/>
+			<pos A="185" C="-223" G="-1226" T="-38"/>
+		</motif>
+		<motif db="0" id="BKTHTTGTTBTTKTK" alt="MEME-6" length="15" nsites="47" evalue="2.1e-002">
+			<pos A="-1220" C="25" G="50" T="27"/>
+			<pos A="-333" C="-1220" G="42" T="149"/>
+			<pos A="-75" C="-1220" G="-1220" T="204"/>
+			<pos A="75" C="-17" G="-1220" T="85"/>
+			<pos A="-175" C="-1220" G="-1220" T="214"/>
+			<pos A="-333" C="-143" G="-375" T="201"/>
+			<pos A="-175" C="-1220" G="154" T="-99"/>
+			<pos A="-233" C="-1220" G="-1220" T="218"/>
+			<pos A="-1220" C="-43" G="-375" T="185"/>
+			<pos A="-1220" C="-17" G="25" T="93"/>
+			<pos A="12" C="-1220" G="-1220" T="185"/>
+			<pos A="-134" C="-1220" G="-1220" T="211"/>
+			<pos A="-1" C="-375" G="77" T="38"/>
+			<pos A="-1220" C="-1220" G="6" T="173"/>
+			<pos A="-233" C="-143" G="57" T="101"/>
+		</motif>
+	</motifs>
+	<correlations>
+		<correlation idx_a="0" idx_b="1" value="0.28"/>
+		<correlation idx_a="0" idx_b="2" value="0.12"/>
+		<correlation idx_a="1" idx_b="2" value="0.09"/>
+		<correlation idx_a="0" idx_b="3" value="0.25"/>
+		<correlation idx_a="1" idx_b="3" value="0.43"/>
+		<correlation idx_a="2" idx_b="3" value="0.20"/>
+		<correlation idx_a="0" idx_b="4" value="0.19"/>
+		<correlation idx_a="1" idx_b="4" value="0.42"/>
+		<correlation idx_a="2" idx_b="4" value="0.50"/>
+		<correlation idx_a="3" idx_b="4" value="0.47"/>
+		<correlation idx_a="0" idx_b="5" value="0.25"/>
+		<correlation idx_a="1" idx_b="5" value="0.35"/>
+		<correlation idx_a="2" idx_b="5" value="0.51"/>
+		<correlation idx_a="3" idx_b="5" value="0.13"/>
+		<correlation idx_a="4" idx_b="5" value="0.15"/>
+	</correlations>
+	<sequence_dbs>
+		<sequence_db source="bothigrs/GCA_000497385.1_EDP1a_genomic_IGRs.fna" last_mod_date="Sun Nov 20 15:10:47 2022" seq_count="2656" residue_count="428604"/>
+	</sequence_dbs>
+	<sequences>
+		<sequence db="0" name="CDLFDMNO_02611_+_+_CDLFDMNO_02612_+_+_DT" comment="Cluster_126757&#13;" length="86">
+			<score strand="both" combined_pvalue="7.52e-16" evalue="2e-12"/>
+			<seg start="1">
+				<data>
+GCCTTGGGGGCCGCAGTGCGGCCCCTTCGTGACCCAGGCAGGCACAAAAAAGCCCGGCAGATGCCGGGCTTTTTC
+ATGGCTGGAGC
+				</data>
+				<hit pos="6" idx="0" rc="n" pvalue="2.2e-09" match=" +++++++++ ++++++++++"/>
+				<hit pos="46" idx="1" rc="n" pvalue="2.8e-13" match="++++++ ++++ +  + ++++++++++++++++ +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_01035_+_+_CDLFDMNO_01036_+_+_DT" comment="Cluster_97216&#13;" length="128">
+			<score strand="both" combined_pvalue="6.62e-13" evalue="1.8e-09"/>
+			<seg start="1">
+				<data>
+GCGACGCGCTAGTCAAAAAACCGACCTCAGGGTCGGTTTTTTTATGCCTGCATTTTGTGAGTTCTCAGGCCCGTG
+GCTCAACCCAGGCGCTGTAAGGTGGCAGGGCCGCATGGCGGCCCTACCCTGCA
+				</data>
+				<hit pos="14" idx="1" rc="n" pvalue="4.7e-13" match=" +++++++++ +++ + ++ +++++++++++++++++"/>
+				<hit pos="66" idx="0" rc="n" pvalue="6.4e-05" match="  ++ +++   + ++ ++++ "/>
+				<hit pos="101" idx="0" rc="n" pvalue="1.8e-09" match="  +++++++++ +++++++ +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_01593_+_+_CDLFDMNO_01594_+_+_DT" comment="Cluster_154438&#13;" length="48">
+			<score strand="both" combined_pvalue="2.90e-11" evalue="7.7e-08"/>
+			<seg start="1">
+				<data>
+TGCAGCAAAAAAAACCGCGCCGAGGCGCGGTTTTTTCATGCTTGCGAA
+				</data>
+				<hit pos="8" idx="1" rc="n" pvalue="7.0e-14" match="+++++++++++ ++ + +++++++++++++++++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03041_+_+_CDLFDMNO_03042_+_+_DT" comment="Cluster_67213&#13;" length="182">
+			<score strand="both" combined_pvalue="1.05e-10" evalue="2.8e-07"/>
+			<seg start="1">
+				<data>
+GTCGATCGAGCTTTATAGCTTTCAAAAAAACCCGCTTCGGCGGGTTTTTTTATGCCTGTCATTACGTCAGAAGGC
+				</data>
+				<hit pos="22" idx="1" rc="n" pvalue="1.2e-14" match="  ++++++ +++ +++ ++++++++++++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03172_+_+_CDLFDMNO_03173_+_+_DT" comment="Cluster_92493&#13;" length="135">
+			<score strand="both" combined_pvalue="1.57e-10" evalue="4.2e-07"/>
+			<seg start="1">
+				<data>
+TCCTCGCGCAATGAAAAATCCCCGGCCTAGGTTGTAATGCTGTTCACTTAAGATCGTTGGGGCCGTGAAACGGCC
+CTAAATGAACAGCATTACGGCCTAGGTCGGGGATTTTTTTTGCAAGTTATCAGGCGCTGC
+				</data>
+				<hit pos="7" idx="1" rc="y" pvalue="1.6e-05" match="+  ++  +++++  ++++++ ++++  +   +  + +"/>
+				<hit pos="58" idx="0" rc="y" pvalue="1.6e-08" match="++++++++ +++ ++++++ +"/>
+				<hit pos="85" idx="1" rc="n" pvalue="4.3e-07" match=" +  +  +++++++ +  +++++ +++++++++++ +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_02638_+_+_CDLFDMNO_02639_+_+_CO_R" comment="Cluster_50011&#13;" length="227">
+			<score strand="both" combined_pvalue="2.38e-10" evalue="6.3e-07"/>
+			<seg start="1">
+				<data>
+TGCGCAGCGCTGCCCGTCTATAAAAAAGGAGCGCATTCTACGGGCAGAACAGGGAATGCGGTAGGGGAAAGCCGG
+				</data>
+				<hit pos="20" idx="3" rc="n" pvalue="4.1e-07" match="++++++++++ ++++++++"/>
+			</seg>
+			<seg start="151">
+				<data>
+GGCGATTGTGCATGCTCGTAGAAACGACAGGCACAAAAAAGCCCGCGTAGGCGGGCTTTTTTACACACAGCGTTG
+				</data>
+				<hit pos="178" idx="1" rc="y" pvalue="3.7e-11" match="++++++ ++++++++++++ ++ + +++ ++++++  "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03051_+_+_CDLFDMNO_03052_+_+_DT" comment="Cluster_126077&#13;" length="87">
+			<score strand="both" combined_pvalue="6.77e-10" evalue="1.8e-06"/>
+			<seg start="1">
+				<data>
+TCCGCGCCTTCCAGGTTCAGGCCATGCCAATACGGCTGGCCAAAAAAAACCGGCCATGAAGGCCGGTTTTTTGTG
+CTCGACGCGGGC
+				</data>
+				<hit pos="43" idx="1" rc="n" pvalue="1.2e-12" match="+++++++++++++ +++ +++ + ++++++ +++  +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03053_+_+_CDLFDMNO_03054_+_+_CO_F" comment="Cluster_60456&#13;" length="198">
+			<score strand="both" combined_pvalue="1.42e-09" evalue="3.8e-06"/>
+			<seg start="1">
+				<data>
+TTCCCCAAAATTACGAAAACCGGACCCTGTGTCCGGTTTTTTTTCGCCTTAATTCAACAAGTTAGCGCGCCAACG
+				</data>
+				<hit pos="14" idx="1" rc="n" pvalue="1.8e-10" match="  ++++++ + +++++ + ++++++++++++ ++++ "/>
+			</seg>
+			<seg start="76">
+				<data>
+CGGTTCACAAACATTCTTATTCCTATTAATTTTCATTTATTATTCAATTACTTAGGTTTGACAGGCCTGTTCATC
+				</data>
+				<hit pos="85" idx="2" rc="n" pvalue="3.8e-06" match="++ +++ ++++   ++++++++++ + ++++++ ++ ++++ +++ ++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_01089_+_+_CDLFDMNO_01090_+_+_DT" comment="Cluster_52008&#13;" length="221">
+			<score strand="both" combined_pvalue="4.02e-09" evalue="1.1e-05"/>
+			<seg start="76">
+				<data>
+CTGTTCATGCACTGACGAAAAGGGCCGCTTAGCGGCCCTTTTCGTTTATGTCTTACTTGTCGATTTGCTGTCTAG
+				</data>
+				<hit pos="95" idx="0" rc="n" pvalue="2.0e-11" match="+ +++++++++++++++++ +"/>
+				<hit pos="128" idx="5" rc="n" pvalue="5.6e-05" match="++  ++++ ++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00284_+_+_CDLFDMNO_00285_+_+_DT" comment="Cluster_133019&#13;" length="77">
+			<score strand="both" combined_pvalue="7.73e-09" evalue="2.1e-05"/>
+			<seg start="1">
+				<data>
+GCGATGCCCTCGAAAAACCCGCCGTCGCTGCGGGTTTTTTTATGCCTGGCTTGCGCGGGGAGGTGCTGTCGGTAA
+				</data>
+				<hit pos="12" idx="1" rc="n" pvalue="4.8e-14" match=" +++++++++++ + +  +++++++++++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_01191_+_+_CDLFDMNO_01192_+_+_DT" comment="Cluster_36015&#13;" length="280">
+			<score strand="both" combined_pvalue="7.98e-09" evalue="2.1e-05"/>
+			<seg start="1">
+				<data>
+GTTTCGTTGTGTGCTTTACGGCTTTTTGGGCGCTTGGTCGGCGCCCATTTTTTTGCCTGGCGTTTGCCGTTTGCG
+				</data>
+				<hit pos="47" idx="4" rc="y" pvalue="4.3e-06" match=" ++++++++++"/>
+			</seg>
+			<seg start="76">
+				<data>
+GGCGCGTAGATGACAGAGGCGGCCGTTGGGGCCGCTTTGCGGCCCATCGCGGCACGAGGGCCGCTCCTACCATTG
+				</data>
+				<hit pos="102" idx="0" rc="n" pvalue="2.7e-12" match="+++++++++++++++++++++"/>
+			</seg>
+			<seg start="151">
+				<data>
+ATCGCGCGAGGCCTGGACTGAGAGGCTCATGCGCCGCAGGAGCGGCCTTGCCGGGGCGCCGGACCGGCCGCGCCC
+				</data>
+				<hit pos="202" idx="0" rc="n" pvalue="7.7e-05" match=" +++++  +  + +++++ + "/>
+			</seg>
+			<seg start="226">
+				<data>
+CACAATCCCGAGTCAACAACATCGGCTAAAGAGACCGCTTTCGCACTGACAGCAC
+				</data>
+				<hit pos="240" idx="1" rc="n" pvalue="5.5e-05" match="++ ++ + ++++   +  + + +++++  ++ + +  "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00646_+_+_CDLFDMNO_00647_+_+_DT" comment="Cluster_81179&#13;" length="154">
+			<score strand="both" combined_pvalue="8.41e-09" evalue="2.2e-05"/>
+			<seg start="1">
+				<data>
+GCCCTTACAGGGTCGCTGCGCGGCCCTGTACAGCGCCCACGAAAAAGCCCGCCTTAACGCGTATGCTGTTCACTT
+				</data>
+				<hit pos="8" idx="0" rc="n" pvalue="9.6e-09" match="  +++ ++++ ++++++++  "/>
+				<hit pos="34" idx="1" rc="y" pvalue="4.1e-08" match="+   ++ +++++++++++++++++ +++  +  + ++"/>
+			</seg>
+			<seg start="76">
+				<data>
+AAGCGTGTTGGGGCCGCGGAGCGGCCCTAAATGAACAGCATTACGCCTTGATGCGGGCTTCTTCATGCCTGGCCT
+				</data>
+				<hit pos="84" idx="0" rc="y" pvalue="2.1e-10" match="++++++++++ ++++++++ +"/>
+				<hit pos="110" idx="1" rc="n" pvalue="2.5e-08" match="+ +  +   ++++++++ ++++++++ ++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_01337_+_+_CDLFDMNO_01338_+_+_DT" comment="Cluster_140997&#13;" length="66">
+			<score strand="both" combined_pvalue="1.09e-08" evalue="2.9e-05"/>
+			<seg start="1">
+				<data>
+TCGAACCGAACAAAAAACCCGACAACGTCGGGTTTTTTTATACCTGTCATTCGTGGACTAATCGTT
+				</data>
+				<hit pos="10" idx="1" rc="n" pvalue="1.2e-12" match="+ +++++++++  + + + +++++++++++++ ++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_01117_+_+_CDLFDMNO_01118_+_+_CO_F" comment="Cluster_86261&#13;" length="145">
+			<score strand="both" combined_pvalue="1.35e-08" evalue="3.6e-05"/>
+			<seg start="1">
+				<data>
+TCCTTTTCATGTGAAGCTGTTGGGGGGCCGCGCAGCGGCCCCTTTTTTTGCGGCAGAAGATCAAACGGCAGGATC
+				</data>
+				<hit pos="23" idx="0" rc="n" pvalue="3.1e-09" match=" ++++++++  ++++++++++"/>
+			</seg>
+			<seg start="76">
+				<data>
+TTCACACCCTCTATGGGTTGAATTGATTCTATTTATCAATTAATAATGAATATCATTTCACGGCTACACG
+				</data>
+				<hit pos="84" idx="2" rc="y" pvalue="2.4e-05" match="+  +++   ++  +++ +++  +++++ ++++++++ ++ ++++++ +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00798_+_+_CDLFDMNO_00799_+_+_DT" comment="Cluster_161169&#13;" length="40">
+			<score strand="both" combined_pvalue="2.17e-08" evalue="5.8e-05"/>
+			<seg start="1">
+				<data>
+TCAATAAAAAGGGGCTGCCTGGCAGCCCCTTTTTTTTGGG
+				</data>
+				<hit pos="10" idx="0" rc="n" pvalue="7.1e-10" match="+++++++++ + +++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00299_+_+_CDLFDMNO_00300_+_+_CO_F" comment="Cluster_48867&#13;" length="225">
+			<score strand="both" combined_pvalue="3.61e-08" evalue="9.6e-05"/>
+			<seg start="1">
+				<data>
+TGAAAAAGCCCCGCAAATGCGGGGCTTTTCTTTTCCAGAGCACTAGACGCACAAAAAAGCAAGTGTTACATTCGG
+				</data>
+				<hit pos="2" idx="1" rc="n" pvalue="6.2e-10" match=" +++++ ++++ +  + +++++++++++ ++++++ +"/>
+				<hit pos="48" idx="4" rc="n" pvalue="1.8e-05" match=" +++ ++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03054_+_+_CDLFDMNO_03055_+_+_DT" comment="Cluster_152221&#13;" length="52">
+			<score strand="both" combined_pvalue="4.41e-08" evalue="0.00012"/>
+			<seg start="1">
+				<data>
+GACGCCCACATAAAAAACCCGCCAATGGCGGGNTTTTTTATGAGCGCAATGT
+				</data>
+				<hit pos="10" idx="1" rc="n" pvalue="1.9e-11" match="+ +++++++++ ++ + ++++++ +++++++++   +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00416_+_+_CDLFDMNO_00417_+_+_DT" comment="Cluster_56927&#13;" length="207">
+			<score strand="both" combined_pvalue="8.73e-08" evalue="0.00023"/>
+			<seg start="1">
+				<data>
+TCGTCGTTCTGCACTGACAAACCCGGCTGTCATGGCCTGATGCTGTTTACGTAGGGTTGCAAAGCAGCCTTGACG
+				</data>
+				<hit pos="52" idx="0" rc="n" pvalue="4.5e-08" match="+ +++ ++++++++++++   "/>
+			</seg>
+			<seg start="76">
+				<data>
+ATATCAAGACAGTATTAGGCCAAGACTGCCGGGTTTTTTATGGCCGTAGAATCAAGACACTGCGGGAAATCGCCG
+				</data>
+				<hit pos="85" idx="1" rc="n" pvalue="1.4e-07" match=" +  +  + +++   +  +++++ +++++++++ + +"/>
+			</seg>
+			<seg start="151">
+				<data>
+GCATCGAGCCGTAATGCCAGGGCCGCCTTGCAGCCCTGTCAGGATCCCGATCGGATA
+				</data>
+				<hit pos="168" idx="0" rc="n" pvalue="5.6e-09" match="  +++++++ +++++++++  "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_04096_+_+_CDLFDMNO_04097_+_+_CO_R" comment="Cluster_71029&#13;" length="174">
+			<score strand="both" combined_pvalue="8.76e-08" evalue="0.00023"/>
+			<seg start="76">
+				<data>
+CCGTGACAGCGTGTTTACGAAAAAAGGGCGGTGATTCTAACGAAAAAACCCGCGCCAGGCGCGGGTTTCTTTCCA
+				</data>
+				<hit pos="110" idx="1" rc="y" pvalue="8.9e-09" match="    ++ ++++++++++++  ++++ ++++++++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03607_+_+_CDLFDMNO_03608_+_+_DT" comment="Cluster_134417&#13;" length="75">
+			<score strand="both" combined_pvalue="8.94e-08" evalue="0.00024"/>
+			<seg start="1">
+				<data>
+GCATCGACGCCTGCCGTCGGTAGATGGCGGACATGAAAAAACCCGCCGAAGCGGGTTTTTTTAAAGCCAGCTACA
+				</data>
+				<hit pos="28" idx="1" rc="y" pvalue="9.0e-13" match="+ ++++++++++++++++++ +++ +++ ++++++  "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_01599_+_+_CDLFDMNO_01600_+_+_CO_F" comment="Cluster_76864&#13;" length="162">
+			<score strand="both" combined_pvalue="9.06e-08" evalue="0.00024"/>
+			<seg start="1">
+				<data>
+AAACGGGGTCATTGGGGCTGCGCAGCAGCCCCAATGACCCAGCGCCCCAACAGCGCGTATCCCTCTTCAAACCTG
+				</data>
+				<hit pos="13" idx="0" rc="y" pvalue="2.5e-10" match="++++++++++ ++++++++++"/>
+			</seg>
+			<seg start="76">
+				<data>
+CGTTTCACAAAAAAACGCTAAGCGCTGAATTATTTAGTGTCCCTTTGTATCTGATCCCTTAGAGCAGTCACCGTC
+				</data>
+				<hit pos="79" idx="4" rc="n" pvalue="4.3e-06" match="++++ ++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03885_+_+_CDLFDMNO_03886_+_+_DT" comment="Cluster_165689&#13;" length="34">
+			<score strand="both" combined_pvalue="1.56e-07" evalue="0.00041"/>
+			<seg start="1">
+				<data>
+CACTCAGTGGGGCTGCTTTGCGGCCCCAGCAAGG
+				</data>
+				<hit pos="8" idx="0" rc="n" pvalue="2.0e-11" match="+++++++++++++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_01742_+_+_CDLFDMNO_01743_+_+_CO_R" comment="Cluster_7907&#13;" length="578">
+			<score strand="both" combined_pvalue="2.64e-07" evalue="0.0007"/>
+			<seg start="76">
+				<data>
+ATGGTTATCGTCGGATAGCCCGGTTGCTTGAGGGGTTTTTTCAAAAAAAAATGCTGGCATGCGGCCAGCCCTGGA
+AAATCAAGGGGTTAAGCGCGGAATTTTGGCGTCAAAAAGCGGGTTGGGAGGTATGAGGGGGATGTCGGCGTCTGA
+				</data>
+				<hit pos="115" idx="4" rc="n" pvalue="1.4e-06" match="+++++++++++"/>
+				<hit pos="149" idx="1" rc="n" pvalue="6.6e-06" match=" ++++ ++ ++  ++++++++++  ++++   +++  "/>
+			</seg>
+			<seg start="301">
+				<data>
+CAGGAAATGTCGGGGCCGGTCCGGCGCCCCGGCGAGGCCGCTCCTACAAAGTGCGAACCCGCGAATTCAGGCGTC
+				</data>
+				<hit pos="311" idx="0" rc="n" pvalue="2.3e-05" match=" +++++++ + ++  +++++ "/>
+			</seg>
+			<seg start="376">
+				<data>
+ACGCGGTTGGGGTGGGAGCGGCCTCGCCGGGGCGCCGGACCGGCCACGATGGGCTGCGCAGCAGCCCCAGAGATT
+				</data>
+				<hit pos="424" idx="0" rc="y" pvalue="2.1e-10" match="++++++++++ ++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00630_+_+_CDLFDMNO_00631_+_+_CO_R" comment="Cluster_119742&#13;" length="96">
+			<score strand="both" combined_pvalue="2.66e-07" evalue="0.00071"/>
+			<seg start="1">
+				<data>
+ATGCCGCACTCCTGTAAGGATAAATAATTGGAAAATCTAAAAAAAACGAATAAGTAAGGCCGGCTTTCACAAGGA
+				</data>
+				<hit pos="34" idx="1" rc="y" pvalue="8.2e-07" match=" ++  ++++++++        +++++++++ +++   "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_01443_+_+_CDLFDMNO_01444_+_+_DT" comment="Cluster_20687&#13;" length="381">
+			<score strand="both" combined_pvalue="2.67e-07" evalue="0.00071"/>
+			<seg start="1">
+				<data>
+GGCGATGGCGGGCTTGGTCTGGTGATGTCGTGGGGTTTGAGCGCAGACCTCGTGACCAGCGACCGTCACTGTTGC
+CGGGTTTTGGGTGCTGCTCGGTGACGGCAGCGGGCATCAGCGGCCTCGGTACTTGAGCCCTGCAGCACAGATCAC
+				</data>
+				<hit pos="56" idx="1" rc="n" pvalue="7.3e-06" match="  +   ++++ + +++  +++++ ++++   +++   "/>
+			</seg>
+			<seg start="151">
+				<data>
+TGGGGCCGCTACACGGCCCATCGCGGCACGAGGCCGCTCCCACACTGATTGCGTGACGCGTGAGTTAGCGGCTCA
+				</data>
+				<hit pos="151" idx="0" rc="y" pvalue="1.6e-09" match="+++++++++++  ++++++++"/>
+			</seg>
+			<seg start="226">
+				<data>
+TAGCGAATTGTAGGCGCGGCCTTGCCGGGGTGCCGAACCGGCCGCGATAGGCCGCTGCGCGGCCCTAGCGATCAT
+				</data>
+				<hit pos="272" idx="0" rc="y" pvalue="3.4e-09" match="++ +++++++  +++++++ +"/>
+			</seg>
+			<seg start="301">
+				<data>
+CATTCCATACCCAATTACCCAACACTTCACCCATAAAAAAGCCCCGGCATCACGGCCGGGGCTTTTTTTTTCAGC
+				</data>
+				<hit pos="337" idx="1" rc="n" pvalue="5.6e-07" match="++++  ++++++ + + ++++++   ++++++++   "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_02130_+_+_CDLFDMNO_02131_+_+_CO_R" comment="Cluster_56167&#13;" length="209">
+			<score strand="both" combined_pvalue="4.08e-07" evalue="0.0011"/>
+			<seg start="1">
+				<data>
+TGGAGCGCTCCTAGAAAATACGTGTGGTGAAAAAAAGGGCCGCTGTGCGGCCCATCTTTGGCAAGCCCGGGCGAA
+				</data>
+				<hit pos="35" idx="0" rc="n" pvalue="8.6e-11" match="+ ++++++++ ++++++++++"/>
+			</seg>
+			<seg start="76">
+				<data>
+CCGGGCATACCGTATGGCTTGAATCGGCGCAGCCCAGGCCGGCACTGGCGTGCCGGCGAGGGGCTGCGCAGTAGC
+CCCTTGGCAGTGAGCGGCCAGCACGGCGCCGTGCGCCCTGTGACGGCCCTGCGGTCAGA
+				</data>
+				<hit pos="134" idx="0" rc="y" pvalue="6.4e-07" match="++++++++++ ++ +++++++"/>
+				<hit pos="181" idx="0" rc="n" pvalue="9.5e-05" match=" ++ +++   +  ++++++  "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00426_+_+_CDLFDMNO_00427_+_+_CO_F" comment="Cluster_69950&#13;" length="175">
+			<score strand="both" combined_pvalue="4.42e-07" evalue="0.0012"/>
+			<seg start="1">
+				<data>
+GCACCCTGGCAAGTAAGGTGGGGTCGCTGGGCGGCCTCACTGGCCTGAGGCAGGCGCCCGGGCTTGCCCGGGAAT
+				</data>
+				<hit pos="19" idx="0" rc="n" pvalue="8.8e-09" match="+++++ ++++  ++++++ ++"/>
+			</seg>
+			<seg start="76">
+				<data>
+GCTTGACCTGAAGCACGCAAAAAACAAAACGCATGGTCCCGACCGTGCCTTTTGTGTCGGTGTCTGAGAAAATGC
+				</data>
+				<hit pos="92" idx="5" rc="y" pvalue="7.5e-06" match=" ++++++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_02103_+_+_CDLFDMNO_02104_+_+_CO_F" comment="Cluster_47882&#13;" length="234">
+			<score strand="both" combined_pvalue="4.76e-07" evalue="0.0013"/>
+			<seg start="1">
+				<data>
+GTGCCGTAACGCTCTCAGAGCCCGGCCATGTGCCGGGCTTTTTCATGCCTGCGGTTTGGCGATGCCGCACTTGCT
+				</data>
+				<hit pos="15" idx="1" rc="n" pvalue="9.6e-12" match="  + + +++++++ ++ ++++++++++++++++++++"/>
+			</seg>
+			<seg start="151">
+				<data>
+GATACACTGCTAATGACCCTCCCGTAGTGAAAGGTCATGATTGATGGCAAAATAATGTCATTTGCATGGATTAAG
+				</data>
+				<hit pos="196" idx="4" rc="n" pvalue="3.3e-05" match="+++++++ ++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_02756_+_+_CDLFDMNO_02757_+_+_CO_F" comment="Cluster_72272&#13;" length="171">
+			<score strand="both" combined_pvalue="5.19e-07" evalue="0.0014"/>
+			<seg start="1">
+				<data>
+GACGTTTGTCTGCTACAAAGAACCGGGCCTAGTGCCCGGTTTTTTGTATATCGATCTATTAGCAATAACTATTGC
+GTTTAGTGATTCAATAAATTTCCAGATGGGCTCAAACCTGCTGATAATTCTTTCAAGCCGACATACAGGCATTTA
+				</data>
+				<hit pos="16" idx="1" rc="n" pvalue="8.5e-10" match=" +++ ++++++ ++++  +++ + ++++++ + +++ "/>
+				<hit pos="58" idx="2" rc="n" pvalue="3.0e-05" match="++++++++++++++++   +++    +++ +++++++ +  + ++ +  +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_01047_+_+_CDLFDMNO_01048_+_+_CO_R" comment="Cluster_21260&#13;" length="375">
+			<score strand="both" combined_pvalue="6.61e-07" evalue="0.0018"/>
+			<seg start="301">
+				<data>
+GGCAGATGTGCTGCACTGAGCGGTTTTTATGGCGCAAAAAAAAAGCCGACCATTTAAGGTCGGCTTTTTCGGATT
+				</data>
+				<hit pos="337" idx="3" rc="n" pvalue="7.3e-09" match="++++++++++++ +++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_04018_+_+_CDLFDMNO_04019_+_+_CO_F" comment="Cluster_60049&#13;" length="199">
+			<score strand="both" combined_pvalue="6.68e-07" evalue="0.0018"/>
+			<seg start="76">
+				<data>
+ACTCATAAAACCAGCAGTTTAGTGCCGATTTTTTTTGATCTACGCGATTAATCAGCATTTTTTTGCCGGTTATTA
+				</data>
+				<hit pos="80" idx="1" rc="n" pvalue="3.8e-08" match="+ ++++++ ++  +++++ ++ + +++++++++    "/>
+				<hit pos="132" idx="4" rc="y" pvalue="4.3e-06" match=" ++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00966_+_+_CDLFDMNO_00967_+_+_DT" comment="Cluster_156880&#13;" length="46">
+			<score strand="both" combined_pvalue="7.43e-07" evalue="0.002"/>
+			<seg start="1">
+				<data>
+TAGATTCAGCCAGCCGGGAAAGGGCCGCAATGCGGCCCCAGCGGTA
+				</data>
+				<hit pos="20" idx="0" rc="y" pvalue="3.8e-11" match="+ +++++++++++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_01904_+_+_CDLFDMNO_01905_+_+_CO_R" comment="Cluster_69615&#13;" length="177">
+			<score strand="both" combined_pvalue="9.48e-07" evalue="0.0025"/>
+			<seg start="76">
+				<data>
+AGATTGCTTCGCAGGCGATTGGATCGTCAACGGGCCATTAATGACAACATAATGCTTCAGGCAAGAAAAAGCCGC
+CTGAAAAGGCGGCTTTTTCAACTTCAC
+				</data>
+				<hit pos="133" idx="1" rc="y" pvalue="1.9e-11" match="+++++++++++++++++++  +++ +++++ +++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_02117_+_+_CDLFDMNO_02118_+_+_CO_R" comment="Cluster_47467&#13;" length="235">
+			<score strand="both" combined_pvalue="9.62e-07" evalue="0.0026"/>
+			<seg start="76">
+				<data>
+GAAGGCCGCTCGCAACGAGCAAACGGCCTGAGTCATGTCTGGTGTCGCCACCAGAAACCTTGCGGTGACCACTAC
+				</data>
+				<hit pos="87" idx="1" rc="y" pvalue="4.7e-05" match="   ++ ++ +++ + ++ +  + + + + +++ +   "/>
+			</seg>
+			<seg start="151">
+				<data>
+ATGAGGCCGTCCGAATCGATTACAAGGCTTGGCAGGGAAATTTTTTTGCGAAGGCATAAAAAAGGGCCGCTTGGC
+GGCCCTGGTC
+				</data>
+				<hit pos="190" idx="4" rc="y" pvalue="1.8e-05" match=" +++++++++ "/>
+				<hit pos="212" idx="0" rc="n" pvalue="5.4e-10" match="+ +++++++++ +++++++  "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00787_+_+_CDLFDMNO_00788_+_+_DT" comment="Cluster_119033&#13;" length="97">
+			<score strand="both" combined_pvalue="9.83e-07" evalue="0.0026"/>
+			<seg start="1">
+				<data>
+CATAGCGTCAGGCAACAGCGCCATGGCCCGCAGGAGTGAGGCTGTACGCCAGACAAACAAAAAGCGCCACTAAGG
+GCGCTTTTCGTGAAGCGGGCGA
+				</data>
+				<hit pos="50" idx="1" rc="y" pvalue="2.9e-10" match="++++++++ +++++ ++++  ++++++++ ++++  +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00291_+_+_CDLFDMNO_00292_+_+_CO_F" comment="Cluster_9694&#13;" length="535">
+			<score strand="both" combined_pvalue="1.05e-06" evalue="0.0028"/>
+			<seg start="226">
+				<data>
+GCAAGGGCTTGAGTATTTGCCCCGCTGTGGTAGTGTCAGGGCTTGCGTCGATGACGCCAAAGCATTCGAAAACCC
+CGCCTTTGGGCGTAATGCTGGTCACTTAGGGCTGCTCTGCAGCCCATCGCGGCACGAGGCCACTCCTACAGATTC
+				</data>
+				<hit pos="285" idx="1" rc="y" pvalue="6.3e-06" match=" ++ + +  ++++ ++++++++ +++++   +  +  "/>
+				<hit pos="327" idx="0" rc="n" pvalue="7.1e-10" match="+ ++++++++ ++++++++++"/>
+			</seg>
+			<seg start="376">
+				<data>
+CCGTGAACCTATCACGCGCTGACTGTAGGAGCGGCCTTGCGCCGCGATGGGCCGCACAGCGGCCCCAACACTCTC
+				</data>
+				<hit pos="422" idx="0" rc="y" pvalue="2.0e-11" match="++++++++++ ++++++++++"/>
+			</seg>
+			<seg start="451">
+				<data>
+AAGTGAACAGCACTACGCGCTTAGGGCGGGGTTTTGCTTTATCTGTGCATCGAAAACTGCCTGTTCAAAGGAGTC
+				</data>
+				<hit pos="457" idx="1" rc="n" pvalue="1.5e-06" match="+ +  ++  +++ ++++++++++  ++++  +++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00659_+_+_CDLFDMNO_00660_+_+_DT" comment="Cluster_119032&#13;" length="97">
+			<score strand="both" combined_pvalue="1.44e-06" evalue="0.0038"/>
+			<seg start="1">
+				<data>
+GGACGGGCAGCCTCATCTGGGAGCCGCCTTGCCGGCAATGGGCCGCAAAGCGGCCCCTGATAACGCCAACCGCAG
+				</data>
+				<hit pos="38" idx="0" rc="y" pvalue="1.6e-12" match="+++++++++++++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00606_+_+_CDLFDMNO_00607_+_+_DT" comment="Cluster_150208&#13;" length="55">
+			<score strand="both" combined_pvalue="1.88e-06" evalue="0.005"/>
+			<seg start="1">
+				<data>
+ATACGCAACTGGGGCCGCGTTGCGGCCCCAGTTCATGTTCTAGCGCGCGATCACA
+				</data>
+				<hit pos="10" idx="0" rc="n" pvalue="6.7e-11" match="+++++++++ +++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_02771_+_+_CDLFDMNO_02772_+_+_CO_R" comment="Cluster_92913&#13;" length="134">
+			<score strand="both" combined_pvalue="2.11e-06" evalue="0.0056"/>
+			<seg start="1">
+				<data>
+GGAAAGCGTCCGTAGCGATGAACGGGAAAGAAAAGCCGCGCTTTGGAGGGGAGGCTAGTGGGGCCGCAATGCGGC
+CCCTGGTGACTCAACCGACTGGCACAACCCTCGCTGGGGCGGCTGGCGATGTCAGCCTA
+				</data>
+				<hit pos="59" idx="0" rc="n" pvalue="2.0e-11" match="+++++++++++++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_02724_+_+_CDLFDMNO_02725_+_+_CO_R" comment="Cluster_12385&#13;" length="487">
+			<score strand="both" combined_pvalue="2.14e-06" evalue="0.0057"/>
+			<seg start="1">
+				<data>
+GGTGCCTCCAGACGGAAAAGGTTATCCACATTTATTGTGGATAACCTTGTGAACAGGGGGACGATTCACAGCCCG
+				</data>
+				<hit pos="49" idx="3" rc="n" pvalue="1.1e-05" match="++ ++ + ++ + ++++++"/>
+			</seg>
+			<seg start="76">
+				<data>
+TGGGCCCATAAACAGGGCACCGGACAAGATCGGGCATTTTTTACACAGCGGTTACAGACCACTGCGCGGGTCCGC
+				</data>
+				<hit pos="88" idx="1" rc="n" pvalue="1.0e-05" match=" +    +++++ +  ++ ++++  +++++++  ++  "/>
+			</seg>
+			<seg start="301">
+				<data>
+GGTACCCGTGCAGGCGGATTACGCTGCTCCCGCGCTGTAACGGCTTGCCGGGGCTGCGAATCGGCCGCGCAGCCT
+				</data>
+				<hit pos="349" idx="0" rc="n" pvalue="5.0e-07" match=" ++++++++ ++ +++++ + "/>
+			</seg>
+			<seg start="376">
+				<data>
+CCCCAGGATTTGGCTTTGCCGCACATACCATTAGGGCCGCATAGCGGCCCTGATGGTATTAAGTGAACCGAACGC
+				</data>
+				<hit pos="407" idx="0" rc="n" pvalue="4.7e-10" match="+ +++++++++++++++++  "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_01985_+_+_CDLFDMNO_01986_+_+_DP" comment="Cluster_60044&#13;" length="199">
+			<score strand="both" combined_pvalue="3.24e-06" evalue="0.0086"/>
+			<seg start="1">
+				<data>
+GATCGGCACTCACCTGACCGGTTAAAAAAAATAAGGCGTTAGCATAATCCCGATCAGCAGAAATGCCATGACTGA
+				</data>
+				<hit pos="22" idx="4" rc="n" pvalue="2.4e-05" match="++ +++++++ "/>
+			</seg>
+			<seg start="76">
+				<data>
+CATTCAATAAACTAAAAATGCATATTAGGTTATTCCTAAAATCAATTTAAGTTATTAAAAAATAGTCGCTAGAGT
+				</data>
+				<hit pos="90" idx="2" rc="n" pvalue="1.3e-07" match="+++++  ++++ +  +++++  + ++++ ++++ ++  +++++++++ ++"/>
+			</seg>
+			<seg start="151">
+				<data>
+CGTCCGCTCGGGCTGCACGACGCCGCCCCACAGGCCGATGAGGCGTTCC
+				</data>
+				<hit pos="168" idx="0" rc="n" pvalue="2.1e-05" match=" +  +++++  + +++ ++ +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_02074_+_+_CDLFDMNO_02075_+_+_DT" comment="Cluster_141229&#13;" length="66">
+			<score strand="both" combined_pvalue="3.34e-06" evalue="0.0089"/>
+			<seg start="1">
+				<data>
+CCTCAGCCCATGGAAGAAGGCGCCGTCGGGCGCCTTTTTTATGGGCGATGTTTTCACACCGCGCAG
+				</data>
+				<hit pos="11" idx="1" rc="n" pvalue="7.4e-09" match="   ++ ++ ++ ++ + +++++ ++++++++++   +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_04133_+_+_CDLFDMNO_04134_+_+_CO_F" comment="Cluster_50649&#13;" length="225">
+			<score strand="both" combined_pvalue="3.47e-06" evalue="0.0092"/>
+			<seg start="1">
+				<data>
+TCACGCGGGGCAGCCATGCTGGGACGCCAGCGGTCCCCTGATACGTAGCCAATAGTGGGCGCGTTTTGATGCTTG
+				</data>
+				<hit pos="39" idx="1" rc="n" pvalue="3.2e-06" match="  + +    +++  ++  +++ ++ ++++ ++++ ++"/>
+			</seg>
+			<seg start="76">
+				<data>
+CGTTGAAAACTGCGCTCATGTGCCTAATGCTGTTCACTTAAGATTGTTGGGGCCGTGAAGCGGCCCTAAATGAAC
+				</data>
+				<hit pos="123" idx="0" rc="n" pvalue="2.5e-09" match="++++++++  +++++++++ +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00785_+_+_CDLFDMNO_00786_+_+_DT" comment="Cluster_31882&#13;" length="301">
+			<score strand="both" combined_pvalue="3.90e-06" evalue="0.01"/>
+			<seg start="1">
+				<data>
+GTAACGATGGCTACAAAACACCTGAAAAGGGCCGCTTCGCGGCCCTTTTCAATTTGGGCGCCTGGTTGCACCGTT
+				</data>
+				<hit pos="27" idx="0" rc="n" pvalue="3.8e-11" match="+ +++++++++++++++++ +"/>
+			</seg>
+			<seg start="76">
+				<data>
+CTTGTGCCAGATGCACCGCTCGAAGGCACAAATGGCCGCAAACACTGGCCGTTTTCCCCTTTTTACCCCGTATTA
+				</data>
+				<hit pos="103" idx="1" rc="n" pvalue="7.2e-05" match="+ +++   ++++    +  ++   ++++ +  ++ + "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_01396_+_+_CDLFDMNO_01397_+_+_CO_R" comment="Cluster_121819&#13;" length="93">
+			<score strand="both" combined_pvalue="4.44e-06" evalue="0.012"/>
+			<seg start="1">
+				<data>
+GGCTGTCACCTGTACGAAGTTCAAAACGCAAAAAAGCAGCCCGAAGGCTGCTTCTTTCTCGCTAGGCGACCTGGG
+TCGCCGGGCAAACTGTAC
+				</data>
+				<hit pos="23" idx="1" rc="y" pvalue="1.7e-08" match=" + ++  ++++++++ ++++ ++++  + ++ +++ +"/>
+				<hit pos="71" idx="0" rc="n" pvalue="5.3e-05" match=" ++++ +++   +++  +  +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03838_+_+_CDLFDMNO_03839_+_+_DT" comment="Cluster_152443&#13;" length="52">
+			<score strand="both" combined_pvalue="5.16e-06" evalue="0.014"/>
+			<seg start="1">
+				<data>
+TCTTGGATGCAAGGGCCGCCAAGCGGCCCTTTTTACTGGCGTTGCCCGCGTT
+				</data>
+				<hit pos="11" idx="0" rc="y" pvalue="1.4e-10" match="+ +++++++ +++++++++ +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00822_+_+_CDLFDMNO_00823_+_+_CO_R" comment="Cluster_22345&#13;" length="366">
+			<score strand="both" combined_pvalue="5.49e-06" evalue="0.015"/>
+			<seg start="76">
+				<data>
+ACTTCGCCACGAATTTTATAGACGTCACTTTTTTAGTTGCAAGAATAATATTGTCTCGGTATTTATTATATTTTT
+TAACTATAAGATTACTTATTAACCGCGTGTTGGTTTTTCTGAAGGATGGGGTGATTTATTCCAGGTTGATCCTGT
+				</data>
+				<hit pos="119" idx="2" rc="n" pvalue="2.8e-11" match="+++++++++ +++   +++++ +++ +++++++++++++++ ++++ +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00928_+_+_CDLFDMNO_00929_+_+_CO_F" comment="Cluster_82968&#13;" length="150">
+			<score strand="both" combined_pvalue="5.83e-06" evalue="0.015"/>
+			<seg start="1">
+				<data>
+GGTTCGTCGAACGATGAAAAACGCGGCTTAGGCCGCGTTTTTTCGTTCTGGCAGCCAGCTTCTGGTATAAAGCAG
+				</data>
+				<hit pos="15" idx="1" rc="n" pvalue="5.0e-10" match="  ++++++ ++ ++++ ++++ ++++++++ +++  +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_01945_+_+_CDLFDMNO_01946_+_+_CO_F" comment="Cluster_130116&#13;" length="81">
+			<score strand="both" combined_pvalue="6.09e-06" evalue="0.016"/>
+			<seg start="1">
+				<data>
+GGCGCAGGGCAAGGACAGCAACCGGGGCCTCGTGCCCCGGTTTTGTTTTTTGGGTTTCAATGGGATCAGGAGGTA
+				</data>
+				<hit pos="17" idx="1" rc="n" pvalue="2.0e-07" match="+  ++ +  +++++ + ++++ + ++++ +++++  +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_01492_+_+_CDLFDMNO_01493_+_+_DT" comment="Cluster_106868&#13;" length="114">
+			<score strand="both" combined_pvalue="6.30e-06" evalue="0.017"/>
+			<seg start="1">
+				<data>
+CGCAAACCTTTGCTGCCACCCACCAAAAAGCCAGCTGATGCTGGCTTTTTTGTTTTCAAGCGGTGGCAGCTTCCC
+				</data>
+				<hit pos="22" idx="1" rc="n" pvalue="3.5e-09" match="+  +++++ ++  ++++ ++ +++++++++ +++   "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00979_+_+_CDLFDMNO_00980_+_+_CO_F" comment="Cluster_91828&#13;" length="136">
+			<score strand="both" combined_pvalue="8.20e-06" evalue="0.022"/>
+			<seg start="1">
+				<data>
+TCGCTGATCGCTTACTGAAAAGCCCGGCCAAGTGCCGGGCTTTTTTGCATCCTGCGTTTGGAACCCGTTCCGGTT
+				</data>
+				<hit pos="17" idx="1" rc="n" pvalue="5.5e-10" match=" ++++ +++++++  + +++++++++++++   ++  "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03542_+_+_CDLFDMNO_03543_+_+_DP" comment="Cluster_5272&#13;" length="660">
+			<score strand="both" combined_pvalue="8.62e-06" evalue="0.023"/>
+			<seg start="376">
+				<data>
+CCTGTGGGAGCGGCCTCGTGCCGCGATGGGCCGCAAAGCGGCCCCAGTAACCCCACCCCAAACCCCACATCCACA
+				</data>
+				<hit pos="401" idx="0" rc="y" pvalue="2.7e-12" match="+++++++++++++++++++++"/>
+			</seg>
+			<seg start="526">
+				<data>
+ACCCCACCCCTAATCCCCTTCCCCACAACCGTGTATCATGCGCCCCCCAAATCATTAAAAAGTGACGTCGCGCGC
+TGCCTGCCAGCCCTGCGGCCATCTGGCGTTGCGCCAGATTCGACAACGGACCTGACTCTC
+				</data>
+				<hit pos="595" idx="0" rc="n" pvalue="6.0e-06" match="  + +++++ +  ++++++  "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_02807_+_+_CDLFDMNO_02808_+_+_CO_R" comment="Cluster_66332&#13;" length="184">
+			<score strand="both" combined_pvalue="8.92e-06" evalue="0.024"/>
+			<seg start="76">
+				<data>
+GTCAGGCGCGGGTGTAGGACGTTGTAGGACGCTTGCGCCGCGATTGGCTGTGAAGCGTATTGCGCGCCAAAAAAA
+ACCCGCCGAAGCGGGTTTTTTCATGCAATCAGTA
+				</data>
+				<hit pos="143" idx="1" rc="n" pvalue="7.8e-11" match=" +++++++ +++ + ++ +++++++++++++++++  "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_01115_+_+_CDLFDMNO_01116_+_+_DT" comment="Cluster_164948&#13;" length="35">
+			<score strand="both" combined_pvalue="9.28e-06" evalue="0.025"/>
+			<seg start="1">
+				<data>
+GGGTCGGCTGGGGCCGCAAGGCGGCCCCGCCGCGA
+				</data>
+				<hit pos="9" idx="0" rc="n" pvalue="4.1e-10" match="+++++++++++ ++++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00110_+_+_CDLFDMNO_00111_+_+_DT" comment="Cluster_68038&#13;" length="180">
+			<score strand="both" combined_pvalue="9.38e-06" evalue="0.025"/>
+			<seg start="76">
+				<data>
+ATATTTGCTATTCGTTGATTTTTCCGGAAAACGTGCATAAGTTTTTTCAAGGCATAAAAAAACCGGCTTTTAGAG
+CCGGTTTTTTTGTGGGTGTGATTCAGCGAA
+				</data>
+				<hit pos="83" idx="5" rc="n" pvalue="4.9e-05" match="++ ++ +++++++++"/>
+				<hit pos="124" idx="1" rc="y" pvalue="1.5e-08" match=" ++++++++++++++++++ ++ ++ ++ ++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00583_+_+_CDLFDMNO_00584_+_+_CO_F" comment="Cluster_88219&#13;" length="142">
+			<score strand="both" combined_pvalue="9.85e-06" evalue="0.026"/>
+			<seg start="1">
+				<data>
+ATGAACCAAGCCGGCCATGTTGCCGGCTTTTTCATGGCTGCCATTTGGCTCATGGGCGCTTAGGCCCCGACGCCT
+				</data>
+				<hit pos="4" idx="1" rc="n" pvalue="7.8e-11" match="++  ++ ++++++ ++  +++++++++++++++ +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00873_+_+_CDLFDMNO_00874_+_+_DT" comment="Cluster_94546&#13;" length="132">
+			<score strand="both" combined_pvalue="1.04e-05" evalue="0.028"/>
+			<seg start="1">
+				<data>
+GGTCTGCAATCAAGGTATCGCCAAGCGCCTCCAGTGGCAGGAGGCGGTGACGTTTGATTGGCAGCGTTTCTTGCA
+GCAATGAAAAAGCCCGGACACTGTCCGGGCTTTTTTGTATCTGCGCGTTTAGCGCGT
+				</data>
+				<hit pos="74" idx="1" rc="y" pvalue="1.1e-11" match="+++ +++++++++++++++  +  + +++++ +++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_01807_+_+_CDLFDMNO_01808_+_+_CO_F" comment="Cluster_53960&#13;" length="214">
+			<score strand="both" combined_pvalue="1.44e-05" evalue="0.038"/>
+			<seg start="1">
+				<data>
+CGTTCGAGGTTGTCGGCGATGAGCCGTAACCAACGCAAAGCCCCGCCCTGTGCGGGGCTTTTCTTTGGTCGGACA
+				</data>
+				<hit pos="35" idx="1" rc="n" pvalue="2.0e-10" match="  +++ ++++++++++ +++++++++++ ++++   +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03290_+_+_CDLFDMNO_03291_+_+_CO_F" comment="Cluster_121151&#13;" length="94">
+			<score strand="both" combined_pvalue="1.45e-05" evalue="0.038"/>
+			<seg start="1">
+				<data>
+ATGTTTGTAGGAACTTGATGATATCCTGAACTAAATTTTCATAATTTCATCAAAGCCCGCCCCGTGCGGGTTTTT
+TTTCGCCAGGAGAAAAATC
+				</data>
+				<hit pos="42" idx="1" rc="y" pvalue="8.5e-06" match=" +     +  ++++++++++ +  + +++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03307_+_+_CDLFDMNO_03308_+_+_CO_R" comment="Cluster_52342&#13;" length="220">
+			<score strand="both" combined_pvalue="1.46e-05" evalue="0.039"/>
+			<seg start="76">
+				<data>
+GCACAAATCGTCGCTTTTTTTACACAAACCCACGACGGCCTTGCTCCAGGGCAGCGGTATTTGCGTCACACAATG
+				</data>
+				<hit pos="80" idx="3" rc="y" pvalue="3.6e-07" match=" +++++ +++ ++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_01054_+_+_CDLFDMNO_01055_+_+_DT" comment="Cluster_116068&#13;" length="100">
+			<score strand="both" combined_pvalue="1.47e-05" evalue="0.039"/>
+			<seg start="1">
+				<data>
+TGCTGCTGGCGTTGGCCCCGTGCCGGCGCCAGTAATGCAGGGCTGGCAGGCATGAAAAAAGCACCCCGAGGGGTG
+CTTTTGTTTTCCTGCAATCAAATGC
+				</data>
+				<hit pos="53" idx="1" rc="n" pvalue="9.5e-10" match="  ++++++ + +++ ++++++ ++++++ ++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00216_+_+_CDLFDMNO_00217_+_+_DT" comment="Cluster_165674&#13;" length="34">
+			<score strand="both" combined_pvalue="1.62e-05" evalue="0.043"/>
+			<seg start="1">
+				<data>
+CCAAGTGGGGCTGCAAGGCAGCCCCACGGGTTGT
+				</data>
+				<hit pos="6" idx="0" rc="y" pvalue="7.1e-10" match="+++++++++++ +++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03157_+_+_CDLFDMNO_03158_+_+_DT" comment="Cluster_68651&#13;" length="179">
+			<score strand="both" combined_pvalue="1.67e-05" evalue="0.044"/>
+			<seg start="1">
+				<data>
+CATTCTACGAAAAGCCCCTGTGCTGCAAAGCATGGGGGCTTTTCGTTTTAGGGTGTTCGTTGCTGGAGCTGGCGG
+				</data>
+				<hit pos="39" idx="5" rc="n" pvalue="5.2e-05" match="+++++ +++++ +++"/>
+			</seg>
+			<seg start="76">
+				<data>
+TGTTGTGTGAGGCACGGGCTGCAGCGTTGCAGCGGAAATCGCCGGGGCCGCGCCGCGGCCCCGGCAATTCCTGCT
+				</data>
+				<hit pos="118" idx="0" rc="y" pvalue="1.1e-09" match=" +++++++++  ++++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00867_+_+_CDLFDMNO_00868_+_+_DT" comment="Cluster_81761&#13;" length="153">
+			<score strand="both" combined_pvalue="1.70e-05" evalue="0.045"/>
+			<seg start="1">
+				<data>
+GAGGATGGGGGCCTGGCACCGGGGGTGTCGGGGTGTTTGAGGCAGGTTTCATGACCTGTGTGAAAGGGCTGCCTG
+GCAGCCCTTTTTTGTTGCTGGGTTTGCTGTGCCCATGGGTATGAGATGAAGATCGCCGTGGCCGCATAGCGGCCC
+CAG
+				</data>
+				<hit pos="64" idx="0" rc="n" pvalue="2.5e-09" match="+ +++++++ + +++++++ +"/>
+				<hit pos="132" idx="0" rc="y" pvalue="5.5e-07" match=" + ++++++++++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_02726_+_+_CDLFDMNO_02727_+_+_DT" comment="Cluster_117437&#13;" length="99">
+			<score strand="both" combined_pvalue="1.72e-05" evalue="0.046"/>
+			<seg start="1">
+				<data>
+AGGCCGTTTACGGAGACTGAATTGCAGGCATGAAAAAAGCGACCCTAGGGTCGCTTTCTTGTTGCTTCAGGGTGT
+				</data>
+				<hit pos="25" idx="1" rc="y" pvalue="1.8e-10" match="++++++++++++++ ++ ++ +++++ ++ +++ ++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_02300_+_+_CDLFDMNO_02301_+_+_CO_R" comment="Cluster_21866&#13;" length="370">
+			<score strand="both" combined_pvalue="1.81e-05" evalue="0.048"/>
+			<seg start="1">
+				<data>
+TTGAGGCTCCGCTACCAGCAGTATAAGGCCCGGGTGCATGCAAGGGGATGCCGGGGTTCGCCGCGGTTTATTTAG
+				</data>
+				<hit pos="37" idx="1" rc="y" pvalue="1.1e-05" match="++++++++   + ++++++ ++ +  +++++++ +++"/>
+			</seg>
+			<seg start="151">
+				<data>
+CAGGTCACGCGATCCACTACTGTGGGAGCGGCCTCGCCGGAGCGCCGGACCGGCCGCGATGGGCTGCGCAGCAGC
+CCCAGGATTTCAGCCCGCAGCTCAAATCGCCGGGGCCGCTGCGCGGCCCATCGCGGCCGGTCCGGCGCCCCGGCG
+				</data>
+				<hit pos="209" idx="0" rc="y" pvalue="2.1e-10" match="++++++++++ ++++++++++"/>
+				<hit pos="256" idx="0" rc="n" pvalue="1.7e-10" match=" +++++++++ ++++++++++"/>
+				<hit pos="277" idx="0" rc="y" pvalue="7.7e-05" match=" + +++++ +  +  +++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03545_+_+_CDLFDMNO_03546_+_+_CO_R" comment="Cluster_17585&#13;" length="415">
+			<score strand="both" combined_pvalue="1.89e-05" evalue="0.05"/>
+			<seg start="151">
+				<data>
+AATACGCCTAAAAGTTTACTCAGATTCAGCCACGTGACTTATTTGCTCGGACGGCGGGGTATCGAGCTTGACGGT
+CATCCCGGGGATTTTTTGTGTAGGTTGGGGCTGTTGGGGCTGCTGTGCAGCCCATCGCGGCGCGAGGCCGCCCAC
+				</data>
+				<hit pos="213" idx="1" rc="n" pvalue="3.6e-05" match="  +      ++  + +  +++++ ++++++ ++++ +"/>
+				<hit pos="260" idx="0" rc="n" pvalue="2.1e-10" match="++++++++++ ++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00300_+_+_CDLFDMNO_00301_+_+_CO_F" comment="Cluster_71932&#13;" length="172">
+			<score strand="both" combined_pvalue="2.00e-05" evalue="0.053"/>
+			<seg start="1">
+				<data>
+GCGCTCCAGGTTTGAATCGAATGGGGCCGCTTCGCAGCCCATCGCAGCCGGCCCGGTGCCCCGGACTGGCTGCGA
+TGGGTCGCCAAGCGGCCCTGATCAGTTTTGACCATTGCCCGTTGAACGGCGCTACACTCTGAACCCCCGACCGAT
+				</data>
+				<hit pos="22" idx="0" rc="n" pvalue="2.0e-11" match="+++++++++++++++++++++"/>
+				<hit pos="75" idx="0" rc="n" pvalue="8.0e-09" match="+++++ +++ +++++++++  "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_02454_+_+_CDLFDMNO_02455_+_+_DT" comment="Cluster_167741&#13;" length="31">
+			<score strand="both" combined_pvalue="2.18e-05" evalue="0.058"/>
+			<seg start="1">
+				<data>
+CACGGGGCCGCCAGGCGGCCCCGGTCGAGGA
+				</data>
+				<hit pos="3" idx="0" rc="y" pvalue="1.8e-09" match=" ++++++++ + ++++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03164_+_+_CDLFDMNO_03165_+_+_DT" comment="Cluster_41711&#13;" length="256">
+			<score strand="both" combined_pvalue="2.31e-05" evalue="0.061"/>
+			<seg start="1">
+				<data>
+TGCTTCCTGGATAACTTGAAGCACCGTTGCTGCCTGGTGCTTTTGTGGGGCTGCTTCGCGGCCCGTCGCGGCCGG
+				</data>
+				<hit pos="46" idx="0" rc="n" pvalue="7.1e-10" match="+++++++++++++++++++ +"/>
+			</seg>
+			<seg start="151">
+				<data>
+GCGCCGCGATGGGCCGCAAAGCGGCCCCAAACTATTGAGCACACGCAAGCGTGGATTTCCACGGCACCGCATCTC
+				</data>
+				<hit pos="159" idx="0" rc="y" pvalue="2.7e-12" match="+++++++++++++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03746_+_+_CDLFDMNO_03747_+_+_DT" comment="Cluster_151767&#13;" length="53">
+			<score strand="both" combined_pvalue="2.43e-05" evalue="0.064"/>
+			<seg start="1">
+				<data>
+TCACGGCATGATGACGGGGCCGCCGGGCGGCCCCTTTGCCCAAGCGTTGTCGC
+				</data>
+				<hit pos="15" idx="0" rc="n" pvalue="1.3e-09" match=" ++++++++   +++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00171_+_+_CDLFDMNO_00172_+_+_CO_R" comment="Cluster_69609&#13;" length="177">
+			<score strand="both" combined_pvalue="2.65e-05" evalue="0.07"/>
+			<seg start="76">
+				<data>
+GTACCGGGCGGGCAAAAAAAAGCCCGAAGCATGCGCCCGGGCTTAGGAAAGGTTGAGAGGTGTCTAGTCCCTCGA
+				</data>
+				<hit pos="84" idx="1" rc="y" pvalue="4.5e-08" match="+ ++++++++++++++++   ++ + ++  +   ++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00240_+_+_CDLFDMNO_00241_+_+_CO_F" comment="Cluster_32166&#13;" length="290">
+			<score strand="both" combined_pvalue="2.70e-05" evalue="0.072"/>
+			<seg start="1">
+				<data>
+GTTACCGCAATGTGCCGCGTAGCAGTCCCAGTATTCTAGCTTCGCCTCTTGCCTTGCCGGGGCCGCTTCGCGGCC
+CATCGCGGCCGGTCCGGCGCCCCGGCGAAACCGCTCCTTGTATCTCGACTTTTGCCTCTACAGGCACCGTGTACG
+				</data>
+				<hit pos="10" idx="0" rc="y" pvalue="2.8e-06" match="+++ ++++++++++++ ++++"/>
+				<hit pos="58" idx="0" rc="n" pvalue="5.1e-11" match=" ++++++++++++++++++++"/>
+				<hit pos="79" idx="0" rc="y" pvalue="7.7e-05" match=" + +++++ +  +  +++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_01221_+_+_CDLFDMNO_01222_+_+_CO_R" comment="Cluster_31045&#13;" length="306">
+			<score strand="both" combined_pvalue="2.72e-05" evalue="0.072"/>
+			<seg start="151">
+				<data>
+CAACGCACGTGGTGGCGCGTCGTACCGCCGCCGGTAGGCCTGTTCAAAAGAGCTTTCCATATCAAGCATGAGCGC
+				</data>
+				<hit pos="165" idx="0" rc="n" pvalue="7.7e-05" match="  + + ++ + +++ +++  +"/>
+			</seg>
+			<seg start="226">
+				<data>
+TGGCTTACCCGCCACAGGCCCCAGATAGGCATAAAAAAACCCCGGCACAGAGGCCGGGGTTTTCGTGAAGCAGGC
+				</data>
+				<hit pos="260" idx="1" rc="n" pvalue="6.8e-09" match="+++++ ++++++ + ++++++++  +++++ ++ +  "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00775_+_+_CDLFDMNO_00776_+_+_CO_R" comment="Cluster_18115&#13;" length="409">
+			<score strand="both" combined_pvalue="2.98e-05" evalue="0.079"/>
+			<seg start="151">
+				<data>
+GTTCGATATGGGGTTTTACGTGCCTGGGCCGGGTCTGAACCAGCTGACACCAGTGGGGCCGCTGTGCGGCCCATC
+				</data>
+				<hit pos="204" idx="0" rc="n" pvalue="2.0e-11" match="++++++++++ ++++++++++"/>
+			</seg>
+			<seg start="301">
+				<data>
+CCGGTGCGCCGGACCGGCCGAGCTGGGCCGAACAGCGGCCCCAACGGTGTCAAGCCAATCGCATGAGCCCATGGA
+				</data>
+				<hit pos="323" idx="0" rc="y" pvalue="1.8e-08" match=" +++++++ + ++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03214_+_+_CDLFDMNO_03215_+_+_CO_F" comment="Cluster_140445&#13;" length="67">
+			<score strand="both" combined_pvalue="2.99e-05" evalue="0.079"/>
+			<seg start="1">
+				<data>
+TCCTGCAGGGGCCGCAGCGCGGCCCTTGCATACCGCACACCCACAACAATGCCAACGAGGTGTCGTC
+				</data>
+				<hit pos="7" idx="0" rc="n" pvalue="1.1e-10" match="++++++++++ ++++++++ +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_02292_+_+_CDLFDMNO_02293_+_+_DP" comment="Cluster_1158&#13;" length="884">
+			<score strand="both" combined_pvalue="3.12e-05" evalue="0.083"/>
+			<seg start="1">
+				<data>
+ATAACACCGCAATTCAGAAATAACTAGATTTTGTTACAAAATTTCGGGACATTTTCCCTAGCGAAGGCGTTCCGA
+				</data>
+				<hit pos="12" idx="2" rc="n" pvalue="6.1e-05" match="+++ + ++++++  +  ++++++++ ++ ++++    + +++++   + +"/>
+			</seg>
+			<seg start="451">
+				<data>
+ATTTAGAAAAGGTCGAACGGGTGCCAAAGGATATTTTTAGAGATATAAGATTGCACCATAAAAACAAAAAACGTT
+				</data>
+				<hit pos="507" idx="5" rc="y" pvalue="1.4e-07" match="+++++++++++++++"/>
+			</seg>
+			<seg start="751">
+				<data>
+GGTAAGCAATTCGGCTGGCAGACAGTGAGCGGGAGAAAAACAAAAAGCCTGCGTCAATAGCGAAAGGTCTTACAA
+				</data>
+				<hit pos="783" idx="5" rc="y" pvalue="1.7e-05" match=" + ++++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00256_+_+_CDLFDMNO_00257_+_+_DT" comment="Cluster_88216&#13;" length="142">
+			<score strand="both" combined_pvalue="3.24e-05" evalue="0.086"/>
+			<seg start="1">
+				<data>
+GCCCAGATGCTGAGGGGTGTGCAGCGACCCGTCGCAGCCAGCCTGGAAGTACAGCGCAGGCCTCAACCCGCTTAC
+				</data>
+				<hit pos="12" idx="0" rc="y" pvalue="3.6e-05" match="  +++ ++ + ++++ +++ +"/>
+			</seg>
+			<seg start="76">
+				<data>
+CTCTGTGAAAGCGGCCTTGCCGGGGCCGCTTTGCGGCCCATCGCCATGGATGCCGCAGGCTCGAACC
+				</data>
+				<hit pos="96" idx="0" rc="n" pvalue="5.1e-11" match=" ++++++++++++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03151_+_+_CDLFDMNO_03152_+_+_DT" comment="Cluster_168759&#13;" length="30">
+			<score strand="both" combined_pvalue="3.45e-05" evalue="0.092"/>
+			<seg start="1">
+				<data>
+ACCATTGGGCCGTCCTGCGGCCCAGTTTTC
+				</data>
+				<hit pos="5" idx="0" rc="n" pvalue="1.2e-08" match="++++++++   +++++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00373_+_+_CDLFDMNO_00374_+_+_DT" comment="Cluster_119741&#13;" length="96">
+			<score strand="both" combined_pvalue="3.48e-05" evalue="0.093"/>
+			<seg start="1">
+				<data>
+TGCAGGTCGTGCTTCCATGCTGAATTAGCCACATCGCTGTTTCGGCAATAAAAAACCGGCGCTCAGGGCGCCGGT
+TCTTGTCCTGCTGGATGGGTG
+				</data>
+				<hit pos="43" idx="1" rc="y" pvalue="5.5e-10" match="+ + +++++++++ + ++++++++++++  + ++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03552_+_+_CDLFDMNO_03553_+_+_DP" comment="Cluster_975&#13;" length="902">
+			<score strand="both" combined_pvalue="3.67e-05" evalue="0.097"/>
+			<seg start="1">
+				<data>
+GTTATTTTCCTTATTTCTTGATCGAAAACGCGCTGCGTAATGACGCCATGAACCAACGCCCCTTCGTAGGTTCGA
+				</data>
+				<hit pos="1" idx="5" rc="n" pvalue="1.4e-05" match="++++++ +  +++++"/>
+			</seg>
+			<seg start="151">
+				<data>
+GGCCAGCAGGCGTGGCCGAATCCTAGCGGCGTACGATTACAAATGTCAAAAAAACGTGAAATGCAGGTTGATATA
+ACTAATAAACATGGCGTTCATGGGGCATTTTCTTTAGAACTAAAGCTGTAAGAGGATATTCCTTCTTGATATGGA
+				</data>
+				<hit pos="192" idx="2" rc="n" pvalue="2.6e-06" match="+++ +++++++++  + +++++     + +++++++++ ++++ +++  +"/>
+			</seg>
+			<seg start="376">
+				<data>
+AATCCAGGGCTCAGAATAGGCGAGCATTAGTAAATAGCACCCATTATCATTCGCGCTTTCATTACTGCCCGGTTA
+				</data>
+				<hit pos="386" idx="3" rc="n" pvalue="2.7e-06" match="  + ++ +++++ ++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00713_+_+_CDLFDMNO_00714_+_+_DT" comment="Cluster_154662&#13;" length="49">
+			<score strand="both" combined_pvalue="3.83e-05" evalue="0.1"/>
+			<seg start="1">
+				<data>
+ACGAAAACGGGGCCGCAAGCGGCCCCGTTTTTCATTCGGCTGACACGTA
+				</data>
+				<hit pos="4" idx="1" rc="n" pvalue="4.9e-07" match="++++     ++ +  + ++++   ++++++++++   "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_01017_+_+_CDLFDMNO_01018_+_+_CO_R" comment="Cluster_14054&#13;" length="462">
+			<score strand="both" combined_pvalue="3.86e-05" evalue="0.1"/>
+			<seg start="226">
+				<data>
+CTCGATTGATCATGCAAGCATAAATTTCAAAAATTTCAGCGAGTTATCATGGATGGGTGCAAAGGCCCGGATTTA
+				</data>
+				<hit pos="281" idx="3" rc="n" pvalue="5.3e-05" match="+    ++++++ ++++++ "/>
+			</seg>
+			<seg start="301">
+				<data>
+CGGGGTTAGCTGGGCTCCTTGAAGACAGCATAAAGGTTGTTGGGGCCGCGTTGCGGCCTATCGCGGCCGGTCCGG
+CGCCCCGGCCAGGCCCCTCCTGCATGGAGTGCGCGGGGCCTGGCCCATTGGCCGCGAGACGGCCCCGACAACTTT
+				</data>
+				<hit pos="341" idx="0" rc="n" pvalue="1.0e-09" match="+++++++++ ++++++++ ++"/>
+				<hit pos="362" idx="0" rc="y" pvalue="7.7e-05" match=" + +++++ +  +  +++++ "/>
+				<hit pos="422" idx="0" rc="y" pvalue="2.2e-06" match="++ ++++++++  +++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03274_+_+_CDLFDMNO_03275_+_+_CO_F" comment="Cluster_153161&#13;" length="51">
+			<score strand="both" combined_pvalue="3.87e-05" evalue="0.1"/>
+			<seg start="1">
+				<data>
+CCCATCAGTCAAGGCCGGCATTTCGCCGGCCTCTTTGTTTCAGGAGGCACT
+				</data>
+				<hit pos="8" idx="1" rc="n" pvalue="1.9e-07" match="   ++  +++++ +++ +++++ ++ +++ +++++ +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_01227_+_+_CDLFDMNO_01228_+_+_CO_R" comment="Cluster_20584&#13;" length="382">
+			<score strand="both" combined_pvalue="4.10e-05" evalue="0.11"/>
+			<seg start="226">
+				<data>
+ATGGCAGCTGGGTTAATGCAGGATTAACGCGTGAGACAAGTATCGCCCTGGCGATTTCGTCTTCGCAGCAAGGGG
+CTGCTTTGCAGCCCCTGAGAACGGCCGACCTTACGCATGGCCGTTACGCTTCTTTATATATAGTCACTAGGCGCT
+				</data>
+				<hit pos="296" idx="0" rc="n" pvalue="2.0e-11" match="+++++++++++++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00398_+_+_CDLFDMNO_00399_+_+_DT" comment="Cluster_98757&#13;" length="126">
+			<score strand="both" combined_pvalue="4.16e-05" evalue="0.11"/>
+			<seg start="1">
+				<data>
+GGCGATGAACCGTACGCTGTGCTGATAGACAAAAAACCGCCTCGAAAGGGCGGTTTTTTGGTTGCTGAGCCGCTA
+GGCGGCCTTATGCTGAAGCGTTGCGCATAAGGCGCCTGGACGGCTACAGCT
+				</data>
+				<hit pos="23" idx="1" rc="y" pvalue="7.3e-07" match="    + + +++++++++++   ++ +++ ++++++++"/>
+				<hit pos="65" idx="0" rc="n" pvalue="3.0e-06" match=" ++ +++++++ ++++++  +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00040_+_+_CDLFDMNO_00041_+_+_DT" comment="Cluster_158115&#13;" length="43">
+			<score strand="both" combined_pvalue="4.39e-05" evalue="0.12"/>
+			<seg start="1">
+				<data>
+TCCCGGGGATAGGGGCTGCAAGGCAGCCCCTGACACGGAGGGT
+				</data>
+				<hit pos="11" idx="0" rc="y" pvalue="3.5e-10" match="+++++++++++ +++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_01929_+_+_CDLFDMNO_01930_+_+_DT" comment="Cluster_125352&#13;" length="88">
+			<score strand="both" combined_pvalue="5.08e-05" evalue="0.13"/>
+			<seg start="1">
+				<data>
+AGGGCTAACCGGCTGATGCAGGCTAAGGATACGAACCTGAACCGTGAGCAACAAAAAACCCGCACAAGGCGGGTT
+TTTCATAAGGACT
+				</data>
+				<hit pos="45" idx="1" rc="y" pvalue="1.6e-09" match="   ++++ +++++++++++  ++++ ++++++++  +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_02694_+_+_CDLFDMNO_02695_+_+_CO_F" comment="Cluster_74355&#13;" length="167">
+			<score strand="both" combined_pvalue="5.21e-05" evalue="0.14"/>
+			<seg start="1">
+				<data>
+GCGAGATCCAGGCTTTGAGGTTTCAGGATTGAGGAGCGGAATGAAACCTCGCGCCTGCCCAAAACCCGGGGCCGC
+AAAGCGGCCCCAAGTCATAAGCTGTAAAACTGTCTCACTCTGCCCACTTCAATGGCCAGCTACCCATGCAATGAC
+				</data>
+				<hit pos="67" idx="0" rc="y" pvalue="2.0e-11" match=" ++++++++++++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03558_+_+_CDLFDMNO_03559_+_+_DT" comment="Cluster_94553&#13;" length="132">
+			<score strand="both" combined_pvalue="5.55e-05" evalue="0.15"/>
+			<seg start="1">
+				<data>
+GCGGCGGGGTGATCGCGAGCGATCAACTGTCAGTCTTGTGTGAAGGCGAGAGCCTGAGGCCGCTTTGCGGCCCCT
+				</data>
+				<hit pos="55" idx="0" rc="n" pvalue="7.1e-10" match="++ ++++++++++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_02588_+_+_CDLFDMNO_02589_+_+_DT" comment="Cluster_24717&#13;" length="347">
+			<score strand="both" combined_pvalue="5.66e-05" evalue="0.15"/>
+			<seg start="1">
+				<data>
+GGAGTCAGGCGGCTGTTGACTGCCACCGGGAGAGGGCGTGCAGCGGTCCCGGCGCACGACGATGCGGGGGTATAG
+				</data>
+				<hit pos="31" idx="0" rc="y" pvalue="1.9e-05" match="++ ++ ++ + +++++ +++ "/>
+			</seg>
+			<seg start="76">
+				<data>
+ATCCTGGGGCCGCTGCGCGGCCCATCGCGGCACTAGGCCCTACAAGGGGTAACTGCAGCGCAATGGCAGTTTCCG
+				</data>
+				<hit pos="80" idx="0" rc="n" pvalue="2.0e-11" match="++++++++++ ++++++++++"/>
+			</seg>
+			<seg start="226">
+				<data>
+GATGGGCCGCGCGGCGGCCCCACGATTTGAGCCGTGAATCACAAACATCAGGGCTCATGTGCGCCCCACCGCGAC
+				</data>
+				<hit pos="227" idx="0" rc="y" pvalue="3.5e-10" match="++++++++++  +++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03143_+_+_CDLFDMNO_03144_+_+_DT" comment="Cluster_59240&#13;" length="201">
+			<score strand="both" combined_pvalue="5.73e-05" evalue="0.15"/>
+			<seg start="76">
+				<data>
+TATTGCCGGGGCCGCACAGCGGCCCCAAGATTGCAGCATCGCAGCTCATCAAAATTTCAGCTTGCCAGCCCATAT
+				</data>
+				<hit pos="82" idx="0" rc="y" pvalue="8.6e-11" match=" +++++++++ ++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_02856_+_+_CDLFDMNO_02857_+_+_DT" comment="Cluster_80629&#13;" length="155">
+			<score strand="both" combined_pvalue="5.90e-05" evalue="0.16"/>
+			<seg start="1">
+				<data>
+GTGGCGTAGGTTAGGGTTGTCTGCCAAAACGTTTTTTGCGCCGTGGCTGCACCGGTGCAGCCCTGTAGGCCGCGC
+TGCCCGCGCGATGGGCCGTAGAGCGGCCCCGGCAAGGCCGCTCAACGGTGAACGCTAGGTGCCTCGCTGTGAAGT
+				</data>
+				<hit pos="32" idx="4" rc="y" pvalue="4.1e-05" match="++++++  +++"/>
+				<hit pos="65" idx="0" rc="n" pvalue="7.9e-05" match=" + ++++++  +++   + + "/>
+				<hit pos="86" idx="0" rc="n" pvalue="3.1e-09" match="++++++++ + +++++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00142_+_+_CDLFDMNO_00143_+_+_CO_F" comment="Cluster_9940&#13;" length="531">
+			<score strand="both" combined_pvalue="6.14e-05" evalue="0.16"/>
+			<seg start="76">
+				<data>
+CTGATTGACCCGCAGCTAAAACCCCCGTCATCACGGTAATGCTGTTCATTTAGGGCCGCTTCGCGACCCATCGCG
+				</data>
+				<hit pos="126" idx="0" rc="y" pvalue="3.8e-09" match="+ +++++++++ +++ +++++"/>
+			</seg>
+			<seg start="226">
+				<data>
+TGCCGCGATGGGCCGTGAAACGGCCCCAACAATCTCAAGTGAACAGCATTACCGTCATCACGGGGTTTTTTTTAT
+AGACGATTTTTCATTCGATTTCGCTTCAGCGTTAGTGACGGCTGAACCCTTCCCCCAACAACCCCTACGGCCTAA
+				</data>
+				<hit pos="233" idx="0" rc="y" pvalue="8.8e-09" match="++++++++ +++ ++++++++"/>
+				<hit pos="268" idx="1" rc="n" pvalue="2.4e-05" match="+ +  +   ++  + +  +++++++++++++ +    "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_02846_+_+_CDLFDMNO_02847_+_+_DT" comment="Cluster_58061&#13;" length="204">
+			<score strand="both" combined_pvalue="6.65e-05" evalue="0.18"/>
+			<seg start="1">
+				<data>
+GACGCATAACCACGTGCCATAGCGCAAATCCGAGGGTCTACGCGGTCCCGTGTAGGAGCGGCCTAGCAGGGGCGC
+CGGACCGGCCGCGATGGGCTGCGCAGCGGCCCCAGGTTTTCCAGCTCGCCGGCACCCCGGCGCGGTCGCTCCTAC
+				</data>
+				<hit pos="68" idx="0" rc="n" pvalue="5.8e-05" match="++++++  +  + +++++ + "/>
+				<hit pos="89" idx="0" rc="y" pvalue="8.6e-11" match="++++++++++ ++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_02798_+_+_CDLFDMNO_02799_+_+_CO_R" comment="Cluster_70449&#13;" length="175">
+			<score strand="both" combined_pvalue="6.65e-05" evalue="0.18"/>
+			<seg start="76">
+				<data>
+TCGCCATGAACGAAAAAGAAACCGGCAATCACCGACCCCGTTGGGTAATGACTGCCGGCTCGTTTGGCTGAGCAC
+				</data>
+				<hit pos="78" idx="5" rc="y" pvalue="9.4e-05" match=" ++++ +++ +++++"/>
+			</seg>
+			<seg start="151">
+				<data>
+CCGGGCTGCAGCGCAGCCCTGCACA
+				</data>
+				<hit pos="151" idx="0" rc="n" pvalue="2.6e-08" match="  ++++++++ ++++++++  "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_02081_+_+_CDLFDMNO_02082_+_+_DT" comment="Cluster_137496&#13;" length="71">
+			<score strand="both" combined_pvalue="6.69e-05" evalue="0.18"/>
+			<seg start="1">
+				<data>
+GTGTCCATTGCCCGCTATTTGATAGGCATCATGAAAACGCCGGTGAATAACCGGCGTTTTTTTATGGGCTT
+				</data>
+				<hit pos="34" idx="1" rc="n" pvalue="5.3e-07" match="++++  ++ +    +++ +++ +++++++++++    "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03588_+_+_CDLFDMNO_03589_+_+_CO_R" comment="Cluster_77388&#13;" length="161">
+			<score strand="both" combined_pvalue="6.70e-05" evalue="0.18"/>
+			<seg start="1">
+				<data>
+GGGATGCAGCTCCTGTGCTGGGGTGCCTGTGGAATGAATGTGCCTGAATTTCATCAACCTTAAAAAGAATAAATA
+AAGCTTTGTTAATGCTGTTTATGCATAACAAATTTCGCTCACAAAAAAGCCTCGCATCAAGCGAGGCTCTTTGAC
+				</data>
+				<hit pos="62" idx="5" rc="y" pvalue="2.3e-05" match="+++++ ++ +++ ++"/>
+				<hit pos="113" idx="4" rc="n" pvalue="1.9e-05" match=" +++ ++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_01433_+_+_CDLFDMNO_01434_+_+_DT" comment="Cluster_120458&#13;" length="95">
+			<score strand="both" combined_pvalue="6.70e-05" evalue="0.18"/>
+			<seg start="1">
+				<data>
+TAGAGGACATTCACCCGATTTACCAGGCACGCCCTACCAGGGCGGCGGGCTGAGGCCCAAGGGCCCCTTCATGGG
+GCCCTTTTTTTGTGCGCGGG
+				</data>
+				<hit pos="69" idx="3" rc="y" pvalue="8.5e-06" match="+ +++++  ++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_04115_+_+_CDLFDMNO_04116_+_+_CO_F" comment="Cluster_77813&#13;" length="159">
+			<score strand="both" combined_pvalue="7.33e-05" evalue="0.19"/>
+			<seg start="1">
+				<data>
+GCCTGGCTTGCAACGCTTCGCACCTGAAAAGCCCGGCGACAGCGCCGGGCTTTTTCTTGGCTGACAAGCAGGACG
+				</data>
+				<hit pos="27" idx="1" rc="n" pvalue="6.2e-10" match="++++  ++ ++  + + ++++++++++++++++ +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_02253_+_+_CDLFDMNO_02254_+_+_DT" comment="Cluster_144531&#13;" length="62">
+			<score strand="both" combined_pvalue="8.42e-05" evalue="0.22"/>
+			<seg start="1">
+				<data>
+GCCATCACGTGGGGGTTGTACCGGGCCGATGCGCATCGTCGGCCCTTTTTTTCGCCTGTGAA
+				</data>
+				<hit pos="46" idx="4" rc="y" pvalue="1.6e-05" match="+++++++ +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00226_+_+_CDLFDMNO_00227_+_+_DT" comment="Cluster_141223&#13;" length="66">
+			<score strand="both" combined_pvalue="8.46e-05" evalue="0.22"/>
+			<seg start="1">
+				<data>
+TTGATCGGCGACCTGAAAAAAACCCGCCTCCGAAAGGAGGCGGGTTTTTTTGTGCCTACAGCTAGA
+				</data>
+				<hit pos="22" idx="1" rc="n" pvalue="1.2e-06" match="+     + +++    +++++++++++++++ +++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00549_+_+_CDLFDMNO_00550_+_+_CO_R" comment="Cluster_140056&#13;" length="67">
+			<score strand="both" combined_pvalue="9.21e-05" evalue="0.24"/>
+			<seg start="1">
+				<data>
+AACACCCTATCCACTGAAGGTCTTGGCGGGCAAAAAACAAGCCGAGGATTATACCCGAGCATGGACC
+				</data>
+				<hit pos="33" idx="3" rc="n" pvalue="3.6e-08" match="+++++ ++++++ ++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_02620_+_+_CDLFDMNO_02621_+_+_DT" comment="Cluster_35180&#13;" length="284">
+			<score strand="both" combined_pvalue="9.59e-05" evalue="0.25"/>
+			<seg start="76">
+				<data>
+CCCACTGTGGGAGCGGCCCTCGCCGGGGCGCCGGACCGGCCGCGATGGGCCGCAAAGCGGCCCTGTCCCCGGCAA
+				</data>
+				<hit pos="99" idx="0" rc="n" pvalue="7.7e-05" match=" +++++  +  + +++++ + "/>
+				<hit pos="120" idx="0" rc="y" pvalue="2.1e-10" match="+++++++++++++++++++  "/>
+			</seg>
+			<seg start="151">
+				<data>
+CGTCAGCGGCGAAGCTGAAATCCTGGGGCCGCTNCGCGGCCCATCGCGGCCGGTCCGGCGCCCCGGCAAGGCCGC
+				</data>
+				<hit pos="174" idx="0" rc="n" pvalue="1.4e-11" match="++++++++++ ++++++++++"/>
+				<hit pos="195" idx="0" rc="y" pvalue="7.7e-05" match=" + +++++ +  +  +++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00901_+_+_CDLFDMNO_00902_+_+_DT" comment="Cluster_101463&#13;" length="122">
+			<score strand="both" combined_pvalue="9.60e-05" evalue="0.26"/>
+			<seg start="1">
+				<data>
+GGATCGTCCTGTCGGCCAAATGGATTTGGCCAGCTACAACAAAAGCCCCGGCCTGCCGGGGCTTTTTCATGGAAG
+				</data>
+				<hit pos="39" idx="1" rc="n" pvalue="1.2e-09" match="+ ++++ ++++  + +  +++++++++++++++ + +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03286_+_+_CDLFDMNO_03287_+_+_CO_F" comment="Cluster_146968&#13;" length="59">
+			<score strand="both" combined_pvalue="1.01e-04" evalue="0.27"/>
+			<seg start="1">
+				<data>
+CCCATCAAAATTCAAGCGAACCGGCACACGCCGGTTTTTTTTCGCCCGGAGAAAAGTCT
+				</data>
+				<hit pos="12" idx="1" rc="n" pvalue="1.6e-06" match="  ++   + ++  +  + +++++++++++++ +++ +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_01100_+_+_CDLFDMNO_01101_+_+_CO_F" comment="Cluster_55035&#13;" length="212">
+			<score strand="both" combined_pvalue="1.08e-04" evalue="0.29"/>
+			<seg start="1">
+				<data>
+TCCTGCTGCAGGCGCGGCCTGGTGCCGCGATGGGCCGGGCAGCGGCCCCGACACAATGAGCTGCACAGCTGACAT
+				</data>
+				<hit pos="30" idx="0" rc="y" pvalue="9.6e-09" match="++++++++ + +++++++++ "/>
+			</seg>
+			<seg start="76">
+				<data>
+TCTGGGGCTGCTGCGCAGCCCATCGGTGTCCCGGCAGGGCACGGTTGCGCTCCCATCACCGCACAATGCCCGCAA
+				</data>
+				<hit pos="78" idx="0" rc="n" pvalue="2.1e-10" match="++++++++++ ++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03994_+_+_CDLFDMNO_03995_+_+_DT" comment="Cluster_66771&#13;" length="183">
+			<score strand="both" combined_pvalue="1.14e-04" evalue="0.3"/>
+			<seg start="1">
+				<data>
+GCGATGGGGTCGTCTTGCTGCATCTGATGGTCTTTCCCAAAAAGGAAGCCAGCGGCTGATTGCTGCAACGGGCCG
+CAAAGCGGCCCCACGATTTGAATCCAGCGCCTTACACTCCAGCTTCGCACTTTCAGTGGTCGGGGCGGGCGGGGC
+				</data>
+				<hit pos="5" idx="0" rc="n" pvalue="2.1e-06" match="+++++ ++  ++++ ++  ++"/>
+				<hit pos="68" idx="0" rc="y" pvalue="4.1e-10" match="+ +++++++++++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03124_+_+_CDLFDMNO_03125_+_+_CO_F" comment="Cluster_8061&#13;" length="574">
+			<score strand="both" combined_pvalue="1.17e-04" evalue="0.31"/>
+			<seg start="1">
+				<data>
+GTGCTTGAGCCGTCGATTGGGCTTGGCGCCCCGGGGCCGCTTTGCGGCCCATCGCGGCCGGTCCGGCGCCCCGGC
+				</data>
+				<hit pos="32" idx="0" rc="n" pvalue="5.1e-11" match=" ++++++++++++++++++++"/>
+				<hit pos="53" idx="0" rc="y" pvalue="7.7e-05" match=" + +++++ +  +  +++++ "/>
+			</seg>
+			<seg start="151">
+				<data>
+GGCCTACCCGGACCTGTGGGAGCGGCCTCGCGCCGCGATGGACCGCAAAGCGGCCCCAAGATCTAAAACGCGACC
+				</data>
+				<hit pos="188" idx="0" rc="y" pvalue="3.8e-07" match="++++ ++++++++++++++++"/>
+			</seg>
+			<seg start="226">
+				<data>
+ACCATCTCCGGCTCCCCCGCGGTAGGCTACCCAGCGACCCCGCATTGGGCCTTCATTCGCACACTGTACCCCCAA
+				</data>
+				<hit pos="247" idx="0" rc="n" pvalue="3.6e-05" match=" + ++++ +  ++++ ++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03832_+_+_CDLFDMNO_03833_+_+_DT" comment="Cluster_94554&#13;" length="132">
+			<score strand="both" combined_pvalue="1.19e-04" evalue="0.32"/>
+			<seg start="76">
+				<data>
+AAGTCAAAAAAAAGCCGACCCCAAGGGGATCGGCTTGATAACAGCCCCGAAGGACTA
+				</data>
+				<hit pos="78" idx="4" rc="n" pvalue="1.8e-06" match="+++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00975_+_+_CDLFDMNO_00976_+_+_CO_R" comment="Cluster_36892&#13;" length="276">
+			<score strand="both" combined_pvalue="1.23e-04" evalue="0.33"/>
+			<seg start="151">
+				<data>
+TAGATTTCAACTACCAGCAGCTCTGCCGTAGTCCTTCATGGCTTGTTGAGAAAATCCAGACAGATTGTGATGCAC
+GCACGAAAATGGGGCCCCTGAGGGCCCCATTTGTGTGCAGCAGACGCTGGC
+				</data>
+				<hit pos="223" idx="1" rc="y" pvalue="3.8e-07" match="++ +++ +++++ +  ++++ + +++++    +++ +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00875_+_+_CDLFDMNO_00876_+_+_DT" comment="Cluster_116281&#13;" length="101">
+			<score strand="both" combined_pvalue="1.23e-04" evalue="0.33"/>
+			<seg start="1">
+				<data>
+CGATTACTTCGTTCTGAACAGCAAAGGCGACCCTAGGGTCGCCTTTGTCATTTCTGCAAACGGTGGTGTGGGCCG
+TTATCGCAGCCCAGTGCCGCCGTACC
+				</data>
+				<hit pos="20" idx="1" rc="n" pvalue="1.7e-08" match="+  +++  ++ +++++ ++ ++ ++++ +++++++++"/>
+				<hit pos="69" idx="0" rc="y" pvalue="9.2e-05" match="++++ +   ++ ++++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_01484_+_+_CDLFDMNO_01485_+_+_DP" comment="Cluster_60453&#13;" length="198">
+			<score strand="both" combined_pvalue="1.31e-04" evalue="0.35"/>
+			<seg start="1">
+				<data>
+GAGACAAAATCACCGGTTTTTTGTGTTTATGCGAAATGTTTATCTGGCCTGCTCGTCAAAGGCAATCAACTAGAG
+				</data>
+				<hit pos="7" idx="3" rc="y" pvalue="5.4e-06" match=" ++++ ++++ +++++ ++"/>
+			</seg>
+			<seg start="151">
+				<data>
+ACCGCTTCAAAGCTCACAAAAACAAATACCCGAGCGAGCGTAAACAGC
+				</data>
+				<hit pos="165" idx="5" rc="y" pvalue="9.6e-07" match="++++++++++++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00326_+_+_CDLFDMNO_00327_+_+_DT" comment="Cluster_146965&#13;" length="59">
+			<score strand="both" combined_pvalue="1.33e-04" evalue="0.35"/>
+			<seg start="1">
+				<data>
+GGCCTTCTGCGCCTGCGCGCCTGAAATGAAAACGCCGCCTTCAAGGGCGGCGTTCTGGT
+				</data>
+				<hit pos="21" idx="1" rc="y" pvalue="3.9e-09" match="+ ++++++++++ ++++++ ++++++++++  ++ + "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_02604_+_+_CDLFDMNO_02605_+_+_CO_R" comment="Cluster_39640&#13;" length="264">
+			<score strand="both" combined_pvalue="1.74e-04" evalue="0.46"/>
+			<seg start="76">
+				<data>
+CCAAAGGTCGCTTCAATCTGCTCGGTTTGCTGAGCGGGCGCTGCACCGATCCGGTAGTGGGAGCAACGCCATTGG
+				</data>
+				<hit pos="97" idx="0" rc="n" pvalue="5.7e-05" match="+ ++  ++++ +++++ + ++"/>
+			</seg>
+			<seg start="151">
+				<data>
+CTGATCTCTGTCAGCGCGCGCTGGGGCTGCTGTGCAGCCCATCGGGGCACGAGGCCCCTCCTACAAGGGGATGTG
+				</data>
+				<hit pos="172" idx="0" rc="n" pvalue="2.1e-10" match="++++++++++ ++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00242_+_+_CDLFDMNO_00243_+_+_CO_R" comment="Cluster_144526&#13;" length="62">
+			<score strand="both" combined_pvalue="1.78e-04" evalue="0.47"/>
+			<seg start="1">
+				<data>
+TATGGTATTCCTCGGAACAAAAATGGCCGCAAACAGCGGCAGTGTTTAAGAGTAATGGTTGA
+				</data>
+				<hit pos="12" idx="1" rc="y" pvalue="5.6e-07" match="  ++++ +++++ + ++++  + ++ ++  ++ +++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_01333_+_+_CDLFDMNO_01334_+_+_DT" comment="Cluster_119744&#13;" length="96">
+			<score strand="both" combined_pvalue="2.06e-04" evalue="0.55"/>
+			<seg start="1">
+				<data>
+TTCGCTGACGCGCCGATAGCAAACGCCCCGACTGGTTCGGGGCGTTTTCATTTACGCTGGAAAGCAGACTCTTTG
+				</data>
+				<hit pos="12" idx="1" rc="y" pvalue="8.9e-06" match="   ++ ++ +++ ++++++  + +  +++++  ++++"/>
+				<hit pos="52" idx="0" rc="n" pvalue="8.9e-05" match="++  ++++ +++++++ + ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_01611_+_+_CDLFDMNO_01612_+_+_CO_R" comment="Cluster_26018&#13;" length="338">
+			<score strand="both" combined_pvalue="2.10e-04" evalue="0.56"/>
+			<seg start="1">
+				<data>
+GCGTTCACCAGAAAATGCAGGTTGGGCTAATGCGGTAATGCTGTTCATTCAAGATCGTCGGGGCCGTTTCACGGC
+CCATCGCGGCACAAGGCCGCTCCCACACCGAGCGCGTGACGCCTGAGTTGATAGGCTGCAGGAGCGGCCTAGTGC
+				</data>
+				<hit pos="59" idx="0" rc="n" pvalue="1.8e-08" match=" +++++++ +++ ++++++++"/>
+			</seg>
+			<seg start="151">
+				<data>
+CGCGATGGGCCGCGCAGCGGCCCTAGGTGAACAGCATTAGGCTAATGGGGGGAGTGTACAAGAAGGTTAAAGCGT
+				</data>
+				<hit pos="155" idx="0" rc="y" pvalue="1.1e-10" match="++++++++++ ++++++++ +"/>
+			</seg>
+			<seg start="301">
+				<data>
+GCCCCGCCAGCAGGGCCGCCCGAGGATCAGCAGGCCGT
+				</data>
+				<hit pos="303" idx="0" rc="y" pvalue="6.0e-05" match="   + + +++  ++ ++++ +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03986_+_+_CDLFDMNO_03987_+_+_CO_R" comment="Cluster_109168&#13;" length="111">
+			<score strand="both" combined_pvalue="2.17e-04" evalue="0.58"/>
+			<seg start="1">
+				<data>
+GCCAGCCTCGAGTCCATATCGCTGCCGTTTACAGGAAGGGCTGCAAAGCAGCCCTTATATTCCAGGTATCAGGCT
+				</data>
+				<hit pos="36" idx="0" rc="y" pvalue="2.9e-10" match="+ +++++++++++++++++ +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_01434_+_+_CDLFDMNO_01435_+_+_CO_R" comment="Cluster_41955&#13;" length="255">
+			<score strand="both" combined_pvalue="2.30e-04" evalue="0.61"/>
+			<seg start="151">
+				<data>
+TTGGTTGGGCGCTACGCCAGTGCTTGCCTGCTACACATCACATGCTGTCATGCAGGCAAAGAAAAACCCGGCCGA
+GGCCGGGCTTTTCATGAAGCTTCAAACCAA
+				</data>
+				<hit pos="203" idx="1" rc="y" pvalue="8.5e-10" match="++++++++ +++++++++++  +++ ++++ ++++  "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_02311_+_+_CDLFDMNO_02312_+_+_DT" comment="Cluster_40883&#13;" length="259">
+			<score strand="both" combined_pvalue="2.44e-04" evalue="0.65"/>
+			<seg start="76">
+				<data>
+ATGGGTCACGAAGAGGGTCCAGTGATCTGTGATGCTGGGCTGCAATCCTGGGGCCGCTGCGCGGCCCCAAAATTT
+				</data>
+				<hit pos="124" idx="0" rc="n" pvalue="2.8e-11" match="++++++++++ ++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03385_+_+_CDLFDMNO_03386_+_+_CO_F" comment="Cluster_68652&#13;" length="179">
+			<score strand="both" combined_pvalue="2.46e-04" evalue="0.65"/>
+			<seg start="76">
+				<data>
+ATCATCGGATTGGCGGGCTAGCGCGAGCATGCACCGAACCCGCCCTGGAGGCGGGTTTTTTTCATCCGATTCCTG
+				</data>
+				<hit pos="108" idx="1" rc="n" pvalue="1.2e-08" match="+   ++++++++++ +++++++++++++++  +++  "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_02105_+_+_CDLFDMNO_02106_+_+_CO_F" comment="Cluster_90648&#13;" length="138">
+			<score strand="both" combined_pvalue="2.68e-04" evalue="0.71"/>
+			<seg start="1">
+				<data>
+TCCCACCCTGGAGCGGCACCCGACGCCCGGCCTTGAGCCGGGCGTTTTCATGTCTGCGGTACCGCTTCCCGCTGC
+				</data>
+				<hit pos="20" idx="1" rc="n" pvalue="7.7e-10" match="   +  ++++++++++++++++++ ++++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_02225_+_+_CDLFDMNO_02226_+_+_CO_F" comment="Cluster_77891&#13;" length="160">
+			<score strand="both" combined_pvalue="2.68e-04" evalue="0.71"/>
+			<seg start="1">
+				<data>
+TCGCCTGACCAGGATGGGGCCGCGCAGCGGCCCTTGCTTTACCCGGCCGCAAGGGTTCAGTACGGCGCCACTGCC
+				</data>
+				<hit pos="15" idx="0" rc="y" pvalue="1.1e-10" match="++++++++++ ++++++++ +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00909_+_+_CDLFDMNO_00910_+_+_CO_R" comment="Cluster_3153&#13;" length="752">
+			<score strand="both" combined_pvalue="2.75e-04" evalue="0.73"/>
+			<seg start="151">
+				<data>
+AGAAGTCGTTGCGTGTGCTCTTATTGTTTTTTTTGCGGGCTTCTTGTTTTTGTTGAGCGCCCTGCCACTAAGCGC
+				</data>
+				<hit pos="170" idx="5" rc="n" pvalue="5.0e-08" match="+++++++++++++++"/>
+				<hit pos="190" idx="5" rc="n" pvalue="1.2e-07" match="+++ +++++++++++"/>
+			</seg>
+			<seg start="301">
+				<data>
+TCGATCCATCCAGTTCAGGTGCTGCTTTTTAGTGCAGTTTTTGTTGTTCTCTGCCTGGGTGTGGGGCAAGCCCCA
+				</data>
+				<hit pos="337" idx="5" rc="n" pvalue="2.1e-05" match="++++++++++++ + "/>
+			</seg>
+			<seg start="376">
+				<data>
+AACATGCATCCTCTCCAAAAGAATCAGTTAGCTGCGCCTCCGCCGTCTTGTTCTTATTGTGCGTGAGTCGTTTCG
+TCTTGTTCTTATTGTGGGTTGCAGTGCTTGTTATTGTTTTTGTACTAAGCATATAGCAGAAGCCGTGCCAACTTT
+				</data>
+				<hit pos="419" idx="5" rc="n" pvalue="1.9e-06" match="+++ +++++ +++++"/>
+				<hit pos="449" idx="5" rc="n" pvalue="1.9e-06" match="+++ +++++ +++++"/>
+				<hit pos="480" idx="5" rc="n" pvalue="1.3e-06" match="++++++++++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_02603_+_+_CDLFDMNO_02604_+_+_CO_R" comment="Cluster_130097&#13;" length="81">
+			<score strand="both" combined_pvalue="2.93e-04" evalue="0.78"/>
+			<seg start="1">
+				<data>
+CTTCAACCTATTGAAAAAACGTAATTTTCAGACGGGAATAAAAACGCCCGGCCAGGCCGGGCGTTGGGCGCAGAG
+				</data>
+				<hit pos="33" idx="1" rc="y" pvalue="1.2e-07" match="+ ++++++++++ +++++++ + +  +++ +++    "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03359_+_+_CDLFDMNO_03360_+_+_DP" comment="Cluster_61664&#13;" length="195">
+			<score strand="both" combined_pvalue="2.96e-04" evalue="0.79"/>
+			<seg start="1">
+				<data>
+GGCGCGATCCTCGAAGTGCAGTAAATGGGAGCACCAGAACATAAGCACATGACCGCACTGCTTCAATTTGTTTAT
+TACCAATTATTAGATTTTTTAGTTATTTTTATATCCTTTTGTTTTGTAATCAGTTGTCCGCTGTCGACATTTTTT
+TCACATCCCCTTGCTAGCATTCCTTGCAGAATCAAGGAGTTTTCC
+				</data>
+				<hit pos="71" idx="2" rc="n" pvalue="3.7e-07" match=" ++++++  ++ ++++  ++++++ + ++++++ +++++  ++++  +++"/>
+				<hit pos="144" idx="4" rc="y" pvalue="2.9e-05" match=" +++++++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00030_+_+_CDLFDMNO_00031_+_+_CO_R" comment="Cluster_81860&#13;" length="151">
+			<score strand="both" combined_pvalue="3.02e-04" evalue="0.8"/>
+			<seg start="76">
+				<data>
+TAGTGTAACGGCTGCGGACGAAAAAAAGGGCAGCCGCGCCGCCCTTTCATCTTTGGCTTACAACATTAACCGGGC
+				</data>
+				<hit pos="101" idx="0" rc="y" pvalue="5.2e-07" match="+ ++++ ++   ++ ++++ +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_01836_+_+_CDLFDMNO_01837_+_+_DT" comment="Cluster_5429&#13;" length="654">
+			<score strand="both" combined_pvalue="3.02e-04" evalue="0.8"/>
+			<seg start="1">
+				<data>
+CGTTGTGTGAAAAAACAAAAAGGCCCGCAAGGGCCTTTTTGCTGTAGCGCGAAAAACCTGCATGCAGACGTGGCC
+				</data>
+				<hit pos="9" idx="1" rc="y" pvalue="8.2e-07" match=" + ++++ ++++++ +++++ + ++ +  +++  + +"/>
+			</seg>
+			<seg start="76">
+				<data>
+GCCGCCATGCTGGCTCTGATACAGCCGTACACAAGCGTCATGCACTCTGACGCCGGTATCGAAAAGCTCAGATCC
+TAAAAAAAAGGCAAAAAAAGGGGCGGTTTGACCCGCCCACATTTTTTTCCGTAGTCCCTGCTTGTCCTGTACATC
+				</data>
+				<hit pos="146" idx="1" rc="y" pvalue="1.8e-07" match=" ++ + ++++++++  +    +++++++ +++++   "/>
+				<hit pos="191" idx="4" rc="y" pvalue="6.7e-05" match=" +++++++ + "/>
+			</seg>
+			<seg start="301">
+				<data>
+GAATACTAGCGACCTGAGCGGGATGTGCAACGCGTCCTCCTCACAGGATGTTGCGGTCTACAAACTTTCACACAT
+CTAAATATTTGAATAATTTCAATGAGTTAAGAAAAGGTTGCTTTTAAAAACGACAATGATTTACCGCCACATCCT
+				</data>
+				<hit pos="366" idx="2" rc="n" pvalue="4.5e-05" match=" ++ +++ ++  ++++ +++   +++ ++ +++ + +  + ++++ ++++"/>
+			</seg>
+			<seg start="526">
+				<data>
+GTGAATCTGCAAACCGGTCCGAACACCACTCACCCTAGAAAGCTGGTCGACAGCAGGGTTCCCCAAACCCCAAAC
+GCAAAAACGCCCCTTTTTATCGGGGCGTTTCTGGACGGGGCGTAGGACCAGGGT
+				</data>
+				<hit pos="596" idx="1" rc="y" pvalue="1.6e-05" match="++ ++  +++++ +++++  ++ +  ++++  +++ +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_01571_+_+_CDLFDMNO_01572_+_+_DT" comment="Cluster_74834&#13;" length="166">
+			<score strand="both" combined_pvalue="3.20e-04" evalue="0.85"/>
+			<seg start="1">
+				<data>
+CCCGGTGTGAAAGTCCTGATACGCGCTGTAATGCTGTTCATTTAGGGCCGCTGCGCGGCCTGTCGCGGCGCAAGG
+				</data>
+				<hit pos="43" idx="0" rc="n" pvalue="8.8e-09" match="+ ++++++++ +++++++  +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00534_+_+_CDLFDMNO_00535_+_+_CO_F" comment="Cluster_88047&#13;" length="142">
+			<score strand="both" combined_pvalue="3.31e-04" evalue="0.88"/>
+			<seg start="1">
+				<data>
+TCCACTTACGTACAACCGAACCGTCTGGCGTTTCTGCGCACCGCCCAGGTCTGTCACATTCGACCCTGGGCGTTT
+TTTTTGCCTGTGGAACCTCTGGAAGCGGCGGCGAGTCTGTGATGTAACCCCTTACGGAGAGACTCGC
+				</data>
+				<hit pos="73" idx="4" rc="y" pvalue="1.4e-06" match="+++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_01441_+_+_CDLFDMNO_01442_+_+_CO_R" comment="Cluster_141225&#13;" length="66">
+			<score strand="both" combined_pvalue="3.42e-04" evalue="0.91"/>
+			<seg start="1">
+				<data>
+TGCTGGAACTCGCCCTGGAAAAAAAACCAGGCCAGGGGCGCCAGACGCCCCTCGCGTTTTGCGGTA
+				</data>
+				<hit pos="16" idx="4" rc="n" pvalue="8.0e-06" match="++ ++++++++"/>
+				<hit pos="33" idx="0" rc="y" pvalue="3.7e-05" match="  +++ +++ +  ++ +++  "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_02175_+_+_CDLFDMNO_02176_+_+_DP" comment="Cluster_73317&#13;" length="169">
+			<score strand="both" combined_pvalue="3.43e-04" evalue="0.91"/>
+			<seg start="1">
+				<data>
+GGGAAATCTCCTCGAAAAAACTGCGTGCCTGCCAGGCGCAAGGCCTGGCGAAGGTCCGTATAATGCCGGCCATTA
+				</data>
+				<hit pos="57" idx="3" rc="n" pvalue="1.3e-06" match="+  + ++++++++++++++"/>
+			</seg>
+			<seg start="76">
+				<data>
+TGGGCCGTCGTCGGCACTGGGGGAACCGGTGTATGATCGCGCGCCCACGCTCCACTGCGCGGCCCCAGGCCCCGG
+CTCTTTCCAGGATTCGTTC
+				</data>
+				<hit pos="128" idx="1" rc="n" pvalue="5.3e-05" match=" +     + +++++ +  +++++++ ++++  + ++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00155_+_+_CDLFDMNO_00156_+_+_CO_R" comment="Cluster_36407&#13;" length="278">
+			<score strand="both" combined_pvalue="3.56e-04" evalue="0.95"/>
+			<seg start="76">
+				<data>
+CGGTAGGCCCGGAATGCTGTTCACCTGAAATGGCTGGGGCCGCTTTACGGCCCATCGCGGCACAAGGCCGCTCCT
+				</data>
+				<hit pos="110" idx="0" rc="n" pvalue="1.4e-09" match="++++++++++++ ++++++++"/>
+			</seg>
+			<seg start="151">
+				<data>
+ACATTGACCGCGTCGCACCCGAATTGACGGGATGACGAGACCTTGCAGGAGCGGCCTTGTGCCGCGATGGGCTGC
+AGAGCAGCCCCAAAGTAACAGCGTACGGGTAAGCCCGTAATTTTTGGACAGGG
+				</data>
+				<hit pos="217" idx="0" rc="y" pvalue="2.9e-10" match="++++++++++ ++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03640_+_+_CDLFDMNO_03641_+_+_DT" comment="Cluster_85206&#13;" length="147">
+			<score strand="both" combined_pvalue="3.70e-04" evalue="0.98"/>
+			<seg start="1">
+				<data>
+CCTTGTGAGTGCGTGGGGCTGCGCTGCAGCCCCTGCCTTGCAGTGGCCTCGGAAGGCTCATTTACAAGCCGTAAG
+				</data>
+				<hit pos="14" idx="0" rc="y" pvalue="4.7e-10" match="++++++++++ ++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03753_+_+_CDLFDMNO_03754_+_+_CO_F" comment="Cluster_69620&#13;" length="177">
+			<score strand="both" combined_pvalue="3.74e-04" evalue="0.99"/>
+			<seg start="1">
+				<data>
+TCCGAGCGCCGGTCCTGCCTTGCAGCCCTGCTGCCGGTAAACCGGCACGCCTGTTACGCCTCTTGGCTGAACCCA
+				</data>
+				<hit pos="10" idx="0" rc="y" pvalue="1.1e-06" match=" ++  ++++ +++++++++  "/>
+			</seg>
+			<seg start="151">
+				<data>
+GCAGAACAACAATAAAGGGAGCCTGCC
+				</data>
+				<hit pos="152" idx="5" rc="y" pvalue="7.5e-06" match="++ ++++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_01053_+_+_CDLFDMNO_01054_+_+_CO_F" comment="Cluster_104253&#13;" length="118">
+			<score strand="both" combined_pvalue="3.79e-04" evalue="1"/>
+			<seg start="1">
+				<data>
+CCTGCTGACGCTCCGCTTGGCGGACGAAAGGGCGCGAGTGTTGAACTCGCGCCCTTTTTTTTGCTCCAAGGCAAG
+GAGAAAGCGGGCCAAGTCCCGTATGTACGATCAGGAGGTTCAC
+				</data>
+				<hit pos="44" idx="3" rc="y" pvalue="3.7e-06" match=" + ++++  ++++++++++"/>
+				<hit pos="69" idx="1" rc="y" pvalue="5.7e-05" match="  + ++ ++ +++++ ++++ +    ++  + +    "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00473_+_+_CDLFDMNO_00474_+_+_CO_F" comment="Cluster_57317&#13;" length="206">
+			<score strand="both" combined_pvalue="3.83e-04" evalue="1"/>
+			<seg start="1">
+				<data>
+TCGCACCGCCTTTCTGAAAGCGGGACTGGCCCCCCTGTAGGAGCGGCCTGGTGCCGCGAAAGGGTCGCGATGCGG
+CCCCAGCATTTGATCAGTACCACGGATGCTGGGGCCGCTTCATAGCCCTTTCGCGGCACCAGGCCGCTCCCGCAG
+				</data>
+				<hit pos="60" idx="0" rc="n" pvalue="3.1e-09" match="+ +++ +++ +++++++++++"/>
+				<hit pos="105" idx="0" rc="n" pvalue="2.0e-06" match="++++++++++++  +++++ +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_01365_+_+_CDLFDMNO_01366_+_+_DT" comment="Cluster_131538&#13;" length="79">
+			<score strand="both" combined_pvalue="3.92e-04" evalue="1"/>
+			<seg start="1">
+				<data>
+GCGCAACGCTGGGCTGGAAAAACGCCAGGATCGCCGAGGCCGCTGCGCGGCCTATCGCGGCATGAATCTCCATGA
+				</data>
+				<hit pos="35" idx="0" rc="n" pvalue="1.9e-08" match=" + +++++++ +++++++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_02428_+_+_CDLFDMNO_02429_+_+_DT" comment="Cluster_48772&#13;" length="231">
+			<score strand="both" combined_pvalue="3.93e-04" evalue="1"/>
+			<seg start="1">
+				<data>
+GGCCAGTCGCAACACGGAAGGCCGCTGATGCGGTAACGCTTCTCACGCAGGGCTGCTTCGCAGCCCATTGCAGTC
+				</data>
+				<hit pos="48" idx="0" rc="n" pvalue="8.0e-10" match="  +++++++++++++++++++"/>
+			</seg>
+			<seg start="151">
+				<data>
+GTTACTGAACCCTGTGATCGGTCCCGCCGAGGTGCTGGGCTGGCTGCCAGGCCACGCCCCAAGGGTTTCCAGCTC
+				</data>
+				<hit pos="185" idx="0" rc="y" pvalue="8.2e-05" match=" +++++++  +  +++ +++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03129_+_+_CDLFDMNO_03130_+_+_CO_F" comment="Cluster_21992&#13;" length="369">
+			<score strand="both" combined_pvalue="3.95e-04" evalue="1"/>
+			<seg start="76">
+				<data>
+CTGACATCCTTGGGCCGCGCAGCGGCCCCAAGTTCTCCACCCCGAGCCACAAATCTTCATACCCCGCGCACCCCC
+				</data>
+				<hit pos="85" idx="0" rc="y" pvalue="6.7e-11" match="++++++++++ ++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_02885_+_+_CDLFDMNO_02886_+_+_DT" comment="Cluster_84578&#13;" length="148">
+			<score strand="both" combined_pvalue="4.09e-04" evalue="1.1"/>
+			<seg start="76">
+				<data>
+GGGCTGAGCGCGTGGGGCCGCGATGGGCCGCGCGGCAGCCCCAGGCGTTCAGCCCGAATCTTCAATACACGCC
+				</data>
+				<hit pos="98" idx="0" rc="y" pvalue="6.2e-10" match="++++++++++  +++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_01808_+_+_CDLFDMNO_01809_+_+_DT" comment="Cluster_102817&#13;" length="120">
+			<score strand="both" combined_pvalue="4.34e-04" evalue="1.2"/>
+			<seg start="1">
+				<data>
+CTACGATCTTTAGAAACCATGACGTGAACAGTCGTCATGGCACCATGGGCCGCCTTGCGGCCCAACGCGCGCAAT
+				</data>
+				<hit pos="45" idx="0" rc="y" pvalue="4.1e-10" match="+++++++++ +++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03507_+_+_CDLFDMNO_03508_+_+_DP" comment="Cluster_89416&#13;" length="140">
+			<score strand="both" combined_pvalue="4.54e-04" evalue="1.2"/>
+			<seg start="1">
+				<data>
+GCACATCCCCTGCACGTTCTTCGTCAACGCTGTTGACCACCGCCACACCCTGATGATGCAAAAAAGATGAAACCT
+				</data>
+				<hit pos="57" idx="4" rc="n" pvalue="3.1e-05" match="+++++++++ +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_04117_+_+_CDLFDMNO_04118_+_+_DT" comment="Cluster_47285&#13;" length="236">
+			<score strand="both" combined_pvalue="4.70e-04" evalue="1.2"/>
+			<seg start="76">
+				<data>
+CCTGCCTGGCCCCATAGAAGCCGACCTGTCGGCACTAACCTGATGTACGCCATGACAGCGTAATGCTGTTCATTT
+AGGGCCGCTTCGCGACCCCAAAGTGAACAGCATCAACCACAACAGCGGCACTTTCGCGCCTCTCAACACCTTCCT
+				</data>
+				<hit pos="150" idx="0" rc="y" pvalue="2.5e-09" match="+ +++++++++ +++ +++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_01947_+_+_CDLFDMNO_01948_+_+_CO_F" comment="Cluster_99277&#13;" length="124">
+			<score strand="both" combined_pvalue="4.81e-04" evalue="1.3"/>
+			<seg start="1">
+				<data>
+GACCTAGTGTTCAGGGATGGGGCCGTGCTGCGGTCTTTCGTGAGTGATGCCACGAAAGGCCGCAGCACGGCCCCT
+				</data>
+				<hit pos="18" idx="0" rc="n" pvalue="4.1e-06" match="++++++++   +++++ +  +"/>
+				<hit pos="55" idx="0" rc="y" pvalue="1.4e-08" match="+  +++++++   ++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_02172_+_+_CDLFDMNO_02173_+_+_DT" comment="Cluster_77890&#13;" length="160">
+			<score strand="both" combined_pvalue="5.07e-04" evalue="1.3"/>
+			<seg start="1">
+				<data>
+AGCTGTGCATGTGAGAGCGCTGGGGCCGCTGCGCGGCACATCGCAGTCGGTCCAGCGCCCCGGTAATGCCGCTCC
+				</data>
+				<hit pos="21" idx="0" rc="n" pvalue="5.6e-09" match="++++++++++ ++++++ +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03809_+_+_CDLFDMNO_03810_+_+_CO_F" comment="Cluster_76355&#13;" length="163">
+			<score strand="both" combined_pvalue="5.33e-04" evalue="1.4"/>
+			<seg start="1">
+				<data>
+TTCAGGGGGCAGGTCGCCTGACCGTGTAGTACAGAGGGGGCCTTGGGCCCCCTTTTTGCTTTTCCTGCGCCAGCG
+				</data>
+				<hit pos="30" idx="1" rc="n" pvalue="4.3e-07" match=" + + +   +++++++ ++++  +++++ ++++++  "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03918_+_+_CDLFDMNO_03919_+_+_CO_R" comment="Cluster_71933&#13;" length="172">
+			<score strand="both" combined_pvalue="5.50e-04" evalue="1.5"/>
+			<seg start="76">
+				<data>
+AGGGCGTTCTAAGACCATTTTGCAAAAGCATTCCCCCGATCGGGCATAACGAAAAAAAATGTTCCCACTTTTGTC
+				</data>
+				<hit pos="120" idx="5" rc="y" pvalue="1.4e-05" match="++++++ + ++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_01974_+_+_CDLFDMNO_01975_+_+_DP" comment="Cluster_33031&#13;" length="295">
+			<score strand="both" combined_pvalue="5.54e-04" evalue="1.5"/>
+			<seg start="1">
+				<data>
+GGGTCAGGCTCGGCGGTCCAGGATTTGGAAGACCCTAACAAAACGCCTGTATATTCTCAAAATGCAAAATAGGAA
+TAACCTAATATGTAAACAGAGAATATAAAGTTTGTCGGAGTCACGCCCTACCAAAAGATGAATATCGCATGAGGT
+				</data>
+				<hit pos="59" idx="2" rc="n" pvalue="6.1e-05" match="+++++  ++++ +  + +++  + + ++ ++++ +    +++++++++++"/>
+			</seg>
+			<seg start="151">
+				<data>
+TATGCCTAAAGCGCATTTCACAAGGCAGTTTTTGCGCATTAGATTATAAAAATTACATTACTAATGCTTTGAAGC
+TATAAATGACTTCCGGCCAGACCGCACGCGCGGATCGCCTCACATCCCAACTGGGTTTACGGAGACGAAC
+				</data>
+				<hit pos="188" idx="2" rc="n" pvalue="5.1e-08" match="++++++++++++++++++ +++   +++  +++ ++  +++++++ ++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00007_+_+_CDLFDMNO_00008_+_+_CO_F" comment="Cluster_25972&#13;" length="338">
+			<score strand="both" combined_pvalue="5.59e-04" evalue="1.5"/>
+			<seg start="1">
+				<data>
+CGCGCCTTGAAGTAAGCACAAACCTCGAAGGGTCGCTTGGCGACCCTTTTTTATGCCACTGAGGAAGCACCAACA
+				</data>
+				<hit pos="28" idx="0" rc="n" pvalue="3.3e-08" match="+ +++ +++++ +++ +++ +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_02312_+_+_CDLFDMNO_02313_+_+_CO_R" comment="Cluster_102131&#13;" length="121">
+			<score strand="both" combined_pvalue="5.61e-04" evalue="1.5"/>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_04122_+_+_CDLFDMNO_04123_+_+_DT" comment="Cluster_28118&#13;" length="324">
+			<score strand="both" combined_pvalue="5.80e-04" evalue="1.5"/>
+			<seg start="1">
+				<data>
+GGGTTGGGGTAAGGACAGCAGGCAGGGGGGTCAGGTTGAGCGAGTGGCTCTGATCGCGCGAATCAGGGGTTACCC
+AGCCCCCCCTGCATGACCTCATGCCGCGATAAGCTGCGCAGCCGCCTCAAGATTTCAGCTTCGCAGCGCGTATTG
+				</data>
+				<hit pos="65" idx="0" rc="n" pvalue="3.8e-05" match="+++++ + +  +++  +++++"/>
+				<hit pos="104" idx="0" rc="y" pvalue="1.8e-05" match="++  ++++++ +++ +++ ++"/>
+			</seg>
+			<seg start="151">
+				<data>
+CCGGGGCCGCGCTGCGGCCCATCGCGGCACAAGGGCCGCTCCTACCCGGAAATCTACTAGCCTCCAAGGGCGGGA
+				</data>
+				<hit pos="152" idx="0" rc="y" pvalue="4.7e-10" match=" +++++++++ ++++++++++"/>
+			</seg>
+			<seg start="226">
+				<data>
+ACGGCCGCGATGGGCTGCGCAGCAGCCCCAGTATCTTCGCGTCGCCGTAGACATCACGAGGCCCCAGAGGAGTCC
+				</data>
+				<hit pos="235" idx="0" rc="y" pvalue="2.1e-10" match="++++++++++ ++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_01156_+_+_CDLFDMNO_01157_+_+_CO_R" comment="Cluster_124687&#13;" length="89">
+			<score strand="both" combined_pvalue="5.99e-04" evalue="1.6"/>
+			<seg start="1">
+				<data>
+GTAGAACAGCTCCATCATGCAAAGGCGCCATTCTACGGGCAAAAAAAAGCCCCTGCACTGAGCAGGGGCTTTTTG
+				</data>
+				<hit pos="38" idx="4" rc="n" pvalue="1.4e-06" match="+++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_02115_+_+_CDLFDMNO_02116_+_+_DT" comment="Cluster_120461&#13;" length="95">
+			<score strand="both" combined_pvalue="6.15e-04" evalue="1.6"/>
+			<seg start="1">
+				<data>
+GTCAGTGCCACCGGTCGAGTGCCGAGCCCTGCACAAAAAAAAGCCCCGGCTCTTGCGAGCCGGGGCTTTGGGGGT
+				</data>
+				<hit pos="30" idx="4" rc="n" pvalue="2.6e-06" match="++++ ++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_02875_+_+_CDLFDMNO_02876_+_+_DT" comment="Cluster_155439&#13;" length="48">
+			<score strand="both" combined_pvalue="6.16e-04" evalue="1.6"/>
+			<seg start="1">
+				<data>
+GCCTATGGCTCCATGTCGAGGGGTCGCTGGTCGGCCCCTCTATCAGGA
+				</data>
+				<hit pos="19" idx="0" rc="n" pvalue="4.2e-08" match="+++++ ++++   ++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00241_+_+_CDLFDMNO_00242_+_+_DT" comment="Cluster_146105&#13;" length="60">
+			<score strand="both" combined_pvalue="6.22e-04" evalue="1.7"/>
+			<seg start="1">
+				<data>
+AGACGACAGGGGCTGCCGCGCAGCCCCTTGTGGCCCGGATGCAAGCGAGCCAGTGCCGCC
+				</data>
+				<hit pos="8" idx="0" rc="n" pvalue="7.1e-10" match="+++++++++  ++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00283_+_+_CDLFDMNO_00284_+_+_CO_F" comment="Cluster_10743&#13;" length="516">
+			<score strand="both" combined_pvalue="6.24e-04" evalue="1.7"/>
+			<seg start="1">
+				<data>
+CAACGACGCTGCAGAAATGTGCCCGGCTCGCCGGGCATTTTTTCGTCTTGTGTTTGGGATCGGCCTGATCCAGCG
+				</data>
+				<hit pos="13" idx="1" rc="n" pvalue="3.0e-05" match="+ +++    +++   + +++++++ ++++++ ++++ "/>
+			</seg>
+			<seg start="151">
+				<data>
+ACGTGCGCAAACGGTTTATCCCGCCTATTTGTGACACGGGTACAAAACTTACAAAAGTTGGGGCATTCATGGCGC
+TTTGCTTTTTCTGCGAGCGCGCTAGAATGCGCGCCGAAGGGTGCTGGAACATACATTCATCACCCCTGCCAGCCT
+				</data>
+				<hit pos="202" idx="1" rc="n" pvalue="4.6e-07" match=" ++++    ++ + ++   ++ +++++  ++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03566_+_+_CDLFDMNO_03567_+_+_CO_R" comment="Cluster_91840&#13;" length="136">
+			<score strand="both" combined_pvalue="6.27e-04" evalue="1.7"/>
+			<seg start="76">
+				<data>
+TTAAGCTCCCAGCAAAAAGCCGCCCCGAAGGGCGGCCTCTTTAGTTACAACCTGCTTCAGC
+				</data>
+				<hit pos="81" idx="1" rc="y" pvalue="1.8e-07" match="+   ++  ++++++++++++  ++++++++  + +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_01709_+_+_CDLFDMNO_01710_+_+_CO_R" comment="Cluster_77888&#13;" length="160">
+			<score strand="both" combined_pvalue="6.50e-04" evalue="1.7"/>
+			<seg start="76">
+				<data>
+GCGCCGCGGCAGGGGCCGTTTCGCGGCCCAAGCGATCCTGCATGAACACCATCAGCAGCCGGGGGTCACGGCGCT
+				</data>
+				<hit pos="86" idx="0" rc="n" pvalue="6.2e-10" match="++++++++ ++++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03683_+_+_CDLFDMNO_03684_+_+_CO_R" comment="Cluster_24803&#13;" length="331">
+			<score strand="both" combined_pvalue="6.68e-04" evalue="1.8"/>
+			<seg start="151">
+				<data>
+GGAGCCCAGCGGCTTCCCGTGTGGGAGCGGCCCTTGTGCCGCGATGGGCCGCGCAGCGGCCCTGGCACTAGCAGC
+				</data>
+				<hit pos="194" idx="0" rc="y" pvalue="4.7e-10" match="++++++++++ ++++++++  "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_01132_+_+_CDLFDMNO_01133_+_+_DP" comment="Cluster_44045&#13;" length="247">
+			<score strand="both" combined_pvalue="6.94e-04" evalue="1.8"/>
+			<seg start="1">
+				<data>
+GTCGAAAAAGCAGTGTCTGATAAAAAGGCGGCGATTATAGCGGTAATGATTGAAACCCTCACGCTTTCGATTGTC
+				</data>
+				<hit pos="19" idx="3" rc="n" pvalue="7.3e-09" match="++ ++++++++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00958_+_+_CDLFDMNO_00959_+_+_DT" comment="Cluster_58483&#13;" length="203">
+			<score strand="both" combined_pvalue="7.43e-04" evalue="2"/>
+			<seg start="1">
+				<data>
+CGGAGATCGTGGGGCCGCGCCGCGGCCCCGATGATGGGCGTTGTGAAGTCGAGATTCTGGAACTGATCCGCTCTC
+				</data>
+				<hit pos="10" idx="0" rc="n" pvalue="5.4e-10" match="+++++++++  +++++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_01769_+_+_CDLFDMNO_01770_+_+_CO_R" comment="Cluster_87641&#13;" length="143">
+			<score strand="both" combined_pvalue="7.47e-04" evalue="2"/>
+			<seg start="76">
+				<data>
+GAATCCTACAAAAGAGCCGTGACAGGCTGTTTTTTTATAACAGTTTTTTACAAAGGATAGTCGGAGCC
+				</data>
+				<hit pos="82" idx="1" rc="n" pvalue="1.7e-08" match=" + ++++  +++ + +  +++ ++++++++++  + +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00337_+_+_CDLFDMNO_00338_+_+_CO_F" comment="Cluster_38450&#13;" length="269">
+			<score strand="both" combined_pvalue="7.81e-04" evalue="2.1"/>
+			<seg start="1">
+				<data>
+GTAGCCCATCAACCTGTCAGGGGGCCGCTGCGCGGCCTCCCCGGCCTCAAGCGACCCATTAAGATCCCGACTCCA
+				</data>
+				<hit pos="20" idx="0" rc="n" pvalue="2.4e-06" match=" +++++++++ +++++++ + "/>
+			</seg>
+			<seg start="76">
+				<data>
+CTTGCACGCTTGCCAGTGAGCCCACTGCCCGTATTTCCAATGCCAGTTAGGACGCGTGAACTACTCACAATAAAA
+AGTTATATAAACATTCTTAAACAGTATTTTTAAGAATAAACCTTCCTCACTACTATTGCCCTCAAGCCAGGCGCA
+				</data>
+				<hit pos="138" idx="2" rc="y" pvalue="8.6e-06" match="+  ++ ++++++ ++++++++++     ++++++ + + +++++++ +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00665_+_+_CDLFDMNO_00666_+_+_DT" comment="Cluster_138182&#13;" length="70">
+			<score strand="both" combined_pvalue="7.82e-04" evalue="2.1"/>
+			<seg start="1">
+				<data>
+GCGAAGCGGGCATGCCGTGCGTCCCCCGCAGGGGCCGGCGGAACAAGGGCTGCCGCGCAGCCCTGCCCTG
+				</data>
+				<hit pos="45" idx="0" rc="n" pvalue="5.6e-09" match="+ +++++++  ++++++++  "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00807_+_+_CDLFDMNO_00808_+_+_CO_F" comment="Cluster_122602&#13;" length="91">
+			<score strand="both" combined_pvalue="7.87e-04" evalue="2.1"/>
+			<seg start="1">
+				<data>
+CCCGGGGGCACGTAAGCGACGGAATTAATTTAATATTTTTTTCAAAAAGTCGTTGACGAGCAGTCTGAAAGTCTA
+				</data>
+				<hit pos="35" idx="4" rc="y" pvalue="2.7e-05" match=" +++++++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_02190_+_+_CDLFDMNO_02191_+_+_DP" comment="Cluster_995&#13;" length="900">
+			<score strand="both" combined_pvalue="8.26e-04" evalue="2.2"/>
+			<seg start="151">
+				<data>
+GGGCCTTCGAGCGTTACGAAATATGGCGAGAAATCATGGAAACCCAGCCTCAAAGGACTGTTTATTGACGTCAAG
+				</data>
+				<hit pos="181" idx="1" rc="y" pvalue="7.0e-06" match=" +  ++++ +++  + +++  +++++ + ++++ ++ "/>
+			</seg>
+			<seg start="226">
+				<data>
+AAATAAACACCGGTCCAGAAAATCTCAGATTGCCACCATCGCTCAGGCCGATTTTTTGGTTTTTTTTCGCGCTCG
+				</data>
+				<hit pos="278" idx="5" rc="n" pvalue="1.1e-05" match="+++++ +++++++++"/>
+			</seg>
+			<seg start="526">
+				<data>
+CCATACCGGAAAGTTGCCAGCATCTCGATATCAAACCCTGGCAAAAAAATGTCGCGCCCAGTCCGTCAATAATGG
+				</data>
+				<hit pos="565" idx="4" rc="n" pvalue="4.3e-06" match="++++++++++ "/>
+			</seg>
+			<seg start="676">
+				<data>
+CAACATGAACAGGCATGCCGACTGCACCTAATTATTTTTTAAGCGTGGTTTAAATGGGCTTACTCAACCAAGCAC
+				</data>
+				<hit pos="695" idx="3" rc="y" pvalue="8.3e-05" match="++ +++ +   +++ ++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00177_+_+_CDLFDMNO_00178_+_+_CO_F" comment="Cluster_155301&#13;" length="47">
+			<score strand="both" combined_pvalue="8.48e-04" evalue="2.3"/>
+			<seg start="1">
+				<data>
+ATACTGGTTAGAATGCCGGCAATTCATCCCGATTTGCCGAGCATTCC
+				</data>
+				<hit pos="9" idx="1" rc="n" pvalue="2.8e-05" match=" + ++  +++++  ++   ++ + +++  +  ++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_02612_+_+_CDLFDMNO_02613_+_+_CO_R" comment="Cluster_114063&#13;" length="101">
+			<score strand="both" combined_pvalue="8.75e-04" evalue="2.3"/>
+			<seg start="1">
+				<data>
+GCAGTAGAGCCCTCGGATCCAGTGTTGGCCCGACGCATAACCGCACCGGGCAAAAAAGTGGCGTGGATTATGCCC
+				</data>
+				<hit pos="52" idx="3" rc="n" pvalue="9.4e-07" match="++++++ +++++ ++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03587_+_+_CDLFDMNO_03588_+_+_CO_R" comment="Cluster_83468&#13;" length="150">
+			<score strand="both" combined_pvalue="9.03e-04" evalue="2.4"/>
+			<seg start="76">
+				<data>
+CGCTGCAGGCAAAAAAAAGGGCCGTCGAAACGGCCCGAAAATCCCTGCTTGGCTAAGCGTGATGCAACACAGTAT
+				</data>
+				<hit pos="83" idx="4" rc="n" pvalue="1.4e-06" match="+++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03585_+_+_CDLFDMNO_03586_+_+_CO_R" comment="Cluster_91841&#13;" length="136">
+			<score strand="both" combined_pvalue="1.01e-03" evalue="2.7"/>
+			<seg start="1">
+				<data>
+TGCTGCGCTTCCTTGGGTTACGGTGAAGCGACAGTAACAGTTAGCTCATATATCTAGAAATCATATTTATTTATT
+TGTTTATTCTTTTTTTGCATTAAAACTTAGACGATGATCTGATATCGGGGATTTGGCAAAC
+				</data>
+				<hit pos="59" idx="2" rc="n" pvalue="1.3e-06" match="+++ +++++++ + ++++ +++ +   ++++++  ++  +++ ++++  +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_01374_+_+_CDLFDMNO_01375_+_+_DP" comment="Cluster_37511&#13;" length="273">
+			<score strand="both" combined_pvalue="1.01e-03" evalue="2.7"/>
+			<seg start="76">
+				<data>
+CTAGTACGTTAACGCGCCAGAATACAAGATATTATTTTGTTACATTTCAAACGTAGACGAATTACAGTATTTGAG
+				</data>
+				<hit pos="93" idx="2" rc="n" pvalue="7.0e-07" match=" + ++++ ++++++++ ++++++++ ++++ +++  ++ +  ++++++ +"/>
+			</seg>
+			<seg start="151">
+				<data>
+CGCATCGTTTTTTCGAACTTTCACCGGCAATTATTTCCAACTTACCGCAGGCCGTTTAAGCACCCCTACTAACTT
+				</data>
+				<hit pos="157" idx="4" rc="y" pvalue="8.3e-05" match=" ++++++ +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00955_+_+_CDLFDMNO_00956_+_+_DP" comment="Cluster_54677&#13;" length="212">
+			<score strand="both" combined_pvalue="1.03e-03" evalue="2.7"/>
+			<seg start="1">
+				<data>
+CCGAGGGGGTTGGGACAGGTGCGCATTCTACCGCTGATAACCTGCCAATGCCGCATCTGCTCGGCGGTTTTTTAC
+GCATGCTCTGCCTGCCTGGGCAAGCCACAGGAGACGCGCGGCTCGCTCATCCCGTCGCACTACAGCCAAGGGGAT
+				</data>
+				<hit pos="44" idx="1" rc="n" pvalue="4.9e-08" match="   ++  ++++  +++  +++ + +++++++ +++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03837_+_+_CDLFDMNO_03838_+_+_CO_F" comment="Cluster_98768&#13;" length="126">
+			<score strand="both" combined_pvalue="1.06e-03" evalue="2.8"/>
+			<seg start="1">
+				<data>
+ATTACGCTGTAGGAATATTCCTGGCCGCGTAACAAAATAGTTCTAGATTTATTTCGATTACCACTAATATAGTTA
+TATATCGTCGCTGCCCGCTGCCGCTGACCCACGCTGAACTGAGGGAACCCT
+				</data>
+				<hit pos="30" idx="2" rc="y" pvalue="2.0e-05" match="++++++++++  + ++ ++++++++  + ++  + + +++++ ++++++ "/>
+				<hit pos="91" idx="0" rc="y" pvalue="8.4e-05" match=" +  ++++++ + +  + +  "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03780_+_+_CDLFDMNO_03781_+_+_CO_R" comment="Cluster_59241&#13;" length="201">
+			<score strand="both" combined_pvalue="1.07e-03" evalue="2.9"/>
+			<seg start="76">
+				<data>
+GCAGGTAGTCGCCAGCTGCCTGTGCACAGCCTCGTGCCTCGTGCCCCCTGCCACCTTCACTGCGCGCCCCAAAAT
+AAAAAAAAACCCGCGCTGAAAACAGCGCGGGTTCGGGTACAGATGGCCGGA
+				</data>
+				<hit pos="146" idx="5" rc="y" pvalue="3.7e-06" match="++++++++ ++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_01493_+_+_CDLFDMNO_01494_+_+_CO_R" comment="Cluster_19400&#13;" length="393">
+			<score strand="both" combined_pvalue="1.10e-03" evalue="2.9"/>
+			<seg start="76">
+				<data>
+GGGAGTAACTACTGGGTAAGTCCATGGTGGTGATCCACAAGCCCCGGCGGGGCTGACGGGCGCAATCATACACTG
+CTCAAGCTGACAGATCGCTTAAATTTTTGGCTATAACAATCGTTTGCGCGTCATTGCTCTGACAACGCATGAAAC
+				</data>
+				<hit pos="146" idx="2" rc="n" pvalue="1.6e-05" match=" +  +++ +++++ +   ++ + + ++++++++  ++++++ +++ ++++"/>
+			</seg>
+			<seg start="301">
+				<data>
+GCCCTACGCAGTGCGTAGCTGTATGAGCGATTGGATTTCCAAAACGTGGAAAAACAAAAAGCCCGCTCAATGAGC
+GGGCTTCCTGTTTGGGTA
+				</data>
+				<hit pos="347" idx="1" rc="y" pvalue="2.4e-06" match="  ++++++ +++++ +++++++++ + + ++  ++  "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00376_+_+_CDLFDMNO_00377_+_+_CO_R" comment="Cluster_141224&#13;" length="66">
+			<score strand="both" combined_pvalue="1.12e-03" evalue="3"/>
+			<seg start="1">
+				<data>
+GACGTCGCTCCGGAAAAAAGAGCGGGAGTATAACCCCTACCCAGCCTTATTGCTGAGCGCCAGCGG
+				</data>
+				<hit pos="12" idx="3" rc="n" pvalue="4.1e-06" match="+ +++++++   ++++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_01713_+_+_CDLFDMNO_01714_+_+_CO_R" comment="Cluster_38451&#13;" length="269">
+			<score strand="both" combined_pvalue="1.26e-03" evalue="3.4"/>
+			<seg start="76">
+				<data>
+TGATGGGAGCGGTGTAGGCCGACGGGCATGGCGCAGGCCGTGATGCGGCCCTCAGCGCCCCCGCTGATCTCAGCC
+				</data>
+				<hit pos="108" idx="0" rc="y" pvalue="1.9e-05" match="   +++++ ++++++++++  "/>
+			</seg>
+			<seg start="151">
+				<data>
+CCGTAGCATGGATTGCTGGGGCTGCTGCGCAGCCCCAAGATTTCGGCGTCAAAGCTAATAACGCCAGGGCCGCTT
+TGCGGCCTTAAGGCTTCGTGCCAGATCGAACAAGCTCCCCCCGG
+				</data>
+				<hit pos="167" idx="0" rc="n" pvalue="2.5e-10" match="++++++++++ ++++++++++"/>
+				<hit pos="215" idx="0" rc="n" pvalue="3.8e-09" match="  ++++++++++++++++  +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_02836_+_+_CDLFDMNO_02837_+_+_DT" comment="Cluster_75309&#13;" length="165">
+			<score strand="both" combined_pvalue="1.29e-03" evalue="3.4"/>
+			<seg start="76">
+				<data>
+TGCCGTCAGGCTGGGGCTGGCTTGCCGGCGAGGGGCTGCCATGCAGCCCCGCAGGCACTTGGCAGCCAGCACCAT
+				</data>
+				<hit pos="106" idx="0" rc="y" pvalue="9.0e-10" match="+++++++++ ++++++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_01927_+_+_CDLFDMNO_01928_+_+_DT" comment="Cluster_133696&#13;" length="76">
+			<score strand="both" combined_pvalue="1.31e-03" evalue="3.5"/>
+			<seg start="1">
+				<data>
+CGCTCGGATGCAGCCCCAAGGCCGAGCAGCATGCATAAAAAACCCGGCGCGAGCGCCGGGTCAGGAAATGGGGTG
+				</data>
+				<hit pos="30" idx="1" rc="y" pvalue="2.7e-07" match="+++++++++++++ +++++   ++ +++++++     "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03174_+_+_CDLFDMNO_03175_+_+_DT" comment="Cluster_133026&#13;" length="77">
+			<score strand="both" combined_pvalue="1.31e-03" evalue="3.5"/>
+			<seg start="1">
+				<data>
+GGTCTCCGCCCGGCCTTGTCGTTACCAGGCACTCATAAAAAAAGGCGACCGAAGTCGCCTTTTGCAGAGTGGGCG
+				</data>
+				<hit pos="30" idx="1" rc="y" pvalue="1.8e-07" match="++  ++++++++++  ++ +  +++ ++  ++++   "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03803_+_+_CDLFDMNO_03804_+_+_CO_F" comment="Cluster_153163&#13;" length="51">
+			<score strand="both" combined_pvalue="1.33e-03" evalue="3.5"/>
+			<seg start="1">
+				<data>
+TATTTTTCGAAGGCGCCGCGCTGTTACTGGCGCCTTTGTTTTAAGCGTTAC
+				</data>
+				<hit pos="25" idx="3" rc="y" pvalue="3.8e-05" match="++ ++++  + ++ ++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00546_+_+_CDLFDMNO_00547_+_+_DT" comment="Cluster_135896&#13;" length="73">
+			<score strand="both" combined_pvalue="1.42e-03" evalue="3.8"/>
+			<seg start="1">
+				<data>
+GCCACGATGGCCTTTGCCGCTCGCGCCCCCCGGCCCATAAACACGAAAGCCGCGCAGTGCGCGGCTTTTAATA
+				</data>
+				<hit pos="35" idx="1" rc="y" pvalue="3.9e-06" match="+   +++ +  +++ ++++  +  + ++++ ++++  "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00417_+_+_CDLFDMNO_00418_+_+_DP" comment="Cluster_71028&#13;" length="174">
+			<score strand="both" combined_pvalue="1.42e-03" evalue="3.8"/>
+			<seg start="1">
+				<data>
+GGCTTTTCGGTGTCCAGGTTGTGAATGGGTTGCACGCAGGCCCGGCGGGCCGGAAAACGCCGGGCATTATAAGCA
+				</data>
+				<hit pos="25" idx="0" rc="n" pvalue="2.6e-05" match="+++++ ++++    +++++  "/>
+				<hit pos="51" idx="3" rc="n" pvalue="5.9e-07" match="+  ++++ +++++++++++"/>
+			</seg>
+			<seg start="76">
+				<data>
+TTTTTCGCCACGCCGGGGTTACCGCCCGGGCTGCTCGTCGTCTGGCGGCGGCCAGGTCCAGAAGCGGCCCCGGGG
+				</data>
+				<hit pos="127" idx="0" rc="y" pvalue="5.1e-05" match="   ++ +  +++++++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00125_+_+_CDLFDMNO_00126_+_+_CO_F" comment="Cluster_125874&#13;" length="87">
+			<score strand="both" combined_pvalue="1.43e-03" evalue="3.8"/>
+			<seg start="1">
+				<data>
+CGGGCTGCTACGCTAGCTTGTGAATAAAACGCCCCCTCGTGGGGCGTTTTTGCTATCTGTCGTTTTTTGTCGTAG
+				</data>
+				<hit pos="24" idx="1" rc="n" pvalue="1.1e-07" match="+ +++++ ++++++ + ++++ ++++++ ++ ++   "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00018_+_+_CDLFDMNO_00019_+_+_CO_R" comment="Cluster_92484&#13;" length="135">
+			<score strand="both" combined_pvalue="1.46e-03" evalue="3.9"/>
+			<seg start="76">
+				<data>
+GATGCCGCAGACAACAAAAAGCCCCGACGTGTCGGGGCTTTGTGTCCAACAGGCTTGGCC
+				</data>
+				<hit pos="83" idx="1" rc="y" pvalue="2.0e-08" match="+++++++ +++++++++++    +  ++++ +++ + "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_02808_+_+_CDLFDMNO_02809_+_+_CO_R" comment="Cluster_121242&#13;" length="92">
+			<score strand="both" combined_pvalue="1.52e-03" evalue="4"/>
+			<seg start="1">
+				<data>
+TGGGCAGTGCCCCCGTGTTTGACCAAAAAAGTGGCGGCGATTATAGGCATATTCCGACGGGGCATGCCACGTCTG
+				</data>
+				<hit pos="25" idx="3" rc="n" pvalue="2.1e-07" match="++++++ ++++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_02996_+_+_CDLFDMNO_02997_+_+_DT" comment="Cluster_7112&#13;" length="601">
+			<score strand="both" combined_pvalue="1.53e-03" evalue="4.1"/>
+			<seg start="1">
+				<data>
+TCGCGTAGTGTGACGTACAAGAACCCCGGACTGGCTCCGGGGTTTTTTATTGCCTGTGCGGCTTCATTAATGGCT
+				</data>
+				<hit pos="19" idx="1" rc="n" pvalue="2.4e-09" match="++ ++ +++++ ++ +  +++++ +++++++++ +  "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_02998_+_+_CDLFDMNO_02999_+_+_DP" comment="Cluster_14324&#13;" length="458">
+			<score strand="both" combined_pvalue="1.57e-03" evalue="4.2"/>
+			<seg start="76">
+				<data>
+TGGTCACTTGTGATGCTGATAATCTTTCTGACTATCAGTCCGTACTCACAAGCACCCACACGAATTGCTTGATTC
+GATTTGTTAAAGAGCGTTTGGCTGAGAGTGTTTCGCCTCAACCGAGGCGCGCATTCTACGCTTTCCTCACTACCT
+				</data>
+				<hit pos="116" idx="1" rc="y" pvalue="6.2e-05" match="+ +++  + ++  ++++ +   ++  ++ ++ ++   "/>
+				<hit pos="188" idx="3" rc="n" pvalue="8.3e-05" match="  ++   ++++++++++++"/>
+			</seg>
+			<seg start="226">
+				<data>
+GTCAAGCGTTTATTTTGAAGTTTTCTGAAGCGCCTTACTCGAAGACTTGAAACTTCAACCGCTGACCGACTTCCC
+				</data>
+				<hit pos="234" idx="4" rc="y" pvalue="1.2e-05" match="+++ +++++++"/>
+			</seg>
+			<seg start="301">
+				<data>
+CGCCGCGTTACTCGCTGCGAGGTGGCGAATAATACGCGCTTTGAATCTGGAGTCAACCCTTTGATTTAAAAACTT
+TTGCGCGCGTAACGGCCCAGGCCCCGCAACTAAATGAGGGTGCGGTGAATCTGTAGATAAACCCACCACGGAGCG
+				</data>
+				<hit pos="375" idx="0" rc="y" pvalue="4.7e-05" match="++ +  ++++++ +++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_02080_+_+_CDLFDMNO_02081_+_+_DP" comment="Cluster_35815&#13;" length="281">
+			<score strand="both" combined_pvalue="1.63e-03" evalue="4.3"/>
+			<seg start="1">
+				<data>
+GAATAAGACTCCAGAACTCGCAAAGGCGCTCATTCTAGCGGCACACTGAGAAAAACGCAGTAATGATTGCGACGG
+GCTGCATGGGGCCATTAGGCCTACGAGCCGGGAATCTTCCGACAAGGTTTATGGATGAAACGGCAACCTATGTAA
+				</data>
+				<hit pos="17" idx="3" rc="n" pvalue="1.4e-05" match="++   ++++++++ +++++"/>
+				<hit pos="72" idx="0" rc="n" pvalue="6.8e-05" match="+ +++++++++ + + +   +"/>
+			</seg>
+			<seg start="151">
+				<data>
+ATTTTTGTTCACTTGGAGAAATACTGTCACAGCTTAATCAACTGTTAATACCTCAATCATATGTTTACTTGCGAG
+				</data>
+				<hit pos="151" idx="4" rc="y" pvalue="5.5e-05" match=" +++++ + ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_04093_+_+_CDLFDMNO_04094_+_+_CO_R" comment="Cluster_26741&#13;" length="333">
+			<score strand="both" combined_pvalue="1.67e-03" evalue="4.4"/>
+			<seg start="151">
+				<data>
+CAGAGTCTCTGCCAGACAGGCCATAGGCCAAGCGCTTTGACCAGAAACGAAAAAGCCCGCCGATAAGGGCGGGCT
+TTTCGTACAGATTTCACACAGAAGCGAGCTGACTGCTCGATTCATACGGTTGCTAGACTTGGCGCTGACCCTGTG
+				</data>
+				<hit pos="192" idx="1" rc="y" pvalue="3.9e-09" match="++++++ +++++++++++++ + + +++ ++  ++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_02609_+_+_CDLFDMNO_02610_+_+_DP" comment="Cluster_49051&#13;" length="230">
+			<score strand="both" combined_pvalue="1.70e-03" evalue="4.5"/>
+			<seg start="1">
+				<data>
+CCCTATGTCCCTCTGCAAGGACTCCATCACTGGAGTATCATCCACGTCATCCGCATACGAACCTTCGAAAAAAAT
+CGGGTTCGCTGCGCGGATCTTTATTGACCACGGTGTGTTCCTATTGGTTGTAACACCGTTTTGCCGATAGTCAAG
+				</data>
+				<hit pos="68" idx="1" rc="n" pvalue="5.6e-07" match="+++++++ +++  + +  +++ +  + ++++++ +  "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00243_+_+_CDLFDMNO_00244_+_+_DP" comment="Cluster_33812&#13;" length="291">
+			<score strand="both" combined_pvalue="1.75e-03" evalue="4.6"/>
+			<seg start="1">
+				<data>
+GCTAGAAACCGGGGGTCGCCAGAAAATAGCCGCGCATTCTAACAGGCATGCGTGTTCGTGGCGTGACCGTCTGAC
+				</data>
+				<hit pos="21" idx="3" rc="n" pvalue="1.2e-07" match="+ ++++ ++++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_02554_+_+_CDLFDMNO_02555_+_+_DT" comment="Cluster_54775&#13;" length="213">
+			<score strand="both" combined_pvalue="1.78e-03" evalue="4.7"/>
+			<seg start="1">
+				<data>
+AATATCGATTTACAGGGTTTCATGGGAGTCTGTAGATCCTTGAAAATAGACGCTTCGGCGTCTTTTTTCGTTTCA
+GCCAAAGCCACTCCGATCTATGGGCATCCGGACTTTTTAGTGCAGAAATTAGTCCATGAAATCCGGACTCCCACC
+				</data>
+				<hit pos="40" idx="1" rc="n" pvalue="3.5e-08" match="   ++++  + + +++ ++++  +++++++ ++++ +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00976_+_+_CDLFDMNO_00977_+_+_CO_R" comment="Cluster_56928&#13;" length="207">
+			<score strand="both" combined_pvalue="1.81e-03" evalue="4.8"/>
+			<seg start="76">
+				<data>
+TGAACAAAGTGGACCATTCTACGCCAACGCGCAGTATTTGATAGGAGGCGCCGCGCCGGCGGCGCATGCCTGCAA
+				</data>
+				<hit pos="76" idx="3" rc="n" pvalue="5.4e-06" match="  ++ ++++  + ++++++"/>
+			</seg>
+			<seg start="151">
+				<data>
+AGGGGGTCCAGCAGCTGCGACCACGCCCTGTGGCCGCGCCTGGCCAGCAGCCCTTGT
+				</data>
+				<hit pos="185" idx="0" rc="y" pvalue="3.2e-06" match=" + + +++   ++++++++ +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03146_+_+_CDLFDMNO_03147_+_+_DT" comment="Cluster_167995&#13;" length="31">
+			<score strand="both" combined_pvalue="1.83e-03" evalue="4.9"/>
+			<seg start="1">
+				<data>
+GCGCTTCGTACAGGGCCGGAGAACGACCCTG
+				</data>
+				<hit pos="11" idx="0" rc="y" pvalue="4.0e-07" match="  ++++++ + + ++ +++  "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03435_+_+_CDLFDMNO_03436_+_+_CO_R" comment="Cluster_39198&#13;" length="266">
+			<score strand="both" combined_pvalue="1.84e-03" evalue="4.9"/>
+			<seg start="151">
+				<data>
+TTTTGAAGTCGTTAAGCGCCTGGCTCAACGGCGATGGGCTGCGCAGCAGCCCTCAACGGTGCATGATGCAACGCT
+				</data>
+				<hit pos="184" idx="0" rc="y" pvalue="8.0e-09" match="++++++++++ ++++++++  "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00204_+_+_CDLFDMNO_00205_+_+_DP" comment="Cluster_75304&#13;" length="165">
+			<score strand="both" combined_pvalue="1.85e-03" evalue="4.9"/>
+			<seg start="1">
+				<data>
+GCTGGCCGGACCTGATGAAGATGATGGGTGAACGTTCTTCAAGGCCTCGAGGCAGGCCGAGAACAATTTGGCCGC
+CATTATTGCAAGTAATTCTTGTTAACAAAAGTAATATTGTTGCTTTTTCTCCTGCAGACGGGCTGAGGAATCGGC
+				</data>
+				<hit pos="40" idx="0" rc="n" pvalue="5.7e-05" match="   ++++ + + ++++ ++ +"/>
+				<hit pos="73" idx="2" rc="y" pvalue="2.0e-05" match="+  +++++++   +++ +++  + +++++++++ ++ + ++ ++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03589_+_+_CDLFDMNO_03590_+_+_DP" comment="Cluster_12121&#13;" length="491">
+			<score strand="both" combined_pvalue="2.03e-03" evalue="5.4"/>
+			<seg start="1">
+				<data>
+GCTTTGCTCCTCTACGTTCTAATTTTTGTGTATCTCAGGCGGCCGGGTCTGTTGCCCTGCTCACCGTGGATGGGC
+				</data>
+				<hit pos="16" idx="5" rc="n" pvalue="7.8e-05" match="+++ +  ++++++++"/>
+			</seg>
+			<seg start="151">
+				<data>
+GGGCTACAGGATAATGACAATCCTATAAATCCAAAATGACTGTTTTGTGAATCGTTAAGACTTTTAAGGAATATG
+TAAGGAACCATTACTGCATTTTGTTGTAGTAAGCGGGTTTCTCATAACCTTAGGCTATTTGCAATCATTTGCTCA
+				</data>
+				<hit pos="183" idx="2" rc="n" pvalue="1.3e-05" match="+++++ + + + +  + +++ +++++ + ++++++  + +++ ++++  +"/>
+			</seg>
+			<seg start="376">
+				<data>
+AGCATCGACCAAGGGTGCCAACTGAGCACTAAGCTAATTCTGAAAAGTTATTTATTTTTGTTTTTTTAGATCAAT
+TAGCCTTAGCTCATGCATCCCTTGCCCGATGAGAGCTCACC
+				</data>
+				<hit pos="412" idx="2" rc="n" pvalue="8.6e-07" match="+++ + +++++ +++++++++++    +++++ +++ ++++   +++  +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03047_+_+_CDLFDMNO_03048_+_+_DT" comment="Cluster_153953&#13;" length="50">
+			<score strand="both" combined_pvalue="2.04e-03" evalue="5.4"/>
+			<seg start="1">
+				<data>
+AGACAAAAAACCCGGCACCAGGCCGGGTTCTTGCAGAACAGCTTGCTGGA
+				</data>
+				<hit pos="4" idx="1" rc="n" pvalue="2.5e-06" match=" ++++++++++ +   +++++++ ++ ++   + +  "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_04068_+_+_CDLFDMNO_04069_+_+_DT" comment="Cluster_118134&#13;" length="96">
+			<score strand="both" combined_pvalue="2.05e-03" evalue="5.4"/>
+			<seg start="1">
+				<data>
+GTGGGTGACGCCCGGGGGGCGCCGGACCGACCGAGGTGGGCCGCAACGCGGCCCCGACATGCTGGCGGTTAGCAC
+				</data>
+				<hit pos="36" idx="0" rc="n" pvalue="6.7e-09" match=" +++++++++++++++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_04076_+_+_CDLFDMNO_04077_+_+_CO_R" comment="Cluster_117338&#13;" length="92">
+			<score strand="both" combined_pvalue="2.06e-03" evalue="5.5"/>
+			<seg start="1">
+				<data>
+AATGCCGCGCATCATACCAGCGAATTCTGAAAACGCAAACCTTTATTTTCAAAAAAACCGCGTGGTATCAGGCGC
+				</data>
+				<hit pos="48" idx="4" rc="n" pvalue="1.3e-05" match="++++++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03724_+_+_CDLFDMNO_03725_+_+_CO_F" comment="Cluster_83469&#13;" length="150">
+			<score strand="both" combined_pvalue="2.07e-03" evalue="5.5"/>
+			<seg start="76">
+				<data>
+AAATAGCTATTGAAAATAGCTATATGATTCAATTATTATTGAACTATCAAATTCAAGAGTAAAGGATAGTCAGCG
+				</data>
+				<hit pos="84" idx="2" rc="n" pvalue="4.5e-08" match="+++ +++++++++++++ +++     ++++++ ++++++ +++++ +  +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03808_+_+_CDLFDMNO_03809_+_+_CO_F" comment="Cluster_111146&#13;" length="108">
+			<score strand="both" combined_pvalue="2.07e-03" evalue="5.5"/>
+			<seg start="1">
+				<data>
+AGCGGGAGGCCAGGGCAGGTAGGCGCATGATGCGCCTGCCTGCGGACTTGAAAAAGCCCGCAATTGCCTTCATCT
+TGTGTTGCAAGCCTACCGGATTGGATCGATCGA
+				</data>
+				<hit pos="43" idx="1" rc="y" pvalue="1.1e-07" match="+ +++ +++++++++++++  + +      + ++ + "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03064_+_+_CDLFDMNO_03065_+_+_DP" comment="Cluster_27371&#13;" length="329">
+			<score strand="both" combined_pvalue="2.09e-03" evalue="5.5"/>
+			<seg start="76">
+				<data>
+GCAACAGGTGAGCAATTATTCGGATAACCGAACACAAAAATGACGCACATTCGAATTTCCGAATCTATTGTAAAG
+				</data>
+				<hit pos="109" idx="3" rc="n" pvalue="9.4e-07" match="+ +++++++ +++ +++++"/>
+			</seg>
+			<seg start="226">
+				<data>
+CTGCTCATATCCATTCAACCGGATGCAACAGCTGCCGTATCCGTATGAACGAAAGAGTCCGCCAACGGCTCCATA
+AAAAAAACAAACACGTCGAGGAAAATTTG
+				</data>
+				<hit pos="295" idx="5" rc="y" pvalue="9.4e-05" match=" +++++++ ++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_01555_+_+_CDLFDMNO_01556_+_+_CO_R" comment="Cluster_81181&#13;" length="154">
+			<score strand="both" combined_pvalue="2.10e-03" evalue="5.6"/>
+			<seg start="76">
+				<data>
+CACGCCCCAGGCGAAACGAAGATGACGCCCATAAAAAAGGGCGACCCGAGGGTCGCCCTTTTTACCGATCAAACA
+				</data>
+				<hit pos="101" idx="1" rc="y" pvalue="9.1e-08" match="+   ++++++++++  ++ + + ++++  +   ++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03083_+_+_CDLFDMNO_03084_+_+_CO_F" comment="Cluster_109860&#13;" length="110">
+			<score strand="both" combined_pvalue="2.16e-03" evalue="5.7"/>
+			<seg start="1">
+				<data>
+CGTACAGGCACAGGGGCTGTGCCGCAGCCCCTGGTTCACCCTGCCCTCGGTATGACTACCGTGCCGCTTAATCGG
+				</data>
+				<hit pos="12" idx="0" rc="n" pvalue="4.1e-09" match="++++++++   ++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03599_+_+_CDLFDMNO_03600_+_+_CO_F" comment="Cluster_154673&#13;" length="49">
+			<score strand="both" combined_pvalue="2.26e-03" evalue="6"/>
+			<seg start="1">
+				<data>
+TTGGTAGCCTCCAGGGTCGCTGCGCGGCCTGGGGCACCGGAGACACACC
+				</data>
+				<hit pos="12" idx="0" rc="n" pvalue="1.2e-07" match="  +++ ++++ +++++++   "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03035_+_+_CDLFDMNO_03036_+_+_CO_F" comment="Cluster_32420&#13;" length="298">
+			<score strand="both" combined_pvalue="2.29e-03" evalue="6.1"/>
+			<seg start="1">
+				<data>
+TCGGGGATCGCAGATAGCAGTGAGGGGCTGGCGTGAGGCGCGGGCAGCGAAACTGTGCTTTCATCTGAAGGCTCA
+				</data>
+				<hit pos="23" idx="0" rc="y" pvalue="5.8e-05" match="++++++++   ++ +++ +  "/>
+			</seg>
+			<seg start="76">
+				<data>
+ACCCGTGCCCCTAATGCTGTTCATTTAAGATCGTCGGGGCCGTTTCACGGCCCATCGCGGCCGGTCCGGCGCCCC
+GGCAAGGCCGCTCCCACACTGAGCGCGTGACGCCTGAGTTGATAGGCTGTAGGAGCGGCCTAGTGCCGCGATGGG
+TCGCGAAGCGGCCCTAAATGAACAGCATTACGACCCGTGCCCCAGACCGTTCAGCCCCGTATTCAGGACCATC
+				</data>
+				<hit pos="110" idx="0" rc="n" pvalue="1.8e-08" match=" +++++++ +++ ++++++++"/>
+				<hit pos="131" idx="0" rc="y" pvalue="7.7e-05" match=" + +++++ +  +  +++++ "/>
+				<hit pos="221" idx="0" rc="n" pvalue="3.8e-09" match="+++++ +++ +++++++++ +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_01924_+_+_CDLFDMNO_01925_+_+_CO_R" comment="Cluster_81182&#13;" length="154">
+			<score strand="both" combined_pvalue="2.45e-03" evalue="6.5"/>
+			<seg start="1">
+				<data>
+GGATACTCCTGAGGGCGGACAGGGGCCGCAGAGCGCCACCTGAGCAAAACGACGAGGTGACTGGACGGCCCTTGG
+				</data>
+				<hit pos="21" idx="0" rc="n" pvalue="1.1e-07" match="++++++++++ ++++ + +++"/>
+				<hit pos="53" idx="0" rc="n" pvalue="6.6e-05" match=" + ++   ++   ++++++ +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03258_+_+_CDLFDMNO_03259_+_+_CO_F" comment="Cluster_91839&#13;" length="136">
+			<score strand="both" combined_pvalue="2.50e-03" evalue="6.6"/>
+			<seg start="76">
+				<data>
+CGCAGACGAAAAAAAACCGCCTGGCAGGGCGGCTTTATCTACAACAACATCGAGGCTGATT
+				</data>
+				<hit pos="78" idx="1" rc="y" pvalue="1.3e-06" match="+++++ +++++++++++++    +++++++ +++ + "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00126_+_+_CDLFDMNO_00127_+_+_CO_F" comment="Cluster_12718&#13;" length="482">
+			<score strand="both" combined_pvalue="2.61e-03" evalue="6.9"/>
+			<seg start="1">
+				<data>
+CAGACAAGCCAGGTCCCGGATCAGCCAACCGCCTCTTTGAGGCGGTTTTTTTTGGCTCGAACAACGCCTCGAGCG
+				</data>
+				<hit pos="21" idx="1" rc="n" pvalue="1.1e-05" match="  +   ++++++++ +  + ++   ++++++++    "/>
+			</seg>
+			<seg start="301">
+				<data>
+GTGCTGTGCATAAGAATAAACATAAAAACAAAGCTTTTATAAATCTCTCTTCTTGATTTCTGTTGTATGCCATTC
+				</data>
+				<hit pos="310" idx="2" rc="n" pvalue="6.0e-06" match="+++++++++++++ ++ ++ +      ++++++++++ + ++ ++ ++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03056_+_+_CDLFDMNO_03057_+_+_DP" comment="Cluster_21956&#13;" length="368">
+			<score strand="both" combined_pvalue="2.69e-03" evalue="7.1"/>
+			<seg start="1">
+				<data>
+GGCCGCATGCCTCGTTGTCTTGATGGCCCGACTATGGACTCGGCCCTGCGCGGGAGCCAGCGTGCTTCGCGGCGT
+GAATTGGTCTTTATCACCCACACGGCAGGACGTGCCTGTTTGCCAATGGGCCCTCAAGCCGTGTACAAACAGCCG
+				</data>
+				<hit pos="57" idx="0" rc="y" pvalue="6.8e-05" match="   +  +++++ +++++   +"/>
+			</seg>
+			<seg start="301">
+				<data>
+GGTCACCGCCGTTGTCAAAAAAAACCGCACGGTCGGCCTGCATACTGTTGCAGATAAGGTAGTCAATC
+				</data>
+				<hit pos="314" idx="4" rc="n" pvalue="1.8e-06" match="+++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03857_+_+_CDLFDMNO_03858_+_+_CO_F" comment="Cluster_46417&#13;" length="239">
+			<score strand="both" combined_pvalue="2.72e-03" evalue="7.2"/>
+			<seg start="1">
+				<data>
+CCGGCGCTGCGTCCCACCGCCTGCTCCAGCAGCCACTTGCCATCTGGCAAACAGCGGTACTGCAAAAAAAATGCA
+				</data>
+				<hit pos="2" idx="0" rc="n" pvalue="8.4e-05" match=" ++ +++++ ++ ++ + +++"/>
+				<hit pos="61" idx="4" rc="n" pvalue="4.5e-07" match="+++++++++++"/>
+			</seg>
+			<seg start="76">
+				<data>
+CCACTGCCACATTTTTTTGAATTAGCCCAAATCGACATCGCTCGGCAGAATCGCTCCACGTAGCCTTCGCTTGCC
+				</data>
+				<hit pos="86" idx="4" rc="y" pvalue="4.3e-06" match=" ++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00532_+_+_CDLFDMNO_00533_+_+_DT" comment="Cluster_30506&#13;" length="309">
+			<score strand="both" combined_pvalue="2.76e-03" evalue="7.3"/>
+			<seg start="226">
+				<data>
+GCCAGGATGGTGGGGCGATACGGATGTCACAGGGAAACAGTCTGAAGAACCCCGCCTAGGCGGGGTTTTTCTTGT
+GCGTGCCGT
+				</data>
+				<hit pos="267" idx="1" rc="n" pvalue="2.6e-09" match="   ++ ++++++ + ++++++++ ++++++++++  +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00540_+_+_CDLFDMNO_00541_+_+_CO_R" comment="Cluster_28262&#13;" length="323">
+			<score strand="both" combined_pvalue="2.77e-03" evalue="7.4"/>
+			<seg start="1">
+				<data>
+GGGTGCTCTCTATGCTGTGCGCAAAGTCATGTCCAAAAAACAAAAACGCCCCGGCAGGCCGAGGCGTCGTACCCT
+				</data>
+				<hit pos="33" idx="5" rc="y" pvalue="5.8e-07" match="+++++++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_02761_+_+_CDLFDMNO_02762_+_+_CO_F" comment="Cluster_53373&#13;" length="217">
+			<score strand="both" combined_pvalue="2.81e-03" evalue="7.5"/>
+			<seg start="1">
+				<data>
+TTTGAACGGTAGGGCATCGCGCTACAGCAAAAACCCGGGACAATAGCCCCGGGTTTTTTTATATCTGGGGCACGG
+				</data>
+				<hit pos="29" idx="1" rc="n" pvalue="8.1e-09" match="+++++ ++ ++ +  ++++++ +  +++++++ +++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00234_+_+_CDLFDMNO_00235_+_+_DP" comment="Cluster_115571&#13;" length="102">
+			<score strand="both" combined_pvalue="2.96e-03" evalue="7.9"/>
+			<seg start="1">
+				<data>
+TGGACGCGTCCTGGTGCATGGGCTGGAACGGGAGAATAAGCCGCAGGCCCAGGGCGGGCAACCGGCCTATAATGG
+				</data>
+				<hit pos="50" idx="0" rc="n" pvalue="4.9e-06" match="  ++++ +  ++ +++++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03424_+_+_CDLFDMNO_03425_+_+_CO_F" comment="Cluster_158997&#13;" length="43">
+			<score strand="both" combined_pvalue="2.98e-03" evalue="7.9"/>
+			<seg start="1">
+				<data>
+ATCACCTGTCGCACAAAAACAACAAGCTCAGGAGAAACTCACC
+				</data>
+				<hit pos="10" idx="4" rc="n" pvalue="8.6e-05" match=" +++ +++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03158_+_+_CDLFDMNO_03159_+_+_CO_R" comment="Cluster_90047&#13;" length="139">
+			<score strand="both" combined_pvalue="3.02e-03" evalue="8"/>
+			<seg start="1">
+				<data>
+GCGTGGGGCTCCTGAAGGCGCGGCACAGGCCGTGAAAAAGGCCGCATAGTATCAGTCGCTTCAGGTCTTGAGCGC
+GGACAACAGCCTCAGGGCCCGATGTGGGCGAGGGCTGCGCACCAAGCAGCCCCCGTAAGCACGG
+				</data>
+				<hit pos="33" idx="3" rc="n" pvalue="3.0e-05" match="  +++++ +++++  + ++"/>
+				<hit pos="69" idx="0" rc="y" pvalue="1.5e-05" match="++ +  ++ + + +++++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00045_+_+_CDLFDMNO_00046_+_+_DP" comment="Cluster_23530&#13;" length="356">
+			<score strand="both" combined_pvalue="3.08e-03" evalue="8.2"/>
+			<seg start="76">
+				<data>
+CGGCGTACTGCGCATGTGGCGCGGCGCCACGCCCTGCATTGGCCTTATCAGGCTGCCTGGAATGATCAGCGCGAT
+				</data>
+				<hit pos="89" idx="0" rc="y" pvalue="4.4e-05" match="+++ + ++++  ++  + ++ "/>
+			</seg>
+			<seg start="226">
+				<data>
+CAGGCAGGGAGCGCCATATATGCTGGATTCCGCAAGGATTGGATCCGTTTATAACAAATGGATCTTAACTTAATT
+GAATATCCAGCTAAGTTAGTGTCTTCCGTTTGAAACGTTTTGTCCTTGGAGTTGTC
+				</data>
+				<hit pos="268" idx="2" rc="n" pvalue="9.4e-06" match="++  ++++++++ ++++  ++ ++++ ++++++ +++++  +  +++ ++"/>
+				<hit pos="336" idx="5" rc="n" pvalue="6.0e-05" match="++++++++  ++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_01524_+_+_CDLFDMNO_01525_+_+_CO_R" comment="Cluster_10573&#13;" length="519">
+			<score strand="both" combined_pvalue="3.20e-03" evalue="8.5"/>
+			<seg start="301">
+				<data>
+AGGTTGCATCGCCTGGCGGGTCGTATCTTGTCGAGAACGCAGCTCAGGCAGCTAGAGACGCATTGGGGCCGCTTC
+GCGCCCCATCACCGGCCAACTGACTCCTACCCGGCGCGAGATGTCCGCCTGCAGAAGCCGGCTTGCCGGCAATAG
+ACTGCGTAGCAGCCCCAAAGTGTTCAGCGTAGGTACTCAAGCAAGGGCCAACAAATGGCCCCGAATGCC
+				</data>
+				<hit pos="364" idx="0" rc="n" pvalue="4.6e-09" match="+++++++++++++++ +++++"/>
+				<hit pos="447" idx="0" rc="y" pvalue="1.6e-06" match="++ + ++++++++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_01083_+_+_CDLFDMNO_01084_+_+_DP" comment="Cluster_10845&#13;" length="514">
+			<score strand="both" combined_pvalue="3.22e-03" evalue="8.5"/>
+			<seg start="151">
+				<data>
+AAAACCGTTCCCCAACCGAAGCGGTTTGCAGGGGGAATGGACGTCTCCTTGGGCACAAAGGTTCCCATCTTAGGA
+CGCGTTTGGCCAGCACTAACCACTGCTCAAAAGCAATTTAACAAGTGAAAAACATCAATAAATACAGCTCTAGGC
+				</data>
+				<hit pos="206" idx="1" rc="n" pvalue="9.7e-05" match=" +++    +++  ++++++ ++  +++  +  +++  "/>
+				<hit pos="248" idx="2" rc="n" pvalue="6.6e-06" match=" +  +++++++++++++++ +  + +++ + ++ ++++ +++ +   +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00702_+_+_CDLFDMNO_00703_+_+_CO_F" comment="Cluster_90644&#13;" length="138">
+			<score strand="both" combined_pvalue="3.23e-03" evalue="8.6"/>
+			<seg start="1">
+				<data>
+TTATTTACCAAAAAAACTGTAGGAAAAGCCGGAGATTTAGCCGCCCAGTCTTATCAAGGGTTTCTAAATGGCCAA
+				</data>
+				<hit pos="20" idx="3" rc="n" pvalue="4.5e-06" match=" +  +++++++++ ++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_02709_+_+_CDLFDMNO_02710_+_+_CO_F" comment="Cluster_80080&#13;" length="156">
+			<score strand="both" combined_pvalue="3.32e-03" evalue="8.8"/>
+			<seg start="1">
+				<data>
+TGGGATGTGGGCCGAAGCGCTGGGGCCGCAGTGCCGCCTGGAGCCTGCGCTATACCTGCGCAACAACTGTCGCCT
+				</data>
+				<hit pos="21" idx="0" rc="n" pvalue="2.7e-07" match="++++++++++ +++ +++   "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_02165_+_+_CDLFDMNO_02166_+_+_DT" comment="Cluster_138937&#13;" length="69">
+			<score strand="both" combined_pvalue="3.33e-03" evalue="8.8"/>
+			<seg start="1">
+				<data>
+GCGCCAACGGGCTGCCTTGCAGCCCGTCGCCGGCAGATAGGCGATGGGCTGCAAGGCAGCCTCAGGGTT
+				</data>
+				<hit pos="7" idx="0" rc="n" pvalue="2.9e-08" match="+ +++++++ +++++++++ +"/>
+				<hit pos="44" idx="0" rc="n" pvalue="7.3e-09" match="+++++++++++ ++++++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03785_+_+_CDLFDMNO_03786_+_+_DP" comment="Cluster_95132&#13;" length="130">
+			<score strand="both" combined_pvalue="3.33e-03" evalue="8.8"/>
+			<seg start="1">
+				<data>
+CGGACTGTTCCTCATCAGCGTCTTTCTGTGCCAAAGACCACTTGGCTTGTATGGGCGATGCTAGGGGGTTAAATT
+GAATAACTCAAATTCATATTTTTTATCCTTTGGATAACCAAAAGGAATCCAGTCA
+				</data>
+				<hit pos="74" idx="2" rc="n" pvalue="3.9e-05" match=" + +++++ + +++++ +++++++  ++  +++  +++   ++++ +  +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03394_+_+_CDLFDMNO_03395_+_+_DP" comment="Cluster_32836&#13;" length="296">
+			<score strand="both" combined_pvalue="3.33e-03" evalue="8.8"/>
+			<seg start="76">
+				<data>
+CAAATTACGCTGTGTAGAATTGGTTTACGAAAAAAACAATAAGGCTCCTTTGTACCGAAGGGAGTCACACCTGCT
+				</data>
+				<hit pos="104" idx="5" rc="y" pvalue="9.6e-07" match=" ++++++++++++++"/>
+			</seg>
+			<seg start="226">
+				<data>
+TCCGTGCTCTCCGCCAGCGCTGTTCGACATCCCAGGCAACCATTGAATTCGCTGCAGATGAGGACACGCAC
+				</data>
+				<hit pos="240" idx="0" rc="n" pvalue="7.0e-05" match="  + ++++ +   ++ ++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03391_+_+_CDLFDMNO_03392_+_+_CO_F" comment="Cluster_3390&#13;" length="741">
+			<score strand="both" combined_pvalue="3.37e-03" evalue="8.9"/>
+			<seg start="1">
+				<data>
+CATCGGCCGATTCCATGGGAAGGGGACAAGGCGGCGATGCTTGAGGTCCTCGGCAAATCGCAGAAGCTAGATGAC
+				</data>
+				<hit pos="22" idx="3" rc="n" pvalue="6.4e-05" match="+   + +++++++++++ +"/>
+			</seg>
+			<seg start="451">
+				<data>
+GCCACTAACGGGTGCACGCCGTTGCCCATCAGAAGCAGAAACACACAAAAACCCACGGTCACGCCCGCTGCGTGG
+				</data>
+				<hit pos="488" idx="1" rc="y" pvalue="3.3e-06" match=" + +++ + ++++++++ +  + + +++ + +   + "/>
+			</seg>
+			<seg start="526">
+				<data>
+CCAAGGCTAGCGCTGCAGGGCTGCCCCGGCCTTACATGGGCACTGGCTGCTAACGGTTTGTAATAGTTTTGCGCT
+				</data>
+				<hit pos="533" idx="0" rc="n" pvalue="7.4e-07" match="+ + ++++++  ++ +++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03112_+_+_CDLFDMNO_03113_+_+_CO_R" comment="Cluster_86426&#13;" length="145">
+			<score strand="both" combined_pvalue="3.40e-03" evalue="9"/>
+			<seg start="1">
+				<data>
+GAGCGTTTCTCGCCCATGGTCGAGTTGTCTGGACATAAGCTTGGCTTGGCTGCAAAAAATAAAAAGAAGGGCGAC
+				</data>
+				<hit pos="52" idx="5" rc="y" pvalue="2.9e-05" match=" +++++++ ++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03731_+_+_CDLFDMNO_03732_+_+_DP" comment="Cluster_38683&#13;" length="268">
+			<score strand="both" combined_pvalue="3.42e-03" evalue="9.1"/>
+			<seg start="1">
+				<data>
+GGTTTTCCTTCAAATCACTGAACGGGGCACAAGGGGGCGGATTGTAGCCTACTTGCCCCTGGTAAGCGCAGCGGT
+				</data>
+				<hit pos="32" idx="0" rc="y" pvalue="7.7e-05" match="+++++ ++ ++++ ++++ + "/>
+			</seg>
+			<seg start="151">
+				<data>
+ACGATGGGCCGGCCGCCGGGCAATTTCCTGACCTTTGAGTCAGAAAAACATTGACCCGCGTGACAGGTGTTGCTT
+				</data>
+				<hit pos="154" idx="0" rc="n" pvalue="9.5e-05" match="++++++++     +++ + ++"/>
+			</seg>
+			<seg start="226">
+				<data>
+AGAGTCGGCCCAACAACAATAAAACCATTGCGAGGCCATCCCC
+				</data>
+				<hit pos="234" idx="5" rc="y" pvalue="8.6e-07" match="+++++++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_01984_+_+_CDLFDMNO_01985_+_+_CO_R" comment="Cluster_62476&#13;" length="193">
+			<score strand="both" combined_pvalue="3.50e-03" evalue="9.3"/>
+			<seg start="1">
+				<data>
+GGGTTTCATCCCTGAATGACGGTGTGTTTCTTAAGACCGTATTCGTATGGATGAGCGCTGTAAAAGTCTTTTTGG
+TTCTATGCTAATTATCAGTTAAGAGAATTTAATACAAAATCCGTTATGCGATTAACGCATATAGAGATCTGGGGT
+				</data>
+				<hit pos="72" idx="2" rc="n" pvalue="6.0e-06" match=" +  ++ ++++++++++++ ++++++ + ++++ ++++ +++++  ++++"/>
+			</seg>
+			<seg start="151">
+				<data>
+TCATTACCCTTGTGACTCGGGCTGTCGATCAGCCAGGGTCCTA
+				</data>
+				<hit pos="167" idx="0" rc="n" pvalue="6.2e-05" match="+ ++++++   + +++++   "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_03609_+_+_CDLFDMNO_03610_+_+_DP" comment="Cluster_28873&#13;" length="319">
+			<score strand="both" combined_pvalue="3.58e-03" evalue="9.5"/>
+			<seg start="1">
+				<data>
+GTCGGCTTCCCGAATTGTTGATTGTTGAAAGCGCCCAGCGCAGGGCTCCGAGCGTTTGAAATCTCAAACGAATGC
+				</data>
+				<hit pos="11" idx="5" rc="n" pvalue="3.7e-05" match="++ ++++++++++++"/>
+			</seg>
+			<seg start="76">
+				<data>
+TAAGCGTCTGCTGGGGTGTTGGACAATAGGCTGTTCGAAAAAAAGAACGAGCGGTTGAACACCTTATCCGAAATC
+				</data>
+				<hit pos="109" idx="4" rc="n" pvalue="1.6e-05" match="+++ +++++++"/>
+			</seg>
+			<seg start="151">
+				<data>
+GGCTCGCTGGTAGGGCGTGATGCAGCCTGTCGGGCTTGAGCGAGCGCGAATCAAAGATAGTAGCCCGGGGCAGGA
+				</data>
+				<hit pos="160" idx="0" rc="n" pvalue="5.0e-05" match=" + ++ ++  ++++++++  +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00022_+_+_CDLFDMNO_00023_+_+_CO_R" comment="Cluster_71477&#13;" length="173">
+			<score strand="both" combined_pvalue="3.59e-03" evalue="9.5"/>
+			<seg start="1">
+				<data>
+GCCGGCTTCTCCTGCTGTAATTTTTGTCCAGACTTGAACAAGTAATTGCAGCCTGCGTGCCAGCTTTCAAATTAG
+AAAAAATCCTTATTTTTCAATGGCTTAAACGATTGAACCATTAGGACCTACCACGTATCCTGCACGATGCCCCCT
+				</data>
+				<hit pos="20" idx="4" rc="y" pvalue="6.0e-05" match=" +++++ + ++"/>
+				<hit pos="70" idx="2" rc="n" pvalue="1.6e-05" match="+++ + +++++++  ++++++++ ++    ++++++ +++ ++  + + +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_00593_+_+_CDLFDMNO_00594_+_+_DT" comment="Cluster_143654&#13;" length="63">
+			<score strand="both" combined_pvalue="3.61e-03" evalue="9.6"/>
+			<seg start="1">
+				<data>
+CGGCGTGCCCTTGTCAAGACGCCGCGCTCAAGCGCGGCGTTTTTCGTTGGGCAGGTCAATGGC
+				</data>
+				<hit pos="8" idx="1" rc="y" pvalue="8.8e-07" match="+     + ++ + ++++++++++++ ++++  +++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="CDLFDMNO_02363_+_+_CDLFDMNO_02364_+_+_DT" comment="Cluster_157573&#13;" length="45">
+			<score strand="both" combined_pvalue="3.65e-03" evalue="9.7"/>
+			<seg start="1">
+				<data>
+TGCGGCTTTGCCGTTGACGTTGCAAGGGGCTGCTGTGTAGCCCCT
+				</data>
+				<hit pos="25" idx="0" rc="n" pvalue="6.4e-07" match="++++++++++ ++ +++++++"/>
+			</seg>
+		</sequence>
+	</sequences>
+	<runtime host="DESKTOP-IR6DELM" when="Tue Jan  3 18:12:34 2023" cycles="197080" seconds="0.197"/>
+</mast>

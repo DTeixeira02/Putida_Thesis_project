@@ -1,0 +1,3374 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<mast version="5.5.0" release="Wed Sep 7 14:18:26 2022 -0700">
+	<command_line><arg>mast</arg><arg>-mev</arg><arg>0.05</arg><arg>-remcorr</arg><arg>-oc</arg><arg>mastout_remcorr/GCA_016337175.1_ASM1633717v1_genomic</arg><arg>motifpredbothigrs/GCA_016337175.1_ASM1633717v1_genomic/meme.html</arg><arg>bothigrs/GCA_016337175.1_ASM1633717v1_genomic_IGRs.fna</arg></command_line>
+	<settings strand_handling="combine" max_correlation="0.60" remove_correlated="y" max_seq_evalue="10" adjust_hit="n" max_hit_pvalue="0.0001" max_weak_pvalue="0.0001"/>
+	<alphabet name="DNA" like="dna">
+		<letter id="A" symbol="A" complement="T" name="Adenine" colour="CC0000"/>
+		<letter id="C" symbol="C" complement="G" name="Cytosine" colour="0000CC"/>
+		<letter id="G" symbol="G" complement="C" name="Guanine" colour="FFB300"/>
+		<letter id="T" symbol="T" aliases="U" complement="A" name="Thymine" colour="008000"/>
+		<letter id="N" symbol="N" aliases="X." equals="ACGT" name="Any base"/>
+		<letter id="V" symbol="V" equals="ACG" name="Not T"/>
+		<letter id="H" symbol="H" equals="ACT" name="Not G"/>
+		<letter id="D" symbol="D" equals="AGT" name="Not C"/>
+		<letter id="B" symbol="B" equals="CGT" name="Not A"/>
+		<letter id="M" symbol="M" equals="AC" name="Amino"/>
+		<letter id="R" symbol="R" equals="AG" name="Purine"/>
+		<letter id="W" symbol="W" equals="AT" name="Weak"/>
+		<letter id="S" symbol="S" equals="CG" name="Strong"/>
+		<letter id="Y" symbol="Y" equals="CT" name="Pyrimidine"/>
+		<letter id="K" symbol="K" equals="GT" name="Keto"/>
+	</alphabet>
+	<background source="--nrdb--" A="0.274262" C="0.22521" G="0.22521" T="0.274262"/>
+	<motif_dbs>
+		<motif_db source="motifpredbothigrs/GCA_016337175.1_ASM1633717v1_genomic/meme.html" last_mod_date="Sat Nov 12 12:54:28 2022">
+			<background A="0.214" C="0.286" G="0.286" T="0.214"/>
+		</motif_db>
+	</motif_dbs>
+	<motifs>
+		<motif db="0" id="HGGGGCCGCYNHGCGGCCCMK" alt="MEME-1" length="21" nsites="124" evalue="1.2e-044">
+			<pos A="97" C="-20" G="-315" T="48"/>
+			<pos A="13" C="-1360" G="94" T="3"/>
+			<pos A="-156" C="-1360" G="163" T="-240"/>
+			<pos A="-241" C="-1360" G="175" T="-1360"/>
+			<pos A="-1360" C="-1360" G="181" T="-1360"/>
+			<pos A="-1360" C="171" G="-514" T="-192"/>
+			<pos A="-1360" C="132" G="-356" T="27"/>
+			<pos A="-1360" C="-1360" G="181" T="-1360"/>
+			<pos A="-314" C="156" G="-514" T="-82"/>
+			<pos A="-9" C="-45" G="-69" T="94"/>
+			<pos A="40" C="-90" G="-10" T="48"/>
+			<pos A="40" C="-15" G="-124" T="66"/>
+			<pos A="-141" C="-415" G="166" T="-1360"/>
+			<pos A="-1360" C="180" G="-1360" T="-1360"/>
+			<pos A="36" C="-1360" G="133" T="-472"/>
+			<pos A="-241" C="-1360" G="175" T="-1360"/>
+			<pos A="-373" C="178" G="-1360" T="-1360"/>
+			<pos A="-1360" C="180" G="-1360" T="-1360"/>
+			<pos A="-1360" C="159" G="-1360" T="-64"/>
+			<pos A="48" C="66" G="-315" T="3"/>
+			<pos A="8" C="-315" G="-10" T="116"/>
+		</motif>
+		<motif db="0" id="MNMAAAAARSCSSCCYNADGSSSGBTTTT" alt="MEME-2" length="29" nsites="65" evalue="5.9e-028">
+			<pos A="120" C="-5" G="-63" T="-221"/>
+			<pos A="29" C="-41" G="-52" T="60"/>
+			<pos A="90" C="17" G="-63" T="-121"/>
+			<pos A="166" C="-122" G="-52" T="-1267"/>
+			<pos A="193" C="-105" G="-421" T="-279"/>
+			<pos A="213" C="-1267" G="-222" T="-1267"/>
+			<pos A="211" C="-190" G="-1267" T="-1267"/>
+			<pos A="185" C="-141" G="-122" T="-1267"/>
+			<pos A="106" C="-41" G="24" T="-1267"/>
+			<pos A="-148" C="78" G="59" T="-1267"/>
+			<pos A="-1267" C="171" G="-1267" T="-180"/>
+			<pos A="-121" C="78" G="48" T="-379"/>
+			<pos A="-34" C="59" G="18" T="-147"/>
+			<pos A="-280" C="117" G="-22" T="-147"/>
+			<pos A="-10" C="95" G="-321" T="1"/>
+			<pos A="-21" C="48" G="-222" T="73"/>
+			<pos A="-10" C="-52" G="-52" T="90"/>
+			<pos A="116" C="-141" G="-41" T="-10"/>
+			<pos A="20" C="-163" G="43" T="37"/>
+			<pos A="-121" C="-422" G="154" T="-180"/>
+			<pos A="-1267" C="99" G="59" T="-1267"/>
+			<pos A="-280" C="3" G="83" T="-34"/>
+			<pos A="-1267" C="24" G="111" T="-221"/>
+			<pos A="-221" C="-122" G="154" T="-1267"/>
+			<pos A="-1267" C="37" G="31" T="37"/>
+			<pos A="-1267" C="-5" G="-1267" T="176"/>
+			<pos A="-280" C="-1267" G="-141" T="201"/>
+			<pos A="-221" C="-122" G="-1267" T="196"/>
+			<pos A="-1267" C="-141" G="-421" T="204"/>
+		</motif>
+		<motif db="0" id="GYTTTTTT" alt="MEME-3" length="8" nsites="172" evalue="1.3e-011">
+			<pos A="19" C="-1407" G="140" T="-1407"/>
+			<pos A="-174" C="28" G="-103" T="107"/>
+			<pos A="-1407" C="-1407" G="-1407" T="223"/>
+			<pos A="-1407" C="-1407" G="-1407" T="223"/>
+			<pos A="-1407" C="-1407" G="-1407" T="223"/>
+			<pos A="-1407" C="-1407" G="-1407" T="223"/>
+			<pos A="-1407" C="-1407" G="-1407" T="223"/>
+			<pos A="-1407" C="-1407" G="-1407" T="223"/>
+		</motif>
+		<motif db="0" id="CAGCCCHTGCCVTRSCVVGCCGAACCTAGCCAHRCCNVGCCGDRSCGTGC" alt="MEME-4" length="50" nsites="5" evalue="1.0e-004">
+			<pos A="-897" C="180" G="-897" T="-897"/>
+			<pos A="190" C="-897" G="-897" T="-9"/>
+			<pos A="-897" C="-897" G="148" T="-9"/>
+			<pos A="-897" C="148" G="-51" T="-897"/>
+			<pos A="-897" C="180" G="-897" T="-897"/>
+			<pos A="-897" C="180" G="-897" T="-897"/>
+			<pos A="90" C="-52" G="-897" T="90"/>
+			<pos A="-897" C="-897" G="-51" T="190"/>
+			<pos A="-897" C="-897" G="180" T="-897"/>
+			<pos A="-897" C="180" G="-897" T="-897"/>
+			<pos A="-897" C="180" G="-897" T="-897"/>
+			<pos A="90" C="-52" G="48" T="-897"/>
+			<pos A="-10" C="-52" G="-897" T="149"/>
+			<pos A="90" C="-897" G="107" T="-897"/>
+			<pos A="-897" C="106" G="48" T="-897"/>
+			<pos A="-897" C="180" G="-897" T="-897"/>
+			<pos A="90" C="-52" G="48" T="-897"/>
+			<pos A="-10" C="48" G="48" T="-897"/>
+			<pos A="-10" C="-897" G="148" T="-897"/>
+			<pos A="-897" C="180" G="-897" T="-897"/>
+			<pos A="-897" C="180" G="-897" T="-897"/>
+			<pos A="-10" C="-52" G="107" T="-897"/>
+			<pos A="149" C="-52" G="-897" T="-9"/>
+			<pos A="190" C="-897" G="-51" T="-897"/>
+			<pos A="-897" C="180" G="-897" T="-897"/>
+			<pos A="-897" C="180" G="-897" T="-897"/>
+			<pos A="-10" C="-52" G="-897" T="149"/>
+			<pos A="149" C="-52" G="-897" T="-9"/>
+			<pos A="-897" C="-897" G="180" T="-897"/>
+			<pos A="-897" C="180" G="-897" T="-897"/>
+			<pos A="-897" C="180" G="-897" T="-897"/>
+			<pos A="149" C="-897" G="-51" T="-9"/>
+			<pos A="90" C="-52" G="-897" T="90"/>
+			<pos A="149" C="-897" G="48" T="-897"/>
+			<pos A="-897" C="180" G="-897" T="-897"/>
+			<pos A="-10" C="148" G="-897" T="-897"/>
+			<pos A="90" C="-52" G="-51" T="-9"/>
+			<pos A="90" C="-52" G="48" T="-897"/>
+			<pos A="-897" C="-897" G="180" T="-897"/>
+			<pos A="-897" C="180" G="-897" T="-897"/>
+			<pos A="-897" C="180" G="-897" T="-897"/>
+			<pos A="-10" C="-52" G="107" T="-897"/>
+			<pos A="90" C="-897" G="48" T="-9"/>
+			<pos A="90" C="-897" G="107" T="-897"/>
+			<pos A="-897" C="106" G="48" T="-897"/>
+			<pos A="-897" C="180" G="-897" T="-897"/>
+			<pos A="-897" C="-52" G="107" T="-9"/>
+			<pos A="-897" C="-897" G="-897" T="222"/>
+			<pos A="-10" C="-897" G="148" T="-897"/>
+			<pos A="-897" C="180" G="-897" T="-897"/>
+		</motif>
+		<motif db="0" id="WSWTTWWDNTTYTNRVWDTTATRWTTNDTKDDKWTTNTWTTHYTTWT" alt="MEME-5" length="47" nsites="11" evalue="5.6e-007" bad="y">
+			<pos A="109" C="-165" G="-165" T="77"/>
+			<pos A="-123" C="-7" G="93" T="-123"/>
+			<pos A="109" C="-66" G="-165" T="35"/>
+			<pos A="-1010" C="-1010" G="-1010" T="223"/>
+			<pos A="-123" C="-66" G="-1010" T="177"/>
+			<pos A="109" C="-66" G="-1010" T="77"/>
+			<pos A="135" C="-1010" G="-165" T="77"/>
+			<pos A="109" C="-1010" G="-7" T="35"/>
+			<pos A="-23" C="-7" G="-65" T="77"/>
+			<pos A="-123" C="-165" G="-65" T="157"/>
+			<pos A="-1010" C="-1010" G="-65" T="194"/>
+			<pos A="-1010" C="-7" G="-65" T="135"/>
+			<pos A="-123" C="-1010" G="-165" T="194"/>
+			<pos A="35" C="-7" G="-7" T="-23"/>
+			<pos A="109" C="-1010" G="67" T="-123"/>
+			<pos A="35" C="-7" G="67" T="-1010"/>
+			<pos A="135" C="-1010" G="-165" T="77"/>
+			<pos A="35" C="-1010" G="-7" T="109"/>
+			<pos A="-123" C="-7" G="-1010" T="157"/>
+			<pos A="-23" C="-66" G="-65" T="109"/>
+			<pos A="157" C="-165" G="-165" T="-23"/>
+			<pos A="-1010" C="-165" G="-1010" T="209"/>
+			<pos A="109" C="-1010" G="35" T="-23"/>
+			<pos A="157" C="-1010" G="-1010" T="77"/>
+			<pos A="-23" C="-165" G="-165" T="157"/>
+			<pos A="-1010" C="-1010" G="-165" T="209"/>
+			<pos A="76" C="-7" G="-65" T="-23"/>
+			<pos A="35" C="-165" G="-7" T="77"/>
+			<pos A="-1010" C="-165" G="-165" T="194"/>
+			<pos A="-123" C="-66" G="-7" T="109"/>
+			<pos A="76" C="-165" G="-65" T="77"/>
+			<pos A="35" C="-165" G="35" T="35"/>
+			<pos A="-1010" C="-165" G="35" T="135"/>
+			<pos A="109" C="-1010" G="-1010" T="135"/>
+			<pos A="-23" C="-66" G="-65" T="109"/>
+			<pos A="-23" C="-1010" G="-65" T="157"/>
+			<pos A="-23" C="-7" G="-65" T="77"/>
+			<pos A="-1010" C="-1010" G="-7" T="177"/>
+			<pos A="76" C="-1010" G="-165" T="135"/>
+			<pos A="-123" C="-1010" G="-1010" T="209"/>
+			<pos A="-1010" C="-1010" G="-1010" T="223"/>
+			<pos A="35" C="-7" G="-1010" T="109"/>
+			<pos A="-123" C="93" G="-165" T="35"/>
+			<pos A="-123" C="-165" G="-65" T="157"/>
+			<pos A="-1010" C="-165" G="-7" T="157"/>
+			<pos A="76" C="-1010" G="-65" T="109"/>
+			<pos A="-23" C="-165" G="-1010" T="177"/>
+		</motif>
+		<motif db="0" id="AAATGMKAWTCATTMTCAWT" alt="MEME-6" length="20" nsites="13" evalue="6.0e-007">
+			<pos A="169" C="-90" G="-89" T="-1035"/>
+			<pos A="198" C="-1035" G="-89" T="-1035"/>
+			<pos A="185" C="-1035" G="-89" T="-147"/>
+			<pos A="-1035" C="-189" G="-1035" T="211"/>
+			<pos A="-1035" C="-1035" G="181" T="-1035"/>
+			<pos A="111" C="69" G="-189" T="-1035"/>
+			<pos A="-48" C="-1035" G="43" T="111"/>
+			<pos A="211" C="-1035" G="-1035" T="-147"/>
+			<pos A="85" C="-1035" G="-189" T="133"/>
+			<pos A="-1035" C="-90" G="-189" T="185"/>
+			<pos A="-48" C="110" G="-31" T="-1035"/>
+			<pos A="211" C="-1035" G="-1035" T="-147"/>
+			<pos A="-1035" C="-189" G="-1035" T="211"/>
+			<pos A="-1035" C="-1035" G="-1035" T="223"/>
+			<pos A="133" C="10" G="-1035" T="-47"/>
+			<pos A="-147" C="-90" G="-31" T="133"/>
+			<pos A="-1035" C="142" G="-1035" T="11"/>
+			<pos A="211" C="-1035" G="-189" T="-1035"/>
+			<pos A="52" C="-189" G="-1035" T="153"/>
+			<pos A="-147" C="-90" G="-1035" T="185"/>
+		</motif>
+		<motif db="0" id="ATGGDTTKVAAWDKCMDHHRCRWDHAKCHGMTGKHWMDARRYRAWNWKYT" alt="MEME-7" length="50" nsites="19" evalue="4.8e-003">
+			<pos A="168" C="-1089" G="-1089" T="56"/>
+			<pos A="-2" C="-244" G="-144" T="156"/>
+			<pos A="-2" C="-44" G="88" T="-202"/>
+			<pos A="-1089" C="-44" G="114" T="-44"/>
+			<pos A="30" C="-144" G="-12" T="79"/>
+			<pos A="-2" C="-86" G="-244" T="144"/>
+			<pos A="-44" C="-244" G="-244" T="179"/>
+			<pos A="-1089" C="-44" G="14" T="115"/>
+			<pos A="30" C="56" G="-44" T="-102"/>
+			<pos A="168" C="-44" G="-144" T="-1089"/>
+			<pos A="198" C="-1089" G="-244" T="-102"/>
+			<pos A="144" C="-1089" G="-244" T="79"/>
+			<pos A="98" C="-1089" G="-44" T="79"/>
+			<pos A="-1089" C="-144" G="73" T="98"/>
+			<pos A="-102" C="126" G="-144" T="-102"/>
+			<pos A="30" C="88" G="-144" T="-102"/>
+			<pos A="56" C="-244" G="-44" T="98"/>
+			<pos A="98" C="-12" G="-144" T="-2"/>
+			<pos A="-2" C="56" G="-86" T="-2"/>
+			<pos A="130" C="-1089" G="-12" T="-2"/>
+			<pos A="-2" C="101" G="-1089" T="-2"/>
+			<pos A="130" C="-1089" G="-12" T="-2"/>
+			<pos A="130" C="-144" G="-1089" T="79"/>
+			<pos A="56" C="-144" G="14" T="30"/>
+			<pos A="56" C="-44" G="-244" T="98"/>
+			<pos A="156" C="-144" G="-244" T="-2"/>
+			<pos A="-44" C="-244" G="56" T="79"/>
+			<pos A="-44" C="101" G="-244" T="-2"/>
+			<pos A="78" C="-12" G="-144" T="30"/>
+			<pos A="-2" C="-44" G="102" T="-1089"/>
+			<pos A="78" C="73" G="-1089" T="-44"/>
+			<pos A="30" C="-244" G="-144" T="144"/>
+			<pos A="-1089" C="-144" G="126" T="-2"/>
+			<pos A="-202" C="-44" G="-12" T="115"/>
+			<pos A="56" C="-12" G="-144" T="56"/>
+			<pos A="115" C="-1089" G="-144" T="98"/>
+			<pos A="130" C="-12" G="-1089" T="-2"/>
+			<pos A="56" C="-144" G="14" T="30"/>
+			<pos A="178" C="-44" G="-1089" T="-202"/>
+			<pos A="30" C="-144" G="88" T="-102"/>
+			<pos A="98" C="-144" G="73" T="-1089"/>
+			<pos A="-102" C="36" G="-1089" T="130"/>
+			<pos A="56" C="-44" G="73" T="-1089"/>
+			<pos A="198" C="-1089" G="-244" T="-102"/>
+			<pos A="56" C="-144" G="-144" T="115"/>
+			<pos A="56" C="-12" G="-12" T="-44"/>
+			<pos A="78" C="-144" G="-144" T="98"/>
+			<pos A="-1089" C="-1089" G="37" T="156"/>
+			<pos A="-202" C="14" G="-244" T="144"/>
+			<pos A="-2" C="-1089" G="-1089" T="189"/>
+		</motif>
+	</motifs>
+	<correlations>
+		<correlation idx_a="0" idx_b="1" value="0.38"/>
+		<correlation idx_a="0" idx_b="2" value="0.47"/>
+		<correlation idx_a="1" idx_b="2" value="0.48"/>
+		<correlation idx_a="0" idx_b="3" value="0.25"/>
+		<correlation idx_a="1" idx_b="3" value="0.23"/>
+		<correlation idx_a="2" idx_b="3" value="0.17"/>
+		<correlation idx_a="0" idx_b="4" value="0.27"/>
+		<correlation idx_a="1" idx_b="4" value="0.13"/>
+		<correlation idx_a="2" idx_b="4" value="0.68"/>
+		<correlation idx_a="3" idx_b="4" value="0.04"/>
+		<correlation idx_a="0" idx_b="5" value="0.19"/>
+		<correlation idx_a="1" idx_b="5" value="0.15"/>
+		<correlation idx_a="2" idx_b="5" value="0.46"/>
+		<correlation idx_a="3" idx_b="5" value="0.21"/>
+		<correlation idx_a="4" idx_b="5" value="0.36"/>
+		<correlation idx_a="0" idx_b="6" value="0.30"/>
+		<correlation idx_a="1" idx_b="6" value="0.14"/>
+		<correlation idx_a="2" idx_b="6" value="0.49"/>
+		<correlation idx_a="3" idx_b="6" value="0.12"/>
+		<correlation idx_a="4" idx_b="6" value="0.31"/>
+		<correlation idx_a="5" idx_b="6" value="0.40"/>
+	</correlations>
+	<sequence_dbs>
+		<sequence_db source="bothigrs/GCA_016337175.1_ASM1633717v1_genomic_IGRs.fna" last_mod_date="Sun Nov 20 15:11:08 2022" seq_count="2779" residue_count="449227"/>
+	</sequence_dbs>
+	<sequences>
+		<sequence db="0" name="MCKINBCO_02714_+_+_MCKINBCO_02715_+_+_CO_R" comment="Cluster_3380&#13;" length="742">
+			<score strand="both" combined_pvalue="2.17e-18" evalue="6e-15"/>
+			<seg start="151">
+				<data>
+CGAGCCTTGCCAGGCCATGCCGAGCCGAACCCAGCCATACAAAGCCATGCCGTGCCGCACGGTGCCTTCGCACCG
+				</data>
+				<hit pos="156" idx="3" rc="n" pvalue="1.6e-21" match="+   +++ +++++++++ ++++++++ ++++++++ +++++  +++++++"/>
+			</seg>
+			<seg start="226">
+				<data>
+CAATGACCACTCAACGAATGGCCATTACGCTGACCAACAGCCCCTGCCGCACCAGACCGAACCATGCCGCACCCG
+GCCCAGCCCTACCGAAACCAGCCATGCCTCATGGTGTTTTCACACCGCACAACACACCCGCAGACGTGCTGTACG
+				</data>
+				<hit pos="263" idx="3" rc="n" pvalue="9.6e-21" match="++++++ +++++ +++++ +++++++  +++  +++ ++++ ++++ + +"/>
+			</seg>
+			<seg start="376">
+				<data>
+CTGAGAAATCAGCCCTTGCCCTGGCGCGCCATGCCTAGCCAAGCCTCGCCGAGCCGTGCCTGGCCCAGCCAAACC
+GAGTGGTAGCTATCGCCACCGGACTACGCTCCCGAAGAAGCGCAGGCCGCTGATTACAGCCCATGCCAAAGCCCG
+CCGCACCTCGCCTAACCGGGCCGGAGCTTGCGTTGCCGTGCCGCGTGGCAGCTATCGCCACCGGAAAGCCCTCTC
+				</data>
+				<hit pos="385" idx="3" rc="n" pvalue="1.3e-22" match="+++++++++++ +++++++++   ++++++++++++  ++++++++++++"/>
+				<hit pos="435" idx="3" rc="n" pvalue="2.3e-05" match="+ + ++  ++++ ++++ +  + + +++ +   +++ + +   ++     "/>
+				<hit pos="507" idx="3" rc="n" pvalue="8.7e-22" match="++++++++++++ +++ +++++ ++++ +++ ++++ +++++++++ +++"/>
+				<hit pos="561" idx="0" rc="y" pvalue="7.3e-05" match="  + +++++ + +++++  + "/>
+			</seg>
+			<seg start="601">
+				<data>
+ATCGAAAGGGCAGACCGCTGTAAACAGCCCTTGCCGTGCCAGGCCCAACCTAGCCATGCCAAGCCGGAGCGTGCC
+				</data>
+				<hit pos="625" idx="3" rc="n" pvalue="5.2e-26" match="+++++++++++++++++++++ ++++++++++++++++++++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00734_+_+_MCKINBCO_00735_+_+_DT" comment="Cluster_126757&#13;" length="86">
+			<score strand="both" combined_pvalue="3.22e-16" evalue="8.9e-13"/>
+			<seg start="1">
+				<data>
+ACCTCAGGGGCCGCAATGCGGCCCCTTCTTGACTCAGGCAGGCACAAAAAAGCCCGGCAGATGCCGGGCTTTTTC
+				</data>
+				<hit pos="6" idx="0" rc="n" pvalue="2.1e-12" match="+++++++++ +++++++++++"/>
+				<hit pos="44" idx="1" rc="n" pvalue="4.1e-10" match="+ +++++++++++ +  ++++++++ +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02397_+_+_MCKINBCO_02398_+_+_DT" comment="Cluster_97216&#13;" length="129">
+			<score strand="both" combined_pvalue="4.24e-13" evalue="1.2e-09"/>
+			<seg start="1">
+				<data>
+GCGACGCGCTAGTCAAAAAAACCGACCTCAGGGTCGGTTTTTTTATGCCTGCATTTTGTGAGTTCTCAGGCCCGT
+GGCTCAACCCAGGCGCTGTAAGGTGGCAGGGCCGCATGGCGGCCCTACCCTGCA
+				</data>
+				<hit pos="18" idx="1" rc="y" pvalue="1.1e-11" match="+++++++ +++ ++++ ++++++++++++"/>
+				<hit pos="67" idx="0" rc="y" pvalue="5.7e-05" match="  ++ +++     ++ +++  "/>
+				<hit pos="102" idx="0" rc="y" pvalue="6.9e-10" match="  +++++++++ +++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02841_+_+_MCKINBCO_02842_+_+_DT" comment="Cluster_155203&#13;" length="49">
+			<score strand="both" combined_pvalue="4.78e-11" evalue="1.3e-07"/>
+			<seg start="1">
+				<data>
+TTCGCAGGCATGAAAAAACCGCGCCTCGGCGCGGTTTTTTTTTACTGCA
+				</data>
+				<hit pos="15" idx="1" rc="y" pvalue="2.9e-12" match="++++++++++++ ++ +++++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00588_+_+_MCKINBCO_00589_+_+_CO_R" comment="Cluster_86261&#13;" length="146">
+			<score strand="both" combined_pvalue="1.06e-10" evalue="3e-07"/>
+			<seg start="1">
+				<data>
+CGAGTAGCCGTGAAATGATATTCATTATTAATTGATAAATAGAATCAATTCAACCCATAGAGGGTATGGAGATCC
+				</data>
+				<hit pos="13" idx="5" rc="n" pvalue="1.5e-10" match="++++++++++++++++++++"/>
+			</seg>
+			<seg start="76">
+				<data>
+TGCCGTTTGATCTTCTGCCGCAAAAAAAAGGGGCCGCTGCGCGGCCCCCCAACAGCTTCACATGAAAAGGA
+				</data>
+				<hit pos="104" idx="0" rc="n" pvalue="1.5e-09" match="++++++++++  ++++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_03958_+_+_MCKINBCO_03959_+_+_DT" comment="Cluster_152221&#13;" length="51">
+			<score strand="both" combined_pvalue="1.54e-10" evalue="4.3e-07"/>
+			<seg start="1">
+				<data>
+GACGCCCACAAAAAAACCCGCCAATGGCGGGTTTTTTTATGAGCGCAATGT
+				</data>
+				<hit pos="12" idx="1" rc="y" pvalue="9.8e-14" match="+++++++++++ + +++++++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_01101_+_+_MCKINBCO_01102_+_+_DT" comment="Cluster_161169&#13;" length="39">
+			<score strand="both" combined_pvalue="2.80e-09" evalue="7.8e-06"/>
+			<seg start="1">
+				<data>
+TCAATAAAAAGGGGCTGCTTGGCAGCCCCTTTTTTTGGG
+				</data>
+				<hit pos="10" idx="0" rc="y" pvalue="2.4e-10" match="+++++++++++ +++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02984_+_+_MCKINBCO_02985_+_+_DT" comment="Cluster_59929&#13;" length="200">
+			<score strand="both" combined_pvalue="3.37e-09" evalue="9.4e-06"/>
+			<seg start="1">
+				<data>
+CTACTTGATAGTGCGGGACTAAGGGTTGCGCGGTATGGGTGGGCGCGGCCTCGCCGGGATGCCGGGCCGGCCGCG
+				</data>
+				<hit pos="8" idx="3" rc="y" pvalue="3.3e-07" match="  +  ++  + ++  +  + ++  +++  ++   +++ ++++ + + + +"/>
+			</seg>
+			<seg start="76">
+				<data>
+ATGGGCCGCGCAGCGGCCCCAGGATTCCCAGCATCAGATCCAAAGGCCCACCGCGTGGTTCCTAATGGCCAGCGT
+				</data>
+				<hit pos="76" idx="0" rc="y" pvalue="3.8e-11" match="+++++++++  ++++++++++"/>
+				<hit pos="113" idx="1" rc="n" pvalue="5.0e-05" match="+++ +++ ++++ ++   +++   ++  +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00319_+_+_MCKINBCO_00320_+_+_DT" comment="Cluster_7688&#13;" length="585">
+			<score strand="both" combined_pvalue="5.96e-09" evalue="1.7e-05"/>
+			<seg start="151">
+				<data>
+ATCCTGAGCTCTGATACCTCTGATAATTTTAAAAAAATGTTCGACTTGCTGCTTACTGATCCTGAGCTGCTAAGC
+				</data>
+				<hit pos="181" idx="2" rc="y" pvalue="8.0e-05" match="++++++++"/>
+			</seg>
+			<seg start="226">
+				<data>
+TACTATGCGGTGCTTCTTCTTATGTTTGGCATGTCTGCTGTAATACAATTTAAATGGAGATTCAACAGTCAGCGG
+CATCAAGATAATCTTTTCAGGTTGCATCGCTTTCTTGCAGAAATCGGTAGTTGCTTTTTAACTGCCGGGCGTACC
+				</data>
+				<hit pos="268" idx="6" rc="n" pvalue="2.9e-09" match="++  + ++ +++++ + +  +++ + +++++ + ++ ++++++++ ++++"/>
+			</seg>
+			<seg start="451">
+				<data>
+ATAAAGACTTTGGTCTATGTTTCTTTTCTTTTGCTTTTTTGTGTATTTCTTTCTATTGGGGACGATGCGCTTAAA
+AATCCTCGGCAAGCAGCTGCAGTTAAAAGATAATAAGCTGATTATGTCAGGGTTTGTGTG
+				</data>
+				<hit pos="483" idx="2" rc="n" pvalue="4.8e-05" match="++++++++"/>
+				<hit pos="515" idx="6" rc="n" pvalue="1.7e-13" match="+++   +++++++++++   ++++ +++++++++++++++++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_03287_+_+_MCKINBCO_03288_+_+_CO_R" comment="Cluster_73694&#13;" length="169">
+			<score strand="both" combined_pvalue="6.20e-09" evalue="1.7e-05"/>
+			<seg start="1">
+				<data>
+ATGTCTCTCGGTGTGGCGCGCATTCTACGGACAACTTTCAATGCTGGCAAGCACTTATCGCTTTTTTTATGCCCT
+				</data>
+				<hit pos="60" idx="2" rc="n" pvalue="4.8e-05" match="++++++++"/>
+			</seg>
+			<seg start="76">
+				<data>
+GTGCGCTCGTGCCGAATTCAAGGCATAAAAAAAGCGACCCTAGGGTCGCTTTTCCGTTGCTTCAGGGTGTTCAGT
+				</data>
+				<hit pos="100" idx="1" rc="n" pvalue="1.2e-12" match="++++++++++++ ++++++++ +++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02775_+_+_MCKINBCO_02776_+_+_DT" comment="Cluster_81761&#13;" length="153">
+			<score strand="both" combined_pvalue="1.11e-08" evalue="3.1e-05"/>
+			<seg start="1">
+				<data>
+GGAGATGGGGGCCTGGCACCGGGGGTATCGGGGTGTTTGAGGCAGCTTTTTTGACCTGTGTGAAAGGGCTGCCTG
+GCAGCCCTTTTTTGTTGCTGAGTCTGCTGCGCCCATGGGTATGAGATGAAGATCGCCGGGGCCGCATAGCGGCCC
+CAG
+				</data>
+				<hit pos="27" idx="1" rc="y" pvalue="2.6e-05" match="+   + + + ++ ++++ ++++++++++ "/>
+				<hit pos="64" idx="0" rc="n" pvalue="3.8e-09" match="+++++++++ + +++++++ +"/>
+				<hit pos="132" idx="0" rc="y" pvalue="1.6e-11" match=" ++++++++++++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00482_+_+_MCKINBCO_00483_+_+_DT" comment="Cluster_125352&#13;" length="88">
+			<score strand="both" combined_pvalue="1.29e-08" evalue="3.6e-05"/>
+			<seg start="1">
+				<data>
+AATCCTTATGAAAAACCCGCCTTGTGCGGGTTTTTTGTTGCTCACGGTTCAGGTCCGTATCCTTAGCCTGCATCA
+				</data>
+				<hit pos="11" idx="1" rc="y" pvalue="7.7e-13" match="++++++++++++ + ++++++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02047_+_+_MCKINBCO_02048_+_+_CO_F" comment="Cluster_56167&#13;" length="207">
+			<score strand="both" combined_pvalue="1.30e-08" evalue="3.6e-05"/>
+			<seg start="1">
+				<data>
+TCTGACCGCAGGGCCGTCACAGGGCGCACGGCGCCGTGTGGCCGCTCACTGCCAAGGGCCTACTGCGCCGCTCAC
+				</data>
+				<hit pos="29" idx="0" rc="y" pvalue="6.3e-05" match=" ++ ++++  + ++ ++ +  "/>
+			</seg>
+			<seg start="76">
+				<data>
+CGCCGGCACGCCACTGCCAGCCTGGGCTGCGCCGATTCAAGCCATACGGTATGCCCGGTTCGCCCGGGCTTGCCA
+				</data>
+				<hit pos="78" idx="3" rc="n" pvalue="6.3e-06" match="+ + +    +  ++++++ + +  +   +++ +  ++++++  ++ ++  "/>
+			</seg>
+			<seg start="151">
+				<data>
+GCGATGGGCCGCACAGCGGCCCTTTTTTTCATCAAACGTATTTCTAGGAGCGCTCCA
+				</data>
+				<hit pos="154" idx="0" rc="y" pvalue="8.8e-12" match="++++++++++ ++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00909_+_+_MCKINBCO_00910_+_+_DT" comment="Cluster_113940&#13;" length="105">
+			<score strand="both" combined_pvalue="1.71e-08" evalue="4.8e-05"/>
+			<seg start="1">
+				<data>
+AGATCTACCTCGCGTATCGAGGGCGCCTGTGCCCTGTACGTGAGCCGTCAAAGCCAAGTCAAAAAAAACCCGCCA
+CGAGGGCGGGTTTTTTTACGGCTATCCGAA
+				</data>
+				<hit pos="61" idx="1" rc="n" pvalue="1.3e-11" match="++++++++ +++++ + ++++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_01122_+_+_MCKINBCO_01123_+_+_CO_F" comment="Cluster_34719&#13;" length="287">
+			<score strand="both" combined_pvalue="2.31e-08" evalue="6.4e-05"/>
+			<seg start="1">
+				<data>
+TATAAGGTTCCAGAGAAGGTTTTCAAAATCTCTGGAATCCCCGAAAAACCCGCCTTTTGGCGGGTTTTTTCGTTT
+				</data>
+				<hit pos="45" idx="1" rc="y" pvalue="2.7e-11" match="++++++++++++  ++++++++++++  +"/>
+			</seg>
+			<seg start="76">
+				<data>
+TGGCGTTCCGTCGGTTCCCGACTCCCCTTGTGGCCCGCGCCGCGGCCCCGCTTACTGACTCCGCCTCTTCGAAAG
+				</data>
+				<hit pos="105" idx="0" rc="y" pvalue="4.4e-06" match=" +++ ++++   ++++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02763_+_+_MCKINBCO_02764_+_+_CO_R" comment="Cluster_46035&#13;" length="241">
+			<score strand="both" combined_pvalue="4.68e-08" evalue="0.00013"/>
+			<seg start="151">
+				<data>
+GGGGTGGGGGTTGGAGTGGGATGGGGCCGCTTTGCGGCCCATCGCGGCCGGTCCGGCGCCCCGGCGAGGCCGCTC
+				</data>
+				<hit pos="172" idx="0" rc="n" pvalue="2.1e-12" match="+++++++++++++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_01496_+_+_MCKINBCO_01497_+_+_DT" comment="Cluster_152443&#13;" length="52">
+			<score strand="both" combined_pvalue="5.65e-08" evalue="0.00016"/>
+			<seg start="1">
+				<data>
+TCTTGGATGCAAGGGCCGCCAAGCGGCCCTTTTTACGGGCGTTGCCCGCGTT
+				</data>
+				<hit pos="11" idx="0" rc="n" pvalue="1.4e-10" match="+++++++++ +++++++++ +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_01088_+_+_MCKINBCO_01089_+_+_DT" comment="Cluster_31882&#13;" length="301">
+			<score strand="both" combined_pvalue="7.57e-08" evalue="0.00021"/>
+			<seg start="1">
+				<data>
+GTAACGATGGCTGCAAAACACCTGAAAAGGGCCGCTTAGCGGCCCTTTTCAATTTGGGCGCCTGGTTGCACCGTT
+				</data>
+				<hit pos="27" idx="0" rc="n" pvalue="1.6e-11" match="+++++++++++++++++++ +"/>
+			</seg>
+			<seg start="76">
+				<data>
+CTTGTGCCCGACGCACCGCTCGAAGGCACAAATGGCCGCAAAAACTGGCCTTTTTCCCCTTTTTACCCCGTATCA
+				</data>
+				<hit pos="111" idx="1" rc="n" pvalue="8.0e-07" match="    ++++++ ++++++ + +++ +++++"/>
+			</seg>
+			<seg start="226">
+				<data>
+CCAGGTGACCCCTCTTTTATTTGCTCACGCACATGTTTCGGGGACCTTGGTACAGGCAGGCCGGGAATCCCCTCT
+T
+				</data>
+				<hit pos="281" idx="0" rc="y" pvalue="9.9e-05" match="   +++++  ++ +  + +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_03707_+_+_MCKINBCO_03708_+_+_DT" comment="Cluster_127862&#13;" length="85">
+			<score strand="both" combined_pvalue="8.04e-08" evalue="0.00022"/>
+			<seg start="1">
+				<data>
+GCCCTTACAGGGTCGCTGCGCGACCCTGTACAGCGCCCACGAAAAAGCCCGCCTTGATGCGGGCTTCTTCATGCC
+				</data>
+				<hit pos="8" idx="0" rc="n" pvalue="1.2e-07" match=" ++++ ++++  +++ +++  "/>
+				<hit pos="44" idx="1" rc="y" pvalue="9.5e-09" match="+++ ++++++++ + ++++++++ ++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00171_+_+_MCKINBCO_00172_+_+_DT" comment="Cluster_98757&#13;" length="126">
+			<score strand="both" combined_pvalue="8.57e-08" evalue="0.00024"/>
+			<seg start="1">
+				<data>
+GGCGATGAACCGTACGCTGTGCTGATAGACTAAAAACCGCCTCGAAAGGGCGGTTTTTTGGTTGCTGAGCCGCTA
+GGCGGCCTTACGCTGAAGCGTTGCGCATAAGGCGCCTGGACGGCTGCAGCT
+				</data>
+				<hit pos="32" idx="1" rc="y" pvalue="2.4e-08" match="+++++++++++  ++ ++++  ++++++ "/>
+				<hit pos="65" idx="0" rc="n" pvalue="9.4e-08" match="  + +++++++ ++++++  +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_01120_+_+_MCKINBCO_01121_+_+_DP" comment="Cluster_5341&#13;" length="658">
+			<score strand="both" combined_pvalue="1.24e-07" evalue="0.00035"/>
+			<seg start="1">
+				<data>
+GGCTTGGTTCCTTATTCGAAAACAGGAGCCGCCACGCAGACCTTCTCACGGATAAGGTGGCAGCCGTACGCAGGG
+				</data>
+				<hit pos="24" idx="0" rc="n" pvalue="1.6e-07" match="+++ +++++ + ++++ ++ +"/>
+			</seg>
+			<seg start="376">
+				<data>
+CCCAACACATCTCGGTGTGGGAGCGGCCTCGCGCCGCGATGGGCCGCAAAGCGGCCCTAAATAACTCCCCCCAAC
+				</data>
+				<hit pos="414" idx="0" rc="y" pvalue="1.2e-11" match="+++++++++++++++++++++"/>
+			</seg>
+			<seg start="451">
+				<data>
+CCCATACCCACAGCCCCACACACCCCCGTCTCCCCCAAAAAACCCAACCAACTTCCAATTCCATGACCCACCGCA
+CACTCCCCGCAACACCCCACCCCTAATCCCCTTCCCCACAACCGTGTATCATGCGCCCCCCAAATCATTAAAAAG
+				</data>
+				<hit pos="502" idx="3" rc="n" pvalue="1.4e-06" match="+  ++ ++ +++++ + + +++ ++    ++      + ++ + ++ +  "/>
+			</seg>
+			<seg start="601">
+				<data>
+TGACGTCGCGCGCTGCCTGCCAGCCCTGCGGCCATCTGGCGTTGCGCCAGATTCGACA
+				</data>
+				<hit pos="608" idx="0" rc="y" pvalue="8.3e-05" match="  + +++++ +  +++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02500_+_+_MCKINBCO_02501_+_+_CO_R" comment="Cluster_66332&#13;" length="184">
+			<score strand="both" combined_pvalue="1.31e-07" evalue="0.00036"/>
+			<seg start="76">
+				<data>
+GTCAGGCGCGGGTGTAGGACGTTGTAGGACGCTTGCGCCGCGATTGGCTGTGAAGCGTATTGCGCGCCAAAAAAA
+ACCCGCCGAAGCGGGTTTTTTCATGCAATCAGTA
+				</data>
+				<hit pos="142" idx="1" rc="n" pvalue="1.5e-10" match="  +++++++ +++ ++ ++++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00511_+_+_MCKINBCO_00512_+_+_DT" comment="Cluster_27012&#13;" length="332">
+			<score strand="both" combined_pvalue="1.55e-07" evalue="0.00043"/>
+			<seg start="1">
+				<data>
+GTGCTGTTCGGGACAAAGCGGTCTTCTTAGCTGATGTTGTTGACGTGGGATTGTTGGGGCCGCATTGCGGCCCAT
+				</data>
+				<hit pos="55" idx="0" rc="n" pvalue="1.6e-11" match="+++++++++ +++++++++++"/>
+			</seg>
+			<seg start="76">
+				<data>
+CGCGGCCGGTCCAGCGCCCCGGCGAGGCCGCTCCTGCGGCGCATGAGCCTGTCAGTCCAGGCCTCACGCGATCAA
+				</data>
+				<hit pos="78" idx="3" rc="n" pvalue="6.7e-05" match="+ +++  + + + +++ ++ +++  +    + +++   ++  ++++ ++ "/>
+			</seg>
+			<seg start="151">
+				<data>
+TGGTAGGAGCGGCCCTCGCCGGGGCGCCGGACCGGCCGCGATGGGCCGCAAAGCGGCCCCAACGTTCCAAAGGCA
+				</data>
+				<hit pos="191" idx="0" rc="y" pvalue="2.1e-12" match="+++++++++++++++++++++"/>
+			</seg>
+			<seg start="226">
+				<data>
+CGCTCACCTCTATCGCCTATACGCTCACCACCCACAACCGGCAAACGCCAGGCAAAAAAATGGGCGCCGACCAAG
+				</data>
+				<hit pos="279" idx="2" rc="y" pvalue="8.0e-05" match="++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02312_+_+_MCKINBCO_02313_+_+_DT" comment="Cluster_156880&#13;" length="46">
+			<score strand="both" combined_pvalue="1.81e-07" evalue="0.0005"/>
+			<seg start="1">
+				<data>
+CAGATTCAGCTAGCCGGGAAAGGGCCGCAATGCGGCCCCAGCGGTA
+				</data>
+				<hit pos="20" idx="0" rc="y" pvalue="3.8e-11" match="+ +++++++++ +++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02942_+_+_MCKINBCO_02943_+_+_DT" comment="Cluster_106868&#13;" length="115">
+			<score strand="both" combined_pvalue="2.17e-07" evalue="0.0006"/>
+			<seg start="1">
+				<data>
+CGGCTGGGGGCGTTACCCCTGGCTGGGTGATAAATGGCAGGGAAGCTGCCACCGCTTGAAAACAAAAAAGCCAGC
+ATCAGCTGGCTTTTTTTGTGGGTGGCAGCAAAGGTTTGCG
+				</data>
+				<hit pos="66" idx="1" rc="y" pvalue="2.7e-11" match="+++++++ ++++ ++  ++++++++++ +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00616_+_+_MCKINBCO_00617_+_+_DT" comment="Cluster_52008&#13;" length="221">
+			<score strand="both" combined_pvalue="2.22e-07" evalue="0.00062"/>
+			<seg start="76">
+				<data>
+ACAGCAAATCGACAAGTAAGACATAAACGAAAAGGGCCGCTAAGCGGCCCTTTTCGTCAGTGCATGAACAGTGCA
+				</data>
+				<hit pos="107" idx="0" rc="n" pvalue="1.6e-11" match="+++++++++++++++++++ +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00197_+_+_MCKINBCO_00198_+_+_CO_F" comment="Cluster_21649&#13;" length="372">
+			<score strand="both" combined_pvalue="3.00e-07" evalue="0.00083"/>
+			<seg start="151">
+				<data>
+CAGTGACGTTGCCACGTGGTTGGCAGCCTCAATACATTCAAAAATGCGACATAAATTTTCAATGGTGAGACATGA
+AAATTTGTGAGTGTCGCTGTCGCTGTGCAACAATGGTTTTCCATGGCCACCGCAAAAAAGCTGGCGTTTGATCGG
+				</data>
+				<hit pos="182" idx="6" rc="n" pvalue="1.0e-10" match="++  +++ ++++++ + +++ ++++ +   +++ + +++ ++++++++++"/>
+				<hit pos="279" idx="2" rc="y" pvalue="4.8e-05" match="++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_01077_+_+_MCKINBCO_01078_+_+_CO_R" comment="Cluster_18115&#13;" length="408">
+			<score strand="both" combined_pvalue="3.38e-07" evalue="0.00094"/>
+			<seg start="76">
+				<data>
+TGTTGGACCTGTCCATGACTGCTACCGCTGATCGGGAAACGGCTTATTCGAATGAGCCGCCTGGGGGTTGGTGTG
+TTCGATATGGGGTTTTACGTGCCTGGGCCGGGTCTGAACCAGCTGACACCAGTGGGGCCGCTGTGCGGCCCATCG
+				</data>
+				<hit pos="137" idx="3" rc="y" pvalue="3.2e-06" match="    ++++ +  +   +       ++++   ++++++  +++  ++ +++"/>
+				<hit pos="203" idx="0" rc="n" pvalue="6.5e-12" match="++++++++++ ++++++++++"/>
+			</seg>
+			<seg start="301">
+				<data>
+CGGTGCGCCGGACCGGCCGAGCTGGGCCGAACAGCGGCCCCAACGGTGTCAAGCCAATCGCATGAGCCCATGGAG
+				</data>
+				<hit pos="322" idx="0" rc="n" pvalue="3.5e-08" match="  ++++++   ++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00761_+_+_MCKINBCO_00762_+_+_CO_R" comment="Cluster_50011&#13;" length="227">
+			<score strand="both" combined_pvalue="5.03e-07" evalue="0.0014"/>
+			<seg start="1">
+				<data>
+TGCGCAGCGCTGCCCGTCTATAAAAAAGGAGCGCATTCTACGGGCAGAACAGGGAATGCGGTAGGGGAAAGCCGG
+				</data>
+				<hit pos="19" idx="5" rc="y" pvalue="6.0e-05" match=" ++++ ++ + + ++++++ "/>
+			</seg>
+			<seg start="151">
+				<data>
+GGCGATTGTGCATGCTCGTAGAAACGACAGGCACAAAAAAGCCCGCGTAGGCGGGCTTCTTTACACACGGCGTTG
+				</data>
+				<hit pos="182" idx="1" rc="n" pvalue="1.0e-09" match=" ++++++++++++ + +++++++++++ +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00148_+_+_MCKINBCO_00149_+_+_CO_R" comment="Cluster_40081&#13;" length="263">
+			<score strand="both" combined_pvalue="5.24e-07" evalue="0.0015"/>
+			<seg start="1">
+				<data>
+GGCGACGTCCGTTATCTAGATGCTACAGCGTGGTTTAACTTTTCAGTGTTTTGAATTGCAGTTAAATTTTTCCAT
+TCTTGTTTCCCATGCTTGTCGCGGGGTTGCGACACTTTCGAGCCTAGCAGGTAGGTCAACATGTGCAATCTTATT
+				</data>
+				<hit pos="45" idx="6" rc="n" pvalue="1.7e-05" match="+  +++++ +++++++   + ++++ ++   + ++  +   ++   ++ +"/>
+			</seg>
+			<seg start="151">
+				<data>
+CATGCTGAGAAATTTCCGATGTAGTTGTGGGAAAAGTTACTCAGGATGATGCATCTGAAACAATCCACGAAAAAA
+AACCGGCTTTCGCCGGTTTTTTCAGAAGTTCCATAGTG
+				</data>
+				<hit pos="218" idx="1" rc="n" pvalue="1.5e-09" match="  +++++++ +++ +++  ++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_03446_+_+_MCKINBCO_03447_+_+_DT" comment="Cluster_40564&#13;" length="261">
+			<score strand="both" combined_pvalue="5.39e-07" evalue="0.0015"/>
+			<seg start="1">
+				<data>
+AGCGATGGCGGGCTTGGTCTGGTGATGTCGTGGGGTTTGAGCGCAGACCTCGTGACCAGCGCCCGTCACTGTTGC
+TGGCTTTTGGGTGCTGCTCGGTGACGGCAGCGGGCATCAGCGGCCTCGGTACTTGAGCCCTGCAGCACAGATCAC
+				</data>
+				<hit pos="56" idx="3" rc="y" pvalue="7.5e-05" match=" ++  +++++ +   +++        ++ ++ ++ ++ +++  + +++ +"/>
+			</seg>
+			<seg start="151">
+				<data>
+TGGGGCCGCTGCGCGGCCCTAGCGATCGTCATTCCATACCCAATTGCCCAACACTTCACCCATAAAAAAGCCCCG
+				</data>
+				<hit pos="151" idx="0" rc="n" pvalue="2.8e-10" match="++++++++++  +++++++ +"/>
+				<hit pos="214" idx="2" rc="y" pvalue="4.8e-05" match="++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_01090_+_+_MCKINBCO_01091_+_+_DT" comment="Cluster_119033&#13;" length="97">
+			<score strand="both" combined_pvalue="5.68e-07" evalue="0.0016"/>
+			<seg start="1">
+				<data>
+CATAGCGTCAGGCAACAGCGCCATGGCTCGCAGGCGTGAGGCTGTACGCCAGACAAACAAAAAGCGCCACTAAGG
+GCGCTTTTCGTGAAGCGGGCGA
+				</data>
+				<hit pos="55" idx="1" rc="n" pvalue="2.7e-11" match="+++ ++++++++++ ++++++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_04058_+_+_MCKINBCO_04059_+_+_DT" comment="Cluster_141229&#13;" length="66">
+			<score strand="both" combined_pvalue="6.04e-07" evalue="0.0017"/>
+			<seg start="1">
+				<data>
+CTGCGCGGTGTGAAAACACCGCCCATAAAAAAGGCGCCCGACGGCGCCTTTTTCTATGGGCTGAGG
+				</data>
+				<hit pos="25" idx="1" rc="n" pvalue="3.1e-09" match="+++++++++++++++   +++++ +++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_04263_+_+_MCKINBCO_04264_+_+_CO_R" comment="Cluster_121819&#13;" length="93">
+			<score strand="both" combined_pvalue="7.38e-07" evalue="0.0021"/>
+			<seg start="1">
+				<data>
+GGCTGTCACCTGTACGAAGTTCAAAACGCAAAAAAGCAGCCCGAAGGCTGCTTCTTTCTCGCTAGGCGGCCTGGG
+CCGCCGGGCAAACTGTAC
+				</data>
+				<hit pos="27" idx="1" rc="n" pvalue="5.2e-08" match="  +++++++++ ++++ +++++ ++++ +"/>
+				<hit pos="71" idx="0" rc="n" pvalue="3.1e-06" match="  +++++++   +++  +  +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_03788_+_+_MCKINBCO_03789_+_+_CO_R" comment="Cluster_7562&#13;" length="588">
+			<score strand="both" combined_pvalue="7.40e-07" evalue="0.0021"/>
+			<seg start="76">
+				<data>
+ATGGTTATCGTCGGATAGCCCGGTTGCTTGAGGGGTTTTTGCAAAAAAAAATGCTGGCACGCGGCCAGCCCTGGA
+				</data>
+				<hit pos="90" idx="1" rc="y" pvalue="5.7e-06" match="+ + +++++ +    + +++ ++++++  "/>
+				<hit pos="120" idx="2" rc="y" pvalue="8.0e-05" match="++++++++"/>
+			</seg>
+			<seg start="151">
+				<data>
+AAATCAAGGGGTTAAGCGCGGAATTTTGGCGTCAAAAAGCGGGTTTGGGAGGTATGAGGGGATAGTGGCGTCTGG
+AGCGAGTCGGGGAATGGCTTGGCGAACTGGAGGCTGAGGAGGATGTGGCGGCGGTTCAAGGTATGCAGCTTCGCG
+				</data>
+				<hit pos="217" idx="3" rc="y" pvalue="5.7e-05" match="+    ++   ++  + +  ++   ++ + ++++  ++   +  ++ +  +"/>
+			</seg>
+			<seg start="301">
+				<data>
+TCAGGGAATGTTGGGGCTGCCGCGCAGCCCATCGCGGCGCAAGGCCGCTCCCACTAGGGTCTGCGAAAGCCTCAA
+				</data>
+				<hit pos="312" idx="0" rc="n" pvalue="1.5e-09" match="+++++++++   +++++++++"/>
+			</seg>
+			<seg start="376">
+				<data>
+CTCAGGTTCCACACGACCCGTGTGGGAGCGGCCTCGCGGGGGCGCCGGGCCGGCCGCAATGGGCTGCGCAGCAGC
+CGCAAAGATTTCAGCTTCGCAGCTGATATTGGCACCTGCCGCATGGCCGTAGAGCAGCCCTGGGAGTTGGGCTCA
+ACCCATTAAACACAGGGACCAGCCTGAACAAAGGCAGAACGCCCCTGCCCCACCGCGAACACA
+				</data>
+				<hit pos="434" idx="0" rc="y" pvalue="1.3e-06" match="+++++++++  +++++++ ++"/>
+				<hit pos="492" idx="0" rc="n" pvalue="1.2e-07" match=" + +++++   ++++++++  "/>
+				<hit pos="524" idx="3" rc="n" pvalue="1.2e-05" match="++ +++++   + ++ +++ + + +++   ++++   ++   + ++ +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_01264_+_+_MCKINBCO_01265_+_+_CO_R" comment="Cluster_22198&#13;" length="368">
+			<score strand="both" combined_pvalue="8.51e-07" evalue="0.0024"/>
+			<seg start="1">
+				<data>
+GATGGGACCTTATGGTTGTTGTGATCATGATGAAACCGGTTTCACTAGAACAAAAAAAGCCTGTGCGCGTCAATC
+				</data>
+				<hit pos="53" idx="2" rc="y" pvalue="4.8e-05" match="++++++++"/>
+			</seg>
+			<seg start="151">
+				<data>
+GATAGGCCGCGTAGCGGCCCAGGCAATATGAGCTGCGAAGCTGAAATCTTGGGGCCGCTATGCGGCCCATCGCGG
+				</data>
+				<hit pos="152" idx="0" rc="y" pvalue="1.5e-09" match="++ ++++++ +++++++++  "/>
+				<hit pos="200" idx="0" rc="n" pvalue="2.1e-12" match="+++++++++++++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02119_+_+_MCKINBCO_02120_+_+_CO_R" comment="Cluster_7407&#13;" length="593">
+			<score strand="both" combined_pvalue="9.05e-07" evalue="0.0025"/>
+			<seg start="1">
+				<data>
+GATGAAGACTCCTGGGGTTGGTCATTTCTGGCAGCCTGTTCCTTGGGCTGCGGGGATAACCCTAGCGCTGGAGGT
+				</data>
+				<hit pos="43" idx="0" rc="n" pvalue="8.5e-05" match="+ +++++++   +    ++++"/>
+			</seg>
+			<seg start="76">
+				<data>
+GGGGGGTGGGACAGGGTTGGGGGTGGGGTAATGGTTACTGGATGGGTCAGGGGTGGGCTTAGGGTAGGGGGTGGC
+				</data>
+				<hit pos="81" idx="3" rc="y" pvalue="9.4e-06" match="+   + +  ++ + ++  +++     +     ++++   ++  ++++ ++"/>
+			</seg>
+			<seg start="301">
+				<data>
+GCTGAATGCGGGGGGTGCTGGGTGCCCTACGGGGTAAGAGCCGCGGAGATGGTGGGCGCGCTTTAGATCTTGGGG
+CCGCTTTGCGGCCCATCGCGGCCGGTCAGGCGCCCCGGCTAGGCCGCTCACACAGGTCCGGGTAGGCCTGTGCTT
+				</data>
+				<hit pos="371" idx="0" rc="n" pvalue="2.1e-12" match="+++++++++++++++++++++"/>
+			</seg>
+			<seg start="451">
+				<data>
+CACGCCGTGTCATCGCCTGCCTAGCACCGCATCTGAAGGCTAACGCCTCCCGGGGTGGGAGGGGCCTCGCCGGGG
+				</data>
+				<hit pos="451" idx="3" rc="n" pvalue="4.1e-06" match="++  ++ ++ +++ ++  +++ + +   ++      ++++  + ++ + +"/>
+			</seg>
+			<seg start="526">
+				<data>
+CGCCGGACCGGCCGCGATGGGCCGCAAAGCGGCCCCGGGGCGCCAAGCCCAATCGACGGCTCAAGCAC
+				</data>
+				<hit pos="542" idx="0" rc="y" pvalue="8.8e-12" match="++++++++++++++++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_01422_+_+_MCKINBCO_01423_+_+_DT" comment="Cluster_80629&#13;" length="155">
+			<score strand="both" combined_pvalue="9.30e-07" evalue="0.0026"/>
+			<seg start="1">
+				<data>
+CTCACACTTCACAGCGAGGCACCTAGCGATCACCGTTGAGCGGCCTTGCCGGGGCCGCTCTACGGCCCATCGCGC
+				</data>
+				<hit pos="50" idx="0" rc="n" pvalue="1.9e-09" match=" +++++++++ + ++++++++"/>
+			</seg>
+			<seg start="76">
+				<data>
+GAGCAGCGCGACCTACAGGGCTGCACCGGTGCAGCCATGGCGCAAAAAACGTTTTGGCAGACCACCCTACCCTAC
+				</data>
+				<hit pos="101" idx="3" rc="n" pvalue="3.2e-06" match="+ +     ++++++++++    +++ +      +     ++  +++ + +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_03285_+_+_MCKINBCO_03286_+_+_DT" comment="Cluster_117437&#13;" length="99">
+			<score strand="both" combined_pvalue="1.40e-06" evalue="0.0039"/>
+			<seg start="1">
+				<data>
+AGGCCGTTTACGGAGACTGAATTGCAGGCATGAAAAAAGCGACCCTGGGGTCGCTTTCTTGTTGCTTCAGGGTGT
+				</data>
+				<hit pos="30" idx="1" rc="n" pvalue="1.5e-09" match="++ +++++++++ ++++ +++ ++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_03138_+_+_MCKINBCO_03139_+_+_DP" comment="Cluster_23498&#13;" length="357">
+			<score strand="both" combined_pvalue="1.47e-06" evalue="0.0041"/>
+			<seg start="76">
+				<data>
+GCAGATGCTATTCATTCGCATTGAGGGGGCTACCCGGATCGGGTCGATTTCACCCCCTATCCGTTTTCCAGGGCT
+				</data>
+				<hit pos="78" idx="5" rc="n" pvalue="6.5e-09" match="+ +++++++++++++ ++++"/>
+			</seg>
+			<seg start="151">
+				<data>
+GGGCTGGGGGCATAAGAGGCGGGGCAGGGCGCTGCGAAGGCCGGCGCGATGCGGTTGGAAAATGACTGGAATCGG
+				</data>
+				<hit pos="169" idx="3" rc="y" pvalue="8.5e-08" match="++  +++  +++   ++   +   ++  ++  +++++  +  ++ + +++"/>
+			</seg>
+			<seg start="226">
+				<data>
+GTAGCCGCTGGGCAAGGGCCTTGACTACCGTCCGTCGCTGCCCGGTCCCAGGGCAGGTTTTTCCCATCCGTACCG
+				</data>
+				<hit pos="232" idx="3" rc="y" pvalue="8.4e-05" match="++  +++  ++ +    +   +        ++   ++    + +++++ +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_03303_+_+_MCKINBCO_03304_+_+_DT" comment="Cluster_160256&#13;" length="42">
+			<score strand="both" combined_pvalue="1.54e-06" evalue="0.0043"/>
+			<seg start="1">
+				<data>
+TCGTTACCGTTACCTTGAAAAACCGCCCTGGTGGCGGTTTTT
+				</data>
+				<hit pos="14" idx="1" rc="n" pvalue="1.0e-09" match=" +  ++++++++++++  +++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02379_+_+_MCKINBCO_02380_+_+_CO_R" comment="Cluster_12694&#13;" length="450">
+			<score strand="both" combined_pvalue="1.56e-06" evalue="0.0043"/>
+			<seg start="226">
+				<data>
+CTCGATTGATCATGCAAGCATAAATTTCAAAAATTTCAGCGAGTTATCATGGATGGGTGCAAAGGCCCGGATTTA
+CGGGGTTAGCTGGGCTCCTTGAAGACAGCATAAAGGTTGTTGGGGCCGCGTTGCGGCCTATCGCGGCCGGTCCAG
+				</data>
+				<hit pos="281" idx="1" rc="n" pvalue="7.6e-05" match="     ++++++++   + + +++++++  "/>
+				<hit pos="341" idx="0" rc="n" pvalue="6.9e-10" match="+++++++++ ++++++++ ++"/>
+			</seg>
+			<seg start="376">
+				<data>
+GCCCCTCCTGCATGGAGTGCGCGGGGCCTGGCCCATTGGCCGCGAGACGGCCCCGACAACTTTATGCGACCGGTA
+				</data>
+				<hit pos="410" idx="0" rc="n" pvalue="1.1e-07" match="+  ++++++ +  +++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02464_+_+_MCKINBCO_02465_+_+_CO_R" comment="Cluster_92913&#13;" length="134">
+			<score strand="both" combined_pvalue="1.59e-06" evalue="0.0044"/>
+			<seg start="1">
+				<data>
+GGAAAGCGTCCGTAGCGATGAACGGGAAAGAAGAGCCGCGCTTTGGAGGGAAGGCTAGTGGGGCCGCAATGCGGC
+CCCTGGTGACTCAACCGACTGGCACAACCCTCGCTGGGGCGGCTGGCGATGTCAGCCTA
+				</data>
+				<hit pos="59" idx="0" rc="n" pvalue="8.8e-12" match="+++++++++ +++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_01432_+_+_MCKINBCO_01433_+_+_DT" comment="Cluster_58061&#13;" length="204">
+			<score strand="both" combined_pvalue="1.60e-06" evalue="0.0044"/>
+			<seg start="76">
+				<data>
+GCCGGCGAGCTGGAAAACGTTGGGGCCGCTGCGCGGCCCATCGCGGCCGGTCCGGCGCCCCGGCTAGGCCGCTCC
+				</data>
+				<hit pos="96" idx="0" rc="n" pvalue="3.8e-11" match="++++++++++  +++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00651_+_+_MCKINBCO_00652_+_+_DT" comment="Cluster_116068&#13;" length="102">
+			<score strand="both" combined_pvalue="1.81e-06" evalue="0.005"/>
+			<seg start="1">
+				<data>
+GCATTTGATTGCAGGCAAACAAAAGCACCCCTCGGGGTGCTTTTTTCATGCCTGCCAGCCCTGCATTACTGGCGC
+				</data>
+				<hit pos="21" idx="1" rc="y" pvalue="4.1e-10" match="++++++ +++++ ++++ ++++++++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_04052_+_+_MCKINBCO_04053_+_+_DT" comment="Cluster_153953&#13;" length="50">
+			<score strand="both" combined_pvalue="1.93e-06" evalue="0.0054"/>
+			<seg start="1">
+				<data>
+CGACAAAAAACCCGGCACTAGGCCGGGTTCTTGCAGAACGGCTTGCCGCA
+				</data>
+				<hit pos="3" idx="1" rc="n" pvalue="2.3e-10" match="+ ++++++ +++++ ++++++++++++ +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_04174_+_+_MCKINBCO_04175_+_+_DT" comment="Cluster_140997&#13;" length="66">
+			<score strand="both" combined_pvalue="2.02e-06" evalue="0.0056"/>
+			<seg start="1">
+				<data>
+AACGATTAGTCCATGAATGACAGGCATAAAAAAACCCGACATTGTCGGGTTTTTTGATCGGTTCGA
+				</data>
+				<hit pos="26" idx="1" rc="n" pvalue="9.0e-10" match="+++++++++++++ + + + +++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_01111_+_+_MCKINBCO_01112_+_+_CO_F" comment="Cluster_51228&#13;" length="224">
+			<score strand="both" combined_pvalue="2.03e-06" evalue="0.0056"/>
+			<seg start="1">
+				<data>
+CCTTCAGCTTCTGGTGGTTGCAAAGTTACCCGAAGCGACACAAGAAACCCGCCCAGTGCGGGTTTTTTGTTGCCT
+				</data>
+				<hit pos="43" idx="1" rc="y" pvalue="8.3e-11" match="+ +++++++++ ++ ++++++++++++++"/>
+			</seg>
+			<seg start="151">
+				<data>
+CAACATCAAAAAGCCAGCCCCCTGCGGTCCTTAGCATTCAAGGTGAACATTCGAACCACCTTGCAAGGACCTCC
+				</data>
+				<hit pos="159" idx="1" rc="y" pvalue="4.2e-06" match="+++++++ +++    ++++ + ++   ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_04046_+_+_MCKINBCO_04047_+_+_DT" comment="Cluster_67213&#13;" length="182">
+			<score strand="both" combined_pvalue="2.07e-06" evalue="0.0058"/>
+			<seg start="1">
+				<data>
+GTCGATCGAGCTTTCTAGCTTTCAAAAAAACCCGCTTCGGCGGGTTTTTTTATGCCTGTCATTACGCCAGAAGGC
+				</data>
+				<hit pos="26" idx="1" rc="y" pvalue="6.1e-10" match="++++++++++++ ++ +++ ++++++ + "/>
+			</seg>
+			<seg start="76">
+				<data>
+GCCAGAGCATGCTGGCCGTGGTCAAGGCTCCCGTTAAGCACGGATCGGCCTGCACCAACCACGACCCGTCAGCAC
+GAGCGACTCACCGAGCCGCCCTCCCATCTTGA
+				</data>
+				<hit pos="125" idx="3" rc="n" pvalue="8.5e-05" match="+ ++ +   +++ + + ++ +    + +++ +  +   +    +++ + +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_01801_+_+_MCKINBCO_01802_+_+_CO_R" comment="Cluster_125874&#13;" length="88">
+			<score strand="both" combined_pvalue="2.30e-06" evalue="0.0064"/>
+			<seg start="1">
+				<data>
+GCTGGGGGAGCCTCTACGACAAAAAACGACAGATAGCAAAAACGCCCCACGAAGGGGCGTTTTATTCACAAGCTA
+				</data>
+				<hit pos="35" idx="1" rc="n" pvalue="7.0e-10" match="+ ++++++ +++++ + ++++++ +++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00136_+_+_MCKINBCO_00137_+_+_DT" comment="Cluster_66193&#13;" length="185">
+			<score strand="both" combined_pvalue="2.93e-06" evalue="0.0081"/>
+			<seg start="76">
+				<data>
+CTGAGTTGGGGCTGCTTTGCGGCCCATAGCGGCACGAGGGCCGCTCCTACTCGAAATCCGCTAGCCTTCAGATGC
+				</data>
+				<hit pos="82" idx="0" rc="n" pvalue="2.2e-11" match="+++++++++++++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00301_+_+_MCKINBCO_00302_+_+_DT" comment="Cluster_30506&#13;" length="309">
+			<score strand="both" combined_pvalue="2.93e-06" evalue="0.0082"/>
+			<seg start="1">
+				<data>
+AGCCTGGCGCAGGTAGTGAAGACGGCTGTAGCGAAGGGCCCGGCTTGCGCGTGGGCGCCATGACAAAGGGTGGAG
+ATAGGAATGATTACCCTTTGTAAGCATTTTCCTACAGCACGTGGTGACTTTTCACCACTGTTCTCAGATTGGATC
+				</data>
+				<hit pos="75" idx="5" rc="y" pvalue="1.5e-05" match=" +++ +++++++++ + +++"/>
+			</seg>
+			<seg start="226">
+				<data>
+GCCAGGATGGTGGGGCGATACGGATGTCACAGGGAAACAGTCTGAAGAACCCCGCCTAGGCGGGGTTTTTCTTGT
+				</data>
+				<hit pos="271" idx="1" rc="y" pvalue="3.1e-10" match="+ +++++++++++++ +++++++++ ++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_01866_+_+_MCKINBCO_01867_+_+_DT" comment="Cluster_158115&#13;" length="45">
+			<score strand="both" combined_pvalue="3.67e-06" evalue="0.01"/>
+			<seg start="1">
+				<data>
+ACCCTCCGCGTGTCAGGGGCTGCCTTGCAGCCCCTATCCCCGGGA
+				</data>
+				<hit pos="15" idx="0" rc="n" pvalue="1.7e-10" match="+++++++++ +++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_03099_+_+_MCKINBCO_03100_+_+_DT" comment="Cluster_26403&#13;" length="336">
+			<score strand="both" combined_pvalue="3.74e-06" evalue="0.01"/>
+			<seg start="1">
+				<data>
+GGCCAGTCGCAACACGCAAGGCCGCTGATGCGGTAACGCTCCTCACGCAGGGCTGCTTCGCAGCCCATTGTGGCC
+				</data>
+				<hit pos="48" idx="0" rc="n" pvalue="1.0e-09" match=" ++++++++++ +++++++++"/>
+			</seg>
+			<seg start="226">
+				<data>
+TCGGCAGCTCAGAGGGCCGGGGCTGCTGCGCAGCCTCAGGATCCAGCTCGGCAGCGAGTAGTACCGGAGGGCGCG
+GCAGGACATCTGAACCGCCGCGCCCATCGTCTTCCA
+				</data>
+				<hit pos="243" idx="0" rc="n" pvalue="8.1e-09" match=" +++++++++  ++++++ ++"/>
+				<hit pos="271" idx="3" rc="y" pvalue="1.9e-05" match="++ ++++   +  + +++  +   ++  ++++  + +++   ++  ++ +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_03124_+_+_MCKINBCO_03125_+_+_DT" comment="Cluster_50321&#13;" length="226">
+			<score strand="both" combined_pvalue="3.83e-06" evalue="0.011"/>
+			<seg start="1">
+				<data>
+ACCCTTGGCTATTCCAATACGCGTCGATGTCAATGTCCGTAAAAACGTACTCACAAGCTGGTCTTTGCCGAGGCC
+				</data>
+				<hit pos="38" idx="1" rc="n" pvalue="8.6e-07" match="   +++++ +  + +  ++++ +++ +++"/>
+			</seg>
+			<seg start="151">
+				<data>
+GGAGGAAGCTGGGGTGTAGCACCGAACGCTGAACAGGGTGAGGTATCCCGATCAATGGGCTGCTTTGCAGACCCG
+				</data>
+				<hit pos="205" idx="0" rc="n" pvalue="2.3e-08" match="+ ++++++++++++++ +++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02581_+_+_MCKINBCO_02582_+_+_CO_F" comment="Cluster_53960&#13;" length="215">
+			<score strand="both" combined_pvalue="3.98e-06" evalue="0.011"/>
+			<seg start="1">
+				<data>
+CGTTCGAGGTTGGCGGCGTTAAGCCGTCACCCAACGCAAAGCCCCGCCCTGTGCGGGGCTTTTCTTTGGCCGGGC
+ATAAGGCAGTCGCGCCGAGGCATGCCATGGCTACATGAAACTTGTTTCATGACCGTTTTATTTACTTAGGCTGCT
+AACAAACTCTATAAATAAGGCGTGCGACAGACTGTCGCACCCAACCAGAAAAGTGGAGTTTAACG
+				</data>
+				<hit pos="38" idx="1" rc="y" pvalue="7.6e-09" match="+++ +++++++  + +++++  ++++ ++"/>
+				<hit pos="71" idx="3" rc="n" pvalue="1.9e-05" match="+ + + +      + ++++++++  +  ++++++ + +   +++ + ++ "/>
+				<hit pos="141" idx="0" rc="y" pvalue="7.6e-05" match="++ +++++++++  + + +++"/>
+				<hit pos="165" idx="0" rc="n" pvalue="9.0e-05" match="+   + ++     +++ +  +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02325_+_+_MCKINBCO_02326_+_+_CO_F" comment="Cluster_91828&#13;" length="136">
+			<score strand="both" combined_pvalue="4.00e-06" evalue="0.011"/>
+			<seg start="1">
+				<data>
+TCGCTGATCGCTCACTGGAAAGCCCGGCCAAGTGCCGGGCTTTTTTGCAGCCTGCGTTTGGAACCCGTTCCGGTT
+				</data>
+				<hit pos="19" idx="1" rc="y" pvalue="4.9e-09" match="+++ +++++++ ++ +++++  ++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00527_+_+_MCKINBCO_00528_+_+_CO_F" comment="Cluster_58743&#13;" length="203">
+			<score strand="both" combined_pvalue="5.05e-06" evalue="0.014"/>
+			<seg start="76">
+				<data>
+TCGTTGTAGCCGCTTCGCGGCCTCGGCGATACCTACGGCGCCGTTACGATTCGCCTACATTTTGCAGCTTGACCT
+				</data>
+				<hit pos="80" idx="0" rc="n" pvalue="1.3e-07" match="++  +++++++ ++++++ + "/>
+			</seg>
+			<seg start="151">
+				<data>
+CAAGCAAGGATGATAAGCATTATCATTAGCCGCTTGTCAGGTCAGGTCGCTTC
+				</data>
+				<hit pos="158" idx="5" rc="n" pvalue="8.1e-08" match="  +++++++ ++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02941_+_+_MCKINBCO_02942_+_+_CO_F" comment="Cluster_19400&#13;" length="393">
+			<score strand="both" combined_pvalue="5.31e-06" evalue="0.015"/>
+			<seg start="1">
+				<data>
+TACCCAAACAAAAAGCCCGCTCATTGAGCGGGCTTTTTGTTTTTCCAGGTTTTGTAAATCCAATCGCTCATACAG
+				</data>
+				<hit pos="8" idx="1" rc="n" pvalue="9.8e-08" match="+ +++++  ++++ + + + +++++ +++"/>
+			</seg>
+			<seg start="151">
+				<data>
+AATGCCATTGCACCGATGGTTTCATGCGTTGTCAGAGCAATGACGCGCAAACGATTGTTATAGCCAAAAATTTAA
+				</data>
+				<hit pos="174" idx="6" rc="n" pvalue="6.2e-08" match="+++  +++  + +++++  ++  + +   +++  ++++++ +++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00040_+_+_MCKINBCO_00041_+_+_DT" comment="Cluster_88216&#13;" length="142">
+			<score strand="both" combined_pvalue="5.69e-06" evalue="0.016"/>
+			<seg start="1">
+				<data>
+GCCCAGATGCTGAGGGCTGTGCAGCGACTCGTCGCAGCCAGCCTGCAAGTACAGCGCAGGCCTGAACCCGCTTAC
+				</data>
+				<hit pos="12" idx="0" rc="y" pvalue="3.0e-05" match="  ++++++   ++++ + + +"/>
+			</seg>
+			<seg start="76">
+				<data>
+CTCTGTGAGAGCGGCCTTGCCGGGGCCGTTTTGCGGCCCATTGCCATGGATGCCGCAGGCTCGAACC
+				</data>
+				<hit pos="96" idx="0" rc="n" pvalue="2.8e-10" match=" +++++++ ++++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02717_+_+_MCKINBCO_02718_+_+_CO_F" comment="Cluster_89230&#13;" length="141">
+			<score strand="both" combined_pvalue="6.01e-06" evalue="0.017"/>
+			<seg start="1">
+				<data>
+AGGCCTCTCAATCCCTCTTTTTGCTGAGCGGCTGACTTTTTCGACCGCCCACAAAAAAGCCCAGCCTTAGCTGAG
+CTTCTTAGTTGCTACCCGGGCCAACGGGTGGCTTTGGTACCACTTTGTCTGCAGAAGGACAAAACG
+				</data>
+				<hit pos="51" idx="1" rc="n" pvalue="9.0e-08" match="+ ++++++++++  +++ +++ + + ++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00024_+_+_MCKINBCO_00025_+_+_CO_F" comment="Cluster_32166&#13;" length="300">
+			<score strand="both" combined_pvalue="6.09e-06" evalue="0.017"/>
+			<seg start="1">
+				<data>
+GTGACCGCAACGGGCTGCGCAGCAGTCCCAGGATTGTAGCTTCGCCTCCTGCCTTGCCGGGGCCGCTTCGCGGCC
+CATCGCGGCCCATCGCGGCCGGTCCGGCGCCCCGGCGAAACCGCTCCTTCTATCTCGACTTTTGCCTCTACAGGC
+				</data>
+				<hit pos="10" idx="0" rc="y" pvalue="3.5e-06" match="+ +++++++  +++++ ++++"/>
+				<hit pos="58" idx="0" rc="n" pvalue="4.7e-11" match=" ++++++++++ +++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_03999_+_+_MCKINBCO_04000_+_+_CO_R" comment="Cluster_70587&#13;" length="175">
+			<score strand="both" combined_pvalue="6.31e-06" evalue="0.018"/>
+			<seg start="1">
+				<data>
+ACGGCTCCCGTCACAACGAGCGGTAATTAAGAAACGACCCTGCACAACGCAGCAATGGCCAGGCTCCCAGAAGCC
+TGACCTATAGAAAATTTGCCGTCAGATTGCAAATGACAATGCTTTAATTTCATTTCAAAAAGCCACGCTCTGCAC
+				</data>
+				<hit pos="34" idx="3" rc="n" pvalue="1.8e-05" match="  + ++ +++   ++   ++     + ++ +   +  +  +  + + +  "/>
+				<hit pos="97" idx="6" rc="n" pvalue="2.6e-08" match="+  +++++++++++ +++  + +++++ + ++ + +++++++ +   +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00590_+_+_MCKINBCO_00591_+_+_DT" comment="Cluster_164948&#13;" length="35">
+			<score strand="both" combined_pvalue="6.69e-06" evalue="0.019"/>
+			<seg start="1">
+				<data>
+TCGCGGCGGGGCCGCCTTGCGGCCCCAGCCGACCC
+				</data>
+				<hit pos="7" idx="0" rc="n" pvalue="2.4e-10" match=" ++++++++ +++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02449_+_+_MCKINBCO_02450_+_+_CO_F" comment="Cluster_76353&#13;" length="163">
+			<score strand="both" combined_pvalue="6.83e-06" evalue="0.019"/>
+			<seg start="1">
+				<data>
+CTCGAAGTGATAAGAATAACCGCCCTCATTTGGGCGGTTTTTCAATGAATATCACTACCGTTTGCCCGATTTTTT
+				</data>
+				<hit pos="13" idx="1" rc="n" pvalue="1.3e-07" match="+ ++ ++  ++++ + + +++++++++++"/>
+				<hit pos="43" idx="5" rc="n" pvalue="3.6e-06" match=" +++++  ++++ ++ + ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_01222_+_+_MCKINBCO_01223_+_+_DT" comment="Cluster_85206&#13;" length="147">
+			<score strand="both" combined_pvalue="7.20e-06" evalue="0.02"/>
+			<seg start="1">
+				<data>
+CCTTGTGAGTGCGTGGGGCTGCGCTGCAGCCCCTGTCTTGCAGTGGCCTCGGAAGGCTCATTTACAAGCCGTAAG
+				</data>
+				<hit pos="14" idx="0" rc="y" pvalue="1.2e-09" match="+++++++++   +++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_01345_+_+_MCKINBCO_01346_+_+_DT" comment="Cluster_76711&#13;" length="163">
+			<score strand="both" combined_pvalue="7.27e-06" evalue="0.02"/>
+			<seg start="1">
+				<data>
+CGATACTGTGATGAGCAGCAGCGCGGACTCGAAATGCTCGGTTTCCTATGAAGTGGTCTTAGGGCTGCTGTGCAG
+CCCCTCGTGGTCGGTCCGGCGCCTCGGCAAGACTGCCCCTGCAGCGTCGGTAGTTAGCAAAACACCGGTTACGCA
+				</data>
+				<hit pos="11" idx="0" rc="n" pvalue="2.3e-05" match="+ + ++ ++   ++++ + + "/>
+				<hit pos="60" idx="0" rc="n" pvalue="2.8e-10" match="++++++++++ ++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_04146_+_+_MCKINBCO_04147_+_+_CO_F" comment="Cluster_29035&#13;" length="319">
+			<score strand="both" combined_pvalue="7.44e-06" evalue="0.021"/>
+			<seg start="151">
+				<data>
+CTGTTCACTTAGGGCCGCTGCGCGGCCCATCGCGGCACTAGGCCGCTCCTACACGTCACGCGCTCGGCGTGGGAG
+				</data>
+				<hit pos="160" idx="0" rc="n" pvalue="1.1e-10" match="++++++++++  +++++++++"/>
+			</seg>
+			<seg start="226">
+				<data>
+CGGCCTTGTGCCGCGATGGGCCGTGAAACGGCCCCGACGATCTTGAATGAACAGCATTACCGCATTAGCCCAACC
+				</data>
+				<hit pos="241" idx="0" rc="y" pvalue="7.3e-09" match="++++++++  ++ +++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_01130_+_+_MCKINBCO_01131_+_+_CO_R" comment="Cluster_7796&#13;" length="582">
+			<score strand="both" combined_pvalue="7.46e-06" evalue="0.021"/>
+			<seg start="76">
+				<data>
+ACAAGCTGACGGGAGCCTCTGCCGTTGCAGGCTGAGTCGTTTCTTCGATAGCCAGAATTTCACAGCTGGGGCTGG
+				</data>
+				<hit pos="88" idx="3" rc="n" pvalue="1.4e-05" match=" ++++  ++++++ ++++++ ++  +    + +    ++++ ++   +  "/>
+			</seg>
+			<seg start="226">
+				<data>
+CATCCCGGGGATTTTTGTGTAGGTTCGGGATTGTTGGGGCTGCTGTGCAGCCCATCGCGGCGCGAGGCCGCTCCC
+ACACTGGGATTCGCTCGGTTCCGGATGCGGTGTTAGGTGGTTGCTCGTATGGGACGGCGCTTACGCAATATGGGT
+				</data>
+				<hit pos="260" idx="0" rc="n" pvalue="1.7e-10" match="++++++++++ ++++++++++"/>
+				<hit pos="283" idx="3" rc="y" pvalue="9.6e-05" match="   +++   + +    +    ++ ++ +  ++ ++++ + + +++ + ++"/>
+			</seg>
+			<seg start="376">
+				<data>
+TAGGGCCTGCGGGACAACCTGAAGGTTTTTTATGTCGCTTTCGGGCTGTTGGGGCTGCTGTGCAGCCCATCGCGG
+				</data>
+				<hit pos="377" idx="0" rc="n" pvalue="5.9e-05" match="++++ ++++    ++ ++  +"/>
+				<hit pos="425" idx="0" rc="n" pvalue="1.7e-10" match="++++++++++ ++++++++++"/>
+			</seg>
+			<seg start="451">
+				<data>
+CGCGAGGCCGCTCCCACACTGGGATTCGCTCGGTTCCGGATGCGGTGTTGGGGGGTTGCTCGTATGGGACGGCGC
+TTACGCACGATACGGGTTAGGATTCCCGGCGAATTGAACGCACCTGCCCAAGACCCC
+				</data>
+				<hit pos="478" idx="3" rc="y" pvalue="8.8e-05" match="++ ++++++ +  ++   ++    ++    ++ ++    ++   + +++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_03034_+_+_MCKINBCO_03035_+_+_DT" comment="Cluster_157573&#13;" length="45">
+			<score strand="both" combined_pvalue="8.22e-06" evalue="0.023"/>
+			<seg start="1">
+				<data>
+TGCGGCTTTGCCGTTGACGTTGCAAGGGGCTGCTGCGCAGCCCCT
+				</data>
+				<hit pos="25" idx="0" rc="n" pvalue="1.7e-10" match="++++++++++  +++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02060_+_+_MCKINBCO_02061_+_+_CO_F" comment="Cluster_47467&#13;" length="236">
+			<score strand="both" combined_pvalue="8.49e-06" evalue="0.024"/>
+			<seg start="1">
+				<data>
+GACCAGGGCCGCCAAGCGGCCCTTTTTTATGCCTTCGCAAAAAAAATTTCCCTGCCAAGCCTTGTAATCGATTCG
+				</data>
+				<hit pos="4" idx="0" rc="n" pvalue="5.2e-10" match=" ++++++++ +++++++++ +"/>
+				<hit pos="40" idx="2" rc="y" pvalue="8.0e-05" match="++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_03550_+_+_MCKINBCO_03551_+_+_DT" comment="Cluster_167741&#13;" length="31">
+			<score strand="both" combined_pvalue="8.94e-06" evalue="0.025"/>
+			<seg start="1">
+				<data>
+TCTCCGACCGGGGCCGCCTGGCGGCCCCGTG
+				</data>
+				<hit pos="9" idx="0" rc="n" pvalue="1.7e-09" match=" ++++++++ + ++++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_01128_+_+_MCKINBCO_01129_+_+_DT" comment="Cluster_34517&#13;" length="288">
+			<score strand="both" combined_pvalue="1.08e-05" evalue="0.03"/>
+			<seg start="76">
+				<data>
+TTGCGAAACTTGAGAGCTCACAGGGTATTCATCGAACTTCCAAAACGCCTTGTTGGGGCTGCAGTGCAGCCCATC
+				</data>
+				<hit pos="129" idx="0" rc="n" pvalue="4.5e-10" match="+++++++++  ++++++++++"/>
+			</seg>
+			<seg start="226">
+				<data>
+GCCGCGATGGGTCGCGAAGCGGCCCTAAATGAACAGCATTACGCCTTCCGGCGGGCTTTTTCG
+				</data>
+				<hit pos="232" idx="0" rc="y" pvalue="3.4e-09" match="+++++ +++ +++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00066_+_+_MCKINBCO_00067_+_+_CO_F" comment="Cluster_48867&#13;" length="225">
+			<score strand="both" combined_pvalue="1.12e-05" evalue="0.031"/>
+			<seg start="1">
+				<data>
+TGAAAAAGCCCCGCAAATGCGGGGCTTTTCTTTTCCAGAGCACTAGACGCACAAAAAAGCAAGTGTTACATTCGG
+				</data>
+				<hit pos="5" idx="1" rc="y" pvalue="4.1e-10" match="+++ +++++++ + + +++++++++ +++"/>
+				<hit pos="53" idx="2" rc="y" pvalue="4.8e-05" match="++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_01757_+_+_MCKINBCO_01758_+_+_CO_F" comment="Cluster_36407&#13;" length="279">
+			<score strand="both" combined_pvalue="1.14e-05" evalue="0.032"/>
+			<seg start="1">
+				<data>
+CCCTGTCCAAAAATTACGGGCTTACCCGTACGCTGTTCCTTTGGGGCTGCTCTGCAGCCCATCGCGGCACAAGGC
+				</data>
+				<hit pos="42" idx="0" rc="n" pvalue="4.5e-10" match="++++++++++ ++++++++++"/>
+			</seg>
+			<seg start="76">
+				<data>
+CGCTCCTGCAAGGTCTCGTCATCCCGTCAATTCGGGTGCGACGCGGTCAATGTAGGAGCGGCCTTGTGCCGCGAT
+GGGCCGTAAAGCGGCCCCAACCATTTCAAGTGAACAGCATTCCGGGCCTACCGGGGTTTTTGCTTTTGCCATAGC
+				</data>
+				<hit pos="149" idx="0" rc="y" pvalue="3.3e-10" match="++++++++ ++++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00051_+_+_MCKINBCO_00052_+_+_DT" comment="Cluster_133019&#13;" length="77">
+			<score strand="both" combined_pvalue="1.22e-05" evalue="0.034"/>
+			<seg start="1">
+				<data>
+GCGATGCCCTCGAAAAACCCGCCGTCGCTGCGGGTTTTTTTATGCCTGGCTTGCGCGGGGAGGTGCTGTCGGTAA
+				</data>
+				<hit pos="14" idx="1" rc="y" pvalue="2.9e-07" match="++++++++++ + +  ++++ +++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02582_+_+_MCKINBCO_02583_+_+_DT" comment="Cluster_102817&#13;" length="118">
+			<score strand="both" combined_pvalue="1.27e-05" evalue="0.035"/>
+			<seg start="1">
+				<data>
+CTACGATCTTTAGAAACCATGACGTGAACAGTCGTCATGGCACCATGGGCCGCCTTGCGGCCCAGCGCGCAATGC
+				</data>
+				<hit pos="45" idx="0" rc="n" pvalue="2.8e-10" match="+ +++++++ ++++++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_03720_+_+_MCKINBCO_03721_+_+_DT" comment="Cluster_120271&#13;" length="96">
+			<score strand="both" combined_pvalue="1.34e-05" evalue="0.037"/>
+			<seg start="1">
+				<data>
+GGACGGGCAGCCTCATCTGGGAGCCGGCTTGCCGGCGATGGGCCGCAAAGCGGCCCTGATCACGCCAACCGCAAC
+				</data>
+				<hit pos="38" idx="0" rc="y" pvalue="3.8e-11" match="++++++++++++++++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02171_+_+_MCKINBCO_02172_+_+_DT" comment="Cluster_118134&#13;" length="99">
+			<score strand="both" combined_pvalue="1.37e-05" evalue="0.038"/>
+			<seg start="1">
+				<data>
+GTGGGTGACGCCCAGGGGGGGGCGCCAGACCGACCGAGATGGGCCGCAACGCGGCCCCGACATGCTGGCGGTTAG
+				</data>
+				<hit pos="39" idx="0" rc="y" pvalue="1.1e-10" match="+++++++++++ ++++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00025_+_+_MCKINBCO_00026_+_+_DT" comment="Cluster_147529&#13;" length="59">
+			<score strand="both" combined_pvalue="1.46e-05" evalue="0.04"/>
+			<seg start="1">
+				<data>
+AGACAACAGGGGCTGCGCAGCAGCCCCTGTTGCCCGGATGCGAGCGCGTCGTGCCGCTT
+				</data>
+				<hit pos="8" idx="0" rc="y" pvalue="1.7e-10" match="+++++++++  ++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_04206_+_+_MCKINBCO_04207_+_+_DT" comment="Cluster_168759&#13;" length="30">
+			<score strand="both" combined_pvalue="1.63e-05" evalue="0.045"/>
+			<seg start="1">
+				<data>
+GCCATTGGGCCGTCCTGCGGCCCAATTTTC
+				</data>
+				<hit pos="5" idx="0" rc="n" pvalue="8.1e-09" match="+ ++++++   ++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00727_+_+_MCKINBCO_00728_+_+_CO_R" comment="Cluster_39640&#13;" length="264">
+			<score strand="both" combined_pvalue="1.63e-05" evalue="0.045"/>
+			<seg start="1">
+				<data>
+GGGGTGTTCTCGGACAGTCAGGCTTTTGGAGGGCGCATATCATACATTAAAAATGCGCTGAAGTCGGGGGGCTGA
+CCAAAGGTCGCTTCAATCTGCTCCGTTTGCTGAGCGGGCGCTGCACCGATCCGGTAGTGGGAGCAACGCCATTGG
+				</data>
+				<hit pos="59" idx="0" rc="n" pvalue="5.1e-05" match="++  + ++    ++ + ++++"/>
+			</seg>
+			<seg start="151">
+				<data>
+CTGATCTGTGTCAGCGCGCGCTGGGGCTGCTGTGCAGCCCATCGGGGCACGAGGCCCCTCCTACAAGGGGATGTG
+				</data>
+				<hit pos="172" idx="0" rc="n" pvalue="1.7e-10" match="++++++++++ ++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_01589_+_+_MCKINBCO_01590_+_+_CO_R" comment="Cluster_65429&#13;" length="185">
+			<score strand="both" combined_pvalue="1.65e-05" evalue="0.046"/>
+			<seg start="76">
+				<data>
+GGTCTACAATTCAAGGTCTACGGAATGTCATATTATGGTATTCCAAACTTTTCGCAAGTAGCAGCAGGCTACCGG
+CCATCATTTGGTTGATGGCCATGCAGGCTTTGCGA
+				</data>
+				<hit pos="110" idx="6" rc="n" pvalue="4.6e-10" match="+++++ +++ +++   + + +++++++++++++  ++  +++ ++ ++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_01970_+_+_MCKINBCO_01971_+_+_CO_F" comment="Cluster_91664&#13;" length="137">
+			<score strand="both" combined_pvalue="1.65e-05" evalue="0.046"/>
+			<seg start="1">
+				<data>
+ATGCGGGTCGTTGTTCACCTGATGCCATGCCGCGAAAAAAACTTCATCCCGCAGGTGAGGTATCAGCACCCCTCA
+				</data>
+				<hit pos="35" idx="2" rc="y" pvalue="2.6e-05" match="++++++++"/>
+			</seg>
+			<seg start="76">
+				<data>
+ACCGTGTAGTGCGTGGAAGTGCGATTCATTCGCACTCAACACCCTCTCTCAGGTCAGCGTCC
+				</data>
+				<hit pos="92" idx="5" rc="n" pvalue="9.3e-08" match="++ ++++++++++++ ++ +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_03308_+_+_MCKINBCO_03309_+_+_CO_R" comment="Cluster_24803&#13;" length="347">
+			<score strand="both" combined_pvalue="1.82e-05" evalue="0.051"/>
+			<seg start="151">
+				<data>
+GAAGCCCAGCGGCTTCCCGTGTGGAGCGGCCCTTGCCGGGGCGCCGGACCGGCCGCGATGGGCCGCGCAGCGGCC
+CCGGGACTATCAGCTGCGAAGCTGAAACCTTAAAACAGCGCCCCCCGACTGATCCAGCCAGGCCCTCTTAATAGA
+				</data>
+				<hit pos="208" idx="0" rc="y" pvalue="9.3e-11" match="+++++++++  +++++++++ "/>
+				<hit pos="244" idx="3" rc="n" pvalue="5.9e-05" match=" +++  +  ++ ++  ++  ++  ++  + +  + + ++++ ++++ +  "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02760_+_+_MCKINBCO_02761_+_+_DT" comment="Cluster_92944&#13;" length="135">
+			<score strand="both" combined_pvalue="1.97e-05" evalue="0.055"/>
+			<seg start="76">
+				<data>
+GCGGATCGATCGGGCACAAAAAACCCGGTCTTTAACCGGGTTTTTTGTTACGCATGAGCG
+				</data>
+				<hit pos="91" idx="1" rc="n" pvalue="1.9e-09" match="+ ++++++ ++++ +++ + +++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00770_+_+_MCKINBCO_00771_+_+_CO_R" comment="Cluster_1394&#13;" length="864">
+			<score strand="both" combined_pvalue="2.06e-05" evalue="0.057"/>
+			<seg start="226">
+				<data>
+GGGCGCCAACGTTTTCCAATTCCGATGAAATTAAAAGCTCTATCGAGGTAATAAGCTATTTGGCTACCATTTTGG
+				</data>
+				<hit pos="233" idx="6" rc="n" pvalue="2.7e-11" match="+  ++++++ ++++++ +   +++++  ++++ +++ +++++++++++++"/>
+			</seg>
+			<seg start="301">
+				<data>
+CCTGCGCAGTAGCAATATCTGCACTGAGTTCATGGCGTAGTCAGTTTAAACATTCAGAGCGGTACGCCGCATTGA
+AGTCGCTTTTAGAGTCTACTTATGAGTTGCAAGGTATTCGAAGCTATTTGCATTCATTGCAAACCGGTTATCTTC
+				</data>
+				<hit pos="358" idx="6" rc="y" pvalue="3.9e-06" match="+++  + ++++ + ++  ++  ++++++ + ++ + +++ +++  + +++"/>
+			</seg>
+			<seg start="601">
+				<data>
+CGGGGTTTGAGTTATCTAGCCCTAGCTACTTATATAAGCTTGGGTTTGATTTTTCAGTTTTATATGCTGATGCTG
+ATAAGTATGATTTTCTTTTCGAGACGAGATCTCTGATTAAGGCGCAGTCTCTAATTATCAATAATACTACAGCGT
+				</data>
+				<hit pos="640" idx="6" rc="n" pvalue="3.2e-08" match="++++ +++ + +++ ++     +++ +++++++ + +++++++  +++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02491_+_+_MCKINBCO_02492_+_+_CO_R" comment="Cluster_70449&#13;" length="176">
+			<score strand="both" combined_pvalue="2.08e-05" evalue="0.058"/>
+			<seg start="1">
+				<data>
+GAGCGGTACATGTCTGCGAAGTCTGCGCACTCCAGCACAGCGGAGCCCAGCGGAGAAAGGCCCTTGCCCTCAGAG
+				</data>
+				<hit pos="22" idx="3" rc="n" pvalue="1.7e-05" match="    +     +  ++   ++ ++ ++ +++  ++  +++++   ++   +"/>
+			</seg>
+			<seg start="151">
+				<data>
+CCCGGGCTGCAGTGCAGCCCTGCACA
+				</data>
+				<hit pos="152" idx="0" rc="y" pvalue="5.6e-08" match="  ++++++++  ++++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00892_+_+_MCKINBCO_00893_+_+_DT" comment="Cluster_83918&#13;" length="150">
+			<score strand="both" combined_pvalue="2.15e-05" evalue="0.06"/>
+			<seg start="1">
+				<data>
+GGCTGCTTCAATCAGGCTTCCCACAGTCACTGTAGGCGTGGCCTCGCCGGGGCACCGGACCGGCCGCCATGGGCC
+GCAACGCGGCCCGGCGAACTCGAGTGAACCGCATTACGTCAAGTGGCAGCCCTCTACCGGCTGCCACGCCTTGAC
+				</data>
+				<hit pos="12" idx="3" rc="y" pvalue="3.6e-05" match=" ++ +++++   + + ++  +   +  + + + ++++  ++++  ++   "/>
+				<hit pos="69" idx="0" rc="n" pvalue="7.3e-09" match="+ +++++++ + +++++++  "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_03670_+_+_MCKINBCO_03671_+_+_DT" comment="Cluster_150208&#13;" length="55">
+			<score strand="both" combined_pvalue="2.22e-05" evalue="0.062"/>
+			<seg start="1">
+				<data>
+ATACGCAACTGGGGCCGCGTTGCGGCCCCAGTTCATGTTCTAGCGCGCGATCACA
+				</data>
+				<hit pos="10" idx="0" rc="n" pvalue="1.4e-10" match="+++++++++ +++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_01644_+_+_MCKINBCO_01645_+_+_CO_R" comment="Cluster_109168&#13;" length="104">
+			<score strand="both" combined_pvalue="2.38e-05" evalue="0.066"/>
+			<seg start="1">
+				<data>
+GCCAGCCTCGAGTCCATATCGCTGCCGTTTACAGGAAGGGCTGCAAAGCAGCCCTTATATTCCAGGTATCAGGCT
+				</data>
+				<hit pos="36" idx="0" rc="y" pvalue="2.0e-10" match="+ +++++++++++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00189_+_+_MCKINBCO_00190_+_+_DT" comment="Cluster_56927&#13;" length="207">
+			<score strand="both" combined_pvalue="2.77e-05" evalue="0.077"/>
+			<seg start="1">
+				<data>
+TCGTCGTTCTGCACTGACAAACCCGGCTGTCATGGCCTGATGCTGTTTACGTAGGGCTGCAAAGCAGCCCTGACG
+				</data>
+				<hit pos="52" idx="0" rc="y" pvalue="1.7e-09" match="+ ++++++++++++++++++ "/>
+			</seg>
+			<seg start="151">
+				<data>
+GCATCGAGCCGTAATGCCAGGGCCGCCTTGCAGCCCTGTCAGGATCCCGATCGGATA
+				</data>
+				<hit pos="168" idx="0" rc="n" pvalue="2.4e-09" match=" ++++++++ +++++++++  "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_01401_+_+_MCKINBCO_01402_+_+_DT" comment="Cluster_155439&#13;" length="47">
+			<score strand="both" combined_pvalue="3.07e-05" evalue="0.085"/>
+			<seg start="1">
+				<data>
+TCCTGATAGAGGGGCCGACCAGCGGCCCCTCGACATGGAGCATAGGC
+				</data>
+				<hit pos="10" idx="0" rc="n" pvalue="6.6e-09" match="++++++++   ++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02757_+_+_MCKINBCO_02758_+_+_CO_F" comment="Cluster_147536&#13;" length="59">
+			<score strand="both" combined_pvalue="3.18e-05" evalue="0.088"/>
+			<seg start="1">
+				<data>
+GCCCCACGCTTCACCATACAGCCCGCCCAGTGCGGGCTTTTTTTCGCCTGGAGAAACCT
+				</data>
+				<hit pos="13" idx="1" rc="n" pvalue="3.2e-08" match="+ ++ + +++++++++  +++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_01963_+_+_MCKINBCO_01964_+_+_CO_R" comment="Cluster_77891&#13;" length="160">
+			<score strand="both" combined_pvalue="3.26e-05" evalue="0.091"/>
+			<seg start="76">
+				<data>
+ACGACAGAAGGGCAGTGGCGCCGCACTGAACCCTTGCGGCCGGGTAAGGCAAGGGCCGCTGTGCGGCCCCATCCT
+				</data>
+				<hit pos="83" idx="0" rc="y" pvalue="6.1e-05" match="+ ++++ +    ++ ++ ++ "/>
+				<hit pos="126" idx="0" rc="n" pvalue="3.8e-11" match="++++++++++ ++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02783_+_+_MCKINBCO_02784_+_+_DT" comment="Cluster_116281&#13;" length="101">
+			<score strand="both" combined_pvalue="3.32e-05" evalue="0.092"/>
+			<seg start="1">
+				<data>
+CGATTACTTCGTTCTGAACAGCAAAGGCGACCCTAGGGTCGCCTTTGTCATTTCTGCAAGCGGTGGTGTGGGCTG
+				</data>
+				<hit pos="23" idx="1" rc="y" pvalue="3.1e-09" match="+++ +++ ++++++++ +++++++ + ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_04229_+_+_MCKINBCO_04230_+_+_DT" comment="Cluster_133026&#13;" length="77">
+			<score strand="both" combined_pvalue="3.47e-05" evalue="0.097"/>
+			<seg start="1">
+				<data>
+GGTCTCCACCCGGCCTTGTCGTTACCAGGCACGCATAAAAAAAGGCGACCGAGGTCGCCTTTTTCGGGGTGGGCG
+				</data>
+				<hit pos="39" idx="1" rc="y" pvalue="9.0e-08" match="+++++ +++ +  +++ +++++++++   "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_03398_+_+_MCKINBCO_03399_+_+_CO_F" comment="Cluster_140445&#13;" length="67">
+			<score strand="both" combined_pvalue="3.81e-05" evalue="0.11"/>
+			<seg start="1">
+				<data>
+TCCTGCAGGGGCCGCAGCACGGCCCTTGCATACCGCACACCCACAACAATGCCAACGAGGTGTCGTC
+				</data>
+				<hit pos="7" idx="0" rc="y" pvalue="1.9e-09" match="++++++++++   ++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00690_+_+_MCKINBCO_00691_+_+_CO_R" comment="Cluster_15804&#13;" length="436">
+			<score strand="both" combined_pvalue="4.10e-05" evalue="0.11"/>
+			<seg start="226">
+				<data>
+AGATAATCCGAGAGCGACCTAAGCTCCGGTTTATCCAGCCGATCTCGCGATCAGCTGAGTGCAATAATAATCGTT
+ATCATTTGCCAGTCAAATGATTTTTTACCTGAGAAGGTAGAAAATCCTACGCTGCGCTTCCTTGTCCCCCAAAGC
+GGGGCCATGGCTTCACACGCCATGCGCCTGCGTCGACCCCCCGTATTCACGACAACCTGCC
+				</data>
+				<hit pos="288" idx="5" rc="y" pvalue="5.9e-09" match="+++++++++  +++++++++"/>
+				<hit pos="361" idx="3" rc="n" pvalue="3.5e-05" match="+    +   + + ++ +++++    ++   ++ ++++ ++    ++++  "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00464_+_+_MCKINBCO_00465_+_+_CO_R" comment="Cluster_99277&#13;" length="126">
+			<score strand="both" combined_pvalue="4.10e-05" evalue="0.11"/>
+			<seg start="1">
+				<data>
+ATGATGCCCTCCCATCAGGTGGCTAAGCGGATTGCTACATCATAAATGAAAGGGGCCGTGCTGCGGCCTCTCGTG
+				</data>
+				<hit pos="51" idx="0" rc="n" pvalue="5.9e-09" match="++++++++   +++++++ ++"/>
+			</seg>
+			<seg start="76">
+				<data>
+GCATCAGCTCACGAAAGACCGCCGCACGGCCCCCTCCTTGAACGCTAGACC
+				</data>
+				<hit pos="89" idx="0" rc="n" pvalue="1.5e-05" match="++ + ++++    +++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02114_+_+_MCKINBCO_02115_+_+_CO_R" comment="Cluster_13625&#13;" length="469">
+			<score strand="both" combined_pvalue="4.17e-05" evalue="0.12"/>
+			<seg start="226">
+				<data>
+GCGCCAGGGGATCAAGATTTGCGGCTCGGGGCAGAGCATTTGGGGCCGCTGTGCGGCCCATCGCGGTACAAGGAC
+				</data>
+				<hit pos="266" idx="0" rc="n" pvalue="6.5e-12" match="++++++++++ ++++++++++"/>
+			</seg>
+			<seg start="301">
+				<data>
+CGCTCCCACAGAAAGCGCAATTTACAGGTCAACCGAGCCCGTGTGGGAGCGGCCTCGCGCCGCGATGGGCCGCGC
+AGCGGCCCCAGGATGTCAGCGTGATAATGCCTCTTCAAGACGAGTGCTTGGACCCTGGCAGCCTTTGGACTTCAC
+				</data>
+				<hit pos="365" idx="0" rc="y" pvalue="3.8e-11" match="+++++++++  ++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_01191_+_+_MCKINBCO_01192_+_+_DT" comment="Cluster_134417&#13;" length="74">
+			<score strand="both" combined_pvalue="4.38e-05" evalue="0.12"/>
+			<seg start="1">
+				<data>
+GCATCGACGCCTGCCGTCAGTAGATGGCGGACATGAAAAAACCCGCCGAAGCGGGTTTTTTAAAGCCAGCTACA
+				</data>
+				<hit pos="32" idx="1" rc="n" pvalue="3.9e-09" match=" +  +++++ +++ ++ ++++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_04219_+_+_MCKINBCO_04220_+_+_DT" comment="Cluster_40565&#13;" length="261">
+			<score strand="both" combined_pvalue="5.17e-05" evalue="0.14"/>
+			<seg start="1">
+				<data>
+TGCTTCCTGGATAGCTTGAAGCACCGTTGCTGCCTGGTGCTTTTGTGGGGCCGCTTCGCGGTCCGTCCGGCGCCC
+				</data>
+				<hit pos="46" idx="0" rc="n" pvalue="1.8e-06" match="+++++++++++ ++++ ++ +"/>
+			</seg>
+			<seg start="151">
+				<data>
+CGGACCGGCCGCGATGGGCCGCAAAGCGGCCTCAAACTATTGGGCACACGCAAGCGTGGATTTTCACGGCACCGC
+				</data>
+				<hit pos="164" idx="0" rc="y" pvalue="3.9e-10" match="++++++++++++++++++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02668_+_+_MCKINBCO_02669_+_+_CO_R" comment="Cluster_47481&#13;" length="236">
+			<score strand="both" combined_pvalue="5.29e-05" evalue="0.15"/>
+			<seg start="1">
+				<data>
+CGAACAGGTATCCAGGTGTGAGTGGAAAAGAGCGCGATTATAGAGCAGCCGCGCCTTCGTGTCCCAAAGGGCCGC
+CGTGTGGGCTCATGCTGTTCATTTAGGGCCGTTTCACGGCCCCAACACGCTTAAGTCAACAGCATTACGCCGTAT
+				</data>
+				<hit pos="67" idx="0" rc="n" pvalue="7.1e-05" match="+++++++++  ++ ++ + ++"/>
+				<hit pos="99" idx="0" rc="n" pvalue="1.3e-08" match="++++++++ ++  ++++++++"/>
+			</seg>
+			<seg start="151">
+				<data>
+GGGCCGCCAGGGATACGACTAGATCGCACCAGGGCAAAAACGACAACGGCCCGCAAGCGGGCCGTCGTTCAATGA
+				</data>
+				<hit pos="191" idx="1" rc="n" pvalue="1.4e-05" match="  + ++  ++++++    +++++++  ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00991_+_+_MCKINBCO_00992_+_+_CO_F" comment="Cluster_85654&#13;" length="147">
+			<score strand="both" combined_pvalue="5.37e-05" evalue="0.15"/>
+			<seg start="1">
+				<data>
+CATTTTTTTCGGGCCGCGTTGCAGCCTGTCGCAAACAAGCCAGCCTCCACAGGATCATCAAGGCCTCAAGCCGGT
+				</data>
+				<hit pos="9" idx="0" rc="n" pvalue="3.9e-06" match="+ +++++++ ++++++++  +"/>
+			</seg>
+			<seg start="76">
+				<data>
+TGCCGTCCCTGTGGGGGCTGGCTTGCCTGCGGTGGGCGGCAACACGGCCTCGGCTATTGATGAGGTAACACC
+				</data>
+				<hit pos="107" idx="0" rc="n" pvalue="9.4e-07" match="  ++++ ++ +  +++++ + "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_01036_+_+_MCKINBCO_01037_+_+_DT" comment="Cluster_5931&#13;" length="638">
+			<score strand="both" combined_pvalue="5.90e-05" evalue="0.16"/>
+			<seg start="1">
+				<data>
+GCCAGATGGGCCGGTCAATGGGCTGCGGGGCGGTTTAGGGTTTCAGCCTCGCAGCTTGTATCGTTGGGGCCGCTG
+TGCGGCCTATCGCTCCTGAGGGACGAATGAAGTCCAACGCGCCCACGTTGGAAATGAACTGAACATCGACATCCG
+				</data>
+				<hit pos="18" idx="0" rc="y" pvalue="1.6e-05" match="+++++++++   ++++     "/>
+				<hit pos="65" idx="0" rc="n" pvalue="2.4e-10" match="++++++++++ +++++++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02499_+_+_MCKINBCO_02500_+_+_DT" comment="Cluster_32354&#13;" length="297">
+			<score strand="both" combined_pvalue="6.01e-05" evalue="0.17"/>
+			<seg start="1">
+				<data>
+GGTGTGTGCCGAGGGCCAATGCGGCGGCGCGTAAGCCTCTCGCCGCATTGGCCTGGCTGAAAGACAGGCATTAAA
+AAGCCGGCTTGTGGCCGGCTTCTCGGGGACGCTTCCGACTCATTTATGGTAAGCCGCAATCGCCTTAACGGTGTG
+				</data>
+				<hit pos="70" idx="1" rc="n" pvalue="2.7e-09" match="++ +++++++++++++  +++++++++ +"/>
+			</seg>
+			<seg start="151">
+				<data>
+GCCAAAAGAGGCCTGAAAGAGATGGCTGATGCCCGTATGGGGTATCGCCGAGCCCTCTGGACTGCGGCTTGCGCC
+GGTCGGGGCTGATGTGCGCGTAGCATACAAGGGCACGCGCCTGATGCCCAGCAAAAAATGGCACAGGGTGTT
+				</data>
+				<hit pos="187" idx="3" rc="y" pvalue="1.1e-05" match="    +++   +++  ++         + ++++ +++  +++   ++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_03891_+_+_MCKINBCO_03892_+_+_CO_F" comment="Cluster_53372&#13;" length="217">
+			<score strand="both" combined_pvalue="6.02e-05" evalue="0.17"/>
+			<seg start="1">
+				<data>
+CCCGCCTGGCAACTCCAGACACCCCGCCTAGGCGGGGTGTTTTTGTTTGGGCCTGGCGAAGGATGGGCTCGCCCT
+				</data>
+				<hit pos="18" idx="1" rc="y" pvalue="8.5e-09" match=" + ++++++++++++ +++++ +++++ +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_01544_+_+_MCKINBCO_01545_+_+_DT" comment="Cluster_165441&#13;" length="35">
+			<score strand="both" combined_pvalue="6.28e-05" evalue="0.17"/>
+			<seg start="1">
+				<data>
+TACCGGGCGGGGCTGCCTTGCGGCCCCCCACAGGG
+				</data>
+				<hit pos="8" idx="0" rc="n" pvalue="8.1e-09" match=" ++++++++ ++++++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_01876_+_+_MCKINBCO_01877_+_+_CO_F" comment="Cluster_83282&#13;" length="151">
+			<score strand="both" combined_pvalue="6.41e-05" evalue="0.18"/>
+			<seg start="1">
+				<data>
+TGCCCGGTTAATGTTGTAAGCCAAAGATGAAAGGGCGGCGCGGCTGCCCTTTTTTTCGTCCGCAGCCGTTACACT
+				</data>
+				<hit pos="31" idx="0" rc="n" pvalue="6.6e-07" match="++++++ ++   ++ ++++ +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_03770_+_+_MCKINBCO_03771_+_+_CO_R" comment="Cluster_77888&#13;" length="160">
+			<score strand="both" combined_pvalue="6.58e-05" evalue="0.18"/>
+			<seg start="76">
+				<data>
+GCGCCGCGGCAGGGGCCGTTTCGCGGCCCAAGCGATCCTGCATGAACACCATCAGCAGCCGGGGGTCACGGCGCT
+				</data>
+				<hit pos="86" idx="0" rc="n" pvalue="6.0e-10" match="++++++++ ++ +++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_03283_+_+_MCKINBCO_03284_+_+_CO_R" comment="Cluster_12385&#13;" length="488">
+			<score strand="both" combined_pvalue="6.81e-05" evalue="0.19"/>
+			<seg start="226">
+				<data>
+TCGAACGGGATGCCCAAATGCGAACGCCCTGTAAGGCAGCTCTGCCCCAGGTGCAGCACGGCTCTGAATGTCATC
+AGGTACCCGTGCAGGCGGATTACGCTGCCCGCGCGCTGTAACGGCCTTGCCGGGCTGCGAATCGGCCGCGCAGCC
+				</data>
+				<hit pos="256" idx="3" rc="y" pvalue="8.1e-05" match="+ + +++    ++   +  ++    +  ++++ + + +++ +++  + + "/>
+				<hit pos="350" idx="0" rc="y" pvalue="1.1e-05" match="  +++++++ ++ +++++ + "/>
+			</seg>
+			<seg start="376">
+				<data>
+TCCCCAGGATTTGGCTTTGCCGCACATACCATCAGGGCCGCATAGCGGCCCTGATGGTATCAAGTGAACCGAACG
+				</data>
+				<hit pos="408" idx="0" rc="y" pvalue="3.3e-10" match="  ++++++++++++++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00958_+_+_MCKINBCO_00959_+_+_CO_F" comment="Cluster_11631&#13;" length="500">
+			<score strand="both" combined_pvalue="6.82e-05" evalue="0.19"/>
+			<seg start="76">
+				<data>
+CCTTGTGCCGCGAAAGGCCGTGTAGCGGCCTCGGGATTCCAGATTCACAGCATGGATCGCCGGGGCCGCTGCGCG
+GCCCATCGCGGCACAAGGCCGCTCCTACACCAGATGTGCAGGGCTTGAAAGAGAGCGCAAGGTACTCACTTACAC
+				</data>
+				<hit pos="88" idx="0" rc="y" pvalue="6.0e-08" match="+  +++++  ++++++++ + "/>
+				<hit pos="136" idx="0" rc="n" pvalue="9.3e-11" match=" +++++++++  +++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_03682_+_+_MCKINBCO_03683_+_+_CO_F" comment="Cluster_45753&#13;" length="242">
+			<score strand="both" combined_pvalue="6.89e-05" evalue="0.19"/>
+			<seg start="1">
+				<data>
+TACAAAAACCCACTAGCTTGCTAGTGGGTTTTTTCTTGCCTGAAATTAAGCATCATGGCCCCGCCCTTCCGTGTT
+TTCGGCGCTGTGCAAGATGGCGCACAAAGCCCAGCGCCTCGCCCTTTCCGACGCGCGCACAGCCCCAAGCACCCC
+				</data>
+				<hit pos="66" idx="3" rc="n" pvalue="5.2e-05" match="+  ++ +      +++++   + +    + +  ++ +++++ +++    +"/>
+			</seg>
+			<seg start="151">
+				<data>
+GCTCAATGAATTTATCGTCACCTCGCCACATGAGAAACGATTTCGTTTACCATTGTTTCCAAATATGTAGCCGTA
+				</data>
+				<hit pos="185" idx="5" rc="n" pvalue="2.5e-06" match="+++ +++ +   +++ ++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_03363_+_+_MCKINBCO_03364_+_+_DT" comment="Cluster_151767&#13;" length="53">
+			<score strand="both" combined_pvalue="7.01e-05" evalue="0.19"/>
+			<seg start="1">
+				<data>
+TCACGGCATGATGACGGGGCCGCCGGGCGGCCCCTTTGCCCAAGCGTTGTCGC
+				</data>
+				<hit pos="15" idx="0" rc="n" pvalue="9.0e-10" match=" ++++++++   +++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_03878_+_+_MCKINBCO_03879_+_+_DP" comment="Cluster_791&#13;" length="909">
+			<score strand="both" combined_pvalue="7.06e-05" evalue="0.2"/>
+			<seg start="601">
+				<data>
+AGAGGCATAGCGCTAAATGATATTAATTATCATTACTCCATTCGTAATTCGTTACCACTCGCAAGAAACATAATT
+				</data>
+				<hit pos="615" idx="5" rc="n" pvalue="5.5e-11" match="++++++++++ +++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00199_+_+_MCKINBCO_00200_+_+_CO_F" comment="Cluster_69950&#13;" length="175">
+			<score strand="both" combined_pvalue="7.26e-05" evalue="0.2"/>
+			<seg start="1">
+				<data>
+GCACCCTGGCAAGTCAGGTGGGGTCGCTGGGCGGCCTCACTGGCCTGAGGCAGGCGCCCGGGCTTGCCCGGGAAT
+				</data>
+				<hit pos="19" idx="0" rc="n" pvalue="2.7e-08" match="+++++ ++++  ++++++ ++"/>
+			</seg>
+			<seg start="76">
+				<data>
+GCTTGACCTGAAGCACGCAAAAAACAAAACGCATGGTCCCGACCGTGCCTTTTGTATCGGTGTCTGAGAAAATGC
+				</data>
+				<hit pos="99" idx="1" rc="n" pvalue="8.9e-05" match="+ ++++     ++ ++  + ++ ++ +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_01203_+_+_MCKINBCO_01204_+_+_DP" comment="Cluster_90048&#13;" length="139">
+			<score strand="both" combined_pvalue="7.43e-05" evalue="0.21"/>
+			<seg start="1">
+				<data>
+GCACTTCCATCCTTGGAATAGGTTTTAAAAGGAAACCACTTGTAGCGATTTTTAACAAAACAGGTTTTTAAATGC
+				</data>
+				<hit pos="19" idx="6" rc="n" pvalue="3.2e-09" match="+ ++++++++++ + ++ +++ ++++++   + ++++ +++  +  ++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00067_+_+_MCKINBCO_00068_+_+_CO_F" comment="Cluster_71932&#13;" length="172">
+			<score strand="both" combined_pvalue="7.61e-05" evalue="0.21"/>
+			<seg start="1">
+				<data>
+GCGTTTCAGGTCTGAATCGAATGGGGCCGCTTCGCAGCCCATCGCGGCTGGTCCGGTGCCCCGGACCGGCCGCGA
+TGGGTCGCCAAGCGGCCCTGATCAGTTTTGACCATTGCCCGTTGAACGGCGCTACACTCTGAACCCCCGACCGAT
+				</data>
+				<hit pos="22" idx="0" rc="n" pvalue="7.5e-11" match="+++++++++++ +++++++++"/>
+				<hit pos="75" idx="0" rc="n" pvalue="8.9e-09" match="+ +++ +++ +++++++++  "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02176_+_+_MCKINBCO_02177_+_+_CO_R" comment="Cluster_117338&#13;" length="92">
+			<score strand="both" combined_pvalue="8.42e-05" evalue="0.23"/>
+			<seg start="1">
+				<data>
+AATGCCGCGCATCATACCAGCGAATTCTGAAAACGCAAACCTTTATTTTCAAAAAAACCGCGTGGTATCAGGCGC
+TTGCGTGTGCGTGGGCC
+				</data>
+				<hit pos="31" idx="5" rc="n" pvalue="7.0e-05" match="+++ ++ ++ + +++++ + "/>
+				<hit pos="54" idx="1" rc="y" pvalue="9.5e-06" match="+++++++++    +   +++  ++  ++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_01652_+_+_MCKINBCO_01653_+_+_DT" comment="Cluster_66771&#13;" length="183">
+			<score strand="both" combined_pvalue="8.67e-05" evalue="0.24"/>
+			<seg start="1">
+				<data>
+GCGATGGGGTCGCCTTGCTGCATCTGATGGTCTTTCCCAAAATGGAAGCCAGCGGCTGACTGCTGCAACGGGCCG
+CAGAGCGGCCCCACGATTTGAACCCAGCGCCTTACACTCCAGCTTCGCACTTTCAGTAGTCGGGGCGGGCGGGGC
+				</data>
+				<hit pos="5" idx="0" rc="n" pvalue="1.4e-05" match="+++++ +++ ++++ ++  ++"/>
+				<hit pos="68" idx="0" rc="y" pvalue="1.7e-09" match="+ ++++++++ ++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02222_+_+_MCKINBCO_02223_+_+_DT" comment="Cluster_28727&#13;" length="321">
+			<score strand="both" combined_pvalue="8.70e-05" evalue="0.24"/>
+			<seg start="1">
+				<data>
+GGGTTGGGTAAGGACAGCAGGCACTGGGGCCAGGTCGAGCGGGTGGCTCTGATAGCGCGAATCAGGGGTTACTCA
+GCCCCCCCTGCATGACCGCATGCCGCGATAAGCTGCGCAGCCGCCTCAAGATTTCAGCTTCGCAGCGTATATTGC
+				</data>
+				<hit pos="64" idx="0" rc="y" pvalue="3.2e-05" match="+++++ + ++ +++  +++++"/>
+				<hit pos="103" idx="0" rc="y" pvalue="1.4e-05" match="++  +++++  +++ +++ ++"/>
+			</seg>
+			<seg start="151">
+				<data>
+CGGGGCCGCGCTGCGGCCCATCGCGGCACAAGGGCCGCTCCTACCCGGAAATCTGCCAGCCTTCAGCGGCGATGC
+				</data>
+				<hit pos="151" idx="0" rc="n" pvalue="5.2e-10" match=" ++++++++  ++++++++++"/>
+			</seg>
+			<seg start="226">
+				<data>
+CAGACAGCGGGCTGCGCAGCAGCCCCCGTATCTTCGCGTCGACGCAAACATCCCTAGGCCGCAGGTGAATCCCCT
+				</data>
+				<hit pos="232" idx="0" rc="y" pvalue="3.6e-07" match="  +++++++  +++++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_03774_+_+_MCKINBCO_03775_+_+_CO_R" comment="Cluster_29177&#13;" length="318">
+			<score strand="both" combined_pvalue="8.73e-05" evalue="0.24"/>
+			<seg start="76">
+				<data>
+TGATGGGAGCGGTGTAGGCCGACGGGCATGGCGCAGGCCGTGATGGGGCCCTCAGCGCCCCGCTAATCGTAGCCC
+				</data>
+				<hit pos="108" idx="0" rc="y" pvalue="5.7e-05" match="   +++++  + + ++++++ "/>
+			</seg>
+			<seg start="151">
+				<data>
+CGTAGCCTAGATGGCTGGGGCTGCTGCGCAGCCCATCGCGGCACTAGGCCGCTCCTACCCTGATCGCGTAAGGCC
+				</data>
+				<hit pos="166" idx="0" rc="n" pvalue="4.5e-10" match="++++++++++  +++++++++"/>
+			</seg>
+			<seg start="226">
+				<data>
+TGGATTAGTAGGTTCACAGGGCCTTGCAGGAGTGGTCTTGCGCAGCGCCGGACCGACCGCGATGGGCGGCACAGC
+GGCCCCTGGACTTCCCCG
+				</data>
+				<hit pos="287" idx="0" rc="n" pvalue="1.1e-08" match="+ ++++ ++  ++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00814_+_+_MCKINBCO_00815_+_+_CO_F" comment="Cluster_147531&#13;" length="59">
+			<score strand="both" combined_pvalue="8.97e-05" evalue="0.25"/>
+			<seg start="1">
+				<data>
+ATATCCTGAATTTTTATATTGCCCGCCATGTGCGGGCTTTTTTTCGCCTGGAGAAAACC
+				</data>
+				<hit pos="18" idx="1" rc="y" pvalue="3.2e-07" match="+   ++++++++  + +++++++++++  "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_01470_+_+_MCKINBCO_01471_+_+_DT" comment="Cluster_137500&#13;" length="71">
+			<score strand="both" combined_pvalue="1.05e-04" evalue="0.29"/>
+			<seg start="1">
+				<data>
+AGCCGTTTGGAACACTCGACAGGCCGCCGCAAGCGGCCTGTTTTTTTATCAGCGCTTACACCCCGCAAGCG
+				</data>
+				<hit pos="18" idx="1" rc="y" pvalue="7.4e-07" match=" + ++ +++++  +++++++++ ++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00966_+_+_MCKINBCO_00967_+_+_DT" comment="Cluster_37926&#13;" length="272">
+			<score strand="both" combined_pvalue="1.05e-04" evalue="0.29"/>
+			<seg start="1">
+				<data>
+GTAACAGCGGTGGGTTGCGACGGAGCGCAGAGCAACCCAGGGTTCAGGATTCGCAGCTTAACGGTGTGTGGCCGC
+TTTGCGGCCCTGACGATGTGAGTTGCGAAGCTGAGATCCTGGGGGCCGCTAAGCGACCCATCGCGGCCGGTCCGG
+				</data>
+				<hit pos="67" idx="0" rc="n" pvalue="3.0e-09" match="++ ++++++++++++++++  "/>
+				<hit pos="116" idx="0" rc="n" pvalue="1.4e-08" match=" ++++++++++++++ +++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02910_+_+_MCKINBCO_02911_+_+_CO_F" comment="Cluster_10573&#13;" length="518">
+			<score strand="both" combined_pvalue="1.07e-04" evalue="0.3"/>
+			<seg start="1">
+				<data>
+GGCATTCGGGCCATTTCTTGGCCCTTGCTTGAGTACCGACGCTGAACACATTGGGGCTGCTACGCAGCCTATTGC
+				</data>
+				<hit pos="52" idx="0" rc="n" pvalue="2.1e-09" match="+++++++++++ ++++++ ++"/>
+			</seg>
+			<seg start="76">
+				<data>
+CGGCAAGCCGGCTTCTGCAGGCGGACATCTCGCGCCGGGTAGGAGTCAGTTGGCCGACGATGGGGCGCGAAGCGG
+CCCCAATGCGTTTCTAGCTGCCTGAACGGCGTTCTCGACAAGATACAGCTTGCCAGGCGATGCAACCTTGCTGCG
+				</data>
+				<hit pos="135" idx="0" rc="n" pvalue="3.7e-08" match="+ +++ +++ +++++++++++"/>
+			</seg>
+			<seg start="226">
+				<data>
+CTGACTCAATGCATGGGCCGACTGTAACCTGTTGGACGCCAAGCCATTTGGTTAGTTTGGCAACTTAGATTTCCA
+				</data>
+				<hit pos="273" idx="0" rc="y" pvalue="6.1e-05" match="++++   + ++ +++ +    "/>
+			</seg>
+			<seg start="301">
+				<data>
+GATTGTAAGGATTTTTTTACAACCCTCGGCCAATTCTCGCAGCAAATCGGAAATGGACCTCCTCCGTAAAGAAAG
+				</data>
+				<hit pos="311" idx="2" rc="n" pvalue="8.0e-05" match="++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_03573_+_+_MCKINBCO_03574_+_+_CO_F" comment="Cluster_20584&#13;" length="381">
+			<score strand="both" combined_pvalue="1.13e-04" evalue="0.31"/>
+			<seg start="1">
+				<data>
+GCGAATTAGTGCCTAGTGACTATATATAAAGAAGCGTAACGGCCATGCGTAAGGTCGGCCGTTCTCAGGGGCTGC
+AAAGCAGCCCCGTGCTGCGAAGACGAAAACGCCAGGGCGATACTTGTCTCACGCGTTAATCCTGCATTAACCCAG
+				</data>
+				<hit pos="67" idx="0" rc="y" pvalue="1.4e-10" match="++++++++++++++++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00712_+_+_MCKINBCO_00713_+_+_DT" comment="Cluster_59534&#13;" length="201">
+			<score strand="both" combined_pvalue="1.14e-04" evalue="0.32"/>
+			<seg start="1">
+				<data>
+GGAGTCAGGCGGCTGTTGACTGCCACCGGGAGAGGGCGTGCAGCGGTCCCGGCGCACGACGATGCGGGGGTATGG
+				</data>
+				<hit pos="31" idx="0" rc="n" pvalue="2.7e-05" match="++ ++ ++   +++++ +++ "/>
+			</seg>
+			<seg start="76">
+				<data>
+ATCCTGGGGCCGCTGCGCGGCCCCACAATTTGAGCCGTGAATCACAAACATCAAAGCCCCTTTGCGCCCCAACCG
+				</data>
+				<hit pos="80" idx="0" rc="n" pvalue="1.1e-10" match="++++++++++  +++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_01143_+_+_MCKINBCO_01144_+_+_DT" comment="Cluster_95071&#13;" length="132">
+			<score strand="both" combined_pvalue="1.16e-04" evalue="0.32"/>
+			<seg start="1">
+				<data>
+GCGGCGGGGTGATCGCGAGTGATCAACTGTCAGTCTTGTGTGAAGGCGAGCATCCAAGGCCGCTTTGCGGCCCTG
+				</data>
+				<hit pos="55" idx="0" rc="n" pvalue="4.8e-09" match=" + ++++++++++++++++  "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_03141_+_+_MCKINBCO_03142_+_+_CO_F" comment="Cluster_42894&#13;" length="252">
+			<score strand="both" combined_pvalue="1.17e-04" evalue="0.32"/>
+			<seg start="151">
+				<data>
+AAGGTCGCAATGCTTCTGATAAACGCTATTGATTATCAATTGCTAAAAAGCGACTTAATGTGGTCTGATTCGTGC
+				</data>
+				<hit pos="171" idx="5" rc="n" pvalue="1.1e-08" match="+++ ++++++ +++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_03835_+_+_MCKINBCO_03836_+_+_DT" comment="Cluster_131538&#13;" length="79">
+			<score strand="both" combined_pvalue="1.33e-04" evalue="0.37"/>
+			<seg start="1">
+				<data>
+GGGTTCCTGGAGATTCATGCCGCGATAGGCCGCGCAGCGGCTTCGGCGATCCTGGCGTTTTTCCAGCCCAGCGTT
+				</data>
+				<hit pos="25" idx="0" rc="y" pvalue="1.0e-07" match="++ ++++++  ++++++  + "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00846_+_+_MCKINBCO_00847_+_+_CO_F" comment="Cluster_701&#13;" length="928">
+			<score strand="both" combined_pvalue="1.33e-04" evalue="0.37"/>
+			<seg start="1">
+				<data>
+CCATTCGAAAGCCCCGCAGCCATCTAGGTTGCGGGGCTTTTTTAATGCCGCGATTTTCTCCAGTGCTCAGCAGCC
+				</data>
+				<hit pos="36" idx="2" rc="n" pvalue="4.8e-05" match="++++++++"/>
+			</seg>
+			<seg start="226">
+				<data>
+TCTACCTTGTGCTTGCAGGGCTGGCAGGCAACTCCAGTCGAGTGTTCGATCATCTGTCCGCCTTGAAGCCCTGGC
+				</data>
+				<hit pos="241" idx="0" rc="y" pvalue="2.3e-06" match="  ++++++  + +++ + +++"/>
+			</seg>
+			<seg start="376">
+				<data>
+TCAAACTAGGCACTGTACGAAATAAGGTGTTGTAGATACACCATGGCGCAAGCCAGCGAGATCACCGCTGCATAA
+TTTTTTTCCCCAAGCCTCGTCCAAGATTTCGCGCCGCTTCGCCATCACAAAATTTCTTTCTGTTGGTGGCCAGGG
+				</data>
+				<hit pos="450" idx="2" rc="n" pvalue="8.0e-05" match="++++++++"/>
+			</seg>
+			<seg start="676">
+				<data>
+CTAGTGCTTTCCGGTCTGAGTAGTTAACTCAACGAATAGCCAAATCATAAAATCCCTGTCTTGAAGTGGTAGGTT
+				</data>
+				<hit pos="701" idx="6" rc="n" pvalue="2.1e-07" match="+        +++++++++  ++++++    ++++ + ++++++ ++ +++"/>
+			</seg>
+			<seg start="751">
+				<data>
+GGATGGAAAGGCTTGGCGTGTATGAACCAAGCCATTTATGTATTGCTATCGAAGGCATCTGATGGGCCTCGGTGC
+CTGACATTTTTATCAGTTGTAAAGATGCGATCTGCTGTCTATGGTCGTCACTTGAAATCTTACATGCAGGCTTGT
+				</data>
+				<hit pos="812" idx="6" rc="n" pvalue="2.0e-07" match="++++   ++  +  +  +++  ++++++++ ++++++++ +++++ ++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00726_+_+_MCKINBCO_00727_+_+_CO_R" comment="Cluster_130097&#13;" length="81">
+			<score strand="both" combined_pvalue="1.52e-04" evalue="0.42"/>
+			<seg start="1">
+				<data>
+CTTCAACCTATTGAAAAAACGTAATTTTCAGACGGGAATAAAAACGCCCGGCCAGGCCGGGCGTTGGGCGCAGAG
+				</data>
+				<hit pos="37" idx="1" rc="n" pvalue="1.8e-07" match="++ +++++ ++++  + ++++++++  ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02781_+_+_MCKINBCO_02782_+_+_DT" comment="Cluster_94546&#13;" length="132">
+			<score strand="both" combined_pvalue="1.55e-04" evalue="0.43"/>
+			<seg start="76">
+				<data>
+GCAATGAAAAAGCCCGGACACTGTCCGGGCTTTTTTGTATCTGCGCGTTTAGCGCGT
+				</data>
+				<hit pos="84" idx="1" rc="y" pvalue="9.2e-07" match="+++ +++++ +   + ++++  ++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02836_+_+_MCKINBCO_02837_+_+_CO_F" comment="Cluster_82968&#13;" length="150">
+			<score strand="both" combined_pvalue="1.60e-04" evalue="0.45"/>
+			<seg start="1">
+				<data>
+GGTTCGTCGAACGATGAAAAACGCGGCTTAGGCCGCGTTTTTTCGTTCTGGCAGCCAGCTTCTGGTATAAAGCAG
+				</data>
+				<hit pos="17" idx="1" rc="y" pvalue="6.8e-09" match="+++++++++ ++ +++++++ ++++++  "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_01947_+_+_MCKINBCO_01948_+_+_DT" comment="Cluster_116097&#13;" length="102">
+			<score strand="both" combined_pvalue="1.61e-04" evalue="0.45"/>
+			<seg start="1">
+				<data>
+TCGAGCGCTCTGGGTTCAGATTACCGGGGCTGCCAAGCAGCCCCGGTATTCATGCTGCGATGCCGACCTCCAGGG
+				</data>
+				<hit pos="25" idx="0" rc="n" pvalue="2.1e-09" match=" ++++++++ ++++++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00526_+_+_MCKINBCO_00527_+_+_DP" comment="Cluster_40070&#13;" length="261">
+			<score strand="both" combined_pvalue="1.63e-04" evalue="0.45"/>
+			<seg start="1">
+				<data>
+GTACTGGACTCCAGGCTAATTGTAAGGGCGGTTTACCAAGTGACCGCGCCCTGCCGATTGCCGCCTAGGCTCAAA
+GGACAGGGGCGCACTGCTTCGGTAGGCTCAGATCGAACCGCTCGTTGTAGGTTTAAACAAAATACTGCCACTAAA
+AAGGCTTGTTTTCTATCTGCAACTGAATAATCTTGTAATTCCAACAACAAAACCGTTTCAGTGGAGCACCTTTGT
+				</data>
+				<hit pos="40" idx="3" rc="n" pvalue="1.8e-06" match="  + ++  +++ +++++       +++++ +  +   + + ++++++  +"/>
+				<hit pos="136" idx="1" rc="y" pvalue="4.0e-06" match="++ ++ +++ +++++  +++++ ++++ +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02863_+_+_MCKINBCO_02864_+_+_DT" comment="Cluster_74834&#13;" length="162">
+			<score strand="both" combined_pvalue="1.76e-04" evalue="0.49"/>
+			<seg start="76">
+				<data>
+GTCACTGTGCGGCCTTGCGCCGCGACAGGCCGCGCAGCGGCCCTAAATGAACAGCATTACAGCGCGTATCAGGAC
+				</data>
+				<hit pos="100" idx="0" rc="y" pvalue="1.4e-08" match="+  ++++++  ++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02715_+_+_MCKINBCO_02716_+_+_CO_R" comment="Cluster_92416&#13;" length="135">
+			<score strand="both" combined_pvalue="2.09e-04" evalue="0.58"/>
+			<seg start="76">
+				<data>
+TTATTTTCTGATGGTTGCAAAAAACCCGCCGGATGGCGGGTTCGTGATGAGGCGATCTGC
+				</data>
+				<hit pos="95" idx="1" rc="y" pvalue="3.2e-08" match="+++++++++++  + +++++ ++  ++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_03726_+_+_MCKINBCO_03727_+_+_DT" comment="Cluster_138182&#13;" length="70">
+			<score strand="both" combined_pvalue="2.41e-04" evalue="0.67"/>
+			<seg start="1">
+				<data>
+GCGAAGCGGGCATGCCGCGCGTCCCCCGCAGGGGCCGGCGGAACAAGGGCTGCCGCGCAGCCCTGGCCTG
+				</data>
+				<hit pos="45" idx="0" rc="n" pvalue="5.9e-09" match="+++++++++   +++++++  "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02860_+_+_MCKINBCO_02861_+_+_CO_F" comment="Cluster_53616&#13;" length="216">
+			<score strand="both" combined_pvalue="2.47e-04" evalue="0.69"/>
+			<seg start="1">
+				<data>
+AACCTTGCTGTTGTTCTGGTAGAATCCGCTTCATCCCAAAAAGGGGCTGCTGCACAGCCCATCGCTGGTACGCCA
+				</data>
+				<hit pos="42" idx="0" rc="n" pvalue="3.4e-09" match="++++++++++   ++++++++"/>
+			</seg>
+			<seg start="76">
+				<data>
+GCTGCTTCAGGTTACCCACTGCGTTGACGCACCGGGCACCTGAGGCGGCAGGCGTGCCTGCGGTGGGCGTGCAGC
+GGCCCTTTGTTCATTGTGTAACCCGGTCCGCCCCTTACGAGGGCAACCACCTGGAGAACCTGATTC
+				</data>
+				<hit pos="137" idx="0" rc="n" pvalue="2.1e-06" match=" + ++ ++   ++++++++ +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00780_+_+_MCKINBCO_00781_+_+_CO_R" comment="Cluster_25970&#13;" length="339">
+			<score strand="both" combined_pvalue="2.69e-04" evalue="0.75"/>
+			<seg start="226">
+				<data>
+AGATAAATATGTACCATCAGTTCACATACGGTCAAGTACCAAAAGTACATAATTTTCACCAGTTCATAAAAAAAC
+CCGCATGGCGCGGGTTTCGGGTGCTGGAGTTAACAGGGG
+				</data>
+				<hit pos="291" idx="1" rc="n" pvalue="6.9e-08" match="++++++++++++++ +   ++++++++  "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02749_+_+_MCKINBCO_02750_+_+_CO_F" comment="Cluster_153732&#13;" length="51">
+			<score strand="both" combined_pvalue="2.71e-04" evalue="0.75"/>
+			<seg start="1">
+				<data>
+TCAACTATCGAAACCCGCTACGGCGGGTTTTTTTATGCCCGGAGAAAATGA
+				</data>
+				<hit pos="9" idx="1" rc="y" pvalue="7.4e-07" match="  +++++++++  ++ +++ ++++++ + "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02311_+_+_MCKINBCO_02312_+_+_CO_F" comment="Cluster_128776&#13;" length="83">
+			<score strand="both" combined_pvalue="2.83e-04" evalue="0.79"/>
+			<seg start="1">
+				<data>
+TTTCATCCAGATCCGCCAATTGGTTCTTGCTATTTTGATAATAAGAATTATTCTCATTGGAAAGTTACTCAAGGA
+				</data>
+				<hit pos="40" idx="5" rc="y" pvalue="2.6e-08" match="+++++++++ +++++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00730_+_+_MCKINBCO_00731_+_+_CO_R" comment="Cluster_120462&#13;" length="95">
+			<score strand="both" combined_pvalue="2.93e-04" evalue="0.81"/>
+			<seg start="1">
+				<data>
+GCAGTGCTCCAGGGTGAGCGAGTTGGCCGTTGTGCGACCCAGAAAGCACGAACCCCGGTGCGTGGCCGGGGTTCG
+TGGGTTACGTCAAGCGAACC
+				</data>
+				<hit pos="22" idx="0" rc="n" pvalue="6.9e-07" match="   +++++ + ++++ ++++ "/>
+				<hit pos="45" idx="3" rc="y" pvalue="3.6e-05" match="     +  +  +   ++ ++++  ++ +  + + + ++++ ++++ +   "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00245_+_+_MCKINBCO_00246_+_+_CO_F" comment="Cluster_57317&#13;" length="206">
+			<score strand="both" combined_pvalue="3.00e-04" evalue="0.83"/>
+			<seg start="1">
+				<data>
+TCGCACCGCCTTTCTGAAAGCGGGACTGGCCCCCCTGTTGGAGCGGCCTGGTGCCGCGAAAGGGTCGCGATGCGG
+CCCCAGCATTTGATCAGTACCACGGATGCTGGGGCCGCTTCATAGCCCTTTCGCGGCACCAGGCCGCTCCCGCAG
+				</data>
+				<hit pos="60" idx="0" rc="n" pvalue="3.8e-09" match="+++++ +++ +++++++++++"/>
+				<hit pos="105" idx="0" rc="n" pvalue="2.4e-06" match="+++++++++++   +++++ +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00235_+_+_MCKINBCO_00236_+_+_DT" comment="Cluster_121629&#13;" length="94">
+			<score strand="both" combined_pvalue="3.13e-04" evalue="0.87"/>
+			<seg start="1">
+				<data>
+GGGTCCGGGGCTGCGCTGCAGCCCGCTCGCCGGTATGGCGCGGCCCCAGTAGGGGCCGGCTTGCCGACGATCACG
+				</data>
+				<hit pos="6" idx="0" rc="n" pvalue="2.1e-07" match=" ++++++++  ++++++++  "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_03830_+_+_MCKINBCO_03831_+_+_CO_R" comment="Cluster_107787&#13;" length="113">
+			<score strand="both" combined_pvalue="3.31e-04" evalue="0.92"/>
+			<seg start="1">
+				<data>
+TACATCCTCTCTGATGGAGTTTGAAATGATAATGATTTGTATTAGTTGCTCAGTGAGACGCATCAGCTTAGGAAA
+				</data>
+				<hit pos="24" idx="5" rc="n" pvalue="9.7e-09" match="++++++++++ +++  ++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02013_+_+_MCKINBCO_02014_+_+_DT" comment="Cluster_138937&#13;" length="69">
+			<score strand="both" combined_pvalue="3.37e-04" evalue="0.94"/>
+			<seg start="1">
+				<data>
+AACCCTGAGGCTGCCTTGCAGCCCATCGGCTATCTGCCGGCGACGGGCTGCAAGGCAGCCCGATGGCGC
+				</data>
+				<hit pos="6" idx="0" rc="n" pvalue="5.9e-09" match="++ ++++++ +++++++++++"/>
+				<hit pos="43" idx="0" rc="y" pvalue="2.8e-06" match="+ +++++++++ +++++++ +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02290_+_+_MCKINBCO_02291_+_+_DP" comment="Cluster_76862&#13;" length="162">
+			<score strand="both" combined_pvalue="3.42e-04" evalue="0.95"/>
+			<seg start="76">
+				<data>
+AGTAATTCCTGAGGCAGCATTGCCCACCATGGCCTTACCCGCATAGAATTGAGAACCATTCACAATCACATCCGA
+				</data>
+				<hit pos="85" idx="0" rc="y" pvalue="9.6e-05" match="++ +++ ++++ ++   ++ +"/>
+				<hit pos="122" idx="5" rc="n" pvalue="2.9e-07" match="++ ++++++ +++++ ++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02185_+_+_MCKINBCO_02186_+_+_DT" comment="Cluster_89889&#13;" length="140">
+			<score strand="both" combined_pvalue="3.54e-04" evalue="0.98"/>
+			<seg start="76">
+				<data>
+CGGACCGACCGCGATGGGCCGTGAAACGGCCCCAACACGAAAGCAATTGCGCCCAAGCGCTTGCC
+				</data>
+				<hit pos="89" idx="0" rc="y" pvalue="4.8e-09" match="++++++++  ++ ++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_04172_+_+_MCKINBCO_04173_+_+_CO_F" comment="Cluster_18245&#13;" length="404">
+			<score strand="both" combined_pvalue="3.56e-04" evalue="0.99"/>
+			<seg start="1">
+				<data>
+TACCGCTGCACCCCCCACGCGCACAAAGGCCACCTTCGGGTGGCCTTTGTCGTATCTGGGGGGATTCATCTGACG
+				</data>
+				<hit pos="25" idx="1" rc="y" pvalue="1.1e-08" match="+++ +++ ++++ +++ +++++++ +  +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_04322_+_+_MCKINBCO_04323_+_+_CO_F" comment="Cluster_25222&#13;" length="344">
+			<score strand="both" combined_pvalue="3.69e-04" evalue="1"/>
+			<seg start="1">
+				<data>
+CTGTAGGGAGTTTCATTCATGGCTTGAAATGGCATCAAAGCCTAGCTGATGGATAACGCCGTTTTTTAGGGGGTG
+				</data>
+				<hit pos="19" idx="6" rc="n" pvalue="1.5e-08" match="++++ +++++++ ++++  +    +++++++++ ++++ + ++ + +++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02825_+_+_MCKINBCO_02826_+_+_DP" comment="Cluster_82869&#13;" length="151">
+			<score strand="both" combined_pvalue="3.72e-04" evalue="1"/>
+			<seg start="1">
+				<data>
+GGCAGGCCTGACTCTTGGTACGGTGATCGACTTGACGCGTCAATGCGAACAATTATCAAATGGCTGTCATTCGCT
+GCGCCTGGCGTTGCATGGTGCGCAGTTCTGCCGCCCGCTACAAGCTGTGGGGGCCAAATCCGATAAAGGAAATTC
+				</data>
+				<hit pos="41" idx="5" rc="n" pvalue="3.9e-07" match=" ++++++++  ++++++++ "/>
+				<hit pos="73" idx="3" rc="y" pvalue="8.2e-05" match="++   +++ +++ + ++++++   +       ++ ++ ++  +   ++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00303_+_+_MCKINBCO_00304_+_+_CO_F" comment="Cluster_88047&#13;" length="142">
+			<score strand="both" combined_pvalue="3.81e-04" evalue="1.1"/>
+			<seg start="1">
+				<data>
+TCCACTTACGTACAACCGAACCGTCTGGCGTTTCTGCGCACCGCCCAGGTCTGTCACATTCGACCCTGGGCGTTT
+TTTTTGCCTGTGGAACCTCTGCAAGCGGCGGCGAGTCTGTGATGTAACCCCTTACGGAGAGACTCGC
+				</data>
+				<hit pos="7" idx="1" rc="n" pvalue="9.6e-05" match=" ++  + +++++  ++    +++++++ +"/>
+				<hit pos="72" idx="2" rc="n" pvalue="2.6e-05" match="++++++++"/>
+				<hit pos="107" idx="0" rc="y" pvalue="4.9e-05" match=" + + +++  + + + +++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_04158_+_+_MCKINBCO_04159_+_+_CO_R" comment="Cluster_78296&#13;" length="160">
+			<score strand="both" combined_pvalue="3.83e-04" evalue="1.1"/>
+			<seg start="1">
+				<data>
+TTATTTATCCCTGACGGTGACTGCTCTAAGGGATCAGATACAAAGGGACACTAAATAATTCAGCGCTTAGCGTTT
+TTTTGTGAAACGTAAGCAAAAGGGGATGCGAGCCTGTGAGGCGCTGGGTCATTGGAGCTGCTGCACAGCCCCAAT
+				</data>
+				<hit pos="72" idx="2" rc="n" pvalue="2.6e-05" match="++++++++"/>
+				<hit pos="128" idx="0" rc="n" pvalue="8.7e-08" match="+++ ++++++   ++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02240_+_+_MCKINBCO_02241_+_+_CO_F" comment="Cluster_60357&#13;" length="199">
+			<score strand="both" combined_pvalue="3.88e-04" evalue="1.1"/>
+			<seg start="76">
+				<data>
+TACTGATTGAGTGCACAATGCTCCGATGAGCTCATTGTGCACTCAACCCCTCTGAAATTTTTTTTGATTCATCAT
+CTGCGCAACCAGTCCGACCCATAACAAGGCACGTAAGGGCGGTCTCGAC
+				</data>
+				<hit pos="132" idx="2" rc="n" pvalue="8.0e-05" match="++++++++"/>
+				<hit pos="145" idx="3" rc="n" pvalue="8.8e-07" match="++ +   +++   +++++ ++++ ++    ++++ ++ +   +++++  +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00058_+_+_MCKINBCO_00059_+_+_CO_F" comment="Cluster_15630&#13;" length="440">
+			<score strand="both" combined_pvalue="3.90e-04" evalue="1.1"/>
+			<seg start="301">
+				<data>
+CGCCTTTGGGCGTAATGCTGGTCACTTAGGGCTGCTCTGCAGCCCAAACACTCTCAAGTGAACAGCACTACGCGC
+				</data>
+				<hit pos="327" idx="0" rc="n" pvalue="2.1e-09" match="++++++++++ ++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_01506_+_+_MCKINBCO_01507_+_+_CO_F" comment="Cluster_139527&#13;" length="69">
+			<score strand="both" combined_pvalue="4.00e-04" evalue="1.1"/>
+			<seg start="1">
+				<data>
+CGCGACGTGGCCGCCTTGCGGCCCCTAGGCGCCCGCCCTGGCTCGGGCCCATCCAAGAGGCTTCAATTA
+				</data>
+				<hit pos="6" idx="0" rc="n" pvalue="3.0e-09" match=" + ++++++ +++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02213_+_+_MCKINBCO_02214_+_+_DP" comment="Cluster_7610&#13;" length="586">
+			<score strand="both" combined_pvalue="4.04e-04" evalue="1.1"/>
+			<seg start="376">
+				<data>
+CACCGGGCCTTACCACCCCCCGGATGCGACGCTGAAATGCCCGACAGCGACACGAACAAAAAGTTCCATCAAGCG
+TGCTTTTCGTCATATCGCCAACGACCTCAGCGTGCTATACCTTTTCGCCGACATAACAAGAAAGAGCTGCACCCT
+				</data>
+				<hit pos="429" idx="1" rc="n" pvalue="5.1e-07" match=" ++ ++++++  ++ + +++++ ++++++"/>
+			</seg>
+			<seg start="526">
+				<data>
+ATAACTAGAACACCTGGATGCAGCGGTACTCTTCCTAAAAAAACCAAAGGAGCAAGTCACG
+				</data>
+				<hit pos="562" idx="2" rc="y" pvalue="2.6e-05" match="++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_01888_+_+_MCKINBCO_01889_+_+_CO_F" comment="Cluster_92484&#13;" length="135">
+			<score strand="both" combined_pvalue="4.06e-04" evalue="1.1"/>
+			<seg start="1">
+				<data>
+GGCCAAGCCCGTTGGACACAAAGCCCCGACACGTCGGGGCTTTTTGTTGTCTGCGGCGTCTACTCTCACGGCGAG
+				</data>
+				<hit pos="20" idx="1" rc="y" pvalue="7.6e-09" match="+++ +++++ +  +  +++++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_01521_+_+_MCKINBCO_01522_+_+_DP" comment="Cluster_41414&#13;" length="257">
+			<score strand="both" combined_pvalue="4.08e-04" evalue="1.1"/>
+			<seg start="1">
+				<data>
+GGCATCCTCCTTGGGGCATGACGGTGGCGATAACCATTGGAATGAAGGTTTGCGATTGCGTTGACGAGAAGGGGC
+GGGAATTCGACGAACGGTAGCGCTCGCTAACGGGTGGTGACTAACTCGCTGTTTTTTTGGCATTTTTTTCAAAAA
+				</data>
+				<hit pos="45" idx="6" rc="n" pvalue="5.2e-07" match="+ +++++++ +++++ +  ++ +++++  ++ + ++ + ++++++  ++ "/>
+				<hit pos="126" idx="2" rc="n" pvalue="2.6e-05" match="++++++++"/>
+				<hit pos="137" idx="2" rc="n" pvalue="8.0e-05" match="++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_03989_+_+_MCKINBCO_03990_+_+_CO_F" comment="Cluster_109860&#13;" length="110">
+			<score strand="both" combined_pvalue="4.14e-04" evalue="1.2"/>
+			<seg start="1">
+				<data>
+CGTACAGGAGCAGGGGCTGTGCCGCAGCCCCTGGCTCATCCTGCCCTCGGTATGACTACCGTGCCGCTTAATCGG
+				</data>
+				<hit pos="12" idx="0" rc="y" pvalue="8.1e-09" match="++++++++    +++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_01834_+_+_MCKINBCO_01835_+_+_CO_R" comment="Cluster_123708&#13;" length="91">
+			<score strand="both" combined_pvalue="4.18e-04" evalue="1.2"/>
+			<seg start="1">
+				<data>
+AGGGTGGTCAAAATCCTCCGAATGGATTTGTTGTGAAGAAGCGATCTGTTTCACGAATCAACCGCAGACAGACCC
+				</data>
+				<hit pos="1" idx="6" rc="n" pvalue="6.2e-09" match="+ +++  ++++++++++ +  +++ ++ ++ +++ ++++++++++ ++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_03519_+_+_MCKINBCO_03520_+_+_CO_R" comment="Cluster_65428&#13;" length="186">
+			<score strand="both" combined_pvalue="4.40e-04" evalue="1.2"/>
+			<seg start="76">
+				<data>
+AACCTGAGCTGGCCCCCATGACGCCGTGCCCACGGTAGGCCATACCGTGGGTGGCTTGGGTGCAGCGCGGTCTTG
+CCTGCTCGATGCGCAGTGAATACCGAACGCCAGGCA
+				</data>
+				<hit pos="105" idx="3" rc="y" pvalue="3.5e-08" match=" ++++++  + + +  + +++ + + ++ ++ ++ ++ +++  + + +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_03541_+_+_MCKINBCO_03542_+_+_DT" comment="Cluster_165682&#13;" length="34">
+			<score strand="both" combined_pvalue="4.41e-04" evalue="1.2"/>
+			<seg start="1">
+				<data>
+CCCCACTGTGGGGGCCGCTTGACGGCCCCCACAG
+				</data>
+				<hit pos="10" idx="0" rc="y" pvalue="9.4e-08" match=" ++++++++++  +++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_04020_+_+_MCKINBCO_04021_+_+_DT" comment="Cluster_136663&#13;" length="72">
+			<score strand="both" combined_pvalue="4.78e-04" evalue="1.3"/>
+			<seg start="1">
+				<data>
+CAAGCCCTGAATTGCCGGTACAAAAAAACCCGACCAGGCCAGAAGCCTGATCGGGTTTTTTCAGGGCTGCGA
+				</data>
+				<hit pos="1" idx="3" rc="n" pvalue="3.6e-06" match="++  ++ ++   ++++++  + ++   + ++ + +  + + +++++ ++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_01465_+_+_MCKINBCO_01466_+_+_CO_F" comment="Cluster_122475&#13;" length="90">
+			<score strand="both" combined_pvalue="4.97e-04" evalue="1.4"/>
+			<seg start="1">
+				<data>
+GCGGTCTTTTCGCAGGAAGCCCCCACAAGCCAGCCTTCGCGCTGGCTTGTGTGTATTCAAGCCATGACTATTTGG
+				</data>
+				<hit pos="1" idx="3" rc="n" pvalue="6.7e-06" match="  +  +++  ++ ++ + +++    + +++++  +   ++   +++ ++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00763_+_+_MCKINBCO_00764_+_+_DT" comment="Cluster_109166&#13;" length="111">
+			<score strand="both" combined_pvalue="5.20e-04" evalue="1.4"/>
+			<seg start="1">
+				<data>
+TATTCAAAGCCCTGATTATTCAGGGCTTTTTGCGTTTCTGGGGCATACAAAAGTCACCCGCTCAAACACCGTTCG
+				</data>
+				<hit pos="6" idx="1" rc="y" pvalue="3.7e-07" match="+++ +++ + +++    ++++++++++  "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02195_+_+_MCKINBCO_02196_+_+_CO_R" comment="Cluster_71029&#13;" length="174">
+			<score strand="both" combined_pvalue="5.20e-04" evalue="1.4"/>
+			<seg start="76">
+				<data>
+CCGTGACAGCGTGTTTACGAAAAAAGGGCGGTGATTCTAACGAAAAAACCCGCGCCAGGCGCGGGTTTCTTTCGA
+				</data>
+				<hit pos="116" idx="1" rc="n" pvalue="3.5e-07" match="  ++++++ ++++ ++  + ++++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02345_+_+_MCKINBCO_02346_+_+_CO_R" comment="Cluster_127218&#13;" length="86">
+			<score strand="both" combined_pvalue="5.45e-04" evalue="1.5"/>
+			<seg start="1">
+				<data>
+GTGTCTTCCCCAAGAAATGCGAATGCAAATTTTTCTTATGTATGGGTGTGACGCAGCACGCCTCGCATTCCCCGC
+ACGAAGCGCAT
+				</data>
+				<hit pos="37" idx="3" rc="n" pvalue="1.3e-05" match=" +    + +  +++ +++  +   +++ ++  + ++ +  +++++++   "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00107_+_+_MCKINBCO_00108_+_+_CO_F" comment="Cluster_38450&#13;" length="269">
+			<score strand="both" combined_pvalue="5.45e-04" evalue="1.5"/>
+			<seg start="1">
+				<data>
+GTAGCCCATCAACCTGTTAGGGGGCCGCTGCGCGGCCTCCCCGGCCTCAAGCGACCCATCAAGATCCCGACCCCG
+				</data>
+				<hit pos="20" idx="0" rc="n" pvalue="8.1e-08" match=" +++++++++  ++++++ + "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02420_+_+_MCKINBCO_02421_+_+_CO_F" comment="Cluster_87585&#13;" length="141">
+			<score strand="both" combined_pvalue="5.54e-04" evalue="1.5"/>
+			<seg start="1">
+				<data>
+TCACTCGACCGATTGAAAAAGCCCCCGCTCAGCGGGGGCTTTTTTTATTGGGTTGACACCAAATGGGGGCATCTA
+				</data>
+				<hit pos="18" idx="1" rc="y" pvalue="6.3e-08" match="+++ +++++ ++ ++ ++++  +++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_01250_+_+_MCKINBCO_01251_+_+_CO_F" comment="Cluster_39198&#13;" length="265">
+			<score strand="both" combined_pvalue="5.71e-04" evalue="1.6"/>
+			<seg start="1">
+				<data>
+TCGCGCCGAAGTCGCACAACCTGGGAGTTCCCCAACGGCGAGCGTCGCATCATGCATCGTTCAGGGCTGCCCCGC
+AGCCCATCGCCGTTGAGCCAGGCGCTTAACGACTTTAAAGTTGTTGCAGGCCTCAGGTTTGAACGCTCACGGATC
+				</data>
+				<hit pos="62" idx="0" rc="n" pvalue="8.1e-09" match=" ++++++++   +++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_04176_+_+_MCKINBCO_04177_+_+_CO_F" comment="Cluster_142568&#13;" length="64">
+			<score strand="both" combined_pvalue="5.79e-04" evalue="1.6"/>
+			<seg start="1">
+				<data>
+ATTGACGTATGGCTAAAGCCCGCTTCGGCGGGCTTTTTTCATGGTGCAGCCTGAGGAGTACAGC
+				</data>
+				<hit pos="14" idx="1" rc="y" pvalue="6.4e-07" match=" +++++++++++ ++ ++++++++++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_03444_+_+_MCKINBCO_03445_+_+_CO_R" comment="Cluster_141225&#13;" length="66">
+			<score strand="both" combined_pvalue="5.85e-04" evalue="1.6"/>
+			<seg start="1">
+				<data>
+TGCTGGAACTCGCCCTGGAAAAAAAACCAGGCCAGGGGCGCCAGACGCCCCTCGCGTTTTGCGGTA
+				</data>
+				<hit pos="20" idx="2" rc="y" pvalue="2.6e-05" match="++++++++"/>
+				<hit pos="33" idx="0" rc="y" pvalue="4.7e-05" match="  +++ +++ +  ++ ++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_03796_+_+_MCKINBCO_03797_+_+_CO_R" comment="Cluster_19918&#13;" length="388">
+			<score strand="both" combined_pvalue="6.14e-04" evalue="1.7"/>
+			<seg start="151">
+				<data>
+GTGATCGCGGCAGGCGCCGTTTTTGTAGGGGCCGGCAAACCGGGTCCAGCCTGAACCCGGGTTGCCCTGGACACA
+				</data>
+				<hit pos="175" idx="3" rc="y" pvalue="2.0e-05" match="+ + ++ +++++    +  + + ++  +   +++++  ++ + +++ +  "/>
+			</seg>
+			<seg start="226">
+				<data>
+GATGTATCGCCCGGTGACCAGGCTTTGCCAAAGGAAGAAAGGCCGTGGGGCGGCCTCTGCCCATTGGGCACTGCC
+				</data>
+				<hit pos="263" idx="0" rc="n" pvalue="1.0e-07" match="++ +++++    ++++++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00082_+_+_MCKINBCO_00083_+_+_CO_F" comment="Cluster_88217&#13;" length="142">
+			<score strand="both" combined_pvalue="6.21e-04" evalue="1.7"/>
+			<seg start="1">
+				<data>
+AGGCTGCTCTTGGCGCGCTGGCGAGAGCGCAAGCGTGGCGAGCCCTGGGGCATTGCAACATCCAGTAACGGCAAT
+				</data>
+				<hit pos="4" idx="3" rc="n" pvalue="8.9e-06" match="+ ++ ++++ ++ ++ ++   ++ +  +  + ++ + ++++  ++ +   "/>
+			</seg>
+			<seg start="76">
+				<data>
+AGGGGTGAGCCTTCAAATGGGATTCACTACCATCTGCGCCTCTCTAATCGATCGAGGAGCGCCTTCC
+				</data>
+				<hit pos="90" idx="5" rc="n" pvalue="3.7e-07" match="+++++ ++++++ ++ +++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_03236_+_+_MCKINBCO_03237_+_+_DT" comment="Cluster_18328&#13;" length="407">
+			<score strand="both" combined_pvalue="6.55e-04" evalue="1.8"/>
+			<seg start="151">
+				<data>
+AGCTTCGCACCCCATATTGCCGGGGCCGCTTCGCGCCCCATCGCGGCACAAGGGCCGCTCCCACACGGGAGTCGG
+				</data>
+				<hit pos="171" idx="0" rc="y" pvalue="4.1e-08" match=" ++++++++++ +++ +++ +"/>
+			</seg>
+			<seg start="226">
+				<data>
+TAGCGTTCGGATCCGGTGGCCTACAAGAGTAGGAGCGATCTTGCCGGGGCGCCGGACCGACCGCGACGGGCTGCG
+CAGCAGCCCCTGAATCTCAGATTCCGTACCGCTGGAACCGCTTCACGGACGCGATGGCCCTCGAAGGTTGCGCAA
+				</data>
+				<hit pos="291" idx="0" rc="y" pvalue="4.8e-09" match="+ +++++++  ++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02869_+_+_MCKINBCO_02870_+_+_DT" comment="Cluster_116950&#13;" length="100">
+			<score strand="both" combined_pvalue="6.59e-04" evalue="1.8"/>
+			<seg start="1">
+				<data>
+TTGCGCGGCTGTCGTGATGCGCCAGCCCATCGCCGAGAGGCTGGCGATGGGCTGCGAAACCGCCCCGAGAGCGCA
+				</data>
+				<hit pos="47" idx="0" rc="y" pvalue="3.7e-08" match="+++++++++ ++ + +++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_01776_+_+_MCKINBCO_01777_+_+_CO_R" comment="Cluster_18922&#13;" length="400">
+			<score strand="both" combined_pvalue="6.65e-04" evalue="1.8"/>
+			<seg start="1">
+				<data>
+TTCGTATTCTTCTCCAAAAGCCATAACATACCGAAACACATACTAGATGAAGATATACTCCAGGCAAATTAACCT
+				</data>
+				<hit pos="7" idx="6" rc="n" pvalue="6.7e-08" match="++  + + +++++++++  +++++  + + ++  ++ ++++++++ ++ +"/>
+			</seg>
+			<seg start="151">
+				<data>
+TATGTGGCTTTGAATCGAGCATCGCAACAGCGACCTTTACATTGCCATGGCTAGCTATCACTTCGGCACTCATTA
+				</data>
+				<hit pos="166" idx="3" rc="n" pvalue="6.2e-05" match="+   + + ++ + ++++  +   ++ + ++++++ + +++     + +  "/>
+			</seg>
+			<seg start="226">
+				<data>
+GCAAGCATTGGAATGCTTGGATCAGGATTCCAATGCTCACTTGGGCCTGGCCAGCCCACATCAGGCAACGCTGGG
+				</data>
+				<hit pos="235" idx="3" rc="y" pvalue="6.6e-06" match="+ +  +++ ++ +  + ++  + + + ++     +++ ++++ ++  +  "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_01002_+_+_MCKINBCO_01003_+_+_CO_R" comment="Cluster_66626&#13;" length="182">
+			<score strand="both" combined_pvalue="7.01e-04" evalue="1.9"/>
+			<seg start="1">
+				<data>
+TCGTTGACTCGCTAAGCGTGATGGCTTCGAGGCCGCCTGGCGGCCTATCGCGGCACAAGGCCGCTTCCACAGGTA
+				</data>
+				<hit pos="28" idx="0" rc="n" pvalue="3.5e-08" match=" + ++++++ + ++++++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02698_+_+_MCKINBCO_02699_+_+_CO_R" comment="Cluster_81182&#13;" length="154">
+			<score strand="both" combined_pvalue="7.07e-04" evalue="2"/>
+			<seg start="1">
+				<data>
+GGATACTCCTGAGGGCGGACAGGGGCCGCAGAGCGCCACCTGAGCAAAACGACGAGGTGACTGGGCGGCCCTTGG
+TGCTAACCGCCCAAGCCTACCACATCACGCCTGGCTTGAAGCCGCCCCAGACTGTCGGTTGGCCAAACATGAAAA
+				</data>
+				<hit pos="21" idx="0" rc="y" pvalue="3.8e-06" match="++++++++++ ++++ + +++"/>
+				<hit pos="66" idx="3" rc="n" pvalue="4.1e-06" match="+ +++++++  +     ++++ ++ +   +++ + ++ +++ +++     "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_01924_+_+_MCKINBCO_01925_+_+_DT" comment="Cluster_95245&#13;" length="131">
+			<score strand="both" combined_pvalue="7.14e-04" evalue="2"/>
+			<seg start="76">
+				<data>
+CTGAGGCCGCTGTGCGGCCTCAGCCACGGCCACCCCGGCCAACCCACTGCCCCAGG
+				</data>
+				<hit pos="77" idx="0" rc="n" pvalue="6.6e-09" match="++ +++++++ +++++++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_01294_+_+_MCKINBCO_01295_+_+_CO_R" comment="Cluster_6180&#13;" length="629">
+			<score strand="both" combined_pvalue="7.16e-04" evalue="2"/>
+			<seg start="151">
+				<data>
+CTATTACAAACCGTTAGCAGCTTGTGCCCATGTAAGGCGGGGGGCAGTCCTGCAGCGCCTGGCCTCGCGCCAGCC
+				</data>
+				<hit pos="167" idx="3" rc="y" pvalue="9.2e-09" match="+++   +  + ++  +++ +++  ++  + + ++ +++  ++ +++ ++ "/>
+			</seg>
+			<seg start="451">
+				<data>
+GCTGGGCTTGAGCAGACAGCGTCGCAGGCCGGCACTGCCAGAGCCCACTGCGCCTGTTGAATCGTACCCTTGCCG
+CGTTGTTGGTCGTCAGCGCAGCAGGGCTAGTCATCTAGCTTCTGCGATTTGCCGAGGACCTCAAGCATCGCCGCC
+				</data>
+				<hit pos="479" idx="3" rc="n" pvalue="1.6e-05" match="+ + +  +++++ +++ + + +  +++    ++ +  + ++  ++++ + "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_04261_+_+_MCKINBCO_04262_+_+_DT" comment="Cluster_120458&#13;" length="95">
+			<score strand="both" combined_pvalue="7.63e-04" evalue="2.1"/>
+			<seg start="1">
+				<data>
+TAGAGGACATTCACCCGATTCACCAGGCACGCCCCACCAGGGCGGCGGGCTGAGGCCCAAGGGCCCCTTCATGGG
+GCCCTTTTTTTGTGCGCGGG
+				</data>
+				<hit pos="58" idx="1" rc="y" pvalue="2.9e-07" match=" ++ + ++++++ + ++++++ +++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00144_+_+_MCKINBCO_00145_+_+_CO_R" comment="Cluster_17150&#13;" length="421">
+			<score strand="both" combined_pvalue="8.24e-04" evalue="2.3"/>
+			<seg start="376">
+				<data>
+AAAACCGGCGCTCAGGGCGCCGGTTCTTGTCCTGCCGGGATGGGTG
+				</data>
+				<hit pos="376" idx="1" rc="y" pvalue="1.4e-06" match="+++++++++ ++ ++++++++  ++ ++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02435_+_+_MCKINBCO_02436_+_+_CO_F" comment="Cluster_56407&#13;" length="209">
+			<score strand="both" combined_pvalue="8.29e-04" evalue="2.3"/>
+			<seg start="1">
+				<data>
+TCGCTGCAGGTTGAGTCATCGGCGTAGGGGGTTAATCTTCCGACCGCCGGTGACGCTTCCCACGAACAAGCCCCT
+ACATGGGGCTTGTTTCGTTTCTGGCTTGTGTCTAGAATGACCGGCTCACCTGAGCCTGGGTCTCGTGCCCTGCCT
+				</data>
+				<hit pos="65" idx="1" rc="y" pvalue="1.5e-07" match="++ ++ +++++  + +++++++ +++  +"/>
+			</seg>
+			<seg start="151">
+				<data>
+GTTCAGGTGGTTGTGATAGCCGCAAGGCTAATAATTCTTGTATCAGGAGCATCTAGCCC
+				</data>
+				<hit pos="173" idx="5" rc="n" pvalue="4.3e-05" match=" ++ ++++++ ++++++ + "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02833_+_+_MCKINBCO_02834_+_+_CO_F" comment="Cluster_17408&#13;" length="407">
+			<score strand="both" combined_pvalue="8.43e-04" evalue="2.3"/>
+			<seg start="1">
+				<data>
+TTTCTTCCAATTTTCCTTGAAGGGCCGCAGATTGTGGCCCTTTTTTATGGAAATCTTAATTTTCCTGCTGCTTTA
+				</data>
+				<hit pos="19" idx="1" rc="y" pvalue="1.5e-06" match=" ++ + +++++ +  + ++++ ++++++ "/>
+			</seg>
+			<seg start="151">
+				<data>
+TCACAAGAATCCAACTTCCGCTGTAGTGGGACTGCCAGAAGCAGACCCGCTAAGCAGATCATGAGGCGCACACCC
+GCGCCGACCTGTTACACCCCGCAACGCGTTACCTCGCGCTGGGTGGGAAACCCCCGCAACACTCTGGGGAGCTCC
+				</data>
+				<hit pos="223" idx="3" rc="n" pvalue="1.8e-05" match="+   +   + + ++  ++ ++   +   ++  ++++  ++   ++   + "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_03689_+_+_MCKINBCO_03690_+_+_CO_R" comment="Cluster_119634&#13;" length="96">
+			<score strand="both" combined_pvalue="8.43e-04" evalue="2.3"/>
+			<seg start="1">
+				<data>
+AGCGCTCTCCATCTGATAAAGCAAAGACGCGCCCACGGCGCGCCGTCCAATGCTACAGAATGCCTGTCACTGCTG
+				</data>
+				<hit pos="24" idx="3" rc="n" pvalue="8.9e-07" match=" ++ +    +++ +++++++++  +   ++ + +  + +++ + +  +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_01862_+_+_MCKINBCO_01863_+_+_DT" comment="Cluster_102125&#13;" length="120">
+			<score strand="both" combined_pvalue="8.61e-04" evalue="2.4"/>
+			<seg start="76">
+				<data>
+AGTGGCAACCGCACCCTGGGCCGCCAGGCGACCCAGGGCGCAGGC
+				</data>
+				<hit pos="91" idx="0" rc="y" pvalue="3.7e-08" match=" ++++++++ + +++ +++  "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_04212_+_+_MCKINBCO_04213_+_+_DT" comment="Cluster_68651&#13;" length="179">
+			<score strand="both" combined_pvalue="8.69e-04" evalue="2.4"/>
+			<seg start="1">
+				<data>
+CATTCTACGAAAGGCCCCTGTGCTGCAAAGCATGGGGGCTTTTTGTTTTAGGGTGTTCGTTGCTGGAGCTGGCGG
+TGTTGTGTGAGGCACGGGCTGCAGCGTTGCAGCGGAAATCGCCGGGGCCGCGCCCCGACCCCGGCAATTCCTGCT
+				</data>
+				<hit pos="47" idx="3" rc="y" pvalue="9.3e-06" match="    ++ +   + + +++ +    ++    +    ++  ++++ ++++++"/>
+				<hit pos="118" idx="0" rc="y" pvalue="3.4e-07" match=" ++++++++    ++ ++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02365_+_+_MCKINBCO_02366_+_+_CO_R" comment="Cluster_3665&#13;" length="728">
+			<score strand="both" combined_pvalue="8.74e-04" evalue="2.4"/>
+			<seg start="601">
+				<data>
+GGCGCAAAGATACTCAGATAGCAAGAGCTGGTATGGAATCGAAGGCACTGCATGAAACAGAAAGCCCGCACTAGG
+CGGGCTTCTGACGAGTGCCGTACGACTGCTTGGCACTGCATGAATCTACTGAC
+				</data>
+				<hit pos="656" idx="1" rc="n" pvalue="1.1e-08" match="++++ +++++++++ ++++++++++++ +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_01490_+_+_MCKINBCO_01491_+_+_DT" comment="Cluster_94554&#13;" length="132">
+			<score strand="both" combined_pvalue="8.99e-04" evalue="2.5"/>
+			<seg start="76">
+				<data>
+AAGTCAAAAAAAAGCCGACCCCAAGGGGATCGGCTTGATAACAGCCCCGAAGGACTA
+				</data>
+				<hit pos="86" idx="1" rc="y" pvalue="5.4e-06" match="+++ +++ +++ ++++++  +   +++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00063_+_+_MCKINBCO_00064_+_+_DP" comment="Cluster_85653&#13;" length="147">
+			<score strand="both" combined_pvalue="9.05e-04" evalue="2.5"/>
+			<seg start="1">
+				<data>
+ATGTGTCTCGACGTGAACAGTGCCCGCTACCACAATGTCTGCAACCGTGTGCCATGGCTTGCCCTGGCGTGTAAC
+ACAGGCGTCATAATGGGCGCTTATCTTGCCGCTCAATTGATGATAGGGCGTTAACGTCCTCAGGACCGCCAG
+				</data>
+				<hit pos="17" idx="3" rc="y" pvalue="6.5e-05" match=" ++  +++++      ++  +   +   + + ++++++++++ ++  +++"/>
+				<hit pos="71" idx="1" rc="n" pvalue="5.9e-07" match=" +++ + +++++ + + ++++++++++ +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00529_+_+_MCKINBCO_00530_+_+_CO_F" comment="Cluster_66330&#13;" length="184">
+			<score strand="both" combined_pvalue="9.19e-04" evalue="2.6"/>
+			<seg start="1">
+				<data>
+TGCGCCTGCCTCAACCGCTGCCAGCCCACTCGCGGCAGCGCGCCACGCGCCCTGCTGGACGCAGTGAAATTATTT
+				</data>
+				<hit pos="6" idx="3" rc="n" pvalue="1.9e-05" match="+ +++    +++  ++  +++ +  +  + ++   +    ++ +++ +++"/>
+			</seg>
+			<seg start="76">
+				<data>
+TTACGCGATAGCCCTTCCCTGTCCGTCTCGTCATAGCCAATGCAATTGATTCTTGTTCAATCAAGAACGCACACC
+				</data>
+				<hit pos="113" idx="5" rc="n" pvalue="3.7e-07" match=" +++++ +++ ++++++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02044_+_+_MCKINBCO_02045_+_+_CO_R" comment="Cluster_127894&#13;" length="85">
+			<score strand="both" combined_pvalue="9.32e-04" evalue="2.6"/>
+			<seg start="1">
+				<data>
+GATGTCCTCCAAGGACCGCAGTTTTGTCCAAGTTAATGCTGACGAGGTCAACAGGAAACTGGCAAAAATGACGGT
+TTTTTGAGGA
+				</data>
+				<hit pos="55" idx="1" rc="y" pvalue="4.4e-07" match=" ++++ +++ + ++ + +++++++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_03812_+_+_MCKINBCO_03813_+_+_CO_R" comment="Cluster_19890&#13;" length="390">
+			<score strand="both" combined_pvalue="9.79e-04" evalue="2.7"/>
+			<seg start="1">
+				<data>
+CGAAAGCCTGCTCAGCCGCTTCGGCGTTAGTGTCTGAACACTTTTTATACAAACCCTAGGATTGTGGCCTAAACC
+				</data>
+				<hit pos="3" idx="0" rc="y" pvalue="3.8e-05" match="+  + +++++ +++ ++  + "/>
+			</seg>
+			<seg start="76">
+				<data>
+TGCTCGGCATCGGCCGTATCCCGCTAAAACCGGAAAAATTGCTGAGATCGCGTTCGGCTCATATGCGTCACATCT
+ATTTGCATTGCCTGCTAGTATTTCCGATGTCATATGAACAATTTCAATGCGCTGAAGTTGAATGGCTAAAAGACT
+				</data>
+				<hit pos="147" idx="6" rc="n" pvalue="4.3e-08" match="++  ++++  +++++++ +   +++ ++ +++++ + + ++  ++ +++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02278_+_+_MCKINBCO_02279_+_+_CO_F" comment="Cluster_102308&#13;" length="120">
+			<score strand="both" combined_pvalue="1.00e-03" evalue="2.8"/>
+			<seg start="1">
+				<data>
+GCGGAACGCTCGCTGACGAAAAGCGCCCCGCCCCAGCACATCCGCTGGGGCGGGGCTTTTTTGCCATCCCCGTTG
+				</data>
+				<hit pos="31" idx="1" rc="n" pvalue="1.8e-05" match="  + +  +   ++ ++  +++++++ +++"/>
+			</seg>
+			<seg start="76">
+				<data>
+GCGCTGGTCGCAAACGCCCTCGGGGGGCTATTTTGGAGAAACAAA
+				</data>
+				<hit pos="82" idx="1" rc="n" pvalue="6.7e-05" match=" ++  +++ ++++ +   ++++  ++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00819_+_+_MCKINBCO_00820_+_+_CO_F" comment="Cluster_55818&#13;" length="210">
+			<score strand="both" combined_pvalue="1.02e-03" evalue="2.8"/>
+			<seg start="1">
+				<data>
+CCACTTCTCATTAAAGCCCTGATTTTTCAGGGCTTTTTTGTGTCCAAACGATTTCCGCCTTTTGCTCAAGCCCTG
+				</data>
+				<hit pos="13" idx="1" rc="y" pvalue="2.0e-07" match="+++ +++ + ++     ++++++++++ +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00784_+_+_MCKINBCO_00785_+_+_DP" comment="Cluster_129901&#13;" length="82">
+			<score strand="both" combined_pvalue="1.04e-03" evalue="2.9"/>
+			<seg start="1">
+				<data>
+TCGGCCTCCCAGCCTCTGAAATGCAGACATAAAAAAACCGCCTGGCAGGGCGGTCTTCTGAACAACATTAACGGA
+				</data>
+				<hit pos="34" idx="1" rc="y" pvalue="3.7e-06" match="+++++++++    ++++++++ ++ +++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_01234_+_+_MCKINBCO_01235_+_+_CO_R" comment="Cluster_65719&#13;" length="184">
+			<score strand="both" combined_pvalue="1.06e-03" evalue="2.9"/>
+			<seg start="1">
+				<data>
+GGCGATGTCCCTCGTCACATGGATTCCTTCAGGGTAGACAGCAGCATAGGCAAAAAGCGCCGCACGCGTCGGTGC
+GGCGCGAAAGTATGCGCTGTGGGCGTGCGTGGCGGAAGGCCTGCCCAGGCAGTTGCGCCAGGTCAAGGCACACCG
+				</data>
+				<hit pos="57" idx="3" rc="y" pvalue="2.6e-06" match="++ + ++ ++  + +++  +++  +       +++++ +++    +  ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02735_+_+_MCKINBCO_02736_+_+_CO_F" comment="Cluster_92173&#13;" length="136">
+			<score strand="both" combined_pvalue="1.13e-03" evalue="3.2"/>
+			<seg start="76">
+				<data>
+GACACCGCGCCCTCAGTCGTTTTTTTACACCCGCGAAATATAAAGTTTAGTGGAGGCGCCG
+				</data>
+				<hit pos="76" idx="1" rc="y" pvalue="4.8e-06" match=" + ++++++++   ++ ++ ++++++   "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_01114_+_+_MCKINBCO_01115_+_+_DP" comment="Cluster_5900&#13;" length="639">
+			<score strand="both" combined_pvalue="1.15e-03" evalue="3.2"/>
+			<seg start="1">
+				<data>
+AAAACTACCTTTGCAAGGAGTAGATCACATCGGTTGCACAAGCGCGGCTCGCATCTGGATGCATGCACGGCGGCA
+ACCGTTGATTGGATACTGGCAATAACCGCGCCATGTGCTACACGCACTCCACCAGACCACGCCCGAAGCCAACAA
+				</data>
+				<hit pos="28" idx="3" rc="n" pvalue="4.4e-05" match="++ +  ++++   ++++++ +   + +    ++++  +  +++ +    +"/>
+			</seg>
+			<seg start="226">
+				<data>
+TTACAAATGCACCAAAGGTGCCCCTCGGTAACACCTGCGCACCATCACAAGGCAAACAGGGCGCAACCCTTCGGT
+ACAACCCTGGACCGCGCCGGGGGTCAGAAAGGCTGCACTGGGGCGCCTTAACAGGCTGCCCGGACAGTCAGGTTC
+				</data>
+				<hit pos="268" idx="3" rc="n" pvalue="2.8e-08" match="++ + ++ + ++ ++ ++++  ++++   +  +++ +  + ++++++ ++"/>
+				<hit pos="328" idx="0" rc="y" pvalue="6.3e-05" match="+  +++++++  + +++ +++"/>
+			</seg>
+			<seg start="376">
+				<data>
+GACGGGCACATGGTCCGAAAGCGCTTCCCTGAGACCGTCAAAACTGGCACCATCGCGCCTTTTTTCATCACGGCT
+				</data>
+				<hit pos="414" idx="1" rc="y" pvalue="6.7e-05" match=" +++++ ++++  +  +++++++++++  "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02807_+_+_MCKINBCO_02808_+_+_CO_F" comment="Cluster_43753&#13;" length="248">
+			<score strand="both" combined_pvalue="1.17e-03" evalue="3.3"/>
+			<seg start="1">
+				<data>
+TAGCGGCCTGGTTGGTGGTGTGCATGGCGTGCCGCTGGCTTCGACGGGGCTGTTTCACAGCCTTGTCGTGGGGCA
+				</data>
+				<hit pos="45" idx="0" rc="n" pvalue="1.7e-07" match=" +++++++ ++  +++++   "/>
+			</seg>
+			<seg start="151">
+				<data>
+AGTTGTATCTGGACGGTAGACAGGGCCGATTCCCTGCACTGCCCAAGCATTCGCAAGAAAACAGTTCCCCCAAGA
+				</data>
+				<hit pos="171" idx="0" rc="n" pvalue="7.1e-05" match=" +++++++ ++  + ++ +  "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02529_+_+_MCKINBCO_02530_+_+_CO_F" comment="Cluster_58484&#13;" length="203">
+			<score strand="both" combined_pvalue="1.18e-03" evalue="3.3"/>
+			<seg start="76">
+				<data>
+CACTGCGCGGCCTTTTCGGGCTGCCGCACGTGTTGCGGCAGTAGCGCCGCCCCTGCCAGAGTGGGGCTTCGCGGT
+CGGCCTCATGTGCAGGTACGACCAGTTTTTGTCCTCAGCACCGAGGCACAAAA
+				</data>
+				<hit pos="116" idx="3" rc="y" pvalue="1.0e-05" match="+ +  +++   ++++ ++  +   ++ +  +++  +  +  ++++ ++ +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00093_+_+_MCKINBCO_00094_+_+_DT" comment="Cluster_146965&#13;" length="59">
+			<score strand="both" combined_pvalue="1.18e-03" evalue="3.3"/>
+			<seg start="1">
+				<data>
+GGCCTTCTGCGCCTGCGCGCCTGAAATGAAAACGCCGCCTTCAAGGGCGGCGTTCTGAT
+				</data>
+				<hit pos="26" idx="1" rc="n" pvalue="4.3e-08" match="++ ++++ ++++++++ ++++++++  ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_01320_+_+_MCKINBCO_01321_+_+_CO_F" comment="Cluster_76866&#13;" length="160">
+			<score strand="both" combined_pvalue="1.21e-03" evalue="3.4"/>
+			<seg start="1">
+				<data>
+TCACCGAAGCTGCGTACTATCAAAGGCGCGCTCCCAGGGGCGCGCTTTTTTTGCACGTCGCGACAGGCAATTGTG
+				</data>
+				<hit pos="22" idx="1" rc="y" pvalue="2.9e-06" match="+++ +++++++   ++++++    +++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02705_+_+_MCKINBCO_02706_+_+_CO_R" comment="Cluster_470&#13;" length="945">
+			<score strand="both" combined_pvalue="1.24e-03" evalue="3.4"/>
+			<seg start="151">
+				<data>
+CTCATGATCTGGCCTCCTGAACACCGTTACCGGTGGGCGGGTGGAGGTAGCACTGGCTGACTAGACCAGCGCCTG
+				</data>
+				<hit pos="176" idx="3" rc="y" pvalue="9.6e-05" match="+    +   ++ + +++   + +++    +++   +++   ++  + +++"/>
+			</seg>
+			<seg start="226">
+				<data>
+AAGATCCTGAGCCGGGTGAACGCAGCACTGCGATGACCGGGGCATGCCTGACTGTCAGTCAGGTGCAGTCCATTC
+CTTGGCCTGCGGCACCATCATCTACAGCGCTGTTGCTGGTGACATCGTCGTTTGTCACGCCGATTGTCACGAGGG
+				</data>
+				<hit pos="291" idx="3" rc="n" pvalue="3.0e-06" match="+++ ++++ ++ ++++  ++ + +++      +++   ++ +  ++  + "/>
+			</seg>
+			<seg start="826">
+				<data>
+ACAGGGCGGCTTTGCAGCCCTGTTTGGAAGGACCCGTGCTGAGAAGCGGAAAAGCGAGGCTGCTTGCCCCGAATC
+				</data>
+				<hit pos="827" idx="0" rc="n" pvalue="2.5e-08" match=" +++++ ++++++++++++  "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_01770_+_+_MCKINBCO_01771_+_+_CO_R" comment="Cluster_40812&#13;" length="260">
+			<score strand="both" combined_pvalue="1.27e-03" evalue="3.5"/>
+			<seg start="151">
+				<data>
+TTCGAGTTAGGCCGTAGGGGTTGTTGGGTGAAGGGTTCAGCCGTCACTAACGCGAGCGCGATTGAATGAAAAATC
+GTCAATAAAAACCCCCCGTGATGACGTAATGCTGT
+				</data>
+				<hit pos="211" idx="6" rc="n" pvalue="2.9e-07" match="++ ++ +++++++++ +  + +++++ +  + ++ + ++ +++++  + +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00363_+_+_MCKINBCO_00364_+_+_CO_F" comment="Cluster_88219&#13;" length="142">
+			<score strand="both" combined_pvalue="1.28e-03" evalue="3.6"/>
+			<seg start="1">
+				<data>
+ATGAACCAAGCCGGCCATGTTGCCGGCTTTTTCATGGCTGCCATTTGGCTCATGGGCGCTTAGGCCCCGACGCCT
+				</data>
+				<hit pos="7" idx="1" rc="y" pvalue="1.3e-07" match=" ++ ++++++++   +++++++++++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00751_+_+_MCKINBCO_00752_+_+_DT" comment="Cluster_139738&#13;" length="68">
+			<score strand="both" combined_pvalue="1.29e-03" evalue="3.6"/>
+			<seg start="1">
+				<data>
+GCGGGGGCTGCGCAGCAGCCCGGGGTTTCGGCCTCACATGACGAGTCGCCGTCTTCCAGACCAGGTCC
+				</data>
+				<hit pos="3" idx="0" rc="n" pvalue="2.2e-07" match=" ++++++++  ++++++++  "/>
+				<hit pos="44" idx="0" rc="n" pvalue="7.3e-05" match="++  ++++  ++ +++ +++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_01800_+_+_MCKINBCO_01801_+_+_CO_R" comment="Cluster_12718&#13;" length="482">
+			<score strand="both" combined_pvalue="1.30e-03" evalue="3.6"/>
+			<seg start="376">
+				<data>
+GGCTTAGCGGGTGCCGCTCCTAGGTTACGCCTCGCTCGAGGCATTGCTCGAGCCAAAAAAAACCGCCTCAAAGAG
+GCGGTTGGCTGATCCGGGACCTGGCTTGTCTG
+				</data>
+				<hit pos="433" idx="1" rc="y" pvalue="5.9e-07" match="+++++++++++ ++++ +++  ++   + "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_01945_+_+_MCKINBCO_01946_+_+_DT" comment="Cluster_139737&#13;" length="68">
+			<score strand="both" combined_pvalue="1.34e-03" evalue="3.7"/>
+			<seg start="1">
+				<data>
+TCGTGCATGGCAGGTGCCGCTGCGCACTGGCGTGCTTAGCGGCCCCCGGGTGCCCGTGGCTCGGTTGA
+				</data>
+				<hit pos="27" idx="0" rc="n" pvalue="1.7e-05" match="  ++  ++++++++++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00510_+_+_MCKINBCO_00511_+_+_CO_F" comment="Cluster_18346&#13;" length="406">
+			<score strand="both" combined_pvalue="1.44e-03" evalue="4"/>
+			<seg start="76">
+				<data>
+GCCGAAGCCCTTCTGAACGGTTGACACACCATTGCGCCAAAGAAAAATACTGCGCAACCGATGAAAAGCATTCAA
+ATGAAAACCACAAGAAAATTTCGCAATAGCGCTTTTTTTGAGCATTTCTCTCAATTTTTTTTCAACGCTTGCCAA
+				</data>
+				<hit pos="118" idx="6" rc="y" pvalue="5.2e-05" match="++++ + +  + + +   ++ + +  +++    ++++++   + ++  ++"/>
+				<hit pos="181" idx="2" rc="n" pvalue="4.8e-05" match="++++++++"/>
+				<hit pos="204" idx="2" rc="n" pvalue="8.0e-05" match="++++++++"/>
+			</seg>
+			<seg start="301">
+				<data>
+TCTGCCTGGTCAGCGCTCGACTACCAGGCTGAATCGCGTCGCCTCGCCCCCACCTCGTTACTGCTCGGCAGGCCC
+GATCTCGGCCGCACATAAAAGGATTGCTTCC
+				</data>
+				<hit pos="343" idx="3" rc="y" pvalue="6.8e-05" match="     ++++  ++ + ++  +++ ++   + ++   + ++++      + "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_04226_+_+_MCKINBCO_04227_+_+_CO_F" comment="Cluster_15555&#13;" length="442">
+			<score strand="both" combined_pvalue="1.45e-03" evalue="4"/>
+			<seg start="1">
+				<data>
+GCCGCAGGGGTGGGATGAAATGGCAGGGGGGCCGTTGCGCGGCCCCGCGCGCCCTACAGAGGGCTTCGGTGGTTT
+				</data>
+				<hit pos="27" idx="0" rc="n" pvalue="1.6e-08" match=" +++++++ +  ++++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02506_+_+_MCKINBCO_02507_+_+_CO_R" comment="Cluster_75308&#13;" length="165">
+			<score strand="both" combined_pvalue="1.49e-03" evalue="4.1"/>
+			<seg start="76">
+				<data>
+AGAGCGGTTGGTGCATGACAACCGCTCCGGACAAAGGGCCAGTCAAGGCCGGCCTTTGCACCGTAACCGGTGAAA
+				</data>
+				<hit pos="104" idx="1" rc="n" pvalue="1.8e-07" match="  + +++ ++++  ++ ++++++++ +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02678_+_+_MCKINBCO_02679_+_+_CO_R" comment="Cluster_69615&#13;" length="177">
+			<score strand="both" combined_pvalue="1.50e-03" evalue="4.2"/>
+			<seg start="76">
+				<data>
+AGATTGCTTCGCAGGCGATTGGATCGTCAACGGGCCGGTAGTGACAACATAATGCTTCAGGCAAGAAAAAGCCGC
+CTGAAAAGGCGGCTTTTTCAACTTCAC
+				</data>
+				<hit pos="138" idx="1" rc="n" pvalue="2.2e-08" match="++ ++++++++++++  ++ +++++ +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00811_+_+_MCKINBCO_00812_+_+_CO_F" comment="Cluster_146968&#13;" length="57">
+			<score strand="both" combined_pvalue="1.50e-03" evalue="4.2"/>
+			<seg start="1">
+				<data>
+CCCATCAAAATTCAAGCGACCCGGCACACGCCGGTTTTTTTGCCCGGAGAATAGTCT
+				</data>
+				<hit pos="11" idx="1" rc="n" pvalue="2.4e-06" match=" ++++   +++++ +  + ++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00129_+_+_MCKINBCO_00130_+_+_CO_F" comment="Cluster_107786&#13;" length="112">
+			<score strand="both" combined_pvalue="1.52e-03" evalue="4.2"/>
+			<seg start="1">
+				<data>
+ACGGCTAAGCTCTTGCCCAGGGGGGCGCCGCTTCGCCATGAGCAGGCGGCGCAGCCTGGCGGTCTTGCCCGCTCG
+				</data>
+				<hit pos="7" idx="3" rc="n" pvalue="8.6e-07" match=" +++ ++++++  ++ ++++    + + ++++++   ++ +++ ++   +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_01183_+_+_MCKINBCO_01184_+_+_CO_F" comment="Cluster_154673&#13;" length="49">
+			<score strand="both" combined_pvalue="1.67e-03" evalue="4.6"/>
+			<seg start="1">
+				<data>
+TTGGTAGCCTCCAGGGTCGCTGCGCGGCCCGGAGTACCGGAGACACACC
+				</data>
+				<hit pos="12" idx="0" rc="n" pvalue="7.5e-08" match=" ++++ ++++  +++++++  "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02551_+_+_MCKINBCO_02552_+_+_CO_F" comment="Cluster_25125&#13;" length="344">
+			<score strand="both" combined_pvalue="1.69e-03" evalue="4.7"/>
+			<seg start="76">
+				<data>
+GGATATGCCCTGATTCACCCCAAGCTGAACCATGTTTCCTGTCAAACCGCCGATATACAGGCTGTTTTGCGAGCA
+				</data>
+				<hit pos="118" idx="1" rc="y" pvalue="7.2e-06" match=" ++++++++ +++ +  ++++ +++++  "/>
+			</seg>
+			<seg start="226">
+				<data>
+GCCAGGGTGGCTCCAGGTGCGGCTTATACTGACGAGCCAGGCCGGCGCGAGCGAGGGCGTTCGTGGGCCAGGGTC
+				</data>
+				<hit pos="228" idx="3" rc="n" pvalue="6.5e-06" match="+++       +  ++ +++ +  +    + + +++++++++++ +++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00046_+_+_MCKINBCO_00047_+_+_DP" comment="Cluster_48443&#13;" length="232">
+			<score strand="both" combined_pvalue="1.74e-03" evalue="4.8"/>
+			<seg start="1">
+				<data>
+GGGCGCTCCATTCGCTGCCAAGACCGCTTCCTGCGGCTGGATTCAGCACAGCGAGCCGGGACGGGGCAGGGGATG
+				</data>
+				<hit pos="26" idx="3" rc="y" pvalue="1.8e-07" match="++   ++ +++++ + ++  ++   +   + ++ + +  ++++ +++ ++"/>
+			</seg>
+			<seg start="76">
+				<data>
+CCAGTGTGCTTCTGATCATTTCTACCGGTGCACCGCCTAGTAATGGATCCAATAGTTTTGCGCAGCGGCCTTCTT
+				</data>
+				<hit pos="128" idx="0" rc="y" pvalue="8.0e-05" match="+ +   +++  +++++++ + "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00097_+_+_MCKINBCO_00098_+_+_CO_F" comment="Cluster_78997&#13;" length="158">
+			<score strand="both" combined_pvalue="1.88e-03" evalue="5.2"/>
+			<seg start="1">
+				<data>
+GCCTGATGTAGCATTTTCGGACCGGGTATTCCCGGTCCGAAACCAGTGAAAGGCAATTGAACATTGCGGCATCGA
+AGCTGCGAAGGTAAGTTGCGCGCCGGTTTTGCGTGTGCGGCAGCATTGCCGCTACCCAGACACTGATTGTGAGGA
+				</data>
+				<hit pos="40" idx="6" rc="n" pvalue="3.9e-05" match="+      + +++ ++++    + ++ ++ +++   +++  +++++  +  "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_01300_+_+_MCKINBCO_01301_+_+_CO_R" comment="Cluster_68652&#13;" length="179">
+			<score strand="both" combined_pvalue="2.03e-03" evalue="5.6"/>
+			<seg start="1">
+				<data>
+CATCGACTCCTTGGCCGGTTAACGGTGCCCAGGAGTCAGATGGAAAAAACCCGCCTCCGGGGCGGGTTCGGTGCA
+				</data>
+				<hit pos="42" idx="1" rc="n" pvalue="5.1e-07" match="  ++++++ +++++++  +++++++++  "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00923_+_+_MCKINBCO_00924_+_+_DT" comment="Cluster_5479&#13;" length="653">
+			<score strand="both" combined_pvalue="2.08e-03" evalue="5.8"/>
+			<seg start="301">
+				<data>
+TGCAGTACAGTTAGGCTTCAGGGAGCGACACTGAGTTAGGAAATTCATACACGAACTTCACCAGCATCTCGGTGA
+ATTTTACCAGCTCGTTAGCGTCTTGCTTGCTCACAAGTGCAATTTCGTGGGTGGCTTCGTTTCCCTTGTTCCGAA
+				</data>
+				<hit pos="332" idx="6" rc="n" pvalue="3.8e-09" match="+  +++ + ++++++++++++ ++  +++ +++ ++ + ++++++ +++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_04178_+_+_MCKINBCO_04179_+_+_DT" comment="Cluster_118864&#13;" length="98">
+			<score strand="both" combined_pvalue="2.08e-03" evalue="5.8"/>
+			<seg start="1">
+				<data>
+CAGCGCAGGTCGCGTCGGGGCCCAACGGGATTCGGTTTATAGCCTAAATGAAAACGCCCCGAACCAGTCGGGGCG
+TTTGCTATCGACGCGTCAGCGAA
+				</data>
+				<hit pos="5" idx="0" rc="y" pvalue="4.0e-05" match="   ++ +++ + + +++++ +"/>
+				<hit pos="53" idx="1" rc="y" pvalue="1.2e-05" match="++  +++++ +  ++ ++++   ++++ +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_01151_+_+_MCKINBCO_01152_+_+_CO_R" comment="Cluster_91840&#13;" length="136">
+			<score strand="both" combined_pvalue="2.26e-03" evalue="6.3"/>
+			<seg start="76">
+				<data>
+TGAAGCTCCCAGCAAAAAGCCGCCCCGAAGGGCGGCCTCTTTGATTGCAACCTGCTTCAGC
+				</data>
+				<hit pos="91" idx="1" rc="y" pvalue="3.2e-07" match="+++ +++++++ +++++++++ + +++  "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_03544_+_+_MCKINBCO_03545_+_+_CO_F" comment="Cluster_86424&#13;" length="145">
+			<score strand="both" combined_pvalue="2.27e-03" evalue="6.3"/>
+			<seg start="1">
+				<data>
+TTTTTCTGCGCTAAGCTCAGAAAGTCGCCAGGCGTTCGGGCAAGCCGCCCTGCCTTCCCAAGGAAGGCGACGGCT
+TGAACGAACGCCTTTTTAGTGGGCGCAATTTGCCCAGGTGCCGTCGGCGACCTGAAAAGGGGATTACAGC
+				</data>
+				<hit pos="29" idx="3" rc="n" pvalue="2.9e-07" match="+++ + ++   + +   ++++   +++  +++++  ++++   +++ ++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02159_+_+_MCKINBCO_02160_+_+_DP" comment="Cluster_43387&#13;" length="249">
+			<score strand="both" combined_pvalue="2.39e-03" evalue="6.7"/>
+			<seg start="76">
+				<data>
+TCGGTTCTTGACTTATTCGAAGAATGTTGGTCCAGGCTGGCGGGCAAGAGCAGACAGCATGATGCCGTGCCTGGG
+CGCAGCCAGCGGCCTTGGCCGACGTGCAGCATATAGATAGCACCCGGTGCCGCGGCACGCTTGGAACAGTGTGGT
+				</data>
+				<hit pos="111" idx="3" rc="n" pvalue="1.9e-06" match="     +  ++ + +++++ + + +    +++ ++++ ++ ++ +++  ++"/>
+				<hit pos="164" idx="0" rc="n" pvalue="2.4e-05" match="   +++++   ++++++  ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_03046_+_+_MCKINBCO_03047_+_+_CO_R" comment="Cluster_38931&#13;" length="266">
+			<score strand="both" combined_pvalue="2.45e-03" evalue="6.8"/>
+			<seg start="1">
+				<data>
+CCGTCTCTCGAAAATCGCTAATGGTCTGGAGATGTTTTCTGGGCAAGCACACGGCCCAGCACCGGTCAGTCTAGT
+				</data>
+				<hit pos="39" idx="0" rc="y" pvalue="7.1e-05" match=" +++++    +  ++++++  "/>
+			</seg>
+			<seg start="76">
+				<data>
+TATTGGCCTGTGGCCTGGCCCGACAACGTGCGACAGGGTGCCGCTGCGGGCAAAACCGGCATTGTACATGGCTGG
+				</data>
+				<hit pos="88" idx="3" rc="y" pvalue="7.9e-05" match="++  ++++++ +   ++  + +  +++ + ++   +  +   +  +++  "/>
+			</seg>
+			<seg start="151">
+				<data>
+GCCTGTCAATTCATGACAAAACCGCCACTTTGCACCGCTCTTGTCCGTAGGTGAACCCCACCCGCAAGCTGTTCA
+				</data>
+				<hit pos="163" idx="1" rc="n" pvalue="6.4e-07" match="++ + +++++++++ ++ +++ + + + +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_04299_+_+_MCKINBCO_04300_+_+_CO_F" comment="Cluster_87641&#13;" length="143">
+			<score strand="both" combined_pvalue="2.61e-03" evalue="7.3"/>
+			<seg start="1">
+				<data>
+GGCTCAGACTGTCCTTTGTAAAAAACTGTTATAAAAAAACAGCCTGTCACGGCTCTTTTGTAGGATTCTGCGACA
+				</data>
+				<hit pos="30" idx="1" rc="n" pvalue="2.6e-06" match=" + ++++++ + ++++    +++ + +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02616_+_+_MCKINBCO_02617_+_+_CO_R" comment="Cluster_119746&#13;" length="96">
+			<score strand="both" combined_pvalue="2.62e-03" evalue="7.3"/>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00987_+_+_MCKINBCO_00988_+_+_CO_F" comment="Cluster_81759&#13;" length="153">
+			<score strand="both" combined_pvalue="2.68e-03" evalue="7.4"/>
+			<seg start="76">
+				<data>
+CCGAGCCCGCAGCGCGGCCCGTCTTGGCATTGCCCTGCGCGTGGTTCCAGGGAGCCACCGTGTACCGGAGGCTTG
+				</data>
+				<hit pos="77" idx="0" rc="n" pvalue="6.8e-06" match=" + + ++++   +++++++ +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_03875_+_+_MCKINBCO_03876_+_+_CO_F" comment="Cluster_46326&#13;" length="240">
+			<score strand="both" combined_pvalue="2.69e-03" evalue="7.5"/>
+			<seg start="76">
+				<data>
+CAAGCCACACCCAACCTGAACGCGGTCTGGGGTTTCTTGGCAAAGAACAAGGGGCTTTGCAAAGCGCAATGAGTT
+				</data>
+				<hit pos="95" idx="3" rc="y" pvalue="5.5e-06" match=" + +++++ ++  +  ++++++ + +  +   + +++ ++  +++ ++  "/>
+			</seg>
+			<seg start="151">
+				<data>
+TTGCTGCATCCGACGCCTAGCAGTATTGCCAGTTTTTTTAGAGCAACCTCTTCTGCAAAGCTTGCGACTGGCCCA
+				</data>
+				<hit pos="182" idx="2" rc="n" pvalue="2.6e-05" match="++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_01368_+_+_MCKINBCO_01369_+_+_CO_R" comment="Cluster_30015&#13;" length="313">
+			<score strand="both" combined_pvalue="2.70e-03" evalue="7.5"/>
+			<seg start="1">
+				<data>
+CCGGGTGACGCTCCACTCGCAAGACTGCAACAGGCTGAGAATGACGCAGCGTTGGCTGCGCCCTACTCAACCGGA
+AAAAGAGGGGCGCGATTGTGCACGGAAAGGTTGCACTTGCGAAGCCTTTTTCGGAGAGGCGGTTGCACTTGTCTG
+				</data>
+				<hit pos="47" idx="3" rc="n" pvalue="5.9e-05" match="++++  + ++ + +++   +  ++++     +++   +++  ++  ++++"/>
+			</seg>
+			<seg start="151">
+				<data>
+TACAAGCGGTAGGTGCAGCCGGGCCGCTCAGCACGCTCGGCGTGCAGAAGGCCTTGACTGGCACAGGTGTCCTTG
+				</data>
+				<hit pos="169" idx="0" rc="y" pvalue="3.7e-05" match="  ++++++++ ++++  + + "/>
+			</seg>
+			<seg start="226">
+				<data>
+CGGGCAGGACACGGATACAGAATGACGATGGCCGAAGCCGCAGTGCGGCCTCGGCCATCGTCGTTGCATAACGTT
+				</data>
+				<hit pos="258" idx="0" rc="n" pvalue="1.5e-07" match=" +  +++++  +++++++ + "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02745_+_+_MCKINBCO_02746_+_+_CO_F" comment="Cluster_153731&#13;" length="51">
+			<score strand="both" combined_pvalue="2.70e-03" evalue="7.5"/>
+			<seg start="1">
+				<data>
+GCCAACAGGCCCGCCAAGTGCGGGCATTTTTTTGCCCGATAGGAGACCACT
+				</data>
+				<hit pos="26" idx="2" rc="n" pvalue="8.0e-05" match="++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_03648_+_+_MCKINBCO_03649_+_+_CO_F" comment="Cluster_24276&#13;" length="351">
+			<score strand="both" combined_pvalue="2.82e-03" evalue="7.8"/>
+			<seg start="1">
+				<data>
+GCACCGGTTTTTTTAATGCCTGCAAGCGCCTTTGCGCGTGATTCGCATTCGTCTTACTTCTTCGCTTTACAAAAC
+AAACCATCCGCCAGCTACCCTCCCCATCTGGAGCCATCGCGTGTCCATCCTTCCCCTGCACACATCCGCCCATGC
+CCTGCCATTGCCTGCACTGCCGCGTAGCCTGTTGGCACAGGCCGTATTCATCGGCCTGGCTCTTGGCAGCTACTC
+				</data>
+				<hit pos="7" idx="2" rc="n" pvalue="2.6e-05" match="++++++++"/>
+				<hit pos="31" idx="5" rc="y" pvalue="4.8e-05" match=" +++ +  +++++++++++ "/>
+				<hit pos="60" idx="3" rc="n" pvalue="3.9e-05" match="+  + +++  ++ + ++  ++   +     + + ++   ++     + ++"/>
+				<hit pos="126" idx="3" rc="n" pvalue="1.8e-06" match="   ++++   ++ + + + ++   ++  +++++  +  ++   ++++ + "/>
+			</seg>
+			<seg start="226">
+				<data>
+ACTGACGCCATTAACCGCATGCGCCGAGACAATCGATACCCGCCCCCACCTGGCCACTGAAGAAAAACCGGCAGT
+				</data>
+				<hit pos="230" idx="3" rc="n" pvalue="4.3e-05" match="  +++ ++  +     +++++++  + + + +++++ + ++  +++  ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_03327_+_+_MCKINBCO_03328_+_+_CO_F" comment="Cluster_22512&#13;" length="365">
+			<score strand="both" combined_pvalue="2.86e-03" evalue="8"/>
+			<seg start="1">
+				<data>
+CCCGCTCTTCGTCTTCCTCCCCGTCCCACAGCGCCGCTCTAGCGGCGCTTTTCATTTGTGAGCGTCCAGCACCCC
+				</data>
+				<hit pos="27" idx="1" rc="y" pvalue="1.2e-05" match=" + ++++++ ++  ++++++  ++++ ++"/>
+			</seg>
+			<seg start="226">
+				<data>
+ATCCCCCGTTCACTGCGTGCCACCGTCGAACAGGGCTGGACACGGGTCGGCGTACCAAAGTTGCGTTGCGGTAAC
+CCAGGAGGTTTCCGATACTGACGCCGATTTCGACCAACAAGAACATAAAACCGTGGAACCTGAGA
+				</data>
+				<hit pos="255" idx="3" rc="y" pvalue="6.4e-05" match=" ++ ++++ + +  ++ + +++        +    ++   +  +   + +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02122_+_+_MCKINBCO_02123_+_+_CO_R" comment="Cluster_134415&#13;" length="75">
+			<score strand="both" combined_pvalue="2.98e-03" evalue="8.3"/>
+			<seg start="1">
+				<data>
+GAAATCCGTTCTCGGTTCACACCGGCAAGGCCGGCATGCGGCGATCTTCGCGCCCGTTGTGCCTGACTGGGCGGG
+				</data>
+				<hit pos="26" idx="0" rc="y" pvalue="8.0e-05" match="   +++++  + +++++  + "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_01391_+_+_MCKINBCO_01392_+_+_DT" comment="Cluster_78294&#13;" length="160">
+			<score strand="both" combined_pvalue="3.09e-03" evalue="8.6"/>
+			<seg start="1">
+				<data>
+GGCGTGTATTGAAGATTCGGGCTGAACGCCTAGGACTGCCGCGCAGCCCATCGCGGCCCCGCGCGCTCAGCCCCA
+				</data>
+				<hit pos="31" idx="0" rc="n" pvalue="2.5e-06" match="++++ ++++   +++++++++"/>
+			</seg>
+			<seg start="76">
+				<data>
+TTGCGCAGAGGCTTGCGCCCTGCCCCGTTCTTGGCATTGCTCAACCCGTCATCCCCAGCATTGACCGCTGCTGCG
+				</data>
+				<hit pos="100" idx="3" rc="n" pvalue="8.6e-05" match="+ +  ++++ +++ ++ +  +    +   ++ +++   + + +    +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00354_+_+_MCKINBCO_00355_+_+_CO_F" comment="Cluster_146106&#13;" length="60">
+			<score strand="both" combined_pvalue="3.11e-03" evalue="8.6"/>
+			<seg start="1">
+				<data>
+ACGTCCAGTGCAAGGGGCTGCGCTGTGGCCCCTCTTTCAGTGTGTATCGTGGAGTTCGCC
+				</data>
+				<hit pos="13" idx="0" rc="y" pvalue="9.8e-07" match="+++++++++   + +++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00949_+_+_MCKINBCO_00950_+_+_DP" comment="Cluster_66628&#13;" length="184">
+			<score strand="both" combined_pvalue="3.11e-03" evalue="8.6"/>
+			<seg start="1">
+				<data>
+GATGGACACCTTATTAGTATTACTATTTGTCTTTATACCGCTCAATGTATCGCCAAAAAACGCACATGTGAAGGC
+TTGTCGTTTTAAATAGTAATACTATAAGATCGATTTCCTAGGTCAGCGGTCTGCCAAAAAACCTCGGCCTGGTGT
+				</data>
+				<hit pos="55" idx="1" rc="n" pvalue="5.2e-05" match="++++++    +   +  ++++  ++  ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00977_+_+_MCKINBCO_00978_+_+_DP" comment="Cluster_36168&#13;" length="280">
+			<score strand="both" combined_pvalue="3.21e-03" evalue="8.9"/>
+			<seg start="76">
+				<data>
+AAGCTGCATGCCTGCCTCAAGGCGCGCCGCCGCCCGGTCAGCAGGCCCAGGCCCAGGCCGCCCGGGCCTGCGGGG
+CTCAGGCCTGCATGAAGATTTGTTCATCAGCCTTGCCGAGCACCGTCACGTACCGGAAGGTTTGGCTTCAACGCG
+CTCGTCTGGGCCAGGCGGGTATACTCCGTGGCTTTTTTCATGACAGAAGGTGCTC
+				</data>
+				<hit pos="112" idx="3" rc="n" pvalue="7.4e-07" match="     ++ +++  +++ +      ++  + + +++  +++  ++++ +++"/>
+				<hit pos="195" idx="3" rc="y" pvalue="5.3e-06" match="+    ++ + +   +++++++++       ++ ++ +  +++ +++   +"/>
+				<hit pos="256" idx="2" rc="n" pvalue="4.8e-05" match="++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_01676_+_+_MCKINBCO_01677_+_+_CO_F" comment="Cluster_60049&#13;" length="199">
+			<score strand="both" combined_pvalue="3.26e-03" evalue="9.1"/>
+			<seg start="76">
+				<data>
+ACTCATAGAACCAGCAGTTTAGTGCCGATTTTTATTGATCTACGCGGTTAATCAGCATTTTTTTGCCGGTTATTA
+				</data>
+				<hit pos="80" idx="1" rc="n" pvalue="2.4e-06" match="+++ ++  +++ + ++  +++++ +++++"/>
+				<hit pos="132" idx="2" rc="n" pvalue="8.0e-05" match="++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_02095_+_+_MCKINBCO_02096_+_+_DT" comment="Cluster_137496&#13;" length="71">
+			<score strand="both" combined_pvalue="3.29e-03" evalue="9.1"/>
+			<seg start="1">
+				<data>
+AAGCCCATAAAAAAACGCCGGTTATTTACCGGCGTTTTCATTGTGCTTATCAAAGAGCGGGCAATGGACAC
+				</data>
+				<hit pos="9" idx="2" rc="y" pvalue="2.6e-05" match="++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_03658_+_+_MCKINBCO_03659_+_+_CO_F" comment="Cluster_135897&#13;" length="73">
+			<score strand="both" combined_pvalue="3.44e-03" evalue="9.5"/>
+			<seg start="1">
+				<data>
+TTGCCCTTGCGCCGGCTTGTCCGGCCGCACGGACCCCTGCGCAACTCCAGAAAAAAAACAATTGGAGAGCACC
+				</data>
+				<hit pos="52" idx="2" rc="y" pvalue="2.6e-05" match="++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_01306_+_+_MCKINBCO_01307_+_+_DT" comment="Cluster_61665&#13;" length="193">
+			<score strand="both" combined_pvalue="3.51e-03" evalue="9.7"/>
+			<seg start="1">
+				<data>
+CAAGGTGGCTGTCGATCTTTTTCTAGACTGAGGGCGCGAGAGGGCCTTAAGAATCTAGCTTCGCAGCGCAGACCG
+				</data>
+				<hit pos="29" idx="0" rc="n" pvalue="7.1e-05" match="++ ++ +++ +   ++++  +"/>
+			</seg>
+			<seg start="76">
+				<data>
+CCGGGGGCTGCGCAGCAGCTCCGGCGATACCGCATTGAGCCTGGAGGTTCGCTAACCACCCAGGGCGGAGCCAGA
+				</data>
+				<hit pos="78" idx="0" rc="y" pvalue="1.2e-07" match=" ++++++++  ++++++ ++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_00083_+_+_MCKINBCO_00084_+_+_CO_F" comment="Cluster_135166&#13;" length="74">
+			<score strand="both" combined_pvalue="3.53e-03" evalue="9.8"/>
+			<seg start="1">
+				<data>
+GCGCCGCTCCCTGCCCGAGAGGCCTGGCAAGGCCTCTTCGTGGGTTGCGCTGCGACCCGTCATAGAGACATAAC
+				</data>
+				<hit pos="40" idx="0" rc="n" pvalue="1.8e-06" match="  +++ +++  ++++ +++ +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="MCKINBCO_01172_+_+_MCKINBCO_01173_+_+_CO_R" comment="Cluster_77388&#13;" length="160">
+			<score strand="both" combined_pvalue="3.59e-03" evalue="10"/>
+			<seg start="76">
+				<data>
+AAGCTTTGTTAATGCTTTTTACGCATAACAAATTTTGGTCATAAAAAAGCCTCGCATCAGGCGAGGCTCTTTATG
+				</data>
+				<hit pos="121" idx="1" rc="y" pvalue="3.7e-05" match="+++ ++ +++++ +++++ +  + +++++"/>
+			</seg>
+		</sequence>
+	</sequences>
+	<runtime host="DESKTOP-IR6DELM" when="Tue Jan  3 18:15:04 2023" cycles="1571338" seconds="1.571"/>
+</mast>

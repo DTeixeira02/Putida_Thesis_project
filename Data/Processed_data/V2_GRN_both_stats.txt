@@ -1,0 +1,1563 @@
+This file lists the average percent reduction in IGR count as a result of IGR merges based on MAST data
+#####################################################################
+AVERAGE STATS ACROSS GENOMES
+Mean IGR count before MAST merges: 2658.4189189189187 +/- 339.33202976993675
+Mean IGR count after MAST merges: 2409.0765765765764 +/- 302.0290634946693
+Mean percent IGR count reduction: 9.197173008333943 +/- 4.708487408202432
+Mean Operon count: 3623.9144144144143 +/- 430.5649523153565
+Mean Edge count: 3509.711711711712 +/- 453.27847238466285
+#####################################################################
+GCA_000007565.2_ASM756v2_genomic
+IGR count before: 2794
+IGR count after: 2545
+Percent IGR node reduction: 8.911954187544739
+Operon count: 3671
+Edge count: 3714
+#####################################################################
+GCA_000019125.1_ASM1912v1_genomic
+IGR count before: 2733
+IGR count after: 2520
+Percent IGR node reduction: 7.793633369923161
+Operon count: 3578
+Edge count: 3632
+#####################################################################
+GCA_000183645.1_ASM18364v1_genomic
+IGR count before: 2591
+IGR count after: 2309
+Percent IGR node reduction: 10.883828637591664
+Operon count: 3421
+Edge count: 3445
+#####################################################################
+GCA_000219705.1_ASM21970v1_genomic
+IGR count before: 2734
+IGR count after: 2207
+Percent IGR node reduction: 19.275786393562548
+Operon count: 3615
+Edge count: 3639
+#####################################################################
+GCA_000226035.3_ASM22603v3_genomic
+IGR count before: 2856
+IGR count after: 2614
+Percent IGR node reduction: 8.473389355742297
+Operon count: 3772
+Edge count: 3792
+#####################################################################
+GCA_000226475.2_ASM22647v2_genomic
+IGR count before: 2519
+IGR count after: 2315
+Percent IGR node reduction: 8.098451766574037
+Operon count: 4145
+Edge count: 3254
+#####################################################################
+GCA_000264665.2_ASM26466v2_genomic
+IGR count before: 2834
+IGR count after: 2524
+Percent IGR node reduction: 10.938602681721948
+Operon count: 3725
+Edge count: 3766
+#####################################################################
+GCA_000271965.2_ASM27196v2_genomic
+IGR count before: 2697
+IGR count after: 2472
+Percent IGR node reduction: 8.342602892102335
+Operon count: 3569
+Edge count: 3631
+#####################################################################
+GCA_000281215.1_ASM28121v1_genomic
+IGR count before: 2823
+IGR count after: 2543
+Percent IGR node reduction: 9.91852639036486
+Operon count: 3752
+Edge count: 3749
+#####################################################################
+GCA_000285395.1_ASM28539v1_genomic
+IGR count before: 2462
+IGR count after: 2327
+Percent IGR node reduction: 5.483346872461413
+Operon count: 3545
+Edge count: 3237
+#####################################################################
+GCA_000287915.1_ASM28791v1_genomic
+IGR count before: 2745
+IGR count after: 2549
+Percent IGR node reduction: 7.140255009107468
+Operon count: 3780
+Edge count: 3625
+#####################################################################
+GCA_000292775.1_PPS11_1.0_genomic
+IGR count before: 3858
+IGR count after: 3392
+Percent IGR node reduction: 12.078797304302748
+Operon count: 5277
+Edge count: 4868
+#####################################################################
+GCA_000294445.2_ASM29444v2_genomic
+IGR count before: 2620
+IGR count after: 2340
+Percent IGR node reduction: 10.687022900763358
+Operon count: 3504
+Edge count: 3488
+#####################################################################
+GCA_000325725.1_ASM32572v1_genomic
+IGR count before: 2665
+IGR count after: 2223
+Percent IGR node reduction: 16.585365853658537
+Operon count: 3518
+Edge count: 3568
+#####################################################################
+GCA_000367825.1_Pseudomonas_putida_TRO1_genomic
+IGR count before: 2787
+IGR count after: 2505
+Percent IGR node reduction: 10.118406889128096
+Operon count: 3823
+Edge count: 3692
+#####################################################################
+GCA_000390005.2_ASM39000v2_genomic
+IGR count before: 2512
+IGR count after: 2303
+Percent IGR node reduction: 8.320063694267516
+Operon count: 3424
+Edge count: 3339
+#####################################################################
+GCA_000390445.1_ASM39044v1_genomic
+IGR count before: 1214
+IGR count after: 1184
+Percent IGR node reduction: 2.471169686985173
+Operon count: 3071
+Edge count: 1488
+#####################################################################
+GCA_000410575.1_ASM41057v1_genomic
+IGR count before: 3163
+IGR count after: 2793
+Percent IGR node reduction: 11.697755295605438
+Operon count: 4132
+Edge count: 4205
+#####################################################################
+GCA_000411615.1_Pput2.5_genomic
+IGR count before: 2325
+IGR count after: 2215
+Percent IGR node reduction: 4.731182795698925
+Operon count: 3215
+Edge count: 3040
+#####################################################################
+GCA_000412675.1_ASM41267v1_genomic
+IGR count before: 2749
+IGR count after: 2373
+Percent IGR node reduction: 13.677700982175336
+Operon count: 3611
+Edge count: 3626
+#####################################################################
+GCA_000478865.2_ASM47886v2_genomic
+IGR count before: 2580
+IGR count after: 2324
+Percent IGR node reduction: 9.922480620155039
+Operon count: 3688
+Edge count: 3340
+#####################################################################
+GCA_000495455.2_ASM49545v2_genomic
+IGR count before: 2865
+IGR count after: 2759
+Percent IGR node reduction: 3.6998254799301917
+Operon count: 3815
+Edge count: 3821
+#####################################################################
+GCA_000497385.1_EDP1a_genomic
+IGR count before: 2023
+IGR count after: 2023
+Percent IGR node reduction: 0.0
+Operon count: 2717
+Edge count: 2665
+#####################################################################
+GCA_000498395.3_ASM49839v3_genomic
+IGR count before: 2870
+IGR count after: 2487
+Percent IGR node reduction: 13.344947735191637
+Operon count: 3777
+Edge count: 3788
+#####################################################################
+GCA_000507325.1_P.putidaOUS82_v1_genomic
+IGR count before: 2938
+IGR count after: 2638
+Percent IGR node reduction: 10.211027910142954
+Operon count: 3976
+Edge count: 3925
+#####################################################################
+GCA_000691565.1_ASM69156v1_genomic
+IGR count before: 2762
+IGR count after: 2261
+Percent IGR node reduction: 18.139029688631428
+Operon count: 3953
+Edge count: 3968
+#####################################################################
+GCA_000708715.2_W15Oct28_99_scaffold_genomic
+IGR count before: 2727
+IGR count after: 2233
+Percent IGR node reduction: 18.115144847818115
+Operon count: 3665
+Edge count: 3584
+#####################################################################
+GCA_000710785.1_De_novo_Assembly_genomic
+IGR count before: 2334
+IGR count after: 2169
+Percent IGR node reduction: 7.069408740359898
+Operon count: 3359
+Edge count: 3101
+#####################################################################
+GCA_000729805.1_ASM72980v1_genomic
+IGR count before: 2555
+IGR count after: 2365
+Percent IGR node reduction: 7.436399217221135
+Operon count: 4124
+Edge count: 3322
+#####################################################################
+GCA_000787655.1_ASM78765v1_genomic
+IGR count before: 2582
+IGR count after: 2346
+Percent IGR node reduction: 9.14020139426801
+Operon count: 3496
+Edge count: 3432
+#####################################################################
+GCA_000799625.1_ASM79962v1_genomic
+IGR count before: 2665
+IGR count after: 2485
+Percent IGR node reduction: 6.75422138836773
+Operon count: 3530
+Edge count: 3488
+#####################################################################
+GCA_000800615.1_PseuPA14H7_genomic
+IGR count before: 2505
+IGR count after: 2385
+Percent IGR node reduction: 4.790419161676647
+Operon count: 3374
+Edge count: 3349
+#####################################################################
+GCA_000802565.1_ASM80256v1_genomic
+IGR count before: 1756
+IGR count after: 1717
+Percent IGR node reduction: 2.2209567198177673
+Operon count: 3653
+Edge count: 2253
+#####################################################################
+GCA_000875995.1_ASM87599v1_genomic
+IGR count before: 2814
+IGR count after: 2440
+Percent IGR node reduction: 13.290689410092396
+Operon count: 3834
+Edge count: 3722
+#####################################################################
+GCA_000878325.1_UASWS0946_1.0_genomic
+IGR count before: 2569
+IGR count after: 2445
+Percent IGR node reduction: 4.826780848579213
+Operon count: 3484
+Edge count: 3344
+#####################################################################
+GCA_000987155.1_ASM98715v1_genomic
+IGR count before: 2517
+IGR count after: 2087
+Percent IGR node reduction: 17.083829956297176
+Operon count: 3354
+Edge count: 3312
+#####################################################################
+GCA_001005285.1_ASM100528v1_genomic
+IGR count before: 2600
+IGR count after: 2474
+Percent IGR node reduction: 4.846153846153846
+Operon count: 3522
+Edge count: 3418
+#####################################################################
+GCA_001006135.1_ASM100613v1_genomic
+IGR count before: 3064
+IGR count after: 2662
+Percent IGR node reduction: 13.120104438642297
+Operon count: 4059
+Edge count: 3968
+#####################################################################
+GCA_001027965.1_ASM102796v1_genomic
+IGR count before: 2492
+IGR count after: 2042
+Percent IGR node reduction: 18.057784911717494
+Operon count: 3544
+Edge count: 3303
+#####################################################################
+GCA_001066335.1_ASM106633v1_genomic
+IGR count before: 2567
+IGR count after: 2211
+Percent IGR node reduction: 13.86832878846903
+Operon count: 3906
+Edge count: 3408
+#####################################################################
+GCA_001077495.1_ASM107749v1_genomic
+IGR count before: 2717
+IGR count after: 2476
+Percent IGR node reduction: 8.870077291129922
+Operon count: 3609
+Edge count: 3600
+#####################################################################
+GCA_001183585.1_ASM118358v1_genomic
+IGR count before: 2732
+IGR count after: 2545
+Percent IGR node reduction: 6.844802342606149
+Operon count: 3631
+Edge count: 3646
+#####################################################################
+GCA_001282125.1_ASM128212v1_genomic
+IGR count before: 2633
+IGR count after: 2364
+Percent IGR node reduction: 10.216483099126473
+Operon count: 3519
+Edge count: 3447
+#####################################################################
+GCA_001293025.1_ASM129302v1_genomic
+IGR count before: 2504
+IGR count after: 2277
+Percent IGR node reduction: 9.065495207667732
+Operon count: 3458
+Edge count: 3316
+#####################################################################
+GCA_001306495.1_ASM130649v1_genomic
+IGR count before: 2782
+IGR count after: 2310
+Percent IGR node reduction: 16.96621135873472
+Operon count: 3764
+Edge count: 3660
+#####################################################################
+GCA_001306515.1_ASM130651v1_genomic
+IGR count before: 2610
+IGR count after: 2436
+Percent IGR node reduction: 6.666666666666667
+Operon count: 3543
+Edge count: 3468
+#####################################################################
+GCA_001312145.1_ASM131214v1_genomic
+IGR count before: 3346
+IGR count after: 3139
+Percent IGR node reduction: 6.186491332934847
+Operon count: 4765
+Edge count: 4226
+#####################################################################
+GCA_001312165.1_ASM131216v1_genomic
+IGR count before: 3106
+IGR count after: 2861
+Percent IGR node reduction: 7.887958789439795
+Operon count: 4845
+Edge count: 3945
+#####################################################################
+GCA_001312185.1_ASM131218v1_genomic
+IGR count before: 3283
+IGR count after: 3075
+Percent IGR node reduction: 6.335668595796527
+Operon count: 5253
+Edge count: 4189
+#####################################################################
+GCA_001467195.1_ASM146719v1_genomic
+IGR count before: 1356
+IGR count after: 1297
+Percent IGR node reduction: 4.351032448377581
+Operon count: 4121
+Edge count: 1648
+#####################################################################
+GCA_001467305.1_ASM146730v1_genomic
+IGR count before: 2414
+IGR count after: 2227
+Percent IGR node reduction: 7.746478873239436
+Operon count: 3220
+Edge count: 3171
+#####################################################################
+GCA_001515585.2_ASM151558v2_genomic
+IGR count before: 2483
+IGR count after: 2278
+Percent IGR node reduction: 8.256141763995167
+Operon count: 3323
+Edge count: 3316
+#####################################################################
+GCA_001542955.1_ASM154295v1_genomic
+IGR count before: 2929
+IGR count after: 2530
+Percent IGR node reduction: 13.622396722430864
+Operon count: 3868
+Edge count: 3889
+#####################################################################
+GCA_001630725.2_ASM163072v2_genomic
+IGR count before: 2994
+IGR count after: 2559
+Percent IGR node reduction: 14.529058116232466
+Operon count: 3950
+Edge count: 3945
+#####################################################################
+GCA_001636055.1_ASM163605v1_genomic
+IGR count before: 2536
+IGR count after: 2413
+Percent IGR node reduction: 4.850157728706624
+Operon count: 3350
+Edge count: 3355
+#####################################################################
+GCA_001644955.1_CBF10-2_genomic
+IGR count before: 2580
+IGR count after: 2331
+Percent IGR node reduction: 9.651162790697674
+Operon count: 3446
+Edge count: 3397
+#####################################################################
+GCA_001645635.1_ASM164563v1_genomic
+IGR count before: 2581
+IGR count after: 2427
+Percent IGR node reduction: 5.9666795815575355
+Operon count: 3471
+Edge count: 3472
+#####################################################################
+GCA_001653615.1_ASM165361v1_genomic
+IGR count before: 2873
+IGR count after: 2613
+Percent IGR node reduction: 9.049773755656108
+Operon count: 3960
+Edge count: 3813
+#####################################################################
+GCA_001700655.1_ASM170065v1_genomic
+IGR count before: 2635
+IGR count after: 2459
+Percent IGR node reduction: 6.67931688804554
+Operon count: 3491
+Edge count: 3480
+#####################################################################
+GCA_001700665.1_ASM170066v1_genomic
+IGR count before: 2634
+IGR count after: 2520
+Percent IGR node reduction: 4.328018223234624
+Operon count: 3490
+Edge count: 3484
+#####################################################################
+GCA_001700695.1_ASM170069v1_genomic
+IGR count before: 2625
+IGR count after: 2441
+Percent IGR node reduction: 7.0095238095238095
+Operon count: 3466
+Edge count: 3451
+#####################################################################
+GCA_001700705.1_ASM170070v1_genomic
+IGR count before: 2611
+IGR count after: 2441
+Percent IGR node reduction: 6.510915358100345
+Operon count: 3455
+Edge count: 3457
+#####################################################################
+GCA_001750465.1_ASM175046v1_genomic
+IGR count before: 2574
+IGR count after: 2417
+Percent IGR node reduction: 6.099456099456099
+Operon count: 3384
+Edge count: 3384
+#####################################################################
+GCA_001767335.1_ASM176733v1_genomic
+IGR count before: 2642
+IGR count after: 2465
+Percent IGR node reduction: 6.699470098410296
+Operon count: 3490
+Edge count: 3529
+#####################################################################
+GCA_001865225.1_ASM186522v1_genomic
+IGR count before: 1454
+IGR count after: 1307
+Percent IGR node reduction: 10.110041265474553
+Operon count: 4371
+Edge count: 1769
+#####################################################################
+GCA_001886975.1_ASM188697v1_genomic
+IGR count before: 2713
+IGR count after: 2516
+Percent IGR node reduction: 7.261334316255068
+Operon count: 3554
+Edge count: 3568
+#####################################################################
+GCA_001904555.1_ASM190455v1_genomic
+IGR count before: 2259
+IGR count after: 2117
+Percent IGR node reduction: 6.285967242142541
+Operon count: 4812
+Edge count: 2840
+#####################################################################
+GCA_001908395.1_ASM190839v1_genomic
+IGR count before: 2799
+IGR count after: 2185
+Percent IGR node reduction: 21.936405859235443
+Operon count: 3687
+Edge count: 3686
+#####################################################################
+GCA_001941965.1_ASM194196v1_genomic
+IGR count before: 3013
+IGR count after: 2691
+Percent IGR node reduction: 10.687022900763358
+Operon count: 4028
+Edge count: 3980
+#####################################################################
+GCA_001976065.1_ASM197606v1_genomic
+IGR count before: 3164
+IGR count after: 2766
+Percent IGR node reduction: 12.579013906447534
+Operon count: 4129
+Edge count: 4103
+#####################################################################
+GCA_002025705.1_ASM202570v1_genomic
+IGR count before: 2733
+IGR count after: 2347
+Percent IGR node reduction: 14.123673618733992
+Operon count: 3622
+Edge count: 3639
+#####################################################################
+GCA_002094775.1_ASM209477v1_genomic
+IGR count before: 2826
+IGR count after: 2617
+Percent IGR node reduction: 7.395612172682236
+Operon count: 3816
+Edge count: 3721
+#####################################################################
+GCA_002094785.1_ASM209478v1_genomic
+IGR count before: 3091
+IGR count after: 2691
+Percent IGR node reduction: 12.940795858945325
+Operon count: 4101
+Edge count: 4054
+#####################################################################
+GCA_002094795.1_ASM209479v1_genomic
+IGR count before: 2591
+IGR count after: 2309
+Percent IGR node reduction: 10.883828637591664
+Operon count: 3421
+Edge count: 3362
+#####################################################################
+GCA_002157515.1_ASM215751v1_genomic
+IGR count before: 3009
+IGR count after: 2643
+Percent IGR node reduction: 12.163509471585245
+Operon count: 3994
+Edge count: 3967
+#####################################################################
+GCA_002165665.1_ASM216566v1_genomic
+IGR count before: 2785
+IGR count after: 2652
+Percent IGR node reduction: 4.775583482944345
+Operon count: 3690
+Edge count: 3673
+#####################################################################
+GCA_002165695.1_ASM216569v1_genomic
+IGR count before: 2748
+IGR count after: 2489
+Percent IGR node reduction: 9.42503639010189
+Operon count: 3652
+Edge count: 3636
+#####################################################################
+GCA_002356095.1_ASM235609v1_genomic
+IGR count before: 3366
+IGR count after: 3051
+Percent IGR node reduction: 9.358288770053475
+Operon count: 4425
+Edge count: 4440
+#####################################################################
+GCA_002554535.1_ASM255453v1_genomic
+IGR count before: 2697
+IGR count after: 2441
+Percent IGR node reduction: 9.492028179458657
+Operon count: 3541
+Edge count: 3603
+#####################################################################
+GCA_002588485.1_ASM258848v1_genomic
+IGR count before: 2846
+IGR count after: 2370
+Percent IGR node reduction: 16.725228390723824
+Operon count: 3720
+Edge count: 3750
+#####################################################################
+GCA_002736045.1_ASM273604v1_genomic
+IGR count before: 2687
+IGR count after: 2360
+Percent IGR node reduction: 12.169705991812432
+Operon count: 3546
+Edge count: 3551
+#####################################################################
+GCA_002736125.1_ASM273612v1_genomic
+IGR count before: 2696
+IGR count after: 2413
+Percent IGR node reduction: 10.497032640949556
+Operon count: 3534
+Edge count: 3558
+#####################################################################
+GCA_002741075.1_IEC330191.0_genomic
+IGR count before: 2650
+IGR count after: 2508
+Percent IGR node reduction: 5.3584905660377355
+Operon count: 3478
+Edge count: 3480
+#####################################################################
+GCA_002810225.1_ASM281022v1_genomic
+IGR count before: 2745
+IGR count after: 2575
+Percent IGR node reduction: 6.193078324225866
+Operon count: 3656
+Edge count: 3610
+#####################################################################
+GCA_002888575.1_ASM288857v1_genomic
+IGR count before: 101
+IGR count after: 95
+Percent IGR node reduction: 5.9405940594059405
+Operon count: 124
+Edge count: 115
+#####################################################################
+GCA_002891885.1_ASM289188v1_genomic
+IGR count before: 2768
+IGR count after: 2546
+Percent IGR node reduction: 8.020231213872831
+Operon count: 3713
+Edge count: 3649
+#####################################################################
+GCA_002906715.1_ASM290671v1_genomic
+IGR count before: 2392
+IGR count after: 2341
+Percent IGR node reduction: 2.132107023411371
+Operon count: 3155
+Edge count: 3175
+#####################################################################
+GCA_002906755.1_ASM290675v1_genomic
+IGR count before: 2909
+IGR count after: 2710
+Percent IGR node reduction: 6.840838776211757
+Operon count: 3837
+Edge count: 3797
+#####################################################################
+GCA_002906795.1_ASM290679v1_genomic
+IGR count before: 2764
+IGR count after: 2536
+Percent IGR node reduction: 8.24891461649783
+Operon count: 3652
+Edge count: 3633
+#####################################################################
+GCA_002906815.1_ASM290681v1_genomic
+IGR count before: 2993
+IGR count after: 2799
+Percent IGR node reduction: 6.481790845305713
+Operon count: 3962
+Edge count: 3898
+#####################################################################
+GCA_002906835.1_ASM290683v1_genomic
+IGR count before: 2682
+IGR count after: 2580
+Percent IGR node reduction: 3.803131991051454
+Operon count: 3574
+Edge count: 3595
+#####################################################################
+GCA_002906855.1_ASM290685v1_genomic
+IGR count before: 2712
+IGR count after: 2605
+Percent IGR node reduction: 3.9454277286135695
+Operon count: 3628
+Edge count: 3635
+#####################################################################
+GCA_003053335.1_ASM305333v1_genomic
+IGR count before: 2605
+IGR count after: 2384
+Percent IGR node reduction: 8.483685220729367
+Operon count: 3559
+Edge count: 3455
+#####################################################################
+GCA_003053385.1_ASM305338v1_genomic
+IGR count before: 2498
+IGR count after: 2252
+Percent IGR node reduction: 9.847878302642114
+Operon count: 3413
+Edge count: 3324
+#####################################################################
+GCA_003228315.1_ASM322831v1_genomic
+IGR count before: 3184
+IGR count after: 2519
+Percent IGR node reduction: 20.8856783919598
+Operon count: 4122
+Edge count: 4115
+#####################################################################
+GCA_003241405.1_ASM324140v1_genomic
+IGR count before: 2444
+IGR count after: 2344
+Percent IGR node reduction: 4.091653027823241
+Operon count: 3473
+Edge count: 3201
+#####################################################################
+GCA_003263425.1_ASM326342v1_genomic
+IGR count before: 2455
+IGR count after: 1977
+Percent IGR node reduction: 19.470468431771895
+Operon count: 3327
+Edge count: 3224
+#####################################################################
+GCA_003290365.1_ASM329036v1_genomic
+IGR count before: 2582
+IGR count after: 2419
+Percent IGR node reduction: 6.312935708752905
+Operon count: 3410
+Edge count: 3414
+#####################################################################
+GCA_003350225.1_ASM335022v1_genomic
+IGR count before: 2866
+IGR count after: 2494
+Percent IGR node reduction: 12.97976273551989
+Operon count: 3860
+Edge count: 3780
+#####################################################################
+GCA_003417615.1_ASM341761v1_genomic
+IGR count before: 2968
+IGR count after: 2518
+Percent IGR node reduction: 15.161725067385445
+Operon count: 4146
+Edge count: 3860
+#####################################################################
+GCA_003586135.1_ASM358613v1_genomic
+IGR count before: 2609
+IGR count after: 2362
+Percent IGR node reduction: 9.467228823303948
+Operon count: 3438
+Edge count: 3444
+#####################################################################
+GCA_003671955.1_ASM367195v1_genomic
+IGR count before: 2668
+IGR count after: 2551
+Percent IGR node reduction: 4.385307346326837
+Operon count: 3524
+Edge count: 3582
+#####################################################################
+GCA_003721325.1_ASM372132v1_genomic
+IGR count before: 2816
+IGR count after: 2679
+Percent IGR node reduction: 4.865056818181818
+Operon count: 3830
+Edge count: 3726
+#####################################################################
+GCA_003721355.1_ASM372135v1_genomic
+IGR count before: 2830
+IGR count after: 2417
+Percent IGR node reduction: 14.593639575971732
+Operon count: 3928
+Edge count: 3724
+#####################################################################
+GCA_003752325.1_ASM375232v1_genomic
+IGR count before: 2448
+IGR count after: 2270
+Percent IGR node reduction: 7.27124183006536
+Operon count: 3238
+Edge count: 3207
+#####################################################################
+GCA_003938945.1_ASM393894v1_genomic
+IGR count before: 2541
+IGR count after: 2348
+Percent IGR node reduction: 7.59543486816214
+Operon count: 3355
+Edge count: 3368
+#####################################################################
+GCA_004345845.1_ASM434584v1_genomic
+IGR count before: 2689
+IGR count after: 2240
+Percent IGR node reduction: 16.697657121606547
+Operon count: 3559
+Edge count: 3574
+#####################################################################
+GCA_004357765.1_ASM435776v1_genomic
+IGR count before: 2439
+IGR count after: 2315
+Percent IGR node reduction: 5.084050840508405
+Operon count: 3231
+Edge count: 3208
+#####################################################################
+GCA_004519745.1_ASM451974v1_genomic
+IGR count before: 2457
+IGR count after: 2196
+Percent IGR node reduction: 10.622710622710622
+Operon count: 3381
+Edge count: 3359
+#####################################################################
+GCA_004614155.1_ASM461415v1_genomic
+IGR count before: 2637
+IGR count after: 2390
+Percent IGR node reduction: 9.366704588547591
+Operon count: 3593
+Edge count: 3486
+#####################################################################
+GCA_004614175.1_ASM461417v1_genomic
+IGR count before: 2588
+IGR count after: 2482
+Percent IGR node reduction: 4.095826893353941
+Operon count: 3531
+Edge count: 3385
+#####################################################################
+GCA_005080685.1_ASM508068v1_genomic
+IGR count before: 2948
+IGR count after: 2711
+Percent IGR node reduction: 8.039348710990502
+Operon count: 3858
+Edge count: 3854
+#####################################################################
+GCA_005930545.1_ASM593054v1_genomic
+IGR count before: 2648
+IGR count after: 2275
+Percent IGR node reduction: 14.086102719033233
+Operon count: 3561
+Edge count: 3505
+#####################################################################
+GCA_005930605.1_ASM593060v1_genomic
+IGR count before: 2621
+IGR count after: 2226
+Percent IGR node reduction: 15.070583746661578
+Operon count: 3541
+Edge count: 3487
+#####################################################################
+GCA_007049805.1_ASM704980v1_genomic
+IGR count before: 2941
+IGR count after: 2682
+Percent IGR node reduction: 8.806528391703502
+Operon count: 3915
+Edge count: 3875
+#####################################################################
+GCA_007279645.1_ASM727964v1_genomic
+IGR count before: 2809
+IGR count after: 2520
+Percent IGR node reduction: 10.288358846564613
+Operon count: 3757
+Edge count: 3713
+#####################################################################
+GCA_007833495.1_ASM783349v1_genomic
+IGR count before: 2848
+IGR count after: 2523
+Percent IGR node reduction: 11.411516853932584
+Operon count: 3760
+Edge count: 3786
+#####################################################################
+GCA_008605605.1_ASM860560v1_genomic
+IGR count before: 2453
+IGR count after: 2283
+Percent IGR node reduction: 6.930289441500204
+Operon count: 3229
+Edge count: 3269
+#####################################################################
+GCA_009012945.1_ASM901294v1_genomic
+IGR count before: 2739
+IGR count after: 2632
+Percent IGR node reduction: 3.9065352318364366
+Operon count: 4200
+Edge count: 3518
+#####################################################################
+GCA_009078365.1_ASM907836v1_genomic
+IGR count before: 2442
+IGR count after: 2376
+Percent IGR node reduction: 2.7027027027027026
+Operon count: 3233
+Edge count: 3204
+#####################################################################
+GCA_009746605.1_ASM974660v1_genomic
+IGR count before: 3204
+IGR count after: 2840
+Percent IGR node reduction: 11.36079900124844
+Operon count: 4329
+Edge count: 4232
+#####################################################################
+GCA_009883635.2_ASM988363v2_genomic
+IGR count before: 2738
+IGR count after: 2529
+Percent IGR node reduction: 7.633308984660337
+Operon count: 3613
+Edge count: 3648
+#####################################################################
+GCA_009905395.1_ASM990539v1_genomic
+IGR count before: 2500
+IGR count after: 2259
+Percent IGR node reduction: 9.64
+Operon count: 3438
+Edge count: 3317
+#####################################################################
+GCA_009938035.1_ASM993803v1_genomic
+IGR count before: 2540
+IGR count after: 2395
+Percent IGR node reduction: 5.708661417322835
+Operon count: 3371
+Edge count: 3388
+#####################################################################
+GCA_011750655.1_ASM1175065v1_genomic
+IGR count before: 2705
+IGR count after: 2473
+Percent IGR node reduction: 8.576709796672828
+Operon count: 3628
+Edge count: 3595
+#####################################################################
+GCA_011750675.1_ASM1175067v1_genomic
+IGR count before: 2689
+IGR count after: 2439
+Percent IGR node reduction: 9.297136481963555
+Operon count: 3609
+Edge count: 3571
+#####################################################################
+GCA_013305625.1_ASM1330562v1_genomic
+IGR count before: 2766
+IGR count after: 2669
+Percent IGR node reduction: 3.506869125090383
+Operon count: 3639
+Edge count: 3749
+#####################################################################
+GCA_013314935.1_ASM1331493v1_genomic
+IGR count before: 2531
+IGR count after: 2348
+Percent IGR node reduction: 7.230343737653102
+Operon count: 3360
+Edge count: 3326
+#####################################################################
+GCA_013336785.1_ASM1333678v1_genomic
+IGR count before: 2672
+IGR count after: 2315
+Percent IGR node reduction: 13.360778443113771
+Operon count: 3609
+Edge count: 3540
+#####################################################################
+GCA_013337265.1_ASM1333726v1_genomic
+IGR count before: 2645
+IGR count after: 2311
+Percent IGR node reduction: 12.627599243856332
+Operon count: 3602
+Edge count: 3503
+#####################################################################
+GCA_013337275.1_ASM1333727v1_genomic
+IGR count before: 2679
+IGR count after: 2307
+Percent IGR node reduction: 13.885778275475925
+Operon count: 3602
+Edge count: 3548
+#####################################################################
+GCA_013337325.1_ASM1333732v1_genomic
+IGR count before: 2641
+IGR count after: 2296
+Percent IGR node reduction: 13.063233623627413
+Operon count: 3582
+Edge count: 3501
+#####################################################################
+GCA_013337345.1_ASM1333734v1_genomic
+IGR count before: 2640
+IGR count after: 2349
+Percent IGR node reduction: 11.022727272727273
+Operon count: 3591
+Edge count: 3511
+#####################################################################
+GCA_013337355.1_ASM1333735v1_genomic
+IGR count before: 2694
+IGR count after: 2306
+Percent IGR node reduction: 14.402375649591686
+Operon count: 3605
+Edge count: 3569
+#####################################################################
+GCA_013337385.1_ASM1333738v1_genomic
+IGR count before: 2670
+IGR count after: 2372
+Percent IGR node reduction: 11.161048689138577
+Operon count: 3600
+Edge count: 3536
+#####################################################################
+GCA_013337395.1_ASM1333739v1_genomic
+IGR count before: 2682
+IGR count after: 2348
+Percent IGR node reduction: 12.453392990305742
+Operon count: 3604
+Edge count: 3551
+#####################################################################
+GCA_013337415.1_ASM1333741v1_genomic
+IGR count before: 2676
+IGR count after: 2383
+Percent IGR node reduction: 10.949177877429
+Operon count: 3604
+Edge count: 3539
+#####################################################################
+GCA_013376655.1_ASM1337665v1_genomic
+IGR count before: 2458
+IGR count after: 2224
+Percent IGR node reduction: 9.51993490642799
+Operon count: 3289
+Edge count: 3278
+#####################################################################
+GCA_013376675.1_ASM1337667v1_genomic
+IGR count before: 2459
+IGR count after: 2236
+Percent IGR node reduction: 9.068727124847499
+Operon count: 3289
+Edge count: 3279
+#####################################################################
+GCA_013386405.1_ASM1338640v1_genomic
+IGR count before: 2788
+IGR count after: 2730
+Percent IGR node reduction: 2.080344332855093
+Operon count: 3788
+Edge count: 3619
+#####################################################################
+GCA_013387005.1_ASM1338700v1_genomic
+IGR count before: 2681
+IGR count after: 2285
+Percent IGR node reduction: 14.770607982096232
+Operon count: 3590
+Edge count: 3531
+#####################################################################
+GCA_013425825.1_ASM1342582v1_genomic
+IGR count before: 2931
+IGR count after: 2647
+Percent IGR node reduction: 9.689525759126578
+Operon count: 3862
+Edge count: 3885
+#####################################################################
+GCA_014062205.1_ASM1406220v1_genomic
+IGR count before: 2672
+IGR count after: 2565
+Percent IGR node reduction: 4.004491017964072
+Operon count: 3577
+Edge count: 3488
+#####################################################################
+GCA_014076515.1_ASM1407651v1_genomic
+IGR count before: 2720
+IGR count after: 2448
+Percent IGR node reduction: 10.0
+Operon count: 3603
+Edge count: 3615
+#####################################################################
+GCA_014162535.1_ASM1416253v1_genomic
+IGR count before: 2547
+IGR count after: 2512
+Percent IGR node reduction: 1.3741656851197488
+Operon count: 3361
+Edge count: 3420
+#####################################################################
+GCA_014169055.1_ASM1416905v1_genomic
+IGR count before: 2525
+IGR count after: 2480
+Percent IGR node reduction: 1.782178217821782
+Operon count: 3319
+Edge count: 3318
+#####################################################################
+GCA_014217705.1_ASM1421770v1_genomic
+IGR count before: 2772
+IGR count after: 2514
+Percent IGR node reduction: 9.307359307359308
+Operon count: 3664
+Edge count: 3712
+#####################################################################
+GCA_014726755.1_ASM1472675v1_genomic
+IGR count before: 2568
+IGR count after: 2467
+Percent IGR node reduction: 3.9330218068535823
+Operon count: 3428
+Edge count: 3377
+#####################################################################
+GCA_014764425.1_ASM1476442v1_genomic
+IGR count before: 3284
+IGR count after: 2968
+Percent IGR node reduction: 9.622411693057249
+Operon count: 4310
+Edge count: 4347
+#####################################################################
+GCA_014841805.1_ASM1484180v1_genomic
+IGR count before: 2690
+IGR count after: 2500
+Percent IGR node reduction: 7.063197026022305
+Operon count: 3533
+Edge count: 3527
+#####################################################################
+GCA_014854555.1_ASM1485455v1_genomic
+IGR count before: 2562
+IGR count after: 2439
+Percent IGR node reduction: 4.8009367681498825
+Operon count: 3394
+Edge count: 3399
+#####################################################################
+GCA_015680425.1_ASM1568042v1_genomic
+IGR count before: 2131
+IGR count after: 2110
+Percent IGR node reduction: 0.9854528390427029
+Operon count: 2844
+Edge count: 2806
+#####################################################################
+GCA_015680435.1_ASM1568043v1_genomic
+IGR count before: 2126
+IGR count after: 2111
+Percent IGR node reduction: 0.7055503292568204
+Operon count: 2839
+Edge count: 2804
+#####################################################################
+GCA_015680445.1_ASM1568044v1_genomic
+IGR count before: 2122
+IGR count after: 2110
+Percent IGR node reduction: 0.5655042412818096
+Operon count: 2855
+Edge count: 2836
+#####################################################################
+GCA_015680455.1_ASM1568045v1_genomic
+IGR count before: 2763
+IGR count after: 2334
+Percent IGR node reduction: 15.526601520086864
+Operon count: 3696
+Edge count: 3663
+#####################################################################
+GCA_015680505.1_ASM1568050v1_genomic
+IGR count before: 2185
+IGR count after: 2171
+Percent IGR node reduction: 0.6407322654462242
+Operon count: 2931
+Edge count: 2894
+#####################################################################
+GCA_015680515.1_ASM1568051v1_genomic
+IGR count before: 2266
+IGR count after: 2257
+Percent IGR node reduction: 0.39717563989408644
+Operon count: 3064
+Edge count: 2973
+#####################################################################
+GCA_015680535.1_ASM1568053v1_genomic
+IGR count before: 2591
+IGR count after: 2117
+Percent IGR node reduction: 18.294094944037052
+Operon count: 3508
+Edge count: 3418
+#####################################################################
+GCA_015680565.1_ASM1568056v1_genomic
+IGR count before: 2759
+IGR count after: 2300
+Percent IGR node reduction: 16.636462486408117
+Operon count: 3695
+Edge count: 3678
+#####################################################################
+GCA_015680575.1_ASM1568057v1_genomic
+IGR count before: 2587
+IGR count after: 2134
+Percent IGR node reduction: 17.510630073444144
+Operon count: 3507
+Edge count: 3412
+#####################################################################
+GCA_015680605.1_ASM1568060v1_genomic
+IGR count before: 2736
+IGR count after: 2288
+Percent IGR node reduction: 16.374269005847953
+Operon count: 3649
+Edge count: 3574
+#####################################################################
+GCA_016008995.1_ASM1600899v1_genomic
+IGR count before: 2817
+IGR count after: 2464
+Percent IGR node reduction: 12.53106141285055
+Operon count: 3810
+Edge count: 3784
+#####################################################################
+GCA_016009055.1_ASM1600905v1_genomic
+IGR count before: 2606
+IGR count after: 2276
+Percent IGR node reduction: 12.663085188027628
+Operon count: 3564
+Edge count: 3449
+#####################################################################
+GCA_016009185.1_ASM1600918v1_genomic
+IGR count before: 2637
+IGR count after: 2476
+Percent IGR node reduction: 6.105422828972317
+Operon count: 3576
+Edge count: 3525
+#####################################################################
+GCA_016009195.1_ASM1600919v1_genomic
+IGR count before: 2872
+IGR count after: 2501
+Percent IGR node reduction: 12.917827298050138
+Operon count: 3900
+Edge count: 3794
+#####################################################################
+GCA_016009285.1_ASM1600928v1_genomic
+IGR count before: 2833
+IGR count after: 2540
+Percent IGR node reduction: 10.342393222732086
+Operon count: 3824
+Edge count: 3786
+#####################################################################
+GCA_016009325.1_ASM1600932v1_genomic
+IGR count before: 2520
+IGR count after: 2388
+Percent IGR node reduction: 5.238095238095238
+Operon count: 3358
+Edge count: 3320
+#####################################################################
+GCA_016009385.1_ASM1600938v1_genomic
+IGR count before: 2778
+IGR count after: 2464
+Percent IGR node reduction: 11.303095752339813
+Operon count: 3776
+Edge count: 3695
+#####################################################################
+GCA_016337175.1_ASM1633717v1_genomic
+IGR count before: 2131
+IGR count after: 2131
+Percent IGR node reduction: 0.0
+Operon count: 2844
+Edge count: 2814
+#####################################################################
+GCA_016337225.1_ASM1633722v1_genomic
+IGR count before: 3328
+IGR count after: 3094
+Percent IGR node reduction: 7.03125
+Operon count: 4433
+Edge count: 4458
+#####################################################################
+GCA_016337245.1_ASM1633724v1_genomic
+IGR count before: 2659
+IGR count after: 2589
+Percent IGR node reduction: 2.6325686348251223
+Operon count: 3581
+Edge count: 3495
+#####################################################################
+GCA_016337255.1_ASM1633725v1_genomic
+IGR count before: 2682
+IGR count after: 2525
+Percent IGR node reduction: 5.853840417598807
+Operon count: 3601
+Edge count: 3512
+#####################################################################
+GCA_016337265.1_ASM1633726v1_genomic
+IGR count before: 2408
+IGR count after: 2062
+Percent IGR node reduction: 14.368770764119601
+Operon count: 3307
+Edge count: 3191
+#####################################################################
+GCA_016406145.1_ASM1640614v1_genomic
+IGR count before: 2666
+IGR count after: 2525
+Percent IGR node reduction: 5.288822205551388
+Operon count: 3514
+Edge count: 3541
+#####################################################################
+GCA_016845885.1_ASM1684588v1_genomic
+IGR count before: 2074
+IGR count after: 1835
+Percent IGR node reduction: 11.523625843780135
+Operon count: 2737
+Edge count: 2717
+#####################################################################
+GCA_017315385.1_ASM1731538v1_genomic
+IGR count before: 2261
+IGR count after: 2201
+Percent IGR node reduction: 2.6536930561698364
+Operon count: 3010
+Edge count: 3007
+#####################################################################
+GCA_017875105.1_ASM1787510v1_genomic
+IGR count before: 3081
+IGR count after: 2773
+Percent IGR node reduction: 9.99675430055177
+Operon count: 4087
+Edge count: 4112
+#####################################################################
+GCA_018141045.1_ASM1814104v1_genomic
+IGR count before: 3205
+IGR count after: 3084
+Percent IGR node reduction: 3.7753510140405613
+Operon count: 4236
+Edge count: 4265
+#####################################################################
+GCA_018371595.1_ASM1837159v1_genomic
+IGR count before: 2409
+IGR count after: 2047
+Percent IGR node reduction: 15.026982150269822
+Operon count: 3530
+Edge count: 3157
+#####################################################################
+GCA_019038355.1_ASM1903835v1_genomic
+IGR count before: 2480
+IGR count after: 2330
+Percent IGR node reduction: 6.048387096774194
+Operon count: 3307
+Edge count: 3231
+#####################################################################
+GCA_019355435.1_ASM1935543v1_genomic
+IGR count before: 2792
+IGR count after: 2546
+Percent IGR node reduction: 8.810888252148997
+Operon count: 3670
+Edge count: 3713
+#####################################################################
+GCA_020172705.1_ASM2017270v1_genomic
+IGR count before: 2847
+IGR count after: 2366
+Percent IGR node reduction: 16.894977168949772
+Operon count: 3740
+Edge count: 3727
+#####################################################################
+GCA_020892135.1_ASM2089213v1_genomic
+IGR count before: 2700
+IGR count after: 2367
+Percent IGR node reduction: 12.333333333333334
+Operon count: 3653
+Edge count: 3546
+#####################################################################
+GCA_021282365.1_ASM2128236v1_genomic
+IGR count before: 2955
+IGR count after: 2561
+Percent IGR node reduction: 13.333333333333334
+Operon count: 4002
+Edge count: 3899
+#####################################################################
+GCA_021282955.1_ASM2128295v1_genomic
+IGR count before: 2928
+IGR count after: 2509
+Percent IGR node reduction: 14.310109289617486
+Operon count: 3947
+Edge count: 3908
+#####################################################################
+GCA_021283035.1_ASM2128303v1_genomic
+IGR count before: 3107
+IGR count after: 2724
+Percent IGR node reduction: 12.327003540392662
+Operon count: 4184
+Edge count: 4055
+#####################################################################
+GCA_021401065.1_ASM2140106v1_genomic
+IGR count before: 2695
+IGR count after: 2191
+Percent IGR node reduction: 18.7012987012987
+Operon count: 3671
+Edge count: 3574
+#####################################################################
+GCA_021460775.1_ASM2146077v1_genomic
+IGR count before: 2784
+IGR count after: 2529
+Percent IGR node reduction: 9.159482758620689
+Operon count: 3658
+Edge count: 3697
+#####################################################################
+GCA_021602445.1_ASM2160244v1_genomic
+IGR count before: 3066
+IGR count after: 2666
+Percent IGR node reduction: 13.04631441617743
+Operon count: 4145
+Edge count: 4040
+#####################################################################
+GCA_022097175.1_ASM2209717v1_genomic
+IGR count before: 2604
+IGR count after: 2357
+Percent IGR node reduction: 9.485407066052227
+Operon count: 3497
+Edge count: 3410
+#####################################################################
+GCA_022134665.1_ASM2213466v1_genomic
+IGR count before: 2654
+IGR count after: 2463
+Percent IGR node reduction: 7.196684250188396
+Operon count: 3535
+Edge count: 3523
+#####################################################################
+GCA_022354785.1_ASM2235478v1_genomic
+IGR count before: 2835
+IGR count after: 2564
+Percent IGR node reduction: 9.559082892416226
+Operon count: 3738
+Edge count: 3782
+#####################################################################
+GCA_022627325.1_ASM2262732v1_genomic
+IGR count before: 2483
+IGR count after: 2348
+Percent IGR node reduction: 5.436971405557793
+Operon count: 3298
+Edge count: 3274
+#####################################################################
+GCA_022627985.1_ASM2262798v1_genomic
+IGR count before: 2634
+IGR count after: 2319
+Percent IGR node reduction: 11.958997722095672
+Operon count: 3773
+Edge count: 3459
+#####################################################################
+GCA_022627995.1_ASM2262799v1_genomic
+IGR count before: 2586
+IGR count after: 2309
+Percent IGR node reduction: 10.711523588553751
+Operon count: 3659
+Edge count: 3418
+#####################################################################
+GCA_022760795.1_ASM2276079v1_genomic
+IGR count before: 2737
+IGR count after: 2397
+Percent IGR node reduction: 12.422360248447205
+Operon count: 3677
+Edge count: 3611
+#####################################################################
+GCA_023221695.1_ASM2322169v1_genomic
+IGR count before: 2975
+IGR count after: 2565
+Percent IGR node reduction: 13.781512605042018
+Operon count: 3912
+Edge count: 3989
+#####################################################################
+GCA_023572415.1_ASM2357241v1_genomic
+IGR count before: 2795
+IGR count after: 2674
+Percent IGR node reduction: 4.3291592128801435
+Operon count: 3765
+Edge count: 3624
+#####################################################################
+GCA_900095365.1_ASM90009536v1_genomic
+IGR count before: 2723
+IGR count after: 2535
+Percent IGR node reduction: 6.904149834741094
+Operon count: 3584
+Edge count: 3606
+#####################################################################
+GCA_900104105.1_IMG-taxon_2600255318_annotated_assembly_genomic
+IGR count before: 2828
+IGR count after: 2721
+Percent IGR node reduction: 3.783592644978784
+Operon count: 3726
+Edge count: 3697
+#####################################################################
+GCA_900156185.1_IMG-taxon_2681812805_annotated_assembly_genomic
+IGR count before: 2550
+IGR count after: 2275
+Percent IGR node reduction: 10.784313725490197
+Operon count: 3371
+Edge count: 3397
+#####################################################################
+GCA_900167985.1_IMG-taxon_2667527229_annotated_assembly_genomic
+IGR count before: 2798
+IGR count after: 2550
+Percent IGR node reduction: 8.863473909935667
+Operon count: 3687
+Edge count: 3730
+#####################################################################
+GCA_900455605.1_44787_H01_genomic
+IGR count before: 2555
+IGR count after: 2383
+Percent IGR node reduction: 6.731898238747553
+Operon count: 3371
+Edge count: 3400
+#####################################################################
+GCA_900455645.1_43222_D01_genomic
+IGR count before: 2765
+IGR count after: 2368
+Percent IGR node reduction: 14.358047016274863
+Operon count: 3635
+Edge count: 3641
+#####################################################################
+GCA_900455695.1_44257_C01_genomic
+IGR count before: 2479
+IGR count after: 2358
+Percent IGR node reduction: 4.881000403388462
+Operon count: 3240
+Edge count: 3254
+#####################################################################
+GCA_900636645.1_43295_H02_genomic
+IGR count before: 2760
+IGR count after: 2633
+Percent IGR node reduction: 4.601449275362319
+Operon count: 3638
+Edge count: 3672
+#####################################################################
+GCA_901482375.1_43295_G02_genomic
+IGR count before: 2768
+IGR count after: 2528
+Percent IGR node reduction: 8.670520231213873
+Operon count: 3672
+Edge count: 3689
+#####################################################################
+GCA_903684265.1_assembly_BB1464_genomic
+IGR count before: 2514
+IGR count after: 2460
+Percent IGR node reduction: 2.1479713603818613
+Operon count: 3383
+Edge count: 3302
+#####################################################################
+GCA_903684275.1_assembly_BB1463_genomic
+IGR count before: 2500
+IGR count after: 2426
+Percent IGR node reduction: 2.96
+Operon count: 3386
+Edge count: 3281
+#####################################################################
+GCA_903684435.1_assembly_BB1477_genomic
+IGR count before: 2511
+IGR count after: 2403
+Percent IGR node reduction: 4.301075268817205
+Operon count: 3389
+Edge count: 3289
+#####################################################################
+GCA_903684455.1_assembly_BB1476_genomic
+IGR count before: 2519
+IGR count after: 2498
+Percent IGR node reduction: 0.833664152441445
+Operon count: 3384
+Edge count: 3303
+#####################################################################
+GCA_903684465.1_assembly_BB1451_genomic
+IGR count before: 2582
+IGR count after: 2178
+Percent IGR node reduction: 15.646785437645235
+Operon count: 3537
+Edge count: 3433
+#####################################################################
+GCA_903684505.1_assembly_BB1483_genomic
+IGR count before: 2627
+IGR count after: 2138
+Percent IGR node reduction: 18.614389036924248
+Operon count: 3548
+Edge count: 3467
+#####################################################################
+GCA_903684535.1_assembly_BB1484_genomic
+IGR count before: 2520
+IGR count after: 2467
+Percent IGR node reduction: 2.1031746031746033
+Operon count: 3384
+Edge count: 3303
+#####################################################################
+GCA_903684565.1_assembly_BB1489_genomic
+IGR count before: 2515
+IGR count after: 2435
+Percent IGR node reduction: 3.180914512922465
+Operon count: 3389
+Edge count: 3303
+#####################################################################
+GCA_903684575.1_assembly_BB1488_genomic
+IGR count before: 2511
+IGR count after: 2443
+Percent IGR node reduction: 2.7080844285145362
+Operon count: 3381
+Edge count: 3304
+#####################################################################
+GCA_903684595.1_assembly_BB1452_genomic
+IGR count before: 2572
+IGR count after: 2136
+Percent IGR node reduction: 16.951788491446347
+Operon count: 3512
+Edge count: 3401
+#####################################################################
+GCA_903684645.1_assembly_BB1456_genomic
+IGR count before: 2614
+IGR count after: 2150
+Percent IGR node reduction: 17.750573833205816
+Operon count: 3536
+Edge count: 3470
+#####################################################################
+GCA_903815245.1_hybrid_BB1451_genomic
+IGR count before: 2600
+IGR count after: 2135
+Percent IGR node reduction: 17.884615384615383
+Operon count: 3450
+Edge count: 3498
+#####################################################################
+GCA_903815255.1_hybrid_BB1456_genomic
+IGR count before: 2672
+IGR count after: 2225
+Percent IGR node reduction: 16.729041916167663
+Operon count: 3535
+Edge count: 3586
+#####################################################################
+GCA_929606395.1_cpe008_genomic
+IGR count before: 2925
+IGR count after: 2683
+Percent IGR node reduction: 8.273504273504273
+Operon count: 4013
+Edge count: 3908
+#####################################################################
+GCA_929618215.1_cpe006_genomic
+IGR count before: 2930
+IGR count after: 2689
+Percent IGR node reduction: 8.225255972696246
+Operon count: 4014
+Edge count: 3912
+#####################################################################
